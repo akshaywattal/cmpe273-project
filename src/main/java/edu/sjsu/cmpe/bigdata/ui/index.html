@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>BDAS</title>
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/foundation.css">
+  
+
+  <script src="js/vendor/custom.modernizr.js"></script>
+
+  <style type="text/css">
+  	h1 {
+  		font-weight: lighter;
+  		letter-spacing: .45em;
+  	}
+
+  	#loginModal h1 {
+  		font-weight: lighter;
+  		letter-spacing: .25em;  		
+  	}
+
+  	#info p {
+  		color:#343434;
+  		padding:1.7em;
+  	}
+
+  	#footer {
+  		position: relative;
+  		margin-top: -4.5em;
+  		height: 4.5em;
+  		clear: both;
+  		background-color:#222;
+  		font-size:small;
+  		color:#0d95ca;
+  	}
+
+  	#footer p{
+  		padding:1.5em;
+  	}
+
+  </style>
+
+</head>
+<body>
+
+	<!-- Navagation Bar - Start -->
+
+
+	<div class="sticky">
+		<nav class="top-bar">
+			<ul class="title-area">
+				<li class="name">
+					<h1><a style="color:#0d95ca" href="#">BDAS</a></h1>
+				</li>
+				<li class="toggle-topbar menu-icon">
+					<a href="#"><span>Menu</span></a>
+				</li>
+			</ul>
+
+			<section class="top-bar-section">
+				<ul class="right">
+					<li>
+						<a  style="color:#0d95ca" href="#" data-reveal-id="loginModal">Sign In</a>
+					</li>
+				</ul>
+				<ul class="left">
+					<li class="divider"></li>
+					<li class="has-dropdown"><a href="#">Main Item 1</a>
+						<ul class="dropdown">
+							<li><a href="#">Item 1</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Item 2</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Item 3</a></li>
+						</ul>	
+					</li>
+					<li class="divider"></li>
+					<li class="has-dropdown"><a href="#">Main item 2</a>
+						<ul class="dropdown">
+							<li><label>Dropdown Label</label></li>
+							<li><a href="#">Item 1</a></li>
+							<li><a href="#">Item 2</a></li>
+							<li class="divider"></li>
+							<li><label>Another Label</label></li>
+							<li><a href="#">Item 3</a></li>
+						</ul>
+					</li>
+					<li class="divider"></li>
+				</ul>
+			</section>
+
+		</nav>
+	</div>
+
+	<!-- Navagation Bar - End -->
+
+	<!-- Section 1 [Banner] - Start -->
+	<div class="row">
+		<ul data-orbit style="background-color:white">
+			<li>
+				<img src="img/laptop_banner-v1.png" />
+				<div class="orbit-caption" style="color:#ff9e00; font-size:1.5em">Analytic Software for your small business</div>
+			</li>
+			<li>
+				<img src="img/customer_service-v1.png">
+				<div class="orbit-caption" style="color:#ff9e00; font-size:1.5em">Amazing Customer Service!</div>
+			</li>
+		</ul>
+	</div>
+	<!-- Section 1 - End -->
+
+	<!-- Section 2 [Description] - Start -->
+
+	<div class="row">
+		<div class="large-12 columns">
+			<h2 class="subheader">Welcome to BDAS</h2>
+			<p>We are a big data analytic solution for the small to medium business.  We're here to provide a one stop shop for all information pertaining to your social/digital connections.  Our dashboard makes it easy to see the information you want right when you log in.</p>
+			<div class="row">
+				<div class="large-4 large-centered columns" style="background-color:#dcdcdc; padding:2em; text-align:center;">
+					<a href="#" style="font-size:large; color:#0d95ca" data-reveal-id="registerModal">Sign Up Now!</a>
+				</div>
+			</div>
+			
+			<hr />
+		</div>
+	</div>
+
+	<!-- Section 2 - End -->
+
+	<!-- Section 3 [Tabed Content - Description of Services] -->
+
+	<div id="info" class="row" data-section>
+		<section class="active">
+			<p style="color:#0d95ca" data-section-title>Data Analytics</p>
+			<div data-section-content>
+				<p>Some explanation about what we do.</p>
+			</div>
+		</section>
+		<section>
+			<p data-section-title>Customer Service</p>
+			<div data-section-content>
+				<p>Some explanation about how we care.</p>
+			</div>
+		</section>
+		<section>
+			<p data-section-title>Social Media Plugins</p>
+			<div data-section-content>
+				<p>Some explanation about using Social Networks.</p>
+			</div>
+		</section>
+	</div>
+
+	<!-- Section 3 - End -->
+
+	<!-- Footer - Start -->
+
+	<div id="footer">
+		<p>&copy 2013 CmpE273 Inc. All Rights Reserved</p>
+	</div>
+
+	<!-- Footer - End -->
+
+
+
+	<div id="loginModal" class="reveal-modal small">
+		<h1 style="color:#0d5a72">Log In</h1>
+		<form action="app.html" method="POST">
+			<input type="text" name="username" placeholder="username" />
+			<input type="password" name="password" placeholder="password" /> 
+			<input class="right" style="background-color:#dcdcdc; color:#0d5a72; height:3em; width: 6em; font-weight:bold;" type="submit" name="login" value="Log In" />
+		</form>
+	</div>
+
+	<div id="registerModal" class="reveal-modal small">
+		<h1 style="color:#0d5a72">Register</h1>
+		<form action="#" method="POST">
+			<input type="text" name="username" placeholder="username" />
+			<input type="email" name="email" placeholder="email" />
+			<input type="password" name="password" placeholder="password" /> 
+			<input type="password" name="conf_pass" placeholder="confirm password" />
+			<input class="right" style="background-color:#dcdcdc; color:#0d5a72; height:3em; width: 6em; font-weight:bold;" type="submit" name="login" value="Submit" />
+		</form>
+	</div>
+
+  <script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+  '.js><\/script>')
+  </script>
+  
+  <script src="js/foundation.min.js"></script>
+  <!--
+  
+  <script src="js/foundation/foundation.js"></script>
+  
+  <script src="js/foundation/foundation.alerts.js"></script>
+  
+  <script src="js/foundation/foundation.clearing.js"></script>
+  
+  <script src="js/foundation/foundation.cookie.js"></script>
+  
+  <script src="js/foundation/foundation.dropdown.js"></script>
+  
+  <script src="js/foundation/foundation.forms.js"></script>
+  
+  <script src="js/foundation/foundation.joyride.js"></script>
+  
+  <script src="js/foundation/foundation.magellan.js"></script>
+  
+  <script src="js/foundation/foundation.orbit.js"></script>
+  
+  <script src="js/foundation/foundation.reveal.js"></script>
+  
+  <script src="js/foundation/foundation.section.js"></script>
+  
+  <script src="js/foundation/foundation.tooltips.js"></script>
+  
+  <script src="js/foundation/foundation.topbar.js"></script>
+  
+  <script src="js/foundation/foundation.interchange.js"></script>
+  
+  <script src="js/foundation/foundation.placeholder.js"></script>
+  
+  <script src="js/foundation/foundation.abide.js"></script>
+  
+  -->
+  
+  <script>
+    $(document).foundation();
+  </script>
+</body>
+</html>
