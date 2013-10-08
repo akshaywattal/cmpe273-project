@@ -19,11 +19,6 @@
   		letter-spacing: .45em;
   	}
 
-  	#loginModal h1 {
-  		font-weight: lighter;
-  		letter-spacing: .25em;  		
-  	}
-
   	#info p {
   		color:#878585;
   		padding:1.7em;
@@ -54,6 +49,11 @@
   	}
 
   	#register a:hover {
+  		color:#0d5a72;
+  		font-weight: bold;
+  	}
+  	
+  	#highlight a:hover {
   		color:#0d5a72;
   		font-weight: bold;
   	}
@@ -154,7 +154,7 @@
 	<!-- Section 3 [Tabed Content - Description of Services] -->
 	<div id="info" class="row" data-section style="padding-bottom:6em;">
 		<section class="active">
-			<p class="title" data-section-title>
+			<p id="highlight" class="title" data-section-title>
 				<a href="#" style="color:#0769b5">Data Analytics</a>
 			</p>
 			<div data-section-content>
@@ -169,7 +169,7 @@
 			</div>
 		</section>
 		<section>
-			<p class="title" data-section-title>
+			<p id="highlight" class="title" data-section-title>
 				<a href="#" style="color:#0769b5">Customer Service</a>
 			</p>
 			<div data-section-content>
@@ -184,7 +184,7 @@
 			</div>
 		</section>
 		<section>
-			<p class="title" data-section-title>
+			<p id="highlight" class="title" data-section-title>
 				<a href="#" style="color:#0769b5">Social Media Plugins</a>
 			</p>
 			<div data-section-content>
@@ -239,7 +239,6 @@
   
   <script src="js/foundation/foundation.orbit.js"></script>
   
-  
   <script src="js/foundation/foundation.alerts.js"></script>
   
   <script src="js/foundation/foundation.clearing.js"></script>
@@ -268,8 +267,7 @@
   
   <script src="js/foundation/foundation.placeholder.js"></script>
   
-  <script src="js/foundation/foundation.abide.js"></script>
-  
+  <script src="js/foundation/foundation.abide.js"></script> 
   -->
   
   <script>
