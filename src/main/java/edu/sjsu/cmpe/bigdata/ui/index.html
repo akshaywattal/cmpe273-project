@@ -208,16 +208,16 @@
 
 	<div id="loginModal" class="reveal-modal small">
 		<h1 style="color:#0d5a72">Log In</h1>
-		<form action="app.html" method="POST">
+		<form id="login-form" name="login" action="#" method="POST">
 			<input type="text" name="username" placeholder="username" />
 			<input type="password" name="password" placeholder="password" /> 
-			<input class="right" style="background-color:#dcdcdc; color:#0d5a72; height:3em; width: 6em; font-weight:bold;" type="submit" name="login" value="Log In" />
+			<input class="right" style="background-color:#dcdcdc; color:#0d5a72; height:3em; width: 6em; font-weight:bold;" type="submit" name="login" value="Log In" onclick="b()" />
 		</form>
 	</div>
 
 	<div id="registerModal" class="reveal-modal small">
 		<h1 style="color:#0d5a72">Register</h1>
-		<form name="register" action="#" method="POST">
+		<form id="register-form" name="register" action="#" method="POST">
 			<input type="text" id="username" name="username" placeholder="username" />
 			<input type="email" name="email" placeholder="email" />
 			<input type="password" name="password" placeholder="password" /> 
@@ -234,16 +234,34 @@
   
   <!--This is code for Register form JSON + API Connection-->  
   <script type="text/javascript">	
-	  $(function() {
-	    $('registerModal').submit(function() { //You'll probably need to put the ID for the Form where 'form' is
-	        $('#result').text(JSON.stringify($('registerModal').serializeObject()));
-	        return false;
-	    });
-	  });
-	
+	$.fn.serializeObject = function()
+	{
+    var o = {};
+    var a = this.serializeArray();
+    $.each(a, function() {
+        if (o[this.name] !== undefined) {
+            if (!o[this.name].push) {
+                o[this.name] = [o[this.name]];
+            }
+            o[this.name].push(this.value || '');
+        } else {
+            o[this.name] = this.value || '';
+        }
+    });
+    return o;
+	};
+
+	$(function() {
+    $('#register-form').submit(function() {
+        $('#result').text(JSON.stringify($('#register-form').serializeObject()));
+        return false;
+    });
+	});
+	  
+	  
 	  function a(){
-		var url = "http://localhost:8080/bigdata/v1";
-		var representationOfDesiredState = document.getElementById("result"); //this in our case would be JSON text
+		var url = "http://54.215.165.222:8000/bigdata/v1";
+		var representationOfDesiredState = JSON.stringify($('#register-form').serializeObject()); //this in our case would be JSON text
 		var client = new XMLHttpRequest();
 
 		client.open("POST", url, false);
@@ -251,12 +269,57 @@
 		client.send(representationOfDesiredState);
 
 		if (client.status == 201)
-	    	alert("The request succeeded!\n\nNew User Created");
+	    	{alert("The request succeeded!\n\nNew User Created");
+	    	window.location.href="index.html"}
 		else
 	    	alert("The request did not succeed!");
 		}
   </script>
   
+  
+  <!--This is code for Register form JSON + API Connection-->  
+  <script type="text/javascript">	
+	$.fn.serializeObject = function()
+	{
+    var o = {};
+    var a = this.serializeArray();
+    $.each(a, function() {
+        if (o[this.name] !== undefined) {
+            if (!o[this.name].push) {
+                o[this.name] = [o[this.name]];
+            }
+            o[this.name].push(this.value || '');
+        } else {
+            o[this.name] = this.value || '';
+        }
+    });
+    return o;
+	};
+
+	$(function() {
+    $('#login-form').submit(function() {
+        $('#result').text(JSON.stringify($('#login-form').serializeObject()));
+        return false;
+    });
+	});
+	  
+	  
+	  function b(){
+		var url = "http://54.215.165.222:8000/bigdata/v1/username";
+		var representationOfDesiredState = JSON.stringify($('#login-form').serializeObject()); //this in our case would be JSON text
+		var client = new XMLHttpRequest();
+
+		client.open("POST", url, false);
+		client.setRequestHeader("Content-Type", "application/json"); //this will also change to JSON
+		client.send(representationOfDesiredState);
+		
+		if (client.status == 200)
+	    	{alert("User Authenticated");
+	    	window.location.href="app.html"}
+		else
+	    	alert("Incorrect Username or Password!");
+		}
+  </script>
   <script src="js/foundation.min.js"></script>
   <!--
   <script src="js/foundation/foundation.js"></script>

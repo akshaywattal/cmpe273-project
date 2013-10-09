@@ -34,7 +34,7 @@ import edu.sjsu.cmpe.bigdata.dto.LinksDto;
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
 public class UserResource {
-	private static boolean authenticated=false;
+	private int authenticated=400;
 
     public UserResource() {
     }
@@ -91,14 +91,14 @@ public class UserResource {
 		DBCursor cursor = coll.find(query1);
 		while (cursor.hasNext()) {
 			System.out.println(cursor.next());
-			authenticated=true;
+			authenticated=200;
 		}
     	
 		/**
     	 * Closing connection
     	 */
 		mongoClient.close(); 	
-	return Response.ok(authenticated).build();
+	return Response.status(authenticated).build();
     }
 }
 
