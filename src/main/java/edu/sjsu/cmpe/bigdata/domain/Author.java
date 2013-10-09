@@ -1,4 +1,4 @@
-package edu.sjsu.cmpe.library.domain;
+package edu.sjsu.cmpe.bigdata.domain;
 
 import org.hibernate.validator.constraints.NotEmpty;
 

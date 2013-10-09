@@ -10,7 +10,6 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/foundation.css">
   
-
   <script src="js/vendor/custom.modernizr.js"></script>
 
   <style type="text/css">
@@ -218,12 +217,12 @@
 
 	<div id="registerModal" class="reveal-modal small">
 		<h1 style="color:#0d5a72">Register</h1>
-		<form action="#" method="POST">
-			<input type="text" name="username" placeholder="username" />
+		<form name="register" action="#" method="POST">
+			<input type="text" id="username" name="username" placeholder="username" />
 			<input type="email" name="email" placeholder="email" />
 			<input type="password" name="password" placeholder="password" /> 
 			<input type="password" name="conf_pass" placeholder="confirm password" />
-			<input class="right" style="background-color:#dcdcdc; color:#0d5a72; height:3em; width: 6em; font-weight:bold;" type="submit" name="login" value="Submit" />
+			<input class="right" style="background-color:#dcdcdc; color:#0d5a72; height:3em; width: 6em; font-weight:bold;" type="submit" name="submit" onClick="testResults(this.form) value="Submit" />
 		</form>
 	</div>
 
@@ -232,6 +231,8 @@
   ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
   '.js><\/script>')
   </script>
+  
+  
   
   <script src="js/foundation.min.js"></script>
   <!--

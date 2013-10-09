@@ -1,10 +1,10 @@
-package edu.sjsu.cmpe.library.dto;
+package edu.sjsu.cmpe.bigdata.dto;
 
 import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
-import edu.sjsu.cmpe.library.domain.Review;
+import edu.sjsu.cmpe.bigdata.domain.Review;
 
 @JsonPropertyOrder(alphabetic = true)
 public class ReviewsDto extends LinksDto{

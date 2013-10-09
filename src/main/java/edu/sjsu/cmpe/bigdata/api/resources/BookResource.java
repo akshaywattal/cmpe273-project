@@ -1,4 +1,4 @@
-package edu.sjsu.cmpe.library.api.resources;
+package edu.sjsu.cmpe.bigdata.api.resources;
 
 import java.util.HashMap;
 
@@ -18,15 +18,15 @@ import javax.ws.rs.core.Response;
 import com.sun.jersey.api.NotFoundException;
 import com.yammer.metrics.annotation.Timed;
 
-import edu.sjsu.cmpe.library.domain.Book;
-import edu.sjsu.cmpe.library.domain.Review;
-import edu.sjsu.cmpe.library.dto.AuthorDto;
-import edu.sjsu.cmpe.library.dto.AuthorsDto;
-import edu.sjsu.cmpe.library.dto.BookDto;
-import edu.sjsu.cmpe.library.dto.LinkDto;
-import edu.sjsu.cmpe.library.dto.LinksDto;
-import edu.sjsu.cmpe.library.dto.ReviewDto;
-import edu.sjsu.cmpe.library.dto.ReviewsDto;
+import edu.sjsu.cmpe.bigdata.domain.Book;
+import edu.sjsu.cmpe.bigdata.domain.Review;
+import edu.sjsu.cmpe.bigdata.dto.AuthorDto;
+import edu.sjsu.cmpe.bigdata.dto.AuthorsDto;
+import edu.sjsu.cmpe.bigdata.dto.BookDto;
+import edu.sjsu.cmpe.bigdata.dto.LinkDto;
+import edu.sjsu.cmpe.bigdata.dto.LinksDto;
+import edu.sjsu.cmpe.bigdata.dto.ReviewDto;
+import edu.sjsu.cmpe.bigdata.dto.ReviewsDto;
 
 /**
  * Main BookResource Class, contains complete implementation of Library Management APIs 

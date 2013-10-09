@@ -1,8 +1,8 @@
-package edu.sjsu.cmpe.library.dto;
+package edu.sjsu.cmpe.bigdata.dto;
 
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
-import edu.sjsu.cmpe.library.domain.Book;
+import edu.sjsu.cmpe.bigdata.domain.Book;
 
 @JsonPropertyOrder(alphabetic = true)
 public class BookDto extends LinksDto {

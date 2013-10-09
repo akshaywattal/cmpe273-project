@@ -1,4 +1,4 @@
-package edu.sjsu.cmpe.library.domain;
+package edu.sjsu.cmpe.bigdata.domain;
 
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;

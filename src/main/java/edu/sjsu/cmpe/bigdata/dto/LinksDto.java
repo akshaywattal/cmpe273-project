@@ -1,4 +1,4 @@
-package edu.sjsu.cmpe.library.dto;
+package edu.sjsu.cmpe.bigdata.dto;
 
 import java.util.ArrayList;
 import java.util.List;

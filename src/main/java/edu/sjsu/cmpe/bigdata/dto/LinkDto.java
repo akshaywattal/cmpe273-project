@@ -1,4 +1,4 @@
-package edu.sjsu.cmpe.library.dto;
+package edu.sjsu.cmpe.bigdata.dto;
 
 public class LinkDto {
     private String rel = "self"; // default is 'self'
