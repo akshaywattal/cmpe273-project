@@ -1,0 +1,492 @@
+[
+  {
+    "event_details":"Big Swing game tonight! The A's need a win tonight to even up the series, before it moves to Detroit! Come down and watch the green and gold for Game 2 of this ALDS! $15 Bottomless Rolling Rocks and special $5 specials, just ask your bartenders!",
+    "date":"10/6/2013",
+    "user_comment":0,
+    "likes_count":4,
+    "share_count":0
+  },
+  {
+    "event_details":"The A's start their Playoff run tonight at 6:30pm! Make sure you are here to support the Green and Gold! Drink Specials and Happy Hour! A full day of Playoff sports! MLB Playoffs & NHL Hockey!",
+    "date":"10/6/2013",
+    "user_comment":0,
+    "likes_count":1,
+    "share_count":1
+  },
+  {
+    "event_details":"Congratulations to last week's winner of the 49ers Jersey giveaway raffle! Come in today for the next jersey raffle during the game. Every drink purchase over $5 gets you a raffle ticket. Drawing will be at the end of the end of the game. Go Niners! @tresgringos @losgatosbarandgrill @thebranhamlounge @elguaposcampbell @sjbarandgrill",
+    "date":"9/26/2013",
+    "user_comment":0,
+    "likes_count":3,
+    "share_count":0
+  },
+  {
+    "event_details":"Who's ready for round 2???Gosh Golly Miss Molly is back Halloween Edition! If you all remember the last one then you know you won't want to miss this. Glow sticks, Jello-shots, and Vegas Bombs. We are bringing EDC vibes to the heart of Downtown San Jose w/ a $500 cash prize costume contest. Its going to be epic! #sjbarandgrill #downtown #fun #friends #edm#house #halloween #picoftheday #photooftheday #instagood#instamood #like #follow #bar #club #music #roundtwo #sjsu#sanjose@thebranhamlounge @tresgringos @sjbarandgrill @elguaposcampbell @losgatosbarandgrill",
+    "date":"9/27/2013",
+    "user_comment":0,
+    "likes_count":14,
+    "share_count":0
+  },
+  {
+    "event_details":"Who's ready for gamer wednesday tonight?! Free game play of all your old favorite retro games with killer drink specials all night. It all goes down at 10pm! #downtown #fun #drinks #bar #gamer #retro #sjbarandgrill#instavideo #sjsu #sanjose #siliconvalley #funbar #specials@thebranhamlounge @elguaposcampbell @sjbarandgrill @tresgringos @losgatosbarandgrill",
+    "date":"9/25/2013",
+    "user_comment":0,
+    "likes_count":2,
+    "share_count":0
+  },
+  {
+    "event_details":"In the words of Snoop Lion...\"We got the good good\". San Jose Bar and Grill comes to the SJSU Greek houses bearing gifts. Will your house be a lucky one??? @tresgringos @thebranhamlounge @losgatosbarandgrill @elguaposcampbell @sjbarandgrill",
+    "date":"9/25/2013",
+    "user_comment":0,
+    "likes_count":5,
+    "share_count":0
+  },
+  {
+    "event_details":"Are you faithful?! Come join us this this Thursday for TNF as our San Francisco 49ers take on the St. Louis Rams. Kick-off is at 5:25pm. Who's got it better than us?! #downtown #sjbarandgrill \n#football #fun #bar #beer #instavideo #niners #sjsu #friends #beattherams #faithful #inharbaughwetrust @tresgringos @elguaposcampbell @sjbarandgrill @losgatosbarandgrill @thebranhamlounge",
+    "date":"9/24/2013",
+    "user_comment":0,
+    "likes_count":3,
+    "share_count":0
+  },
+  {
+    "event_details":"Who's getting silly with us tonight for $2 Tuesday!? No other place better than San Jose Bar and Grill folks. Come join the fun!",
+    "date":"9/24/2013",
+    "user_comment":0,
+    "likes_count":2,
+    "share_count":0
+  },
+  {
+    "event_details":"EVERY SUNDAY | DOOR OPEN AT 10 AM NFL SUNDAY FUNDAY SPECIAL GAME DRINK SPECIALS FOR ALL 49ERS GAMES 15$ BOTTOMLESS ROLLING ROCKS DRAFTS BOTTOMLESS MIMOSAS SJSG",
+    "date":"9/18/2013",
+    "user_comment":2,
+    "likes_count":3,
+    "share_count":1
+  },
+  {
+    "event_details":"SJBG presents DJ Neymar every 1st & 3rd Friday!",
+    "date":"9/17/2013",
+    "user_comment":0,
+    "likes_count":3,
+    "share_count":1
+  },
+  {
+    "event_details":"Congrats to the lucky fan who won a NIKE ELITE ANQUAN BOLDIN Jersey last week during our Sunday Funday! This could be you next week! #sjbg #49ers #sundayfunday #happy #lucky #red#gold #freejersey #NFL #sanjose #sjdowntown #beer #drinks#fun #goodtimes #picoftheday #football @c_mackin23 @davelastcallgroup @thebranhamlounge @tresgringos @losgatosbarandgrill",
+    "date":"9/17/2013",
+    "user_comment":0,
+    "likes_count":10,
+    "share_count":0
+  },
+  {
+    "event_details":"NFL Sunday Funday @SJBG\nSunday, September 22 at 10:00am\nSan Jose Bar and Grill in San Jose, California",
+    "date":"9/17/2013",
+    "user_comment":0,
+    "likes_count":22,
+    "share_count":0
+  },
+  {
+    "event_details":"It's going down tonight! Omar aka Omega the Neo-tablist and Phil aka Philemonster will be setting it off at 10 PM playing the best set you'll find downtown! You won't want to miss out on this one",
+    "date":"9/14/2013",
+    "user_comment":0,
+    "likes_count":2,
+    "share_count":0
+  },
+  {
+    "event_details":"Our girls are ready for some football! The 49ers vs the Seahawks on Sunday Night! Make sure you get down here for bottomless Rolling Rocks, Breakfast Burritos, Bottomless Mimosa's and much much more! Doors open at 10am for all the games, and then the Niners kick off at 5:30pm! Reserve your table today by emailing: football@sanjosebarandgrill.com",
+    "date":"9/13/2013",
+    "user_comment":0,
+    "likes_count":6,
+    "share_count":2
+  },
+  {
+    "event_details":"$2 TUESDAYS! @ San Jose Bar and Gril\nTuesday, October 1 at 10:00pm\nSan Jose Bar and Grill in San Jose, California",
+    "date":"9/12/2013",
+    "user_comment":0,
+    "likes_count":3,
+    "share_count":0
+  },
+  {
+    "event_details":"SJBG has doubled up the number of Nintendo 64 consoles to 4! Now you'll have no problem playing your favorite childhood games while enjoying great drink specials, awesome late night food, and beer pong! The game selection includes MarioKart, GoldenEye 007, Star Fox, Super Smash Bros, Mario Tennis, and Wave Race, with new games weekly. Submit your request and it shall be granted by the next week! Simply comment on the event page.\n\nBoth Xbox360 and Playstation 3 are available upon request as well.\n\nDrink Specials From 10 PM:\n$4 Well Drinks\n$6 Call Drinks\n$12 Mixed Drink Pitchers\n$1 off Premiums/House Drinks",
+    "date":"9/11/2013",
+    "user_comment":0,
+    "likes_count":3,
+    "share_count":0
+  },
+  {
+    "event_details":"Broncos vs Ravens NFL KICKOFF 2013! San Jose Bar and Grill is the only place you want to be! Brand New Menu, Gorgeous Bartenders, Free Wi-Fi to track your fantasy teams! Kick Off is at 5:20PM!",
+    "date":"9/4/2013",
+    "user_comment":0,
+    "likes_count":3,
+    "share_count":0
+  },
+  {
+    "event_details":"COME DOWN TONIGHT! VJ One will be droppin those music videos like you have never seen! Its the first weekend since schools back in session! Lets get this weekend done right! Your Labor Day Weekend starts here at the World Famous San Jose Bar and Grill for 5th Fridays!",
+    "date":"8/30/2013",
+    "user_comment":1,
+    "likes_count":5,
+    "share_count":0
+  },
+  {
+    "event_details":"Who's getting Tanked with us tonight!? Reverse Happy hour and $4 Fireball whiskey shots! It's all going down tonight starting @ 10pm.",
+    "date":"8/29/2013",
+    "user_comment":0,
+    "likes_count":4,
+    "share_count":0
+  },
+  {
+    "event_details":"IGNITION 2nd and 4th Saturdays of the month! featuring resident DJ's Omega the Neo-Tablist and DJ Philemonster!",
+    "date":"8/24/2013",
+    "user_comment":0,
+    "likes_count":6,
+    "share_count":0
+  },
+  {
+    "event_details":"Oooh Back to school, back to.... We got you covered tonight with our Back 2 School $2 Tuesday Party! $2 drink specials all night and NO COVER. Its gonna get wild folks #instavideo #like #follow #downtown #sjbg #drinks #bar #fun #sjsu #spartan #instagood #instalike #friends #summer @tresgringos @thebranhamlounge @losgatosbarandgrill @elguaposcampbell @davelastcallgroup",
+    "date":"8/20/2013",
+    "user_comment":0,
+    "likes_count":2,
+    "share_count":0
+  },
+  {
+    "event_details":"Tonight we are packin' the house with Video Junkie 3rd Saturdays! Dj Vinyl will be killin' the decks all night long for your listening pleasure. Come get wild:)",
+    "date":"8/17/2013",
+    "user_comment":3,
+    "likes_count":3,
+    "share_count":0
+  },
+  {
+    "event_details":"Come join us for 49ers 2013 Pre-season kick-off this Thusday against the Broncos! Kick-off is at 6pm. No other place better to watch Red 'n' Gold football than San Jose Bar and Grill",
+    "date":"8/6/2013",
+    "user_comment":0,
+    "likes_count":4,
+    "share_count":1
+  },
+  {
+    "event_details":"3rd Saturdays doing it big again tonight at SJBG with VJ One video mixin' it up all night long. Come join us 10pm to close!",
+    "date":"7/20/2013",
+    "user_comment":1,
+    "likes_count":11,
+    "share_count":1
+  },
+  {
+    "event_details":"Just 2 Weeks away! Gosh Golly Miss Molly Party!",
+    "date":"7/17/2013",
+    "user_comment":1,
+    "likes_count":2,
+    "share_count":0
+  },
+  {
+    "event_details":"4TH OF JULY PARTY! THE DAY BEFORE THE 4TH!!! YES PLEASE! DJ J.SOUL DROPPING RIDICULOUSLY SICK MUSIC VIDEOS!! SAN JOSE BAR AND GRILLS GOT YOUR COVERED!",
+    "date":"7/1/2013",
+    "user_comment":null,
+    "likes_count":12,
+    "share_count":3
+  },
+  {
+    "event_details":"$2 Tuesdays just got AMPED UP! We are Raising the Bar for $2 Tuesdays, Come down and get ridiculous with us!",
+    "date":"6/25/2013",
+    "user_comment":3,
+    "likes_count":13,
+    "share_count":3
+  },
+  {
+    "event_details":"SUNDAY FUNDAY IN FULL SWING! AND WE GOT A BLIND MAN MAKING CUPS!!!",
+    "date":"6/23/2013",
+    "user_comment":4,
+    "likes_count":7,
+    "share_count":0
+  },
+  {
+    "event_details":"The weather is Choice, the beats are gonna be hot, the beers ICE COLD, and we gonna get tipsy! Bar and Grill is the place to be Saturday Night!",
+    "date":"6/8/2013",
+    "user_comment":0,
+    "likes_count":8,
+    "share_count":1
+  },
+  {
+    "event_details":"BEER PONG SUNDAY FUNDAY AND PATIO BBO REVERSE HAPPY HOUR EVERY SUNDAY 1 PM TO 10 PM $15 BOTTOMLESS MIMOSAS BEER PONG FLIP CUP & MUCH MORE",
+    "date":"5/28/2013",
+    "user_comment":0,
+    "likes_count":3,
+    "share_count":0
+  },
+  {
+    "event_details":"Win or Go Home! Game 7 Tonight at the World Famous San Jose Bar and Grill, Followed by $2 Tuesdays!! Its gonna be ridiculous, make sure you reserve your table today by emailing: PLAYOFFS@sanjosebarandgrill.com",
+    "date":"5/28/2013",
+    "user_comment":0,
+    "likes_count":4,
+    "share_count":0
+  },
+  {
+    "event_details":"Congrats to the Class of 2013! Over 900 of you came through today for Kegs and Eggs! San Jose Bar and Grill wants to thank you and congrats!",
+    "date":"5/25/2013",
+    "user_comment":0,
+    "likes_count":9,
+    "share_count":0
+  },
+  {
+    "event_details":"HERE IS THIS WEEKENDS LINE UP:\n\nFriday May 24th | Video Junkie Friday | VJ1\nSaturday May 25th | Kegs and Eggs 6am | Wreck-a-noize\nSaturday May 25th | Freaks and Geeks 10pm | Prolific Ent\nSunday May 26th | Memorial Day 10pm | J. Soul\n\nwe got you covered all weekend long!",
+    "date":"5/24/2013",
+    "user_comment":0,
+    "likes_count":4,
+    "share_count":1
+  },
+  {
+    "event_details":"Kegs & Eggs Pre-Grad Party @ San Jose Bar and Grill\nSaturday, May 25 at 6:00am\nSan Jose Bar and Grill in San Jose, California",
+    "date":"5/24/2013",
+    "user_comment":0,
+    "likes_count":1,
+    "share_count":0
+  },
+  {
+    "event_details":"We are getting weird tonight for $2 Tuesdays End of School Edition! DJ J.Soul will be dropping beats all night long, and we got $2 Wells, Kamikaze's and Rolling Rock Drafts all night long! Plus Reverse Happy Hour and Late Night Food!",
+    "date":"5/21/2013",
+    "user_comment":0,
+    "likes_count":11,
+    "share_count":1
+  },
+  {
+    "event_details":"5th Friday we got Special Guest DJ DLUZION of Solivinit Artisits!",
+    "date":"5/16/2013",
+    "user_comment":0,
+    "likes_count":1,
+    "share_count":0
+  },
+  {
+    "event_details":"SHARKS VS LA KINGS : PUCK DROPS AT 7PM! Make sure you got a seat because it will be a packed house!",
+    "date":"5/15/2013",
+    "user_comment":0,
+    "likes_count":6,
+    "share_count":0
+  },
+  {
+    "event_details":"San Jose Bar and Grill will be closed tomorrow for the Warriors game. We wish all the Moms out there a very Happy Mother's Day!",
+    "date":"5/11/2013",
+    "user_comment":0,
+    "likes_count":5,
+    "share_count":0
+  },
+  {
+    "event_details":"JAYPEES 21ST MOTHERFUCKIN BIRTHDAY SHENNANIGANS!\nFriday, April 19 at 10:00pm\nSan Jose Bar and Grill in San Jose, California",
+    "date":"4/19/2013",
+    "user_comment":0,
+    "likes_count":0,
+    "share_count":0
+  },
+  {
+    "event_details":"What a night! Thank you to DJ J.SOul for killing it tonight on the decks!",
+    "date":"4/7/2013",
+    "user_comment":0,
+    "likes_count":11,
+    "share_count":0
+  },
+  {
+    "event_details":"Sharks vs Flames Tonight 7:30pm! Bottomless Rolling Rock Drafts from the time the first Puck Drops till the final horn sounds! ",
+    "date":"4/5/2013",
+    "user_comment":0,
+    "likes_count":7,
+    "share_count":0
+  },
+  {
+    "event_details":"What a night! Thank you to DJ J.SOul for killing it tonight on the decks!",
+    "date":"4/7/2013",
+    "user_comment":0,
+    "likes_count":11,
+    "share_count":0
+  },
+  {
+    "event_details":"We're Getting Tanked Tonight! DJ Wreck A Noize will be droppin beatz all night long! First 10 ladies to do a body shot get a FREE \"Tanked Top\" and a Penny Drink Punch Card!\nThings are gonna get real around 10pm.",
+    "date":"4/4/2013",
+    "user_comment":0,
+    "likes_count":1,
+    "share_count":0
+  },
+  {
+    "event_details":"ITS GOING DOWN TONIGHT! SJBG the only place to be on Saturday Night!\nProlific DJs across the Bay tonight! San Jose Bar and Grill with DjBubbles / DJ-Nessrock ! Thank you for the memories to those who always come out to SJBG!",
+    "date":"3/23/2013",
+    "user_comment":0,
+    "likes_count":3,
+    "share_count":0
+  },
+  {
+    "event_details":"The Bar is full, the amount of sports on right now is ridiculous! The weather couldn't be nicer! Get down here for happy hour till 7pm, and then tonight we have Prolific Saturdays with DJ Nessrock, DJ Bubbles, and DJ Ryno Throwin it down on the 1's and 2's!",
+    "date":"3/23/2013",
+    "user_comment":0,
+    "likes_count":7,
+    "share_count":0
+  },
+  {
+    "event_details":"Oh yes, We are a Premiere destination for the NCAA 2013 Mens Basketball Tournament. Tournament kicks off Thurs March 21st",
+    "date":"3/20/2013",
+    "user_comment":0,
+    "likes_count":2,
+    "share_count":1
+  },
+  {
+    "event_details":"Best place to track your brackets: San Jose Bar & Grill, 85 S. Second St., has enough TVs to keep everyone happy, plus oceans of beer to help drown your sorrows if things don't go your way. The Cajun tater tots alone are worth the visit.",
+    "date":"3/14/2013",
+    "user_comment":0,
+    "likes_count":4,
+    "share_count":1
+  },
+  {
+    "event_details":"WHO'S READY TO GET TANKED!!?? DJ WRECKANOIZE IS ABOUT TO GO OFF!!",
+    "date":"3/7/2013",
+    "user_comment":0,
+    "likes_count":11,
+    "share_count":1
+  },
+  {
+    "event_details":"Have you ever had the desire to work in a fun, faced paced environment? San Jose Bar and Grill is currently looking for young eager Bartenders, Barbacks, and Security guards!\nNo experience necessary but always recommended.\nEmail resumes to info@sanjosebarandgrill.com\nCheers!",
+    "date":"3/5/2013",
+    "user_comment":1,
+    "likes_count":5,
+    "share_count":0
+  },
+  {
+    "event_details":"ITS FINALLY TIME TO GET \"TANKED\" THIS THURSDAY!! FIRST 10 GIRLS TO GET ON THE BAR TO DO BODY SHOTS GETS A FREE \"TANKED\" TOP AND A PENNY DRINK PUNCH CARD! YES LADIES, PENNY DRINKS!!!",
+    "date":"2/27/2013",
+    "user_comment":0,
+    "likes_count":1,
+    "share_count":0
+  },
+  {
+    "event_details":"IT'S GOING DOWN TONIGHT! VIDEO JUNKIE PRESIDENTS DAY EDITION W/ VJ1 10PM-CL. REVERSE HAPPY HOUR ALL NIGHT LONG!",
+    "date":"2/17/2013",
+    "user_comment":1,
+    "likes_count":11,
+    "share_count":0
+  },
+  {
+    "event_details":"YOU ALL REMEMBER THIS... WELL SAN JOSE BAR AND GRILL'S \"GAMER WEDNESDAYS\" IS THE ONLY PLACE TO BE WHERE YOU GET TO PLAY THIS OLD TIME FAVORITE!! BOOZIN' AND BRUISIN' WITH SUPER SMASH BROS ALONG WITH OTHER 90'S FAVORITES.. THE N64's WILL BE HOOKED AND READY TO GO AT 10PM WITH KILLER DRINK SPECIALS ALL NIGHT..\"SHOW ME YA MOVES!!!\"",
+    "date":"2/13/2013",
+    "user_comment":1,
+    "likes_count":14,
+    "share_count":0
+  },
+  {
+    "event_details":"HAPPY FAT TUESDAY EVERYONE AND HAPPY MARDI GRAS! LET THE GOOD TIMES ROLL!\n\"laissez les bons temps rouler\" \n\nDJ Wreck A Noize WILL BE SPINNING ALL NIGHT STARTING AT 10PM!",
+    "date":"2/12/2013",
+    "user_comment":0,
+    "likes_count":5,
+    "share_count":0
+  },
+  {
+    "event_details":"SUPER BOWL IS THIS SUNDAY! IF YOU HAVENT MADE A RESERVATION, BE PREPARED TO STILL HANG OUT WITH US BUT YOU MIGHT BE STANDING... FIRST COME FIRST SERVE!! DOORS OPEN AT 1PM!",
+    "date":"1/30/2013",
+    "user_comment":0,
+    "likes_count":8,
+    "share_count":0
+  },
+  {
+    "event_details":"HAPPY HOUR STARTS AT 5PM FOLLOWED BY THE SHARKS HOME OPENER!! GET YOUR BUNS DOWN TO SJBG TONIGHT!! DJ WRECK-A-NOIZE WILL BE LAYIN DOWN HOT BEATS KEEPING US NICE AND WARM FROM 10PM-CLOSE! A LITTLE RAIN AINT STOPPING US TONIGHT!",
+    "date":"1/24/2013",
+    "user_comment":0,
+    "likes_count":7,
+    "share_count":1
+  },
+  {
+    "event_details":"SHARKS HOME OPENER THIS THURSDAY 7:30PM AGAINST THE COYOTES! THANK YOU TO OSCAR FOR POINTING OUT OUR MISTAKE. $12 BOTTOMLESS ROLLING ROCK DRAFTS FOR GAME AS WELL AS $2 WELLS! GO SHARKS!",
+    "date":"1/22/2013",
+    "user_comment":3,
+    "likes_count":27,
+    "share_count":4
+  },
+  {
+    "event_details":"NFC CHAMPIONSHIP THIS SUNDAY AT NOON!! DIVISIONAL PLAYOFFS WERE INSANE! MAKE A RESERVATION TODAY OR BE PREPARED TO CHEER STANDING!! EMAIL: FOOTBALL@SANJOSEBARANDGRILL.COM TO RESERVE YOUR TABLE TODAY! GO NINERS!!",
+    "date":"1/14/2013",
+    "user_comment":9,
+    "likes_count":29,
+    "share_count":2
+  },
+  {
+    "event_details":"IF YOU ARE IN THE INDUSTRY AND MISSED NEW YEARS AGAIN, THIS SUNDAY, LOS GATOS BAR AND GRILL WILL BE HOSTING A FULL ON INDUSTRY NEW YEARS PARTY! FULL BALLOON DROP, CHAMPAGNE TOAST, DRESS TO IMPRESS!! ILL BE POURIN ALL NIGHT! 9PM-CLOSE!! TELL ALL YOUR FRIENDS WHO MISSED OUT ON NYE! CAUSE ITS REVERSE HAPPY HOUR ALL NIGHT!",
+    "date":"1/2/2013",
+    "user_comment":0,
+    "likes_count":3,
+    "share_count":0
+  },
+  {
+    "event_details":"$2 TUESDAYS $2 SPECIALITY SHOTS",
+    "date":"1/8/2013",
+    "user_comment":0,
+    "likes_count":0,
+    "share_count":0
+  },
+  {
+    "event_details":"HAPPY NEW YEARS EVERYONE!! THANK YOU ALL WHO BRANG IN THE NEW YEAR WITH US TONIGHT!! IT WAS AMAZING!! BE SAFE, DON'T DRINK AND DRIVE, AND WE WILL BE CLOSED NEW YEARS DAY!!",
+    "date":"1/1/2013",
+    "user_comment":0,
+    "likes_count":7,
+    "share_count":0
+  },
+  {
+    "event_details":"AS A SPECIAL TREAT TO KICK START THIS NEW YEARS WEEKEND!! ON 4 TURN TABLES DJ DLUZION AND DJ ILLTRAXX!! THIS SATURDAY DEC 29TH FOR A SPECIAL 5TH SATURDAY! DO NOT MISS OUT AND GET PUMPED FOR NEW YEARS! 10PM-CLOSE! LETS DO THIS!",
+    "date":"12/27/2012",
+    "user_comment":0,
+    "likes_count":10,
+    "share_count":3
+  },
+  {
+    "event_details":"NEW YEARS EVE 2013!! SAN JOSE BAR AND GRILL'S FAMOUS RED CARPET NEW YEARS PARTY! ITS THE ONLY WAY TO BRING IN THE NEW YEAR! COMPLIMENTARY CHAMPAGNE TOAST AT MIDNIGHT, GREY GOOSE VODKA SPECIALS, AND BOTTLE SERVICE LOUNGES! DJ WRECK-A_NOIZE BRINGING IN THE NEW YEARS RIGHT AND THE HOTTEST AND BEST BAR STAFF IN THE BAY!! FOR MORE INFO EMAIL: INFO@SANJOSEBARANDGRILL.COM",
+    "date":"12/24/2012",
+    "user_comment":1,
+    "likes_count":25,
+    "share_count":3
+  },
+  {
+    "event_details":"Every Friday night VIDEO JUNKIE Escape reality every Friday night with a video mix by our local video jockey",
+    "date":"12/7/2012",
+    "user_comment":2,
+    "likes_count":12,
+    "share_count":0
+  },
+  {
+    "event_details":"Your cure for the case of Mondays… MANIAC MONDAYS 10 pm- close POWER HOUR! 10PM-11PM $2 WELLS | 50C ROLLING ROCK DRAFTS | REVERSE HAPPY HOUR 11PM-CLOSE $3.50 WELLS - $4.50 SMIRNOFF (ALL FLAVORS) | $8 ROLLING ROCK PITCHERS | $1-$2 OFF CALLS & PREMIUMS",
+    "date":"12/3/2012",
+    "user_comment":0,
+    "likes_count":1,
+    "share_count":0
+  },
+  {
+    "event_details":"INSOMNIA FIRST SATURDAYS | LIVE VIDEO MIXING WITH DJ - JSOUL  OF INDI HARMONIX",
+    "date":"12/1/2012",
+    "user_comment":0,
+    "likes_count":4,
+    "share_count":0
+  },
+  {
+    "event_details":"MLS PLAYOFF ACTION LIVE!! EARTHQUAKES VS GALAXY! GAME 1!!! DRINK SPECIALS FOR THE GAME! GET LOUD!!",
+    "date":"11/4/2012",
+    "user_comment":0,
+    "likes_count":15,
+    "share_count":0
+  },
+  {
+    "event_details":"GAMER WEDNESDAYS $2 ROLLING ROCK DRAFTS$8 ROLLING ROCK OITCHERS $12 WELL PITCHERS LATE NIGHT FOOD",
+    "date":"11/14/2012",
+    "user_comment":0,
+    "likes_count":0,
+    "share_count":0
+  },
+  {
+    "event_details":"HERE WE GO AGAIN! GIANTS vs TIGERS! WORLD SERIES GAME 1! BAR OPENS AT 4PM! $15 BOTTOMLESS ROLLING ROCKS, $3.5 WELL DRINKS! LETS DO THIS!",
+    "date":"10/23/2012",
+    "user_comment":0,
+    "likes_count":21,
+    "share_count":1
+  },
+  {
+    "event_details":"RALLY IS ON!!! GAME 6 BACK TO THE BAY! 4:30PM SUNDAY!! COME OUT! ORANGE AND BLACK OUT IN FORCE!! LETS DO THIS!!",
+    "date":"10/19/2012",
+    "user_comment":0,
+    "likes_count":32,
+    "share_count":0
+  },
+  {
+    "event_details":"COME GRAB BOTTOMLESS BEERS ALL GAME LONG FOR THE A's PLAYOFF PUSH!! A's vs Rangers to cap off a crazy 2nd half of the season!! GO A's!!!",
+    "date":"10/1/2012",
+    "user_comment":0,
+    "likes_count":11,
+    "share_count":0
+  }
+]

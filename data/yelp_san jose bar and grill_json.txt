@@ -1,0 +1,2162 @@
+
+{
+    "business_info":{
+    "business_name":"San Jose Bar & Grill",
+    "categories":"Lounges, American (Traditional), Sports Bars",
+    "overall_rating":3,
+    "location":{"address":"85 S 2nd St San Jose, CA 95113",
+    "Neighborhood":"Downtown",
+    "phone_number":"408-286-2397",
+    "website":"sanjosebarandgrill.com",
+},
+    "price_range":2,
+    "timing":"Tue-Sat 5 pm - 1:30 am,Sun 10 am - 8:30 pm",
+    "best_nights":"Thu, Fri, Sat",
+    "noise_level":"very loud",
+    "parking":"street"
+  },
+
+
+"reviews":[
+  {
+    "excerpt":"I get here at 4:53 PM and walk through the unlocked door and up to the bar.  A hot blonde asks \"how can I help you,\" I say \"what are your happy hour specials?\"  She replies \"sorry we don't open until 5pm.\" I ask \"then can I just sit at the bar until you open?\" to which she says \"sorry we're still closed.\" THEN WHY DID YOU ASK HOW YOU CAN HELP ME, and WHY IS THE DOOR OPEN!  Sigh.Once open, the food is hit or miss (tater tots no, chicken pizza yes) and the atmosphere is upbeat for a bar.  Friends say this is the best place to watch bay area sports because it's one of the only places that plays the sound, but it's no big deal for me.  A bar is a bar is a bar, once it's open.....",
+    "post_date":"9/27/2013",
+    "user_name":"David \"DakK\" K",
+    "user_rating":3,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":5
+  },
+  {
+    "excerpt":"It seems like a lot of the time there is a line for the bathroom? The door to the bathroom is always open (I actually do not know if there is a door) and there's only one stall, so it sucks if you have shy bladder. When I went to the bathroom, two guys were talking kinda loud and it seemed like one or both maybe wanted to fight? There was also one of those guys who hands you paper towels and wants money, but there are a lot of sinks and it's hard for him to stand between them and the door so it was pretty easy to avoid him.",
+    "post_date":"9/25/2013",
+    "user_name":"Larry B",
+    "user_rating":3,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":5
+  },
+  {
+    "excerpt":"Two dollar Tuesdays video games n beer pong Wednesdays 4$ Thursdays, bottomless beer during sporting events Friday Saturday club scene Sunday morning football and bottomless mimosas and super hot bartenders! I practically live there!",
+    "post_date":"9/16/2013",
+    "user_name":"Irvin G.",
+    "user_rating":5,
+    "rating_useful":0,
+    "rating_funny":1,
+    "rating_cool":"0",
+    "user_status":1
+  },
+  {
+    "excerpt":"lol...really?? ehh...it was alright..",
+    "post_date":"9/1/2013",
+    "user_name":"Darius G.",
+    "user_rating":3,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":45
+  },
+  {
+    "excerpt":"I have been here a couple times to grab a drink and every time it takes forever. On some occasions the bartenders are so slow that my friends and I just leave and go somewhere else. For this visit, we actually came here for happy hour and let me tell you, their happy hour is not that happy. It is actually pretty expensive still.\n\nNow don't get me wrong, the food isn't too bad and the bartenders are pretty nice, but I think they spread their employees a little too thin. They weren't able to greet our table for 20 minutes and it took them even longer for them to get us our beers. We ordered 2 different types of sliders, calamari, and loaded tater tots. We wait for almost an hour in total for all of our food to finally come out.\n\nI would recommend to sit at the bar instead of a table if you are choosing to eat here. I am giving then 2 stars solely for the bartender and server. They were very pleasant and apologetic for having us wait so long for all of our items. It is not their fault that they have been spread too thin and are just physically unable to do everything they are supposed to.",
+    "post_date":"\n8/27/2013",
+    "user_name":"Theo T.",
+    "user_rating":2,
+    "rating_useful":0,
+    "rating_funny":1,
+    "rating_cool":"0",
+    "user_status":179
+  },
+  {
+    "excerpt":"I would have given this bar only 3 stars, as it seems merely average to me. Hip hop music with a small dance floor and huge bar area.\n\nBut then they had their Gosh Golly Miss Molly night, which blew my mind.\nThey had amazing lights, great EDM music, and handed out glow sticks. We bounced to LOFT after that, and kept getting harrassed by people jealous of our big foam glowsticks. We came back to Bar & Grill after, because we liked the atmosphere better. We didn't want the night to end!\n\nOn other nights, they never play EDM. I've special requested it before, and they said the closest they'll play is \"Get Lucky\" by Daft Punk. Whatever...\n\nOne good thing, there's no cover. And they have great drink deals on special nights, like Tuesdays. But their website (and Yelp) is really outdated on hours and such. Someone needs to get on that.\n\nOh, and I left my card there. They were very helpful in locating it in the back. That was great.\n\nWas this review …?",
+    "post_date":"8/1/2013",
+    "user_name":"Melanie R.",
+    "user_rating":4,
+    "rating_useful":4,
+    "rating_funny":0,
+    "rating_cool":"1",
+    "user_status":525
+  },
+  {
+    "excerpt":"A pretty standard sports/dive bar - perfect if you don't want to miss a game.  On a Friday night it was packed and somehow our beer was only $3?!!! Though the scene wasn't really my style, I have a feeling we'll be stopping in on the way to our final destination just for a quick beer. You really can't go wrong.",
+    "post_date":"6/24/2013",
+    "user_name":"Emily Y.",
+    "user_rating":null,
+    "rating_useful":2,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":0
+  },
+  {
+    "excerpt":"I cannot decide if this place is a dive bar that attempts to be a sports bar or a sports bar that attempts to be a dive bar. There if a somewhat strange aroma that permeates the place. Even though they serve American bistro style food, it smells like Indian cuisine in here. Weird.  The service was decent. They only serve one brand of red wine so my options were limited but it was decent.  What earns this place four stars is the burger itself. I ordered  a black and bleu burger that actually had some decent spice to it.  There was a hefty serving of bleu cheese crumbles too.  It was really good and it came with cajun fries that were nigh on perfect in terms of flavor and crispiness.  I would eat here regularly if I lived close.",
+    "post_date":"6/22/2013",
+    "user_name":"ZenRider X.",
+    "user_rating":4,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":43
+  },
+  {
+    "excerpt":"Do you feel a little too old/classy for Tres Gringos? Do you still want to party like a frat boy?\n\nHere you go!\n\nIt seems very much a boy's club, which is cool, because hey, I'm into that, but not into this place. Boring. Not a lot going on, and when there is I'm not feeling the vibe here...just starchy I guess. It's a-okay, but there's definitely better spots in downtown.\n\nWas this review …?",
+    "post_date":"6/10/2013",
+    "user_name":"Morgan P.",
+    "user_rating":2,
+    "rating_useful":2,
+    "rating_funny":1,
+    "rating_cool":"1",
+    "user_status":122
+  },
+  {
+    "excerpt":"Fun place to be but only on Tuesdays and Thursdays, because the nearest parking is a flat $5. I went on a Friday and it was $20. On those two days the well drinks are $2. Good music playing all the time and awesome bartenders.  My friends and I come here a good amount.",
+    "post_date":"4/15/2013",
+    "user_name":"Joe N.",
+    "user_rating":4,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":77
+  },
+  {
+    "excerpt":"$27.00 dollars for two watered down Redbull and Grey Goose! What a rip",
+    "post_date":"4/8/2013",
+    "user_name":"Don T.",
+    "user_rating":1,
+    "rating_useful":2,
+    "rating_funny":2,
+    "rating_cool":"2",
+    "user_status":12
+  },
+  {
+    "excerpt":" No cover\n- Happy Hour - $2 wells, $3 fireball shots (Tuesdays)\n- Sweet potato tots & regular tots\n\nI've been here a few times with my boyfriend and his friends for happy hour. We usually go on Fridays and came once on a Tuesday before Tiesto. Pretty good service from my experience. The $2 wells aren't that strong sometimes but you can't expect too much for $2, tbh. After a few of these, I'm usually on a good level to enjoy myself. We were here a few Fridays ago and the DJ was on point with the music. I'm talking some top 40 + late 90s + early 00s jams! Not hard to find a spot to touch down with your friends and hang out for the night. Once you get tired of SJBJ, you can easily walk to any of the neighboring bars or lounges.\n\nGood spot to start your night or pre-game before an event.",
+    "post_date":"3/12/2013",
+    "user_name":"Tammy N.",
+    "user_rating":4,
+    "rating_useful":2,
+    "rating_funny":0,
+    "rating_cool":"2",
+    "user_status":151
+  },
+  {
+    "excerpt":"Nice place to go to and grab a drink and a bite before a  crazy night.",
+    "post_date":"2/26/2013",
+    "user_name":"Niki P.",
+    "user_rating":3,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":92
+  },
+  {
+    "excerpt":"I love this bar! My favorite place in downtown SJ if I'm looking for a fun place with good music and dancing. Super friendly staff, good drinks for the price, usually good DJs, and an overall good atmosphere. There's rarely a cover, if there is one it's usually after 11 and if it's really crowded.\n\nThis bar is always a good time. 5 stars.",
+    "post_date":"2/3/2013",
+    "user_name":"Briana J.",
+    "user_rating":5,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":7
+  },
+  {
+    "excerpt":"5 star) On a quiet night, this is a great place for a beer and a good bar meal.\n\n(0 star) After 10pm on Friday and Saturday it turns into a nightclub filled with dirty, sweaty 40 year old men trying to have sex with you. Avoid at all costs.",
+    "post_date":"1/24/2013",
+    "user_name":"Sarah R.",
+    "user_rating":3,
+    "rating_useful":2,
+    "rating_funny":1,
+    "rating_cool":"1",
+    "user_status":20
+  },
+  {
+    "excerpt":"Great drinks that won't break the bank? Friendly staff? Occasional free beer and drink giveaway promotions? Sold and sold.\n\nPlay Madden / bar games on the big screens on special nights? Sold.\n\nFresh tacos outside to sober up? Sold.\n\nNeed I say more? Need a drink and a fun, simple night, come here.",
+    "post_date":"1/23/2013",
+    "user_name":"Chuck N.",
+    "user_rating":5,
+    "rating_useful":2,
+    "rating_funny":0,
+    "rating_cool":"2",
+    "user_status":691
+  },
+  {
+    "excerpt":" like this place. This was our last stop for the night and fortunately we beat the late night rush.  We had a large group with us, so luckily we had a chance to grab some of the lounge space.\n\nThe music was pretty good and the dance floor was decent (sort of small in my opinion).  Drink prices were standard. In all a cool lil spot! I'll be visiting again.",
+    "post_date":"1/8/2013",
+    "user_name":"Derrick M.",
+    "user_rating":3,
+    "rating_useful":1,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":38
+  },
+  {
+    "excerpt":"I went here a few days ago for Happy Hour and I like their $2 wells! I like it even better that the (cute) bartender wasn't skimpy on the alcohol! Too bad I couldn't fully enjoy it since I was going to drive later.\n\n\"The Works\" tater tots are AWESOME by the way. Add in all the things I love about nachos and the nostalgia of tater tots... booooom! Amazing-ness in your mouth.\n\nThanks SJ Bar and Grill! I will definitely want to come back for more!",
+    "post_date":"12/11/2012",
+    "user_name":"Diana T.",
+    "user_rating":4,
+    "rating_useful":2,
+    "rating_funny":2,
+    "rating_cool":"2",
+    "user_status":216
+  },
+  {
+    "excerpt":"We showed up Saturday night  with just about 40 minutes to have a quick bite before seeing a show at the Improv, we were seated & got our drink order & dinner within minutes.  Tots were the best ever, brought us back to being a kid. Friendly staff, great food & awesome service, all within our time frame! =))  We will be back to eat, drink & dance in the near future! Kudos SJBG~",
+    "post_date":"12/3/2012",
+    "user_name":"Chele C.",
+    "user_rating":5,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":2
+  },
+  {
+    "excerpt":"Chill spot to head for drinks, which they crank out pretty quickly. But not the best for a night out of dancing. The dance floor is pretty tiny so it gets pretty cramped in there. Beats are decent, but it can become a major dude fest. I recommend this as a place to grab a few drinks, and happy hour food prices don't hurt either.\n\nTIP: If you're looking for a sweaty sausage fest, this is the spot! I KNOW you were looking for this. Haha",
+    "post_date":"10/30/2012",
+    "user_name":"Denise L.",
+    "user_rating":3,
+    "rating_useful":14,
+    "rating_funny":15,
+    "rating_cool":"15",
+    "user_status":328
+  },
+  {
+    "excerpt":"Watched the first Giants NLCS game here and it wasn't crowded for a Saturday night. There's a huge projector that screens the game, which is awesome because you can both see and actually hear the game unlike some bars.\n\nThe food is decent for a sports bar, mostly fried finger foods and burgers. Portions are large and great for sharing, but flavor wise it just isn't there. Beers are decently priced but the servers are really hard to catch.\n\nBig turn off: when I ordered a glass of water and it tasted like an AMF. Really??",
+    "post_date":"10/15/2012",
+    "user_name":"Donna M.",
+    "user_rating":3,
+    "rating_useful":1,
+    "rating_funny":4,
+    "rating_cool":"1",
+    "user_status":126
+  },
+  {
+    "excerpt":"Average all around, yet it's decent enough to get the job done when you just wanna kick back, chill, maybe catch a game or just chop it up with your friends. The ambiance is reflectively of the community and the crowd that comes here is loud and rowdy. True Baydestrians if you ask me, so if you are a Raider, A's fan, Charger fan or any fan other than those red, gold, teal, black, and orange folk, you will be the minority.\n\nTheir house beer which is supposed to be similar to Pabst is ok. Easy drinking beer that ends up being like water after your 2nd pint. But i must say, good job on those sliders and cajun fries, those caught me off guard. They were really tasty, juicy and just plain yummy. The fries were reminiscent of boiling crab cajun fries lol.\n\nBartenders are chill here, the dudes are cool and constantly had my beer refilled since i chose the all you can drink house draft for ufc 152 which i will say had NO COVER.\n\nOverall ok in my book, it's next to everything like Loft, OG and Tres so if you aint feeling the vibe you can always jet next door or across the street",
+    "post_date":" 9/24/2012 ",
+    "user_name":"James D.",
+    "user_rating":3,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":571
+  },
+  {
+    "excerpt":"Good place to go in with small group of friends. Nice Foot-Taping Songs and drinks by the bar keeps one going all through the nite untill 2 :-) . Not a great place though , Still its one of the good places around SJ Downtown . Oh yeah , the Crowdz good always :-)",
+    "post_date":" 9/18/2012 ",
+    "user_name":"Anil V.",
+    "user_rating":3,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":11
+  },
+  {
+    "excerpt":"I'm not a big fan of this place mainly because its all house music. the DJ's suck and it seems like this is a good place to just kinda wind down the night.\nNot my favorite place",
+    "post_date":"9/16/2012",
+    "user_name":"Patrick R.",
+    "user_rating":2,
+    "rating_useful":2,
+    "rating_funny":1,
+    "rating_cool":"1",
+    "user_status":11
+  },
+  {
+    "excerpt":"I'm not a big fan of this place mainly because its all house music. the DJ's suck and it seems like this is a good place to just kinda wind down the night.\nNot my favorite place",
+    "post_date":"9/16/2012",
+    "user_name":"Patrick R",
+    "user_rating":3,
+    "rating_useful":2,
+    "rating_funny":1,
+    "rating_cool":"1",
+    "user_status":113
+  },
+  {
+    "excerpt":"I liked the spot when i went its perty kool i guess but then kinda getto but hey its san jose just try to leave before the bars and clubs close and that would be 2 or 130 to many people wanna start fitting cuz they grow beer ballzz..drinks were to pricy as welll",
+    "post_date":"8/23/2012",
+    "user_name":"Yesi H.",
+    "user_rating":3,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":23
+  },
+  {
+    "excerpt":"Always have a great time here. Great food and drinks. The happy hour is fantastic too! Love that there are always a few games on during hockey season",
+    "post_date":"8/13/2012",
+    "user_name":"Danielle A.",
+    "user_rating":4,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":21
+  },
+  {
+    "excerpt":"Looking for a happy hour spot in downtown san jose? SJBG will always come through.  This place is great for big groups and for catching sporting events.  The same owner owns Tres Gringos next door, but I prefer SJBG.  \n\nKeep in mind, there's always something going on here doesn't matter what night it is, so expect loud music after 9pm.  Drinks are strong and bartenders/servers are always friendly.  The food is great if you enjoy sliders!  Lots of options on the menu, but SJBG is known for the sliders with tater tots.  \n\nAlso, tried a new concoction called the BeerGarita when i was there last.  If you're daring try it!  what's better than a bottle of corona served on top of your margarita.",
+    "post_date":"7/30/2012",
+    "user_name":"Sunny C.",
+    "user_rating":4,
+    "rating_useful":1,
+    "rating_funny":1,
+    "rating_cool":"1",
+    "user_status":106
+  },
+  {
+    "excerpt":"Enough TVs to watch sports. Gets the job done",
+    "post_date":"7/6/2012",
+    "user_name":"Wesley P.",
+    "user_rating":3,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":41
+  },
+  {
+    "excerpt":"The reason why I gave it 4 stars is because of the staff - usually i would suggest its a mediocre place, but the staff was extremely helpful to a friend and i since we were out of towners, and also have us some coupons as well. The food (like the spring rolls were amazing) and the drinks were pretty okay, but i have to say the overall feel was just great. The bar does some really cool things like helping out leagues for the colleges to support their hobby sport teams and what not.",
+    "post_date":"7/5/2012",
+    "user_name":"Liana K.",
+    "user_rating":4,
+    "rating_useful":0,
+    "rating_funny":1,
+    "rating_cool":"1",
+    "user_status":10
+  },
+  {
+    "excerpt":"Their kitchen closes at 10pm.  Ordered a Corona in a bottle, paid for it.  What I got back was Corona on tap and was told that they don't serve bottles after 10pm.  Couldn't get my money back because I did not want a glass.  I wanted a bottle and the bartender thought it was a good idea to give me Corona from tap instead of checking up with me if it was okay.\n\nThe DJ could use a lot more lessons on mixing and fading in/out of song",
+    "post_date":" 7/1/2012 ",
+    "user_name":"Diana D.",
+    "user_rating":1,
+    "rating_useful":3,
+    "rating_funny":2,
+    "rating_cool":"1",
+    "user_status":125
+  },
+  {
+    "excerpt":"Kegs and Eggs! Graduation special: $2 PBR, $8 PBR Pitcher, Bottomless Mimosas. Yayuhh",
+    "post_date":"6/4/2012",
+    "user_name":"Jacqueline N.",
+    "user_rating":4,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":243
+  },
+  {
+    "excerpt":"love this place! never tried the food or have been around during the day but love going here on saturday nights...we try to come in before 1030 to beat the crowd and the cover charge but we stay till close and are one of the many regular groups that come here...Bartenders are awesome some even remember your favorite drinks before you even order it...dance floor gets crowded but wouldnt have it any other way. Security is cool and usually dont get on us too often as long as you do what they ask and stay out of there way there good people! even the damn bathroom attendant is awesome creepy but awesome! Love this Place!",
+    "post_date":"5/30/2012",
+    "user_name":"Yeah B.",
+    "user_rating":5,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":1
+  },
+  {
+    "excerpt":"I like my bars simple, and this is pretty simple. Quick turn around on drinks. Willing to provide lots of water. No need to get done up here, just a great place to enjoy a casual drink in a place that's rowdy enough to get your energy going, without feeling like you need to rage.\n\nThough raging is also an option here, definitely.\n\nNot a big place for dancing, but if you don't care and will dance anywhere (like me) this place is perfectly fine for it.",
+    "post_date":"5/17/2012",
+    "user_name":"Jason S.",
+    "user_rating":3,
+    "rating_useful":1,
+    "rating_funny":1,
+    "rating_cool":"0",
+    "user_status":552
+  },
+  {
+    "excerpt":"On Tuesdays, the drinks are really cheap for students! $2 Kamikazes and other well drinks, $2 PBR on tap, and a few other deals that make for a great night.\n\nThey have great, friendly bartenders and pretty good music from an in-house DJ.",
+    "post_date":"4/26/2012",
+    "user_name":"Michael K.",
+    "user_rating":4,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":384
+  },
+  {
+    "excerpt":"I've been here both during the day and night so I have a feel for both aspects.\n\nThe bartenders are all really nice here day and night. They take care of me and are very attentive to my needs.\n\nIf you are planning on eating here I would definitely recommend their hot and chili wings. They are soooooooo yummy !!\n\nMusic here tends to be more on the hip hop side which I love but the bartender informed me that they have been getting a dj lately who plays a lot of house music. YUCK. not a fan but hey if that's your soon go for it.\n\nOverall I give this place a four based on their lack of good food. I've tried several things on the menu and nothing was that greta besides the wings. Other then that it's a nice little spot downtown to come relax and have a drink.",
+    "post_date":"4/21/2012",
+    "user_name":"Crystal C.",
+    "user_rating":4,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":4
+  },
+  {
+    "excerpt":"This place deserves 2 stars, but because they have a dance floor, +1 star.\n\nIt's not as bad as Tres Gringos, and I'd rather stay here than go next door, but loft would definitely be my #1 pick, even  though the guys at loft close in on us like a hungry pack of wolves.\n\nThe food is not bad, and the servers are decently polite here.",
+    "post_date":"4/12/2012",
+    "user_name":"Michelle W.",
+    "user_rating":3,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":274
+  },
+  {
+    "excerpt":"Found this place online while trying to find a spot to hit before a Sharks game. I was in town (Red Wings fan) for the game on St. Patrick's Day.\n\nThe service was absolutely horrible... Before you just to conclusions and assume that I'm being picky because of the holiday, this was at 5:30 and the bar was only a quarter full when we arrived.\n\nWe sat down at a table and the bartender (a female with brown hair) looked at us and just kept serving drinks to people at the bar and then seemed put out to help us. After waiting for nearly 10 minutes, I walked up to the bar and was finally served a drink.\n\nBeer special of the day: $12 pitcher of PBR... Absolutely ridiculous! The shots were even more.\n\nOnly pro of the whole place was the food. I had the Corned Beef Reuben and my girlfriend had the Club Panini. Both were served very warm and tasted extremely fresh.\n\nAfter all was said and done (still had to keep walking up to the bar for drinks, while other bartenders served other tables around us.)",
+    "post_date":"4/2/2012",
+    "user_name":"Zachary C.",
+    "user_rating":2,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":6
+  },
+  {
+    "excerpt":"We didn't order any food, but the drinks and service were great. We sat at the bar, and the bartenders were all very attentive and nice!\nWe had some Irish Car Bombs- excellent. Perfect amount of everything. They were $7 each, which I suppose is a pretty average price.\nWe also tried their St. Patrick's Day drink specials- a Lucky Charms ($5) and Shamrock shot ($3). The Shamrock was bomb. The bartender misheard us when we ordered that one and accidentally made an extra. So, he took it off the bill and did that extra shot with us. Loved it, he was fun.\nPlenty of seating. Huge screens and lot of TVs. There was music playing and the Sharks were on. We had a lot of fun, I'm sure we'll be back!",
+    "post_date":"3/18/2012",
+    "user_name":"Sarah L.",
+    "user_rating":4,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":86
+  },
+  {
+    "excerpt":"This place thinks they're a Vegas club sometimes...not cool charging girls cover then charging 12 bucks for the weakest drinks ever. However, everytime there's a Sharks game it becomes a decent spot to be at and when Conrad is spinning hella electro it gets crackin. Average at best and always a sausage fest in t",
+    "post_date":"2/26/2012",
+    "user_name":"Cristal C.",
+    "user_rating":3,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":350
+  },
+  {
+    "excerpt":"I love the high-energy of this place! The music blasts through the roof while you sit down and enjoy your drink made by the bartenders that help drive the excitable atmosphere. The dance corner is filled with music drunk patrons who are all about enjoying themselves. Great place to go to if you're into the crowded bar atmosphere",
+    "post_date":"2/18/2012",
+    "user_name":"Jae S.",
+    "user_rating":4,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":36
+  },
+  {
+    "excerpt":"I've been coming here for a few years now and I'd say this place has its pros and cons..\n\nIt draws a big diverse crowd which is a plus......the food is alright.. nothing amazing about it...\n\nI still don't understand the whole concept of them charging cover like its some kind of a super nice spot or a lounge......\n\nGreat to come with a group of friends to have a kick back afternoon or night when gettin off work ....ON A WEEK NIGHT\n\nLine on the weekend=RIDICULOUS...it gets crowded\n\nThese last few years the hood rats have discovered this place, as well as the creepers who randomly dance up on you without permission...BUTTTT you get that everywhere I guess...\n\n3 stars!!!",
+    "post_date":"1/27/2012",
+    "user_name":"Rachel H.",
+    "user_rating":3,
+    "rating_useful":1,
+    "rating_funny":3,
+    "rating_cool":"1",
+    "user_status":48
+  },
+  {
+    "excerpt":"Kind of small inside but overall the people there made it interesting IMO.  I saw alot of people getting shuffle battle ready on a Sunday and trust me...that's a GOOD thing! lol Drinks are fairly priced and the decor is maso-menos...I would come back again just for the hell of it but I would suggest it to anyone who wants to have a quick stop and drink spot before their night begins...",
+    "post_date":"1/19/2012",
+    "user_name":"Tim C.",
+    "user_rating":3,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":179
+  },
+  {
+    "excerpt":"HURRAY the perfect proportion of sj ghetto and nonz\n\nand #1 bartender! benny!\n\npoppin music. chill atmosphere.\n\nreally does feel like sj",
+    "post_date":"1/6/2012",
+    "user_name":"Khanh T.",
+    "user_rating":5,
+    "rating_useful":1,
+    "rating_funny":1,
+    "rating_cool":"1",
+    "user_status":158
+  },
+  {
+    "excerpt":"I hate pretty much all of the bars in downtown, but San Jose Bar & Grill takes the cake as the worst of the worst.\n\nIt blows my mind that they charge cover here. What drugs is the management on? Do they think they are in Vegas or that their bar doesn't totally suck balls? Once you get inside it only gets worse. The DJ has an affinity to play his \"Songs That Make You Want to Commit Suicide Mix\" and he always makes sure to turn the music way way up. The drinks are pathetically weak, even the Long Islands taste like water.\n\nAvoid this place like the plague.",
+    "post_date":"12/21/2011",
+    "user_name":"Tom L.",
+    "user_rating":1,
+    "rating_useful":10,
+    "rating_funny":12,
+    "rating_cool":"9",
+    "user_status":452
+  },
+  {
+    "excerpt":"Absolutely love this place, ever since Mountain Charlie's closed I've been coming here. Great music, drinks are reasonable and I mainly come here for the dancing. Dancing area can get tight at times but their is a small stage : ) not to mention it's pretty much right in the middle of downtown.",
+    "post_date":"12/8/2011",
+    "user_name":"Lisa T.",
+    "user_rating":4,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":10
+  },
+  {
+    "excerpt":"This place is very average. As far as the nightlife goes. It has never been too crowded when I came here, but I still had a good time.  It mostly depends on the company.  The bartenders are friendly and the drinks are decent.  The layout of the bar is a bit weird and if you stand anywhere near the walkway the security guys will rudely tell you to get out of the way. Besides that, here is usually a taco cart outside the door to fulfill late night cravings.",
+    "post_date":"12/6/2011",
+    "user_name":"Kylie S.",
+    "user_rating":3,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":40
+  },
+  {
+    "excerpt":"Not the greatest place, but much better than your regular Dive bar environment. Their TVs are really great quality. The music they play is . . . ok. It's not what I like to listen to, that's all. I've had both good and bad bartenders there. Clientele isn't as bad as a few other spots just a block away. It's a pretty casual place. The Happy Hour is great and they always have some sort of cocktails special on Wednesdays. Prices are good. Overall, a good spot.",
+    "post_date":"12/5/2011",
+    "user_name":"Alariza N.",
+    "user_rating":3,
+    "rating_useful":1,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":25
+  },
+  {
+    "excerpt":"Ended the night here recently on our bachelorette party night and its always a hit. I have been coming here for years and this place just does not disappoint for me ever. The crowd is always mixed, the music is always on point and its just a great place to just hang out at. No need to worry about being overly dressed, just  a good place to get a drink and enjoy the vibe.",
+    "post_date":"11/5/2011",
+    "user_name":"Jennifer A.",
+    "user_rating":4,
+    "rating_useful":1,
+    "rating_funny":0,
+    "rating_cool":"1",
+    "user_status":458
+  },
+  {
+    "excerpt":"When I was younger, I loved this place and as I have gotten older it's not really my scene plus the crowd has kind of gotten a little too ghetto for me on a friday/saturday night.  During the early evening it's a good place to sit down, drink and watch whatever sports is playing on their huge TV's.  But at night it get's kind of crowded and not in a good way, probably because it is in SJ, there are men that just line up on the side of the wall as  you try to safely make it to the bathroom without someone grabbing you at some point.  The one solide thing with this bar are the bartenders, I think that is what always gets me to go back, I always love to say hi because they make good strong drinks and give good service!",
+    "post_date":"11/3/2011",
+    "user_name":"Rebecca D.",
+    "user_rating":3,
+    "rating_useful":1,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":184
+  },
+  {
+    "excerpt":"Are all Vietnamese girls from San Jose really this uptight? It doesn't hurt to let loose once in a while and enjoy yourselves instead of trying to maintain a \"I'm too good for anyone\" persona but, who knows? I've only lived here in SJ for 2 months so maybe I'm wrong. Anyway, it was my first time there last night (Thursday). I went for a friends birthday and we elected to have the 2 for 1 bottle service. At about 10:00pm, they move all the bar tables and high chairs from one end of the bar and carry out leopard print couches, transforming one end into a haphazardly made lounge. On the other end, they clear everything to make a small dance floor. The DJ's music selection was good, but the speakers were waayyy too loud so your conversations consist of yelling at each other. It wasn't too uncomfortably packed. The drinks are priced averagely. There's a food menu and a taco stand right out front. Our waitress was really on point and continually checked on us. The patio area's small, especially for the amount of people that were there. All the smokers looked like a can of packed Sardines out there lol! All in all, I give this place 3 stars because there's nothing special about this place that makes it stand out from other bar/grill/lounges.",
+    "post_date":"10/28/2011",
+    "user_name":"Tim S.",
+    "user_rating":3,
+    "rating_useful":2,
+    "rating_funny":2,
+    "rating_cool":"1",
+    "user_status":39
+  },
+  {
+    "excerpt":"Okay place. Sucks at night! Over crowded with pervs. But awesome during the day. Some of the sharks drink there and watch games. The empoyees are nice too. BUT ITS $20 FOR A PITCHER OF GOOD BEER. Ehhh I'll be back if I'm bored but I'm not a fan.",
+    "post_date":"9/26/2011",
+    "user_name":"Tinka G.",
+    "user_rating":3,
+    "rating_useful":1,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":59
+  },
+  {
+    "excerpt":"This is a fun and friendly place.  It has a very good selection of beers on draft and lots of TVs around the bar for watching various sporting events.  It however, is not completely typical of 'sports bars' I've been to.  The crowd is more varied and lively than usual for a sports bar.  It is a nice place to hang out with friends.   The menu is limited, consisting mostly of appetizers, burgers, salads and paninis.  The burgers are good.  The wings are outstanding;  two to three times as large and meaty as the typical wings/drummies.  They come out hot and crispy and are available in several flavors.  To their detriment, they don't have a typical 'buffalo-type' sauce, and their 'hot' variety lack any particular flavor besides being just hot and vinegary.  The sweet chili in combination with the hot however?  Outstanding!    They also have tater tots!  They say that they are as good as Mom used to make, but they are better, because Mom didn't deep fry them.  The tots are however a little too salty, which is saying something because I love salty food.  All in all, this is a pretty nice place to hang out and watch a ball game or to be out with friends.\n\nThe only real criticism I have about the place is that the first time we were here, we ordered wings by themselves, and then about 15 minutes later, ordered burgers.  The wings did not come out until after the burgers, which was not good.  The next time, we waited until the wings came out before ordering the burgers.  But generally speaking when you order appetizers, you should get them first, and the fact that you don't would suggest a somewhat mis-managed kitchen. It would also be nice if they served the wings with celery AND carrots.  So they get a 3 rather than a 4.   Also, note, they don't validate parking, so figure on adding 5-6 bucks to your bill for that, although they are very convenient for transit!",
+    "post_date":"9/10/2011",
+    "user_name":"Vernon M.",
+    "user_rating":3,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":31
+  },
+  {
+    "excerpt":"Service was good and the food was alright. Nothing I would rant about to my friends, but it wasn't horrible either.",
+    "post_date":"9/10/2011",
+    "user_name":"Nicole D.",
+    "user_rating":3,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":52
+  },
+  {
+    "excerpt":"it was like heaven......",
+    "post_date":"9/6/2011",
+    "user_name":"Raj K.",
+    "user_rating":4,
+    "rating_useful":0,
+    "rating_funny":1,
+    "rating_cool":"1",
+    "user_status":1
+  },
+  {
+    "excerpt":"I'm going to give this two stars for now. My good friend and local SJ Yelper, Sam, brought us here for drinks the other night. In all fairness, it was a Thursday... so maybe it was an off night for them.\n\nAnyway, my main complaint was that the drink service was awful. I got a pint of Blue Moon for a friend and myself, and it was terrible! The beer was flat, lukewarm, and strangely acidic tasting. It tasted like someone opened a bottle of beer, left it in an enclosed hot car and then let it settle to room temperature before slapping a slice of orange in it.\n\nOther than the drink, the DJ was kind of awkward. He couldn't seem to find a song that people could actually dance to.\n\nI may go back on a night when there are more people and the music is a little better. I can always grab a drink somewhere else beforehan",
+    "post_date":"9/4/2011",
+    "user_name":"Teresa G.",
+    "user_rating":2,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":138
+  },
+  {
+    "excerpt":"I used to go here a lot. The drinks are ok. The music is nothing special, but it keep you dancing. Usually, the staff is nice.  I know they have to deal with a bunch of drunk people so I don't expect too much.  But I expect a certain degree of professionalism whenever some one is being paid to help me.\n\nAnyways, the other day I went here with a big group of friends. One of the girls in our group just turned 21 and we decided to grab a quick drink here.  Two of my friends went in before the birthday girl. When she goes up they tell her they can't let her in because it hasn't been 24 hours since her birthday had passed.\n\nOk ok, we understand. We prepare to leave peacefully. So we step aside and try to call and text our friends on the inside.  I ask the bouncer if I can grab them because I can see them from the door. He say ok, I grab them.  When I get back I ask if we can get a refund for them because they were inside for less than 5 minutes.  They didn't drink, they didn't dance.  He says no because he'd need to ask his manager.  So we ask to speak to a manager and he replies \"He won't stop what he's doing to talk to you\".  He says this without asking any of the other bouncers and without getting on his little walkie talkie to even ask if his manager was around.\n\nDear SJBG Manager, I don't know how you treat your customers.  But this is how your bouncers treat people.  I understand they hate their jobs.  I understand they deal with drunk/stupid/mean people all night. I don't understand why I was treated this way especially when I didn't resort to acting like a pushy idiot.expect too much.  But I expect a certain degree of professionalism whenever some one is being paid to help me.",
+    "post_date":"9/1/2011",
+    "user_name":"Leandra A",
+    "user_rating":1,
+    "rating_useful":3,
+    "rating_funny":1,
+    "rating_cool":"1",
+    "user_status":11
+  },
+  {
+    "excerpt":"SJBG has been the back up bar to go to for my friends and I. Whenever we have the itch to have a casual night out and don't exactly know where to go, this is the place. I've been here on many different nights for many different occasions. SJBG has a love/hate relationship...\n\nPros\n-cheap drinks\n-friendly bartenders\n-generally a clean enviroment even on some packed nights\n-when going on any other day besides thurs/fr/sat, it's super chill\n-different events on different days of the week to please anyone/everyone\n\nCons\n-this bar tends to attract a big majority of douche bags! (good thing I don't come here for the lame guys)\n-on busy nights, it's super crazy packed. This isn't a club folks!\n-drinks are harder to come by on said busy night\n\nLike I said, this is the back up bar.",
+    "post_date":"8/31/2011",
+    "user_name":"Michelle H.",
+    "user_rating":3,
+    "rating_useful":1,
+    "rating_funny":1,
+    "rating_cool":"1",
+    "user_status":45
+  },
+  {
+    "excerpt":"A cover for a ghetto place? No thanks! Were not at some fancy bar and where the wrong crowd mingles and you expect me to pay? No thanks. I'm not being cheap it's just principle and you're not a club so there should be no charge. That beer money in my mind!!! do not recommend.",
+    "post_date":"8/21/2011",
+    "user_name":"Crystal V.",
+    "user_rating":1,
+    "rating_useful":5,
+    "rating_funny":1,
+    "rating_cool":"1",
+    "user_status":620
+  },
+  {
+    "excerpt":"This place isn't too bad except if it's one of those night where you are squished because there are hippos everywhere! I am not the skinniest girl in the world but I felt super skinny here! lol. Nice nice staff! Good place to watch the games. I live across the street so it's super convenient.",
+    "post_date":"7/30/2011",
+    "user_name":"Lauren Ashley G.",
+    "user_rating":4,
+    "rating_useful":1,
+    "rating_funny":3,
+    "rating_cool":"2",
+    "user_status":162
+  },
+  {
+    "excerpt":"Me and my buddy walk in at 11pm on a Saturday night.  The server immediately said to us \"we're not going to serve you.\" so we make an about face and walk out.\n\nThen it hits us, a Dave Chapelle moment \"That was racist.\"\n\nWTH just happened?  Don't know, don't care, on to the next spot.",
+    "post_date":"7/29/2011",
+    "user_name":"Paul Y.",
+    "user_rating":1,
+    "rating_useful":4,
+    "rating_funny":2,
+    "rating_cool":"1",
+    "user_status":103
+  },
+  {
+    "excerpt":"Great music , good drinks great hospitality, what else do you want. It a fun bar and friendly people.",
+    "post_date":"7/25/2011",
+    "user_name":"Nathan O.",
+    "user_rating":4,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":10
+  },
+  {
+    "excerpt":"Who would've thought, that I'd be seeking refuge in a bar from the cat-calls and eye-stripping I was being subjected to just walking around downtown San Jose?  Not me, but that's just what happened last Saturday afternoon.\n\nSJ B&G was the perfect refuge.  Picture:\n\nLuxurious and worn velvet couches with leopard trim served as the perfect back-drop for me to curl up with a  well-made dirty martini.\nThe A's game on a big screen as the afternoon sun and breeze wafted in through the open front patio.\nFOOSBALL in the back.\nOh sure, throw in some chicken lettuce cups (just ok) and some sliders (yum!) to round it out.\n\nIn no time at all I felt the creepy harassment vibe shed away, to be replaced by mellow, friendly happy hour vibe.  (I left before the night-life crew, and I'm pretty sure that would've brought on the gropey vibe - I mean, it is still a bar folks.)",
+    "post_date":"7/11/2011",
+    "user_name":"Ravena F",
+    "user_rating":3,
+    "rating_useful":6,
+    "rating_funny":5,
+    "rating_cool":"6",
+    "user_status":498
+  },
+  {
+    "excerpt":"Me and 7 friends happened to stop here before a concert this Saturday.  The place was actually dead but we still got great service.  \n\ndown sides:  \n-when it's hot outside, it's hot as hell inside.  Not good, if any, air condition.  However the waitress pointed the fan in our direction.\n\nperks:\n-Their slider menu is awesome!!  I had the nor cal sliders (sliders come in 3s) which included bacon, avocado, cheese and some sort of aioli.  Super delicious!! Their fries also had just the right amount of salt and were crispy!  The sliders were about $10-!11/plate and were definitely good portions.  \n\nI would definitely come back!",
+    "post_date":"7/5/2011",
+    "user_name":"Brittany E.",
+    "user_rating":4,
+    "rating_useful":1,
+    "rating_funny":1,
+    "rating_cool":"1",
+    "user_status":148
+  },
+  {
+    "excerpt":"I la-la-la-laaaav this place!  My friend and I went out for Tipsy Tuesday at Jack's Bar and Lounge which was aiite...not really crackin...so we meandered off to downtown where we found this little place.  Admittedly, it was pretty dead too but I attribute that to the fact that it was still hella raining and no one is hardcore parkour like me and my Tipsy Tuesday crew *badump chaaaa*.\n\nThe first thing we noticed was that there was a BEER PONG TABLE set up!  Nice!  Nice!  If I wasn't so self-conscious about my earth-shaking BP skillz I woulda played.  The bartender was by far one of my faves.  Her name is Sam and she has a septum.  Just in case you wanted some awesome service.  She helped us out with some really strong margaritas followed with a nice $8 pitcher of PBR (she even poured the first cup so it wouldn't be foamy!).  She even gave me tips on where there were good places to get pierced!  And THENN she made this awesome suggestion of getting the STONER TOTS.  Sweet lord in heaven.  Tater tots with cheese and bacon?!  I could eat that for dayzzzzzzzz!\n\nThanks Sam for making Tipsy Tuesday amazingxorzzzzzzzzzzzzz",
+    "post_date":"7/5/2011",
+    "user_name":"Matt V.",
+    "user_rating":5,
+    "rating_useful":1,
+    "rating_funny":1,
+    "rating_cool":"0",
+    "user_status":111
+  },
+  {
+    "excerpt":"I guess you could say I frequent this joint.  Great for Sharks games and other sporting events.  Sundays are my favorite.  Sunday Funday features bar games, bottomless mimosas, cheap drink specials, and my boy Jimmy on the BBQ.  The music is usually an eclectic mix with some Classics, Irish punk, 80s, and 90s Rap/Hip Hop.  What makes this place great is the staff.  Get to know your bartender and they take great care of you.  Everyone is really friendly and you don't have to wait for drinks!  I hate bars that have 1 or 2 bartenders for 50 people.  SJBG usually has plenty of bartenders and it really reminds me of Cheers in here.  The regulars here are all really cool too.  They frequently have live music, open mics, parties, and other events.  If you want a laid back, good vibe kind of bar, stop in to SJBG on weeknights and Sundays.  It will be worth your while.",
+    "post_date":"6/28/2011",
+    "user_name":"Brandon H.",
+    "user_rating":5,
+    "rating_useful":1,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":15
+  },
+  {
+    "excerpt":"Came here after being turned away from Studio 8. That place was lame so I decided to come here with a couple of other friends.\n\nI'm just gonna keep this short and simple. good music, food, and drinks...This was a real pleaser! Why didn't I come here in my College days when I was so much closer to the heart of downtown?? I'd recommend it, check it out!",
+    "post_date":"6/25/2011",
+    "user_name":"Roger C.",
+    "user_rating":3,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"1",
+    "user_status":200
+  },
+  {
+    "excerpt":"This place is pretty hot come Friday and Saturday night....really mixed crowd, good drink at decent prices, and cover charge is never more than $5 if any.  Music is always good here, current hip-hop/r&b, the only downside is that the dance floor is pretty small, but this place is great hangout spot with yr friends as they also have happy hour food deals every single day!",
+    "post_date":"6/14/2011",
+    "user_name":"Deep S.",
+    "user_rating":4,
+    "rating_useful":2,
+    "rating_funny":0,
+    "rating_cool":"2",
+    "user_status":204
+  },
+  {
+    "excerpt":"I always come here whenever my SJ Sharks are playing. When the Sharks play, the wings are always $.55 cents and their happy hour menu is AWESOME.\n\nI love the combo wings as well as the cajun tater tots. I definitely order both of those when I'm watching a Sharks game downtown. Sometimes if I'm going all out, I'll order the sliders (which come with a side of tots or whatever you want) and then my hubby and I split wings for an appetizer.\n\nAll that greasy goodness + beer + a good game = A REALLY WONDERFUL TIME.\n\nI admit, when there's a playoff game for any sport, this place gets REALLY packed. And when it gets packed, it can be frustrating getting service started. For me, I can see that all the servers are trying really hard to get to everyone so I just make sure I know what I want. I usually get to order within 10 minutes.\n\nThe vibe there is really great though. It's my go-to spot for happy hour on sports game nights and the crowd (especially SJ SHARKS FANS) get really into it and I love it.\n\nIf you just want really awesome service and hate sports, DO NOT go here.\n\nThis place is the kinda place where people who LOVE sports, beer, and greasy fried food love to kick it and cheer on their sports teams :)",
+    "post_date":"5/18/2011",
+    "user_name":"Enza P.",
+    "user_rating":4,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":526
+  },
+  {
+    "excerpt":"This place is a joke. It used to be an ok spot. Now all I ever see is cholos all over the place. The drinks are all over priced and the bartenders have no basic knowledge of mixology. The bouncers here pretty much run the show and pick and choose who come in. This place is a waste of time and money. I promise you'll have more fun hitting the dive bars. Seriously don't waste your time here.",
+    "post_date":"5/6/2011",
+    "user_name":"Rich T.",
+    "user_rating":1,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":7
+  },
+  {
+    "excerpt":"I absolutely love this place!! My definite go-to place to watch a San Jose Sharks game!\n\nMust: The sweet chili wings on Shark game nights! $2.75 for 4 wings.  Make sure they're sweet chili, simply divine.  The sweet and spicy sauce will leave you licking your fingers and ordering seconds!\n\nThe biggest issue I have (and reason why they didn't receive 5 stars is the pricing for the specialty drinks/shooters).  I ordered three cherry bombs, thinking the price would be around $7-8 dollars per each.   To my surprise, I received the bill and saw that it was well over $10 for each shooter. Disappointment sank in.\n\nOther than that, I love this place! Once again, the wings are cheap on Sharks game nights - around $2.75 for 4 wings! You absolutely cannot beat that.  On one occasion, my total bill was less than a little more than $25 for 12 wings, a pitcher of beer, a glass of beer, and a well drink.  That's pretty damn hard to beat for a location like this in the heart of downtown San Jose.",
+    "post_date":"5/2/2011",
+    "user_name":"Amy L.",
+    "user_rating":4,
+    "rating_useful":2,
+    "rating_funny":2,
+    "rating_cool":"2",
+    "user_status":87
+  },
+  {
+    "excerpt":"this place never lets me down, music is perfect,staff is good and the crowd is usually good.and best of all they make the best pink lemonades! no other place makes it as good as them.",
+    "post_date":"4/30/2011",
+    "user_name":"nicole m.",
+    "user_rating":4,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":17
+  },
+  {
+    "excerpt":"This is my go to place to catch the SJ Sharks playoff games for a few reasons; the crowd, the tv's and the happy hour menu.  The crowds here are usually a cool during the Sharks games, even when you're rooting for the other team.  I don't know how the crowd is at night, but during the games, I've never seen any issues, other than some light ribbing if you're rooting for the wrong team.\n\nThe happy hour menu is awesome.  It's what a happy hour menu should be.  You can actually get some good savings and they don't just have a bunch of stuff you don't like on it.  \n\nYou can't really go wrong with any of the sliders and the fries that go with it, but the hidden treasure is the tator tots you can substitute the fries for.  They use a special seasoning salt that makes the tater tots more tasty for all of the salt lovers out there.even when you're rooting for the other team.  I don't know how the crowd is at night, but during the games, I've never seen any issues, other than some light ribbing if you're rooting for the wrong team.",
+    "post_date":"4/18/2011",
+    "user_name":"Joe N.",
+    "user_rating":4,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":152
+  },
+  {
+    "excerpt":"Mimosas after mimosas!?\n\nIt was one of those Sundays. After our trip at Flames ended, my girlfriends and I decided to walk around and \"sober\" up...\n\nLow and behold, we found ourselves here! hahaha.. and they too have bottomless mimosas! I don't recall the price but it was about $12-15. Not bad. Our server was cool, nice and friendly. Been here before at night with all the crazies, during the day it has such a different feel. Overall a very chill vibe on that Sunday afternoon. They had their usual jumbo screen tv up and loud music blasting, but overall a good visit.\n\nAlthough our plans to sober up didn't go quite as planned, it ended up being a pretty good Sunday. And now we know, after Flames, if you want more mimosas here is the place to be!",
+    "post_date":"4/10/2011",
+    "user_name":"Remy-Anne V.",
+    "user_rating":3,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":126
+  },
+  {
+    "excerpt":"I like this place a lot during the day/happy hour time. Cool and chill ass place to hangout when you want to have some good food, good beer, and watch some sports. That has never let me down!\n\nAs for nightlife, I have never really had a superb time. The music is a hit or miss at times and it seems like a bunch of bitches who try to pick fights for no reason with you come here too. It's a small dance floor...you're bound to bump into people while dancing. It happens. But a lot of bitches here will push you and try to start a fight over it. I've lost count on how many times I've been in that situation.\n\nI like that it's in a central location so I could always pop right over to Tres Gringos or Loft to continue my night out.\n\nPlus the little taco stand out in front makes some pretty damn good tacos and quesadillas. =]",
+    "post_date":"4/5/2011",
+    "user_name":"Susan L.",
+    "user_rating":3,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":85
+  },
+  {
+    "excerpt":"I used to go here all the time when I was in college at SJSU. It was a great place to go for a good time during happy hour after classes. All the bartenders were pretty chill and would talk to you. We'd always get a few pitchers and some sliders and end up staying the rest of the night.\n\nIf you come here on weekdays, you will still get this kind of atmosphere, but it's like stepping into a completely different place over the weekends.\n\nI think as some of the bigger trendy clubs (Vivid/Pearl, Vault, Sabor) closed, the \"trendy\" people who would visit those clubs started heading to Bar and Grill on Thursday, Friday and Saturday nights. We used to fit in with some nicer casual clothes (business casual), but now, I wonder if we'd be let in.\n\nIf you get there before 11 (I think?) you don't have to pay a cover charge, but they usually will start to form a line outside after that.\n\nWe usually try to get there around 10 so we can get a table and claim some territory. This place will be packed by 11:30. They have some good video-DJs that play a lot of top-40/hip hop music and keep it up beat. But it's really loud so it's hard to talk without yelling into someone's ear.\n\nIf it gets to hot by the dance floor, you can go back to the front and either try to get a table outside with the smokers or find a spot on their couches.\n\nI've had a lot of great times at this place and made some good friends, but I am sometimes reluctant to go back to SJBG now.",
+    "post_date":"3/21/2011",
+    "user_name":"Sarah G.",
+    "user_rating":3,
+    "rating_useful":1,
+    "rating_funny":1,
+    "rating_cool":"1",
+    "user_status":14
+  },
+  {
+    "excerpt":"Came here on a Friday night to get some brews after enjoying the South First Fridays Art Walk with some friends. This place is actually not bad. we found a table and ordered a few drinks.\n\nOrder:\n5 Stellas - $5.50 each\n1 Blue Moon - $5.50\n2 RPB - $3.00\nTotal: $40 for 8 pints of beer... not too bad...\n\nNext time we'll come for happy hour ($3.50 for pint on draft) and order a pitcher ($12+).\n\nMusic was good tho. We did enjoy the music video mashups that went along with it. Plenty of tvs around to watch them on. So loud that you have to yell in the ear of the person who's sitting next to you when you want to say something!!! LOL!! I came out deaf!!\n\nOverall, pretty cool bar. I would come here again!!!",
+    "post_date":"3/5/2011",
+    "user_name":"JQ V.",
+    "user_rating":3,
+    "rating_useful":1,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":75
+  },
+  {
+    "excerpt":"First off, kind of mad they didn't allow for my friend's boyfriend to come in because his jeans were too baggy.  Just after we'd been to, The Wagon, The Brit and Cinebar.  So it split us up as a group.  My friends had to use the bathroom, which was disgusting!  Piss on the floor, some crap on the ceilings that were red spots.  YUCK!\n\nDance floor is popping, literally no room for you to actually dance.  Kind of sad, because they have some good club music.  Bar area is slaughtered with people.  If you are a girl walking from the front of the bar to the back of the bar, you will get your ass slapped by some random guy.  Good luck figuring out who did it, tons of dudes.  So in conclusion, this bar is kind of sleazy and fun because you can possibly dance.",
+    "post_date":"2/7/2011",
+    "user_name":"Michelle C.",
+    "user_rating":2,
+    "rating_useful":2,
+    "rating_funny":2,
+    "rating_cool":"1",
+    "user_status":1232
+  },
+  {
+    "excerpt":"This place is MEHhhhhhhhh, came in here cause there was nowhere else to go really, line for drinks is short mainly because there were not that many people there. Prices are fair but music was pretty mediocre, the crowd here seems to be a mix of different people that were just all bored on a thursday night. Nobody was really dancing and music was a bit too loud, even for me and i love loud music.\n\nit is a nice place to grab drinks with a bunch of friends if you're going to be clubbing or something in the area after to save on drinks, but if you want to have a conversation be prepared to shout since like I said the music is very loud lol.",
+    "post_date":"1/22/2011",
+    "user_name":"Jon T.",
+    "user_rating":2,
+    "rating_useful":3,
+    "rating_funny":2,
+    "rating_cool":"1",
+    "user_status":474
+  },
+  {
+    "excerpt":"Overpriced & overcharged. If you open a tab, make sure you don't end up paying for someone else's drinks. Dance floor is too crowded to move, bathrooms were out of some supplies, music was so loud you can't hear someone yelling in your ear- no joke. At least the music was pretty good with lots of oldies from 10-15 years ago and there was a patio to smoke on.",
+    "post_date":"1/19/2011",
+    "user_name":"Emily C.",
+    "user_rating":1,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":14
+  },
+  {
+    "excerpt":"This is a relaxed bar, often filled with hyper sports fans, with a good selection of beers and a better selection of sliders.   The prices are decent and the food is better than what you might expect from a sports bar.  I love coming here to watch a football game and make a few new friends in the process.  Also, the bartenders are all really friendly.\n\nThey have LOADS of tv's, a projection on each end of the bar, and lots of room for seating.  I have never stuck around long enough to check out the dancing;  I'm a little old and white for all of that.",
+    "post_date":"1/16/2011",
+    "user_name":"Ken B.",
+    "user_rating":4,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":62
+  },
+  {
+    "excerpt":"I always enjoy coming to this place. I mostly come here just to hang out, have a few drinks, or dance if good music is playing. It can be your typical man jose crowd on occasion, with thugs here and there. But regardless, I still like the overall environment. Bartenders are always nice and attentive. Drinks aren't too too pricey. And when it comes to Friday or Saturday nights, the music playing is usually pretty good. They play your typical top 40 hip-hop or pop hits, and they throw in some old school hip-hop/rap, which I love. This is place is 10x better than Tres Gringos next door",
+    "post_date":"1/7/2011",
+    "user_name":"Erika M.",
+    "user_rating":4,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"1",
+    "user_status":67
+  },
+  {
+    "excerpt":"Does anyone remember this place before they turned it all uppity with their solid partition patio and dress codes?  Does anyone remember White Trash Wednesdays where you could get a bucket of PBR for $5 and the best hot wings for 37.5 cents each?  What happened to this place?  :(",
+    "post_date":"12/28/2010",
+    "user_name":"Mark H.",
+    "user_rating":1,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"1",
+    "user_status":50
+  },
+  {
+    "excerpt":"I've been here a couple times. It had not failed on me. The bar was crowded as usual (that's a good sign)\n\nThe dance floor are often full. Was up with the ladies though, with her big ol' purse coming out dancing!\n\nOverall this place often gets crowed and cops often hang outside across the street!",
+    "post_date":"12/22/2010",
+    "user_name":"Sidney S.",
+    "user_rating":4,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":83
+  },
+  {
+    "excerpt":"I've been here several times...usually with co-workers to just chill after work. It usually serves as a stop before we hit another place as their drinks are decently priced. This place can really be a decent one, before it gets overly crowded with people..who eventually become drunk, arrogant bastards.\n\nI commend this place for once hosting a gay night. I thought it was funny when my friend and i stumbled upon this place, as being the only bar open on a weekday. We were wondering why there was a roomfull of men. hence, the gay night. It was a really comfortable experience for me, and i sensed a really not so comfortable one for my friend -and i don't blame the men for staring at him and his undeniably fit physique.",
+    "post_date":"12/10/2010",
+    "user_name":"Monica F.",
+    "user_rating":3,
+    "rating_useful":1,
+    "rating_funny":1,
+    "rating_cool":"0",
+    "user_status":532
+  },
+  {
+    "excerpt":"Went there last night to celebrate a friends birthday, shoulda known by all the security it wasn't the place to be. Had a great time, til some fat chick started pushing and being rude on the dance floor. We tried to get her to stop, the security told us we had to leave, instead of the girl who started it. The security guards were rude pushing and forcing people out, the crowd was ghetto starting more trouble outside. Will never recommend or go there again.",
+    "post_date":"11/21/2010",
+    "user_name":"Bryan B.",
+    "user_rating":1,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":9
+  },
+  {
+    "excerpt":"Went here last Saturday from a spontaneous decision to end up here after a frustrating incident of hoping to watch a Pacquiao vs Margarito fight at a different sports bar, which we end up not getting in after being told we have to pay $15/person. Hmmm... just a big rip off!\n\nAnyway, this bar wasn't crowded at that time we walk in which was yet 6pm. First thing I noticed: LOTS & LOTS of TVs!!! Though not one was showing the fight which I was so eager to watch. As explained by the nice and friendly server they have to pay like $35 per TV if they show that fight, and knowing they have lots of TVs it may not be worth it. So I guess that kinda solve the mystery why the other place have to charge $15/person on entrance fee.\n\nFood here was good. Quite a few selection of foods in their menu. Price wasn't that bad either. We didnt get to stay here long enough to see a good crowd. But does give me a reason to come back and try it on a real Saturday night out...",
+    "post_date":"11/16/2010",
+    "user_name":"Kathy M.",
+    "user_rating":3,
+    "rating_useful":1,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":53
+  },
+  {
+    "excerpt":"This is strictly a review for the late hours club here, not the food.\n\nLong line, charges $5 for guys to get in and for what? A big bar, small dance floor and bad remixed hip-hop top 40 type music served with bad drinks.\n\nNo thanks.",
+    "post_date":"11/16/2010",
+    "user_name":"Chris O.",
+    "user_rating":1,
+    "rating_useful":2,
+    "rating_funny":0,
+    "rating_cool":"`",
+    "user_status":1182
+  },
+  {
+    "excerpt":"If this bar was in Santana Row, I'd be happier with it. That said, there's little to differentiate it from the competition. Standard bar decor, TVs showing sports, and lots of seating. (Empty seats, too, since everyone was at the Stanford and Sharks games.)\n\nOur bartender was pleasant enough, pouring us shots, shots, and more shots. Shots of magical silver tequila. And shots of something putrid. (They were green.) Thankfully, we left plenty buzzed.\n\nDue to plenty of bar and lounge seating, I'll be back for a happy hour.",
+    "post_date":"11/12/2010",
+    "user_name":"Dave H.",
+    "user_rating":3,
+    "rating_useful":16,
+    "rating_funny":10,
+    "rating_cool":"14",
+    "user_status":2110
+  },
+  {
+    "excerpt":"Looks like the same ol' San Jose Bar and Grill but for sporting events this place is awesome! Went here for the last couple games of the World Series instead of going to DnBs (went there way too many times this past month haha).\n\nMe and the gf havent been there in a year or so, but was very impressed that they had a full menu of all kinds of foods, from specialty salads, sliders, sandwiches and their oh so good combo wings! got some PBR pitchers for only 8 bucks and .55 cent wings! and celebrated the WORLD SERIES victory last night!",
+    "post_date":"11/2/2010",
+    "user_name":"David K.",
+    "user_rating":4,
+    "rating_useful":2,
+    "rating_funny":1,
+    "rating_cool":"1",
+    "user_status":659
+  },
+  {
+    "excerpt":"Been here for a few games. Its actually pretty fun. The workers are fast and attentive even when the place is jammed packed. They have 2 HUGE screens in the front and the back playing the games and a bunch of flat screens lining the bar area. ALSO for select games (usually play offs and sunday football) they have sound! WONDERFUL SOUND! I've been going to the dnb's new sports corner to watch the games but since that tiny little area gets packed fast, Bar and Grill is our next obvious choice!\n\nFood has gotten a lot better here also. They have this spinach/shrimp salad which looks good. I had the appetizer combo which consists of chicken tenders, potato skins, southwestern egg rolls and hot wings. SO GOOD... ALSO the wings have gotten A LOT bigger. I remember for a bit the wings shrunk to these tiny.. mutated wings.. but now they seem to be back to normal haha.\n\nI don't come here at night.. so this review is only for sports events. football, hockey, baseball (GO GIANTS), basketball etccccccc...\n\nThis place gets packed though so I suggest coming early!!",
+    "post_date":"11/2/2010",
+    "user_name":"Steph C.",
+    "user_rating":4,
+    "rating_useful":2,
+    "rating_funny":2,
+    "rating_cool":"2",
+    "user_status":648
+  },
+  {
+    "excerpt":"I like this place!\n\ncame here on a Friday. wasn't too crowded when we got there, so we enjoyed finding a table and not having to yell during our conversations.\n\ndrinks did the job\n\ncrowd is a little older than other dtsj bars\n\nmusic was good that night, I think there were famous DJs that night\n\nI liked watching all the white girls dancing on the bar as the night went on. it was much more crowded and the table dancers were feeding off the energy. one girl looked pretty pro to me, I (along with most everyone else in her area) couldn't stop staring at her perfect stripper moves\n\ncan't wait to come again!",
+    "post_date":"10/25/2010",
+    "user_name":"audrey s.",
+    "user_rating":4,
+    "rating_useful":1,
+    "rating_funny":3,
+    "rating_cool":"0",
+    "user_status":70
+  },
+  {
+    "excerpt":"Just a quicky! Wanted to say thanks for letting us watchthe end of the Giants game even though we weren't drinking after our horrible Improv experience tonight. I used to love this place but, since the gf and I quit drinking we haven't been in. The staff was friendly as always and remembered us though it has been more than a year. Such a great place to watch a game! Thanks for a great time guys",
+    "post_date":"10/21/2010",
+    "user_name":"Beks t.",
+    "user_rating":5,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":6
+  },
+  {
+    "excerpt":"Well I've been around here to barhop.  It's directly across from loft which is the place of choice for me in terms of San Jose.  \n\nAll I can say is Eh.  Its decent enough to where if you are with friends you can have a good time.  There are less nasty guys standing around and there are actually people dancing on the dance floor.\n\nDoesn't seem to be a cover usually for girls.  Although, sometimes there has been.\n\nIf you're just wandering around downtown San Jose, then you can stop by here for some drink and just a chill time.",
+    "post_date":"10/11/2010",
+    "user_name":"michelle t.",
+    "user_rating":2,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":251
+  },
+  {
+    "excerpt":"I really don't know why we don't go here more.  We live right across the street, and the tater tots are enough to coax us out of our abode.  Add to that, they've got $2 PBR pints and a whole realm of froo-froo drinks, and I'm sold as a fan.  Did I mention they have big screen TVs in every corner broadcasting any sporting event you would want?  This place is a nice compromise between Cinebar and the Fairmont.  As I said in the opening, I think we need to go here more.",
+    "post_date":"10/7/2010",
+    "user_name":"Ken V.",
+    "user_rating":4,
+    "rating_useful":3,
+    "rating_funny":0,
+    "rating_cool":"1",
+    "user_status":92
+  },
+  {
+    "excerpt":"Came back again tonight and was kinda disappointed that the Shocktops tasted a little watered down.  But the Cajun tater tots made up for them.  I dunno if the Cajun tots are on the happy hour menu, but if they are, I'm getting them next time over the reg or bacon tots.  Also, the french fries that my friend ordered were pretty good too.  Crunchy on the outside and soft on the inside, just the way i like it (that's what he said).  Nice save SJBG.  nice save",
+    "post_date":"9/30/2010",
+    "user_name":"Richard T.",
+    "user_rating":5,
+    "rating_useful":1,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":271
+  },
+  {
+    "excerpt":"BEST HOT WINGS EVER! and they serve TOTS!\n\nI am a lover of the HOT WINGS and nothing can compare to SJBG's Hot wings OMG! their Sweet Chili sauce is CrAzy!\n\nSJBG has a huge menu and everything is Good to Great and if your sports lover this is a great place to watch NFL or NHL games. Get there early!\n\nand after them games die down the DJ rolls in and then it becomes a night club.\n\nThey know how to do it....Serve good Food, Booze and Music and they will come.\n\nWas this review …?",
+    "post_date":"9/29/2010",
+    "user_name":"Steve S.",
+    "user_rating":5,
+    "rating_useful":1,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":25
+  },
+  {
+    "excerpt":"Decided to give it a try after a bad experience at a neighboring bar (Azucar).  Walked in and after having a seat were greeted by a great waiter with great energy.  Great on tap beer selections.\n\nGot to catch the Giants game on their big screen while we waited for our orders to arrive.\n\n2 of us had the sliders and 2 of us the burgers, of course with amazing tots.  All of us were completely satisfied with our choices.\n\nWill definitely visit again!",
+    "post_date":"9/24/2010",
+    "user_name":"Selena S.",
+    "user_rating":5,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":5
+  },
+  {
+    "excerpt":"The place is awesome for Sharks games and you want to watch it with friends. Drinks are great and the bartender service is great as well. But here is where my bad review comes from this place and why I said to my self and anyone that I know not to go there anymore and so far I have been successful on this, is because one night after a soccer match my friends and I decided to go and celebrate, first we ate some pizza at 4th street and then we went to this place. Wasn't really drinking much, was mainly there to hang out and have an occasional drink with my team mates and enjoy the night. We ware in the small patio area, when I decided to go to the restroom for the second time in a row, when all the sudden, after I had passed the dance floor and was a few feet from the restroom a couple of security guys grabbed my by the arm and kicked me out from the back door. I ask why and all they said is they didn't like me and to get out of the place. I tried to explain and ask then to at least let me grab my jacket that I had inside with my friends, but since I was too close to the back door and didn't event get a chance to finish asking why I was being kicked out or if I could at least get my jacket. Luckily for me my friends were still at the patio and I was able to reach for my stuff and after I explained to them what had happen they decided to ditch the place and never went back there.",
+    "post_date":"9/21/2010",
+    "user_name":"Marvin L.",
+    "user_rating":1,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":2
+  },
+  {
+    "excerpt":"Ive only been here once, but had a good time\n\n+1 great music\n+1 alot of moving and dancing room\n+1 drinks were decently priced\n+1 no cover (for girls as far as I know). I'm not sure about guys\n+1 no line\n+1 alot of places to walk to if you dont want to stay here\n+1 no need to dress up ladies. I'll take any place that i can wear flats :)",
+    "post_date":"9/13/2010",
+    "user_name":"Heidi M.",
+    "user_rating":5,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":254
+  },
+  {
+    "excerpt":"I came here for the Keystone II Super Street Fighter 4 tournament and I have to say I had a good time.  There's even a parking lot right next to the joint.  The pricing is slightly more than I would expect but the service was fantastic.  Bartenders make small talk and are pretty damn friendly.  All I had were drinks and a popcorn shrimp appetizer but they were excellent.  A friend of mine bought a round of 3 beers and the bartender ended up pouring us a pitcher.  I'd definitely go back to try more of their menu maybe on a slower day.",
+    "post_date":"9/5/2010",
+    "user_name":"Chris C.",
+    "user_rating":4,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":276
+  },
+  {
+    "excerpt":"My husband and I were walking around downtown San Jose and wanted a bite to eat.  We decided to grab some burgers from SJ Bar and Grill.  It was around 5 PM during the week, and the place was practically empty.  The food was overpriced for what it was (we didn't order sliders, which is apparently what this place is known for) and I was a little disappointed when our server offered us ranch to go with our fries and then forgot to get it for us.  I also noticed that the bartender and bar backs were talking amongst themselves quite a lot and paid little attention to us.  So, not a totally horrible experience, but not a great one.",
+    "post_date":"8/25/2010",
+    "user_name":"Fionna L.",
+    "user_rating":2,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":9
+  },
+  {
+    "excerpt":"I always manage to have fun when I'm here.  Strong drinks, good music, no lines, no cover; I can dig it!  I usually stop by for a few drinks and some dancing with friends toward the end of the night.  I haven't been to many bars/clubs in downtown San Jose so maybe once I broaden my horizons my opinion of SJBG will change.  Time to take a step out of my comfort zone :)\n\nOh, and last time I was here there was an incredibly sweaty Asian man dancing alone like a lunatic.  Keep an eye out for him; he's hilarious ;)",
+    "post_date":"8/23/2010",
+    "user_name":"Janet S.",
+    "user_rating":4,
+    "rating_useful":0,
+    "rating_funny":1,
+    "rating_cool":"0",
+    "user_status":42
+  },
+  {
+    "excerpt":"I had an AWESOME time. Might be biased because I'm still drunk from the night but they have great specials, and Monday was 50cent PBRs and 50cent wings. YUM. The place wasn't too crowded (Lady Gaga night) so our bartender/server was able to chat with us and whatnot, he was super sweet. He even brought us a free round of shots and drank with us. Crowd seemed cool, no one was dancing though, Monday night's probably not that kinda night.\n\nIt took me several tries to type this without spelling mistakes. MMM drink specials :)",
+    "post_date":"8/17/2010",
+    "user_name":"Vivian H.",
+    "user_rating":4,
+    "rating_useful":3,
+    "rating_funny":2,
+    "rating_cool":"1",
+    "user_status":1050
+  },
+  {
+    "excerpt":"I've been here a few times on different occasions. Few times I came here with a bunch of friends to drink and a few times I came to simply grab a beer and a bite to eat.\n\nAs far as the party scene goes, this place is alright. Nothing spectacular but usually no lines, no cover, and relatively cheap drinks. Other times I went after work to grab a beer with a couple of buddies. The music tends to be a little loud to sit down and talk but the service and food was great. Me and 2 other friends split a pitcher and I had some sort of sliders. I have to say for a midnight snack, they have some pretty good food.\n\nI have to say it is a decent place to swing by, grab some drinks and hang out with friends. I wouldn't really say its a place to do some serious dancing but at least they have music and a dance floor.",
+    "post_date":"8/10/2010",
+    "user_name":"Steven B.",
+    "user_rating":4,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":8
+  },
+  {
+    "excerpt":"Came in here right after the comedy show at the Improv across the street. Place is not bad, too much guys but i guess thats everywhere nowadays. Kinda weak that guys had to pay cover but oh wells. Music is decent with music videos also playing. Dance floor is small but there isnt much people dancing anyways. Drinks are reasonable (pretty healthy shots). Just way too much cops hanging out in front. Will be back. Quality first visit.",
+    "post_date":"8/9/2010",
+    "user_name":"Frankie L.",
+    "user_rating":3,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":77
+  },
+  {
+    "excerpt":"Love this place! I feel like a total dude whenever I'm here. You can just chill and have fun with your friends, while watching sports..well, I hardly watch whatevers on their tv when Im here, I just focus on drinking...lol.. price is not bad at all..waiters and bartenders are awesome..even if its a crowded busy night, they make sure everyone gets help. They obviously know how to run a business since they always have enought bartenders to cater to every drunkies needs when it's a busy night. I think they have beer pong on mondays, then they turn one of their areas into a dance floor during TH, FRI & SAT just in case u all wanna dance your night away..they also serve food until 12 so thats always a good thing on my list. . ...4 STARS only cuz there are times they charge u for cover, so thats a no bueno on my list...ONLY CLUBS should charge for cover...eventho i prefer free as well..=p",
+    "post_date":"7/16/2010",
+    "user_name":"SINdeeCAL C.",
+    "user_rating":4,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":41
+  },
+  {
+    "excerpt":"Stopped by here spontaneously one Saturday night not long ago.\n\nThe drinks were good. No complaints there.\n\nIt must have been throwback night because the music was ALL from 2002. Not a bad thing, but it was unexpected and I was pleasantly surprised.\n\nBut then in came the crowds not long after we arrived. The dance floor soon filled with girls in Bebe shorts and men dancing like frogs in blenders on the outskirts of the dancefloor, trying to muster the courage to go feel up on some wimmenz. Amusing!\n\nBasically, it's your typical Downtown San Jose crowd. Nothing special. I expect there are some random fights on occasion come 'round midnight. Too much ghetto testosterone!\n\nNot necessarily my scene and I totally knew that going in, so I likely won't come back unless it's not planned/not my choice.\n\nTwo stars for the drinks and the music.",
+    "post_date":"7/15/2010",
+    "user_name":"Kelly D.",
+    "user_rating":2,
+    "rating_useful":1,
+    "rating_funny":3,
+    "rating_cool":"1",
+    "user_status":155
+  },
+  {
+    "excerpt":"I've come here twice now in the last two weeks. The first was on a Friday with several friends. We had started bar hopping early at 7pm and ended up here by 9pm. It was pretty chill and relax, though at 10pm it started filling up and by 11pm it was packed. We stayed until midnight.\n\nEven with it packed the waitress we had kept coming by regularly and the people who were here were all very chill and out to have a fun time. Every time I went out on the patio to smoke a cigarette I was pulled into a random, but entertaining, conversation with a different group of people.\n\nThe second time I came here was during the day on a late lunch break around 2pm. The place was empty except for the bar tender and me, though a couple people came in a little while later. The bar tender, I forget his name, was friendly and we chatted for a bit while I ate and drank.\n\nI'll definitely be back again.\n\nBoth times I had jack and cokes, though they have a full bar. The food is what I consider typical bar food ala sliders, cheese steak sandwiches, etc. though tasted great to me as that was what I was in the mood for both times I went.",
+    "post_date":"7/8/2010",
+    "user_name":"Michael H.",
+    "user_rating":4,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"1",
+    "user_status":231
+  },
+  {
+    "excerpt":"too crowded, dirty and hard to get drinks.",
+    "post_date":"7/1/2010",
+    "user_name":"Chris T.",
+    "user_rating":2,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":307
+  },
+  {
+    "excerpt":"Good place to hangout with friends. Like the decor and the service is okay. This was my first time at this place, so i am giving it 3 stars only.",
+    "post_date":"6/28/2010",
+    "user_name":"Joyce M.",
+    "user_rating":3,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":138
+  },
+  {
+    "excerpt":"If I could give this place a **3.5** I would. Been here a few different Saturday nights & had fun. It's a good place to go if you're more into the bar type of mood instead of a club. The outside smoking area is kinda tight, but the inside is spacious. Lots of seating! There's also a pretty good amount of space to dance & the music is good. Drinks are decently made, nothing special, BUT I was disappointed that they didn't have all the ingredients to make a liquid cocaine shot. So unfortunate. The crowd was really fun, full of cool people to talk too.",
+    "post_date":"6/25/2010",
+    "user_name":"Ashley Marie L.",
+    "user_rating":3,
+    "rating_useful":1,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":37
+  },
+  {
+    "excerpt":"This used to be one of my favorite bars in downtown San Jose back in the early 2000s like many other. And then  tres gringos took over for a short while, and now its just a place to get 2.50 bud lights from 4-7.  3 stars for finally learning how to wash towels they use to clean the bar instead of letting them get that nasty dirty old wet towel smell and stank!",
+    "post_date":"6/2/2010",
+    "user_name":"Daniel R.",
+    "user_rating":3,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":26
+  },
+  {
+    "excerpt":"Came here for dancing with friends. It was easy to get in, and we got three special seats at the bar. :D\nOur bartender, Leon, was super awesome! Probably bc one of my friends was super flirty with him. The drinks he made us were delicious and yummy. He also gave us a quick lesson on bar staff hierarchy. So I learned A LOT that night.\nAlso, another bartender I thought was HOT supplied me with thirst-quenching water throughout the night. He was awesome.\nThe music was good, dance floor got really crowded at the end of the night. The bouncers were super nice to us, checking to make sure I was ok.\nI could have done without the boys on the dance floor stepping on my toes. I'm fragile. please. if you wanna dance with me don't step on my damned feet!\nOnly negative thing is parking is hard to find. It's too cold for me to walk so far to the car in my dressy top. :P",
+    "post_date":"5/17/2010",
+    "user_name":"Tiffany L.",
+    "user_rating":4,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"1",
+    "user_status":27
+  },
+  {
+    "excerpt":"Pros:\nGreat bar for sharks fans\nnice bartenders\ngood food and drinks\n\nCons:\nhappy hour is limited\n\nI went the other day to watch the Sharks play and that place was poppin'. Everytime the sharks are playing the bar serves 50 cent wings and $2 PBR pints and $6 dollar PBR pitchers. There are TVs everywhere around the bar, except the bathrooms, and you always know how the game is going by the sound of the bar.  This is a great place to go get a cheap buzz and enjoy the sharks in SJ.",
+    "post_date":"5/9/2010",
+    "user_name":"Thomas T.",
+    "user_rating":4,
+    "rating_useful":2,
+    "rating_funny":2,
+    "rating_cool":"2",
+    "user_status":5
+  },
+  {
+    "excerpt":"i came out here once and ordered the mini burgers w/ a sides of tater tots... soo good! i love tater tots!",
+    "post_date":"5/7/2010",
+    "user_name":"stephen n.",
+    "user_rating":4,
+    "rating_useful":1,
+    "rating_funny":0,
+    "rating_cool":"1",
+    "user_status":57
+  },
+  {
+    "excerpt":"I'm surprised, actually, that this place only gets 3 stars overall. I think that this place is as good as it gets. This is my go to place during football and hockey season. Good crowd. Hot women. Sports on every single tv. It's got a good mix of stylish sports bar ambiance and party atmosphere.",
+    "post_date":"5/1/2010",
+    "user_name":"M-C R.",
+    "user_rating":5,
+    "rating_useful":1,
+    "rating_funny":1,
+    "rating_cool":"1",
+    "user_status":108
+  },
+  {
+    "excerpt":"50cents 8 ounce tap.\n50cents chicken wings.\nOld school music.\nSharks winning on 12 screens.\n\nThis is a Wednesday night at SJBG.\n\nJust make sure you get them to notice you when you walk in for the best table service.  Minus 1 star for lack of employees. Com'on! Ya'll know there's always people there, why don't you guys hire more people?!",
+    "post_date":"4/29/2010",
+    "user_name":"Yen T.",
+    "user_rating":4,
+    "rating_useful":1,
+    "rating_funny":1,
+    "rating_cool":"2",
+    "user_status":208
+  },
+  {
+    "excerpt":"Totally a fan of this place. Love that they have tater tots. The bartender Sam is aewsome. She is on it.",
+    "post_date":"4/28/2010",
+    "user_name":"Ashley L.",
+    "user_rating":4,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":5
+  },
+  {
+    "excerpt":"The only thing that sets this place apart from other DTSJ bars is their tater tots. I'm serious. Tater tots covered in queso and bacon bits! BEST TOTS E-V-E-R! I don't know what it is, or how they make 'em coz I can never get my tots at home to taste the same, but they are NOM NOM NOM gooood! The Nor-Cal sliders are also a popular pick and really good. Only thing is they only give you two sliders, but that's okay, more room for drinks :)\n\nBesides their delicious bar food, it's a great place to grab some drinks.\nThe staff is nice & friendly and you get your drinks/food in a reasonable amount of time. I would say SJBG is a good place to go for happy hour, to watch a sports game, Tues nites for karaoke, Wed nites for beer pong, DJs on Thurs-Sat nites... or any random night you feel like drinking! They're open pretty much every day of the week.",
+    "post_date":"4/26/2010",
+    "user_name":"natalie l.",
+    "user_rating":4,
+    "rating_useful":3,
+    "rating_funny":1,
+    "rating_cool":"2",
+    "user_status":187
+  },
+  {
+    "excerpt":"I like this place a lot. They have different happy hour specials everyday which I like. Sometimes the same few appetizers get boring but here every day the food on the happy hour menu is different. I also like the VJ concept. Their are TV's all over playing music videos that have special effects from the VJ which is really cool in my opinion. It adds a visual component to the music . Sometimes on a crowded night you will have to wait a while to get a drink but I guess that's to be expected anywhere on a crowded night. Not much a fan of a cover, but if you get there early or go during the week there is no cover. I also like the little outdoor patio during the week because the don't wheel out the fake walls the put up during the weekend to keep people out.",
+    "post_date":"4/23/2010",
+    "user_name":"Tony S.",
+    "user_rating":4,
+    "rating_useful":1,
+    "rating_funny":1,
+    "rating_cool":"1",
+    "user_status":55
+  },
+  {
+    "excerpt":"I watched the Sharks game here last night and had a blast. There are no shortage of screens to view the game and even a beer pong table for all the party people. The beer was cold and I was pumped by the quality of finger foods on their menu.\n\nThe philly sliders are BOMB and the mozarella cheesesticks were hot, crispy and delicious. There were at least four other standard app options that I WILL be trying in the near future.",
+    "post_date":"4/17/2010",
+    "user_name":"Ted K.",
+    "user_rating":5,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":51
+  },
+  {
+    "excerpt":"Pretty good happy hour! Especially when there is a Shark's game, they still have happy hour, unlike most spots in San Jose on game day. We had the cajun tots, tri-tip panini, and good ol' Jameson. All awesome!  We even got to see the game on the million different tv's they have.",
+    "post_date":"3/26/2010",
+    "user_name":"Emily O.",
+    "user_rating":5,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":10
+  },
+  {
+    "excerpt":"This place is cheap all the time.  And even more so during happy hour.\n\nHonestly, I wouldn't waste my daily calorie count here unless it was during happy hour.",
+    "post_date":"2/26/2010",
+    "user_name":"Danielle K.",
+    "user_rating":2,
+    "rating_useful":1,
+    "rating_funny":1,
+    "rating_cool":"1",
+    "user_status":15
+  },
+  {
+    "excerpt":"What is it with bars and thinking it's okay to have patrons wait 20+ minutes to order a round of drinks. I came here last night and had to wait what seemed an eternity to get 2 beers and a drink, and then once I ordered my drink they couldn't find the alcohol I wanted.\n\nPros: Beautiful women, fairly cheap drinks, and decent crowd.\n\nCons: Wait for a drink, the occasional drunk idiot, and overall decor.",
+    "post_date":"2/26/2010",
+    "user_name":"Kunal K.",
+    "user_rating":2,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":95
+  },
+  {
+    "excerpt":"whats the deal with tres gringos next door not letting anyone in if their ID has a blue strip on it? the other night, they wouldn't let my roommate in but hes been 21 for a while.. smh\n\nwe all leave and are walking past and i was so drunk that i thought the entrance to San Jose Bar and grill was a side door, even though i've been to tres plennnty of times... i drunkenly force my roommate to \"try the ID with the other bouncer instead\"\nafter we get in, i start cheering and cursing tres for that blue-strip bullshit.. and quickly remember that tres only has ONE door..\ntalk about fail. even though we came here on accident, it was alright. PBRS are cheap, the lounge is solid and they have an outside smoking section like tres. the crowd wasnt my style but the menu seems craccckeeen",
+    "post_date":"2/11/2010",
+    "user_name":"Braden K.",
+    "user_rating":3,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":292
+  },
+  {
+    "excerpt":"It was fairly unremarkable for the most part, but the service was really friendly and pretty quick. The hostess was able to come up with an accomodation for my food allergy relatively easily so I was happy. They had an ok selection of beers, but nothing terribly special.\n\nI am glad to see REAL businesses popping up downtown in SJC though, its about time.",
+    "post_date":"1/21/2010",
+    "user_name":"Tom S.",
+    "user_rating":4,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"1",
+    "user_status":321
+  },
+  {
+    "excerpt":"Ahhh The SJ B&G what my friends and i fondly refer to as: the meat market!!!  Come see all the ghetto guys and girls try and find drunken love on a dance floor that believes bass is the only important part about music.\n\nThis place is probably my least favorite in all of the SJ downtown.  The music is all bass and WAY too loud.  The \"chill\" patio is small and filled to the brim with smokers.\n\nAnd worst of all... they charge a cover to get into this mess!",
+    "post_date":"1/2/2010",
+    "user_name":"Pawan R.",
+    "user_rating":1,
+    "rating_useful":2,
+    "rating_funny":3,
+    "rating_cool":"2",
+    "user_status":29
+  },
+  {
+    "excerpt":"I didn't hear very good things about this place but decided to go anyway for a friend's birthday.  Definitely a nice place to come and chill and dance.  It's not the fanciest place, more like a sports bar turned nightclub.  Interesting that the bar is an island and I like that they have music videos.  There is seating everywhere including the bar. The back table area transforms into a small dance floor.  Drinks were great.  My friend's friend Sam was one of the bartenders. Hot, attentive, and creative!  She made us each a drink based on what she felt fit out personalities.  I guess they did match. haha.  The drinks were all great too.=)  Music and vibe was nice.  I looked up and was surprised to see a pretty ceiling.",
+    "post_date":"1/2/2010",
+    "user_name":"Cindy D.",
+    "user_rating":4,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":77
+  },
+  {
+    "excerpt":"i go here on tuesday nights, because... well, i super lurv karaoke, and this is the chosen karaoke spot for my friends on tuesday nights.\n\nlet's start with the food.  so far i've only had the late night food, and only the wings, pulled pork sliders, black and bleu sliders, cajun fries, and chicken tenders.  wow, that's actually more than i'd thought.  anyway, the black and bleu sliders were actually pretty freaking delish, but there's not a whole lot you can screw up with that.  the cajun fries are pretty tasty too.  my friend absolutely loves the wings, even though i think the sauce is too asiany, and would prefer a straight up buffalo sauce, instead of this half hoisin bit they've got going on.  the rest of the fare is just ok.  a lifesaver when drunk, but not something i would order if the other businesses in the area are still open.\n\nas for the karaoke, it's probably the worst out of all i've been to.  (so why do i go, right?  sigh).  the kj and bartenders sing more than bar patrons, which i find to be very odd.  the songbook is really limited, and the kj's kinda douchey.\n\nthe beer selection is not bad.  they have a lot of beers on tap.  their drinks can be very pricey though, but the bartenders pour with a heavy hand, so everything weighs out alright.  although, once i'd asked for a vodka collins and the dude poured a shot and a half of vodka, a generous pour of sweetened lime juice, and soda water.  EWW, you call this a drink!?  3 ingredients dude!  vodka, sweet and sour, and sprite!  so... maybe stick to easy drinks for them... like a vodka cran or jack and coke or something... you know... something you can make yourself at home.\n\nto be fair, rob, the general manager, is a super cool dude.  security's pretty cool too.",
+    "post_date":"12/29/2009",
+    "user_name":"jennifer l.",
+    "user_rating":3,
+    "rating_useful":2,
+    "rating_funny":2,
+    "rating_cool":"2",
+    "user_status":103
+  },
+  {
+    "excerpt":"We went to San Jose Bar & Grill before the Metallica concert on Saturday night.  I've never eaten here before - but this is where we were meeting, so figured to give it a try.  They were pretty short staffed for a Saturday night in downtown SJ.  2 bartenders working the bar and the tables.  I flagged down the bartender and got him to get us some booze.  I walked over to the front desk and grabbed three menus and brought them back.  When the bartender returned with our drinks, I quickly ordered - figuring I wouldn't see the dude again for a while.  All three of us made it easy on him - three BBQ Bacon Cheeseburger with fries.\n\nThe food actually returned quickly - the burger was pretty pathetic.  Obviously once a frozen disc.  The bacon was thin and measly.  Finally, the fries were skinny little bitches.\n\nOn the plus side, they have like 20-30 beers on tap.  But the food sucks.  They should change the name to San Jose Bar, and eliminate the Grill... stick to drinking and late nights here.",
+    "post_date":"12/13/2009",
+    "user_name":"Joel V.",
+    "user_rating":2,
+    "rating_useful":0,
+    "rating_funny":1,
+    "rating_cool":"1",
+    "user_status":657
+  },
+  {
+    "excerpt":"I love their chicken! Def one of the best!! yum yum yum. They also have happy hour! This place is a pretty cool place to just come and chill. The service isnt too bad either. I def come back for the chicken wings. My friends didnt believe me that the wings are better than clucks... but now they cant help but come back for more =]",
+    "post_date":"12/1/2009",
+    "user_name":"Mimi C",
+    "user_rating":4,
+    "rating_useful":1,
+    "rating_funny":0,
+    "rating_cool":"1",
+    "user_status":84
+  },
+  {
+    "excerpt":"Went there twice(Monday evening and Sunday during the day) last weekand really enjoyed myself both times.  The good was good and the beer was cheap.  The breakfast burritos were really good and who doesn't love tots!!  The bartenders were really friendly and everyone seemed to be having a great time.",
+    "post_date":"11/23/2009",
+    "user_name":"Erin M.",
+    "user_rating":4,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":33
+  },
+  {
+    "excerpt":"Ordered sampler which was good, but it didn't come with ranch or BBQ sauce. Had to ask for it. There was only one server, so service was a little slow. For lunch I ordered the chicken parmesan, which was ok. It was the same chicken and marinera from sampler, so it wasn't something new.  Overall it was ok. I'm sure it's better at night for drinks.",
+    "post_date":"11/15/2009",
+    "user_name":"Jordan M.",
+    "user_rating":3,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":6
+  },
+  {
+    "excerpt":"I originally gave SJ Bar and Grill two stars, but I'mma upgrade now just because I tend to have fun every time I come here.\n\nIt's cheaper to drink here then next door at Tres, and throughout the week they usually have drink specials for the whole night. This can consist of $3 shots to 50 cent Pabst's lol. The happy hour is good too, especially the cheap food.\n\nThe crowd though..not so glamorous! kinda creepy if you wanna say. I seen my fair share of weirdos here but it's downtown so what do you expect. But the crowd pretty much includes people who didn't want to pay cover at Tres or people who couldn't get into Tres! lol\n\nSo why 4 stars?! Like I said, I usually have fun here. There is usually no cover unless you go super late on a Friday/Saturday night. No dress code here, and they have plenty of places to sit and chill if you don't feel like dancing. Usually a group of 4-5 bartenders working, so you don't have to wait too long for drinks.\n\nI don't come here on the weekends, but if I happen to be out during the week and just wanna chill with some friends, Bar and Grill is always one of our first choices!",
+    "post_date":"10/26/2009",
+    "user_name":"Donovan T.",
+    "user_rating":4,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":412
+  },
+  {
+    "excerpt":"My biggest complaint about this place, and this goes to lots of other bars and clubs, is the bathrooms. I know it sounds lame, but seriously, if I'm going to drink, it's going to have to come out sooner or later, and when I walk in to a gas-station-sized bathroom, with an attendant?-not sure what that was all about, I get turned off right away. Maybe I'm just dreaming, but wouldn't it be great to go to an awesome club/bar where the people who designed it didn't just say, 'Meh, throw in a couple of urinals and a stall, that's good enough.' If money is spent on leather couches, rockin stereo/pa system, good food, lights, the whole nine, then about $100 was spent on the bathroom?-why, not sure but this seems to be the case too often than not.",
+    "post_date":"10/20/2009",
+    "user_name":"Thomas Z.",
+    "user_rating":3,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":22
+  },
+  {
+    "excerpt":"I love coming to this bar every time there are Sharks Games and Karaoke (Tuesday @ 10pm). During Sharks Season you get 55 Cent Jumbo Buffalo Wings which are to die for, $4 Pitcher PBR's and $1 PBR Pints. You can't beat their sliders. 4 in the net, a Slider you will get.\n\nSecurity is pretty cool. Beer PONG Tourneys....Dance floor, restroom is always cool, sometimes the guys get a guy to helps them out in the restroom, even free candy.... I love the Video DJ....so awesome...\n\nKaraoke is always a blast, reminding me of Coyote Ugly, the bartenders sometimes jump up on the bar and sing.\n\nDrinks are a little expensive but when it comes to knowing the bartenders, they will give you a pretty good discount sometimes...",
+    "post_date":"10/16/2009",
+    "user_name":"Helen G.",
+    "user_rating":5,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":42
+  },
+  {
+    "excerpt":"I've been to San Jose Bar and Grill on weekend nights only so from there I have my review. It's not deadly... or dangerous... so that 's just silly. If you're out looking for trouble though I'm sure it's a different story.\n\nIt sucks that this place has such a bad rap cuz it's actually just right for the purpose.. there's a bar CHECK!... there's a dance floor with a decent DJ CHECK... There's a restroom with more than 2 stalls CHECK! The security is fair... there is a cover after 10 or 1030... something like that.. but I've never had a bad time or a horrible experience. And the drink can be strong, but I've never had a weak drink here. So with that it's been a good time.\n\nChances are they're not going for much beyond that either so some patrons need to take it for what it is. I've never had the food, and I probably wouldn't.. but that's just me. Even if I did though... again I wouldn't be saddened if it was not the best I ever had.",
+    "post_date":"10/12/2009",
+    "user_name":"Katrina L.",
+    "user_rating":3,
+    "rating_useful":1,
+    "rating_funny":1,
+    "rating_cool":"1",
+    "user_status":16
+  },
+  {
+    "excerpt":"this is a great place to just come and chill, drink, and eat  with your friends. My friends love the wings here and I think they are pretty good as well, a bit sweet though. The tater tots are delish!! Really crispy. The bartenders and servers are also extremely accommodating. Try it out!",
+    "post_date":"10/1/2009",
+    "user_name":"Christina H.",
+    "user_rating":3,
+    "rating_useful":1,
+    "rating_funny":0,
+    "rating_cool":"2",
+    "user_status":75
+  },
+  {
+    "excerpt":"Not sure why the ratings are so low on this place. I've been here a few times and I must say, the music that they play here is always on point. It's really chill and is a fun atmosphere. The bartenders aren't shady on the amount of alcohol they give you. I haven't eaten here so I can't say anything about the food. But overall, this is my kind of bar to be at!",
+    "post_date":"9/22/2009",
+    "user_name":"Kathy T.",
+    "user_rating":4,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":54
+  },
+  {
+    "excerpt":"Tuesday Karaoke Nights!  For the past two Tuesday nights, I've been spending my time at San Jose Bar & Grill singing up with my friends. I've never been to a karaoke bar before, but from what I can imagine, this environment close to it...minus the tinsel curtains propped on a stage.\n\nEven if you don't plan on singing on the mic, you'll find yourself singing along on some crowd favorites. The $3 kamikazee special on Tuesdays goes well with the karaoke crowd.  \n\nSJBJ has been one my favs in the downtown San Jose area due to its open space around its rectangular bar. I tend to like bars where you can walk around compared to those up against a wall because (1) there's more bartenders, (2) you don't have breathing down your neck trying to get the bartenders attention, (3) more room to mingle!\n\nThe bartenders there are cool! Our group of friends tend to look for the bartender coined \"Dolphin\" for his Orange Julius shooter! (One of my favorite shooters!) Him and another bartender Jake/Jay gets the crowd into it on the karaoke nights serving and singing at the same time. Much props!\n\nSJBJ is one of the few places to have their kitchen open late, so check out them tator tots and fries!\n\nDefinitely a spot I would go to and recommend!",
+    "post_date":"8/20/2009",
+    "user_name":"Paul D.",
+    "user_rating":4,
+    "rating_useful":4,
+    "rating_funny":3,
+    "rating_cool":"5",
+    "user_status":108
+  },
+  {
+    "excerpt":"I'm surprised this place got such low ratings. I've been here twice on 2 different occasions. One night I came here on a Thursday night because all of the other places in downtown SJ had a line or had cover. Another night I came out on a Monady night just because we wanted some junk food and drinks. Both times this place did me well.\n\nThursday night was more of a club feel with the dance floor and club music. It wasn't too crowded since the more popular clubs in SJ had 70% of SJ waiting in their lines. They had drink specials and best of all...there is no cover or dress code. It's a real chill place.\n\nMonday night is more of a bar environment. They also had a DJ that played some pretty damn good music (Lucy Pearl, Lupe Fiasco, etc.). If you come after 10 PM, they have 50 cent chicken wings (which were the best wings I have ever had...then again I don't normally order chicken wings anywhere else), $4 smirnoff drinks, and 50 cent PBRs. They also had beer pong where the dance floor would usually be. Very chill environment. The bartenders were friendly. Again, no cover!\n\nThis place is one you come to just chiiiill til the next episode. If you have expectations, you might be disappointed. Look at the name! Look at the decor! It's not trying to impress you! It's trying to invite you in and have you kick back. No cover, bomb chicken wings, good music, & chill atmosphere gets 4 stars from me!",
+    "post_date":"8/4/2009",
+    "user_name":"David P.",
+    "user_rating":4,
+    "rating_useful":1,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":119
+  },
+  {
+    "excerpt":"HOSPITAL FOOD! I swear this food was gross! We came in for lunch on a Saturday afternoon. I paid over nine bucks for my cheesesteak, and it was tiny--all of the meat, peppers and onions looked as if it was put through a food processor to make a paste that was slapped on a bun! It's a good thing my friend and I had a buy-one-get-one-free coupon, which made my sandwich come out to around $4.50, because I would never pay more than five bucks for that sandwich, even if I were drunk and starving!!!",
+    "post_date":"7/31/2009",
+    "user_name":"Ashley B.",
+    "user_rating":1,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":44
+  },
+  {
+    "excerpt":"The DJ on a Tuesday was hella nice. My friend was trying to get me to sing a song to him on his birthday and I just didn't want to. The DJ got me out of it! HAHA!! The music is great, and the people there are friendly as far as staff goes. Sometimes the people drinking get kind of pushy but that's at any bar after you have a couple of drinks... you start to get impatient.. and I agree with everyone that it is kind of weird to have security for the men's bathroom but not the women's WTF!\nI have a blast every time I go to San Jose Bar & Grill, if you don't... then you're going there with the wrong people!",
+    "post_date":"7/27/2009",
+    "user_name":"Connie d.",
+    "user_rating":5,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"1",
+    "user_status":19
+  },
+  {
+    "excerpt":"So I guess if I came here when there was a cover I woulda given this place 1 star. hahaha.\n\nCame on a Wednesday night around 10. A few people but not cracking. It was good though cause atleast we had a table! They have like Wingy Tango Wednesdays or something but the only actually good priced thing is the 1800 and maybe the Kamikazes for $3. Haha. Other than that .. oh maybe PBRs but I don't really like em. But don't even bother with the lil mini cups for $.50 just get a damn cup for $2. Other than that everything else we were drinking was regular priced. The AMF tasted hella strong, (good or bad thing depending on you).\n\nService was kinda slow so I just started ordering from the bar when no one was coming around our table. It's cool that there's that patio to smoke so you don't have to walk in and out over and over again.\n\nWings were gross. Not even hot, hella sweet. Oh and the bathroom was kinda gross. & there was an attendant for the guys and not the girls. WTH?",
+    "post_date":"7/12/2009",
+    "user_name":"Christine A.",
+    "user_rating":2,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":128
+  },
+  {
+    "excerpt":"my ex boyfriend has this saying \"its soo much better when your drunk\" now he was actually making reference the fireball at the boardwalk but it cerntainlly applies here to. If you go, pre game it so your already drunk when you walk in. The people were ok. The music was kinda coo. just ur regular hip hop top 40s with a little (i mean like 3 songs) of house. Of course they wait till 1:30 to do their Michael Jackson Tribute. They should have done it 12:45 when people are of their optimal drunkness. I would go again but it would have to be with a group of people who are already sloshed.\n\nps hurrican and corona= $15\nCover was $9 even for people who have enlarged mamory glands... i guess they were expecting people to tip them that one extra dollar...",
+    "post_date":"7/4/2009",
+    "user_name":"Ashley H.",
+    "user_rating":3,
+    "rating_useful":1,
+    "rating_funny":3,
+    "rating_cool":"1",
+    "user_status":441
+  },
+  {
+    "excerpt":"Been here about 3 times..\n\nThey have beer pong on monday nights, happy hour, good music, nice music and affordable drinks and cheap food. Just don't order the sloppy joes- the meat was a bit game-y.\n\nThe weird thing is they have a bathroom attendant for the guys bathroom and not the girls. Service is a bit slow cause they're pretty short staffed for the amount of customers. Crowd is san jose state coeds or just got off from work. Great place for watching games at though cause there's a lot of tvs!",
+    "post_date":"6/12/2009",
+    "user_name":"Victoria Y.",
+    "user_rating":3,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":636
+  },
+  {
+    "excerpt":"So, this place is climbing the charts. If I didn't have such a bad experience the first time, I probably would have given this place 4 stars this time around.\n\nI am guessing that the quality of your experience improves if\n\n1) You do NOT go on a weekend (Try Thursday)\n\n2) You are a regular who knows at least one bartender\n\nI'm not a regular but a friend is and that made all the difference in getting excellent service, good drinks, and having a good time.\n\nThursday must be non-ghetto night while still having a decent crowd who was up for having a little fun including some chicas getting jiggy with it on the dance floor.",
+    "post_date":" 6/9/2009 ",
+    "user_name":"Mike T",
+    "user_rating":3,
+    "rating_useful":1,
+    "rating_funny":1,
+    "rating_cool":"1",
+    "user_status":263
+  },
+  {
+    "excerpt":"Imagine being stuck in heavy traffic on the freeway.  You've all had those sadistic thoughts - \"there better be a huge accident to justify all of this\".  As  you slow down to check out the damage, a huge truck pulls up to the side of you, obstructs your view, and you end up missing the entire thing.  This is exactly what happens when you go to San Jose Bar and Grill.\n\nIn the midst of last year's and current Lakers NBA Championship run, there has been one thing that's been constant:\n\n\"CHECK THE AIRFLOW.\"\n\nOne year later and they still haven't fixed the projectors at this place.  I don't know why no one has complained about this obtrusive rectangular message since it seems to cover up 80% of the screen real estate in the most crucial moments of time.  \n\nRegardless, there really isn't much to say about this place.  \n\nFood - I tried a couple of the sliders and they were incredibly greasy.  Their \"house mayonnaise\" is also very questionable.  \nService - The service is absolutely horrendous.  The waitress that we had demanded that we give her 20% tip since we only left 10%.  I know times are tough, but they're tough for everyone!",
+    "post_date":"5/24/2009",
+    "user_name":"Howard T.",
+    "user_rating":1,
+    "rating_useful":3,
+    "rating_funny":1,
+    "rating_cool":"1",
+    "user_status":54
+  },
+  {
+    "excerpt":"MY WIIIINGS!!! My precious wiiiiiings!!\n\nI've only gone back a couple of times eversince they did the unthinkable... THEY GOT RID OF THEIR $0.25 WINGS!!! =O Well, the wings are still there, but the price has flown away. I used to come here a lot for their $0.25 wing happy hour. I didn't mind paying for drinks with food being so cheap. But not only did the price fly away, so did the same wings I fell in love with. They used to be good sized wings that were crispy and a little sweet and savory at the same time. Now the more expensive wings have shrunk, aren't crispy and just don't taste the same.\n\nApart from the food, this place has a nice lounge in the front. Kind of rare for a bar. It's the area where you can escape from the noise inside a bit. The place can get kinda loud with all the people, TV's and DJ playing.\n\nThis place has seen better days in my opinion. Bring back the GOOD wings and maybe I'll come back in.",
+    "post_date":"5/14/2009",
+    "user_name":"Daisy T.",
+    "user_rating":2,
+    "rating_useful":3,
+    "rating_funny":3,
+    "rating_cool":"3",
+    "user_status":410
+  },
+  {
+    "excerpt":"the place is ok, we came here cuz the places next door charged too much for cover. this one - girls free, guys $3.00.\n\nbig open area with a bar right in the middle. theres a lounge area in the FRONT of the place, which i thought was kinda weird since most lounge areas are towards the back.  the music was OK, there were times when it was just horrible.  small dance area in the back with a little step stage area for those crazy drunk girls willing to shake it in front of everyone.\n\ndrinks were good, bathrooms were surprisingly clean. the typical bar hopping crowd. overall not a bad place.",
+    "post_date":"5/11/2009",
+    "user_name":"Sara C.",
+    "user_rating":3,
+    "rating_useful":1,
+    "rating_funny":1,
+    "rating_cool":"1",
+    "user_status":703
+  },
+  {
+    "excerpt":"I don't know where this place actually is. I think I've only been led here (a couple-few times) when I was absolutely faded...\n\nNo, I've been here before I started drinking, too. sheesh...\n\nPerhaps what I'm trying to say is that my experience here has been unmemorable.\n\nWait... I'm beginning to remember... three out of five times, my girl-friend and I were the hottest chicks in there.\n...Oh, drinks were typical Downtown price.\n\nDJ suckes until about 11pm. Even then, nothing to call all your hot girl-friends about and have them rush out to meet you.",
+    "post_date":"5/2/2009",
+    "user_name":"Candice T.",
+    "user_rating":2,
+    "rating_useful":3,
+    "rating_funny":1,
+    "rating_cool":"1",
+    "user_status":331
+  },
+  {
+    "excerpt":"This used to be one of my favorite bars in downtown San Jose back in the early 2000s. And then, like anything good in downtown San Jose, the \"ghetto flu\" took over and it's never been the same.\n\nThis place is located right in \"Crime Alley\" in downtown San Jose. For those who are not a geek like I am, \"Crime Alley\" is where Bruce Wayne's parents were murdered by Joe Chill. This tragic incident would be the driving force to make him Batman.\n\nWell, San Jose Bar & Grill, along with Tres Gringos, Voo Doo, and Toon's are some of the most urban joints in downtown San Jose. The crowds are ridiculously ghetto. They tried making the line longer and adding a cover (gasp!) of $5, but the wannabe thugs and hood rats still show up.\n\nI never come on the weekends anymore. It's too dangerous. You are better off grabbing a quick bite and few drinks for happy hour here.\n\nThe karaoke here on Tuesday nights is pretty bad. I came here the other night and the crowd is very R&B/Rap, which makes for pretty awful karaoke as R&B songs are extremely difficult to sing as they often have layered vocals (and the drunken singers have no idea which part of the song to sing, especially towards the end). Plus, people who do hardcore rap songs just look foolish.\n\nAnyway, most of the people do not care if you are singing. They barely clap for anyone. And the venue proves to not work for karaoke as there is no stage and the lyrics are behind you. Plus, the huge central bar makes it hard for people to see you. I was able to stir up a standing ovation, but then again, I am the King of Karaoke.\n\nWhat else would you expect? People not cheering? Oh, that only happens at the crappiest karaoke venues in Santa Clara county like Bronco's and 7 Bamboo.\n\nAnyway, if the world can make a cure for the \"swine flu,\" then I am fairly sure they can cure the \"ghetto flu\" that is afflicting San Jose Bar & Grill.",
+    "post_date":"4/30/2009",
+    "user_name":"Archie G",
+    "user_rating":2,
+    "rating_useful":14,
+    "rating_funny":18,
+    "rating_cool":"12",
+    "user_status":962
+  },
+  {
+    "excerpt":"went to sjbg last saturday for the first time. the boyfriend was going out with his coworkers, and i tagged along since i wanted to get my drink on.. haha. anyhow, upon first entering, i actually thought this place was pretty nice. couches when you first walk in, huge bar in the middle, dance floor at the back. the drinks weren't too badly priced, but they weren't very tasty... tokyo tea was way too sweet, and the bartender had a hard time comprehending \"vodka with pineapple juice\", and made it into a shot with a pineapple chaser.. oh well.\n\ncrowd here is older-ish.. not really my type of scene, but everyone was having fun. one thing i did like a lot was the music videos. it was cool since there was a dj, and the music videos mixed into each other as well as the music itself . pretty cool! not really sure how they did that. haha, i was fascinated.\n\nanyhow, okay place.. but i'm not gunna lie, i'll come back for the cheaper drinks before i go out if i happen to be near sjbg.",
+    "post_date":"4/13/2009",
+    "user_name":"Tiffany W.",
+    "user_rating":2,
+    "rating_useful":4,
+    "rating_funny":3,
+    "rating_cool":"5",
+    "user_status":856
+  },
+  {
+    "excerpt":"This place is cool, I guess. It's nothing too special just a regular bar with comfy sofas, out door seating w/ heating lamps and a small dance floor.\n\nThe bartenders were cool so were the drinks. They were strong but still tasty. I'm guess they were about $10-12 ish. 4 AMFs = $43? Something like that. The DJ was spinnin' some pretty cool beats.\n\nOverall experience was cool. Crowded but not crazy packed.\n\nI think the cover charge for guys was about $2-3 but free for the ladies. :)",
+    "post_date":"4/12/2009",
+    "user_name":"Patricia B.",
+    "user_rating":3,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":227
+  },
+  {
+    "excerpt":"s.j. bar and grill a spot to relax and enjoy life, lol.\n\nmy boy works security thier and i know a couple of bartenders thier so i got it good thier. if you ever thier and she a blonde big hooter bartender there sorry kimmie cant help it lol but yeah her name kimmie (kim-e), she is hella nice and funny she knows how to make aperson have fun she cool go to her make sure you guys and girls tip her good. the food i herd is good. and they got beer pong on tuesday's.",
+    "post_date":"3/30/2009",
+    "user_name":"JAYE m.",
+    "user_rating":4,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":25
+  },
+  {
+    "excerpt":"Came Here On A thursday! I Pretty much had an ok experience! Service was good! Drinks Were Ok And Music Was Good!! However the crowd could be a hit or miss!!!",
+    "post_date":"3/22/2009",
+    "user_name":"Rafael G.",
+    "user_rating":4,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":35
+  },
+  {
+    "excerpt":"stopped in with a few friend during happy hour. friends got a pitcher of beer for $12, I got a stella for $3.50 not to bad!\n\nplace was empty but what do you expect at 4pm on a monday. good service, they did offer us menus should we want to order anything and came by another time just to check on us. We where there an hour so it was nice that they stop and checked.\n\nmight go back, might not.",
+    "post_date":"3/18/2009",
+    "user_name":"Rachel C.",
+    "user_rating":3,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":143
+  },
+  {
+    "excerpt":"Best Place to go when its your B-day!: Hey My girlfriends took me to this bar for my birthday, newly single it was a great atmosphere. There were mostly women than men there that night. Funny part was that all the guys had there backs against the wall, so It made it awkward when you had to pass them to go to the restroom. You felt like you were walking the runway for them, not that great. Oh yeah the reason why its the best place to go, is because when I showed them my ID, the bartender said you get free drinks, I was like woo hoo lets stay here ladies! anything for free drinks!",
+    "post_date":" 3/13/2009 ",
+    "user_name":"Nancy L.",
+    "user_rating":4,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":155
+  },
+  {
+    "excerpt":"Nancy L.the 2st time i came her was a few years back it was ok.\n\nwent here the other day.. got there early order drinks. the bar tender was koo made our drink. but my gfs drink was way too strong i was watching him make it about 3/4th of it was rum yea i want a strong drink but i want to taste what i freaking ordered. he was better off giving us a bottle than her drink. but i must say he did try and fix it. it was a lil better... but sill not good. she was champ and killed it off. well think aout coming here again",
+    "post_date":"1/25/2009",
+    "user_name":"RUBEN R.",
+    "user_rating":2,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":76
+  },
+  {
+    "excerpt":"I've been here a couple times.  Right next door to Tres Gringos.  Never paid cover here.  No dress code.  They got the rectangular shaped bar in the middle.  Never ordered food from here.  It's usually $20 for a pitcher of beer here.  I think they got around 20-30 beers on tap over here, so that's a good thing.  A little more pricey than Cluck U's or The Brit charges for pitchers of beer in downtown.\n\nThey got some hot bartenders and servers over here though.  The dance floor is pretty small in the back.  I've never stayed here long enough to see that floor get filled up though.\n\nI think my friend's brother's band Philtered Soul used to perform here on Tuesday or Wednesday nights too.",
+    "post_date":"1/10/2009",
+    "user_name":"Cristobal T.",
+    "user_rating":3,
+    "rating_useful":1,
+    "rating_funny":1,
+    "rating_cool":"1",
+    "user_status":592
+  },
+  {
+    "excerpt":"I should say it's always a good time when you go out with the boys.\n\nWell it's always fun when occasions like these happen.\n\nSJBG is a place to be on a wednesday night (wings and potater tots?)\n\nLots of times I consume more than enough alcohol when I go here which makes it much more funnier. (I wish I can elaborate!)\n\nIt just sucks when you have to pay cover (Fri-Sat)\n\nOverall, its not too bad here. Not for the people who are looking to dance all night",
+    "post_date":"12/29/2008",
+    "user_name":"Herb R.",
+    "user_rating":3,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":89
+  },
+  {
+    "excerpt":"Need a drink on a Sunday night after 10pm?\n\nYeah. This place is open.  We had just seen a revival of Flower Drum song at AMTSJ and were in a good mood. Definitely not ready to end the night yet. We got to Gordon Biersch at about 9:30pm and had one drink each then left. We were walking around downtown looking for a place that was still open and were actually flagged down by the bar manager.\n\nI haven't been here in a while but from what i remember, the couches that they have are gross and dirty, the music is just alright, and it does tend to attract the ghetto crowd. My encounters with people here weren't always the greatest, and I even remember some guys trying to actually start a fight with me and girlfriends because they wanted a chair from our table when my friend got up to have a smoke. I think my best times here were when there weren't that many people and it was the friend's I had with me that night  which made my time enjoyable.\n\nI think they' were open until 2 that night, and there some rude and abnoxious people. There was a girl hatin in the bathroom... Not everyone is old enough to know the music from your era. And no... it is not chill to holla at the bartenders from across the bar for more drinks...\n\nBut getting past the small mindedness, in the end, we had a pretty good time. The manager and his bartender that night were friendly and talkative. They took us on a tour of great tasting but weak shots and came back often seeing of we were doing alright or if the guys we were talking to were bothering us. Jimmy the bartender, you are awesome. Since there weren't that many people, it was really just a good night to chat and have a drink with my friend marissa.\n\nThere are definitely other places i'd rather go, and i'd only go here if my friends really wanted to.",
+    "post_date":"11/23/2008",
+    "user_name":"Allison T.",
+    "user_rating":2,
+    "rating_useful":2,
+    "rating_funny":2,
+    "rating_cool":"3",
+    "user_status":15
+  },
+  {
+    "excerpt":"I LOVE FOOTBALL... this past Monday the 49ers were playing the Cardinals. So my friends and I decided to go to the bar and watch. We were so excited to hang out, relax, order drinks, and cheer on our boys.\n\nUNFORTUNATELY there are a lot of creepy guys there. In particular we had one creep stare at us non-stop. I asked nicely for him to stop and he wouldn't. Granted he was drunk but you'd think that an obese person could hold his liquor. I told him to stop 3 more times... very unsuccessful. It's not really the bars fault, just wish that the bouncers were keeping an eye on the ridiculously drunk creeps.\n\nWhat can I say, typical bar... great prices during happy hour. $3.50 sliders... can't beat that. Food/beer is good and cheap.\n\n+ DJ during half time\n+ Big screen game coverage\n+ Fantastic Happy Hour prices",
+    "post_date":"11/14/2008",
+    "user_name":"Alli J.",
+    "user_rating":3,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":127
+  },
+  {
+    "excerpt":"On Halloween night i visited San Jose Bar and Grill.  I had never been there before, I just moved to the area in August.  I called around 5:30 to ask if  they were charging a cover for that night, and was told that they  were not as long as people were in costume.  I showed up around 11pm and found that they were charging cover. I was not to happy but it was understandable since it was Halloween night.\n\nOnce I got into your bar my friends and I went to get a drink at the front of the bar, the bartender in a ghost busters coveralls, helped the people to the left of us, the people to the right of us, the people behind the people to the right of us, the people behind us, and all the while he would occasionally make eye contact with any one of me or my friends but quickly look away.\n\nFinally, extremely frustrated I walked down the bar and order from another bartender, my friends stayed there and eventually attracted the attention of the bartender across the bar.  Let me be clear in all the time we spend waiting for the bartender in the ghost buster coveralls never helped us! At the same moment I was able to get the bartender down the bar to serve me.\n\nI have to say the experience was one I will never go through ever again!  My roommate warned me that the bar wasn't great and I wish I had listened.  After waiting in line and paying cover, I wasn't interested in leaving since it was already late.  But that one bartender was so awful that I won't go back, in fact the whole experience was disappointing.  Unfortunately, voodoo lounge and tres gringos are tainted by association.",
+    "post_date":"11/3/2008",
+    "user_name":"Lisa K.",
+    "user_rating":1,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":6
+  },
+  {
+    "excerpt":"Keep in mind I came here early so I didn't get to enjoy the typical crowd. I had the bacon/cheddar sliders and they are good. I recommend the food here.\n\nThe service was adequate and she remembered to bill me separate from the rest of my group so I forgive her for the snotty attitude.",
+    "post_date":"10/22/2008",
+    "user_name":"Celeste B.",
+    "user_rating":3,
+    "rating_useful":1,
+    "rating_funny":1,
+    "rating_cool":"1",
+    "user_status":539
+  },
+  {
+    "excerpt":"I prefer Tres but this place is cool too. Same crowd as Tres and they're affiliated with the same owner. No cover, no dress code, about the same priced drinks, and music. They're a lot better on their happy hour menu. Been here a few times for a friend's birthday and lingered our way through the whole evening of just staying at one spot. The crowd of girls that stop by and do a lil' booty-shakin' are pretty cute, well...not that I'm looking or anything.\n\nHAPPY HOUR INFO:\n\nWhen: Mondays-Fridays, 4pm-7pm\n\nFood Menu: all $5\n\nMondays:\nTeriyaki Chicken sliders\nChicken tenders\nThe classic burger\n\nTuesdays:\nSJ Sliders\nMozzarella Sticks\nGrilled Chicken sandwich\n\nWednesdays:\nChicken BLT Sliders\nCalamari\nBBQ Bacon Burger\n\nThursdays:\nSJ Sliders\nSJBG Chicken Wings\nCrispy Chicken Sandwich\n\nFridays:\nPhilly Cheese steak sliders\nCalamari\nBacon Cheese Burger\n\nDrinks:\nDomestic Beer $3\nMicrobrew $4\n\nDomestic Bottles $3\nImported $4\n\nDomestic Pitchers $12\nMicrobrew Pitchers $16\n\n$1 off all premium drinks\n\n$3.50 well drinks\n$4.50 call drinks",
+    "post_date":"10/13/2008",
+    "user_name":"Fraulein C.",
+    "user_rating":3,
+    "rating_useful":10,
+    "rating_funny":6,
+    "rating_cool":"6",
+    "user_status":580
+  },
+  {
+    "excerpt":"The truth is that 75% of the people that are here, originally wanted to go to Tres Gringos or some other bar close by but the line was too long.  In other words if Bar and Grill was a person, he or she would be: the last kid chosen in dodge ball, a pity-fuck, the person one calls as an act of desperation after getting stood up on prom night.\n\nI was going to be a bitch and give the place 1 star for the small pathetic dance floor, limited music (it's almost as if the DJ was pretending to play his records/apple computer for show but rather, he is simply tuning in to Wild 94.9), and crowd (people who got kicked out of another bar because they were too sloppy, lazy people who don't want to wait in line (me), tres rejects, sleazy business men, my uncle, etc).\n\nHowever, I've decided to raise it to 2.5 stars because big girls needs love too and because ALLISON the bartender is my favorite.  I told her to make me her favorite mixed drink and she straight up said, \"honey, I only do shots.\"  Yes, Allison doesn't play.  Despite her confession she concocted a mixed drink for me that tasted good.  I asked her what it was and she told me she had no idea and just mixed a bunch of drinks.  It was something like a peach kamikaze with a raspberry bottom.   Yes, I like \"bitch drinks.\"  So yes, 5 stars for Allison and that other bartender who drank with my group the whole night and 2.5 for the venue as a whole.",
+    "post_date":"9/20/2008",
+    "user_name":"Jacquelynne S.",
+    "user_rating":2,
+    "rating_useful":5,
+    "rating_funny":8,
+    "rating_cool":"4",
+    "user_status":347
+  },
+  {
+    "excerpt":"somehow, everytime i make plans to do something better, i end up at the bar and grill.\n\noverall, it's okay, it's not great or anything. i still don't understand the $5 cover charge on fridays and saturdays, especially because it's most definitely NOT worth it. but i got in for free on my birthday so i guess that was pretty cool.\n\nthe dj is alright, although one time my friend requested a girly song on my behalf (on her birthday, mind you), and the dj said \"sorry, i don't play those songs\". umm, okay.\n\nthe bathroom is always pretty gross. now obviously, how clean can a bathroom be on a friday night? but paper towels strewn across the floor aside, the floor is always damn, which gets the dirt from people's shoes all over the floor and it's just nasty. this might sound like something really trivial to bring up, but if you're a girl,  you're probably going to spend a few minutes in the bathroom, so this is something to keep in mind.\n\noh and another thing. how is it that every time i come here, the dance floor is infested with gross, greasy guys who think they're so slick and try to dance up on you when you clearly don't want to have anything to do with them?\n\nit's not bad on weekdays though, to go in and watch a game. i like their tater tots.",
+    "post_date":"8/4/2008",
+    "user_name":"Joey T.",
+    "user_rating":3,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":313
+  },
+  {
+    "excerpt":"... my favorite time to come here is happy hour.\nthe food is yummy. still bar food, but at least it's tasty!\n\ni don't have the problems most people do here. while it may be a bit pricey, it's a sports bar in downtown san jose. prices downtown are all pretty close (unless you were comparing dive bars to clubs or \"ultra\" lounges).\n\ni've never had a problem with the security or the bartenders.\nfriday and saturday can get a little hairy at night. the wells only allow about 4 bartenders max and the more crowded it gets, the longer your drinks take. but hey, you're out on the weekend. enjoy yourself.",
+    "post_date":"8/3/2008",
+    "user_name":"brooke a",
+    "user_rating":4,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":22
+  },
+  {
+    "excerpt":"My fiance and I stopped by here for dinner before going to a show at The Improv across the street on Saturday night. He had a burger and I had NorCal Sliders..quite tasty, and the fries were very good. Sadly, the food was a hair overpriced, even for bar food (-1 star), and the service was VERY slow (-2 stars for walking past us multiple times while we were waiting to order, & not asking if we needed anything; the bartenders just milled around & chatted with each other more often than not). It was pretty quiet when we were there (around 7pm or so) so we didn't have any of the bouncer issues that other reviewers have..thank God for small favors.",
+    "post_date":"7/7/2008",
+    "user_name":"Jackie V.",
+    "user_rating":2,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":104
+  },
+  {
+    "excerpt":"** Friday Night Bar Review**\nThe last stop I had at this bar was a few years ago for a quick beer.  My impression of this place was \"whatever\".  Nothing to talk about.   But oh man... now they got me writing a nasty review of them on yelp.\nI encountered shady bouncers who interrogated me and my friend, questioning to see if we are in fact underage, if  our IDs we presented were actually real and ours.  After over 5 minutes minutes of holding up the line we decided to take a walk somewhere else.  Never in my 8 years of bar hopping experience received this type of treatment.  I'm guessing they get a lot of underage hoodlums that try to sneak their way into this ghetto place? Whatever the case may be...they suck.",
+    "post_date":"6/30/2008",
+    "user_name":"Noly S.",
+    "user_rating":1,
+    "rating_useful":1,
+    "rating_funny":1,
+    "rating_cool":"1",
+    "user_status":86
+  },
+  {
+    "excerpt":"I went out to this place twice. I don't think that I would go again...not my style of place...The crowd is very low class...The staff seems stressed out when they have too many orders and you have to wait for too long to get a drink. Also, people pick up fights in this place as well and I wouldn't even feel like dancing because of the people around me...The women are ugly, most of them overweight, and some are very old...like 45 or 50...I don't know what they are doing in a bar like that. The guys are too young...22 years old or so...There is no middle crowd...25 to 35...I will go there again only if I have to.",
+    "post_date":"6/29/2008",
+    "user_name":"Madalina C.",
+    "user_rating":3,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":197
+  },
+  {
+    "excerpt":"this place is weak sauce. I came here on 2 occasions. 1st time was for lunch and we didn't order drinks but the waitress demanded a major credit card from us before she lets us order. wtf? we just wanna sandwich and a burger. 2nd time i came here was during happy hr. drinks were semi-ok, sliders were surprisingly not bad if u like it drenched in oil.",
+    "post_date":"6/26/2008",
+    "user_name":"cj d.",
+    "user_rating":1,
+    "rating_useful":1,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":24
+  },
+  {
+    "excerpt":"I didnt know i had to pay to get in... but it was whatever...Just 5 dollars.. quick line... there was SJPD inside.. for what? i dont know...  the DJ play ok music... it was a little too crowded  no dance floor.... and the drinks were cool... not too small... or watered down",
+    "post_date":"6/1/2008",
+    "user_name":"auburn j.",
+    "user_rating":4,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":9
+  },
+  {
+    "excerpt":"Decent watering hole with large bar, many flat screen tv's and good beer selection. Minus one star for slow bartenders. I was pleasantly surprised to learn that they have DirecTV with most sports packages so you are sure to catch whatever live game you are looking for. Met some nice people people and surprisingly the crowd was friendly not that ghetto. Unfortunately it turned into a raucous dance party towards the end of the nite.\n\nI would recommend this place a jump off spot, not a all nite destination.",
+    "post_date":"4/27/2008",
+    "user_name":"John F.",
+    "user_rating":3,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":35
+  },
+  {
+    "excerpt":"Amazingly the food was great!  I extremely enjoyed the chicken sandwich.  The atmosphere is strange...I used to love this place but now had to ask if it was a gay bar.  To the bartender's dismay,  \"Why, what have you heard?\" he ensured us it was a normal bar.",
+    "post_date":"4/11/2008",
+    "user_name":"Noel M.",
+    "user_rating":3,
+    "rating_useful":0,
+    "rating_funny":2,
+    "rating_cool":"0",
+    "user_status":1406
+  },
+  {
+    "excerpt":"This bar is the only bar you probably wait the less amount of time to get a drink. the dance floor is pretty big if people have been to voodoo its about the same size. I went on a day where there was no asians. I love my asian crowd, I also love the other ones too just make when you dance dont slip on the floor cuz its always wet. The only reason why i gave it minus 2 stars is the bouncers are JACK OFFS i was standing a little off the dance floor and he pushes me back in hella hard making me spill my drink and then he kicked me out but the guy in the front let me back in due to my story. so that was cool",
+    "post_date":"3/26/2008",
+    "user_name":"thien h",
+    "user_rating":3,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"1",
+    "user_status":316
+  },
+  {
+    "excerpt":"Went here on a Friday night and the bartender that was serving us was so fun!!! He was awesome. Anyway, when I went it was super cool, mixed crowd! I loved it. However, there were some old men up in there (at least in their 50's) who try to act young, but thats ok! young at heart i guess! Bathrooms are nice too =)",
+    "post_date":"3/25/2008",
+    "user_name":"Marevie T.",
+    "user_rating":4,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":525
+  },
+  {
+    "excerpt":"The sliders are OK... decent.\n\nDoormen are dicks.\n\nJust a quick note to doormen in general, you guys have elitist roles, but you don't have to be dicks about it. Try watching ROADHOUSE... how embarrassing to say, but you can learn a thing or two from Swayze! Hahahahahaha!\n\nI got food poisoning here once, so would I go back? I prefer not to.",
+    "post_date":"3/25/2008",
+    "user_name":"Minty O.",
+    "user_rating":1,
+    "rating_useful":2,
+    "rating_funny":3,
+    "rating_cool":"2",
+    "user_status":230
+  },
+  {
+    "excerpt":"I was here last week and had a lot of fun!  But, I'll have fun anywhere that has Vodka and plays BEL BIV DEVOE!  Hell yeah!!\n\nThere was some ghetto there... but it was Friday night in Downtown San Jose.  Of course there was.  Some guy tried to pick a fight with my friend bc he was in his dance space.  Umm.. yeah there's about a 10'x10' dance floor and a buttload of people.  People are going to touch.\n\nAnywho... I really liked the DJ - he played all the new stuff but snuck in some old school classics (i.e. Bel Biv Devoe).  Did I mention I like Bel Biv Devoe?  Ok thats enough.",
+    "post_date":"3/20/2008",
+    "user_name":"Nancy C.",
+    "user_rating":4,
+    "rating_useful":3,
+    "rating_funny":5,
+    "rating_cool":"3",
+    "user_status":177
+  },
+  {
+    "excerpt":"I went there with my gf and a few friends.  It was a nice day and the doors were open and the people were flooding in.  It was during happy happy so there were tons of people.  Great food and beer for a decent price.  It's a nice place to go and people watch.  It is at a good location if you want to hit another bar or go dancing afterwards.",
+    "post_date":"3/6/2008",
+    "user_name":"Toan T.",
+    "user_rating":3,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":29
+  },
+  {
+    "excerpt":"Omigosh...this place brings out the ghetto-ness from within. I almost got into full on catfight with some girl because she was invading my dancing space. Our friends had to split us up, and it turned out that one of her friends was friends with one of mine. I think I'm a pretty nice and mellow person, so if that can happen to me...it can happen to you. I still think it was her fault because she was bigger than me and she thought she could shove her way around. We went because there was no cover and we could dance, but it was a big mistake. We haven't been back since. BTW, that was back in 2005 and I still can't believe it. Two stars because I never had issues with getting in, and the sliders were pretty tasty.",
+    "post_date":"3/5/2008",
+    "user_name":"Mary T.",
+    "user_rating":2,
+    "rating_useful":1,
+    "rating_funny":1,
+    "rating_cool":"1",
+    "user_status":637
+  },
+  {
+    "excerpt":"There was once a trashy girl from Wisconsin who used to bring me here when our shift was over at Santana Row.  I'd drink beer after beer and people watch while her and her friend straddled striped shirt wearing guys on the stools and proceeded to lean over so their g strings were on full display while their Coach bags soaked up alcohol on the bar.  \n\nShe may have moved back to cheeseland but I still think about those random times we came here when I'm walking to my friends' apartment nearby.  It really makes me appreciate my life right now.  At least the drinks were free.",
+    "post_date":"3/5/2008",
+    "user_name":"Veronica V.",
+    "user_rating":3,
+    "rating_useful":4,
+    "rating_funny":2,
+    "rating_cool":"3",
+    "user_status":494
+  },
+  {
+    "excerpt":"First off they checked my ID, so I guess they say I look under 35 flattery is nice but that was insulting. I understand that the SJPD overwork this place.\nNext up where to sit...kind of confusing and not inviting. Why would people sit at the bar it be nice to have a booth to slip into.\nBeer was nice but not cold, menu interesting with the Happy Hour but we didn't get the Happy Hour price. Maybe because the choices were less than appetizing.\nLastly, where was the check and why did the bartender get a sex change? A guy into a girl and girl into a guy. Trust me I am all for great food and good beer but they don't get a star because the price, less than atmosphere inviting, and while tasty burgers I think over charging for a Ceasar Salad is the deal breaker.",
+    "post_date":"2/26/2008",
+    "user_name":"Patricia A.",
+    "user_rating":4,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":531
+  },
+  {
+    "excerpt":"1 star for making people line up and wait outside in the rain when they weren't even busy!!\n\nOn Saturday night, my girls and I went out for drinks.  Well, we didn't really know where to go so a doorman from a bar we left recommended San Jose Bar and Grill for dancing and a fun but laid-back crowd.  Well, we walked there in the rain, and then when we got there, they had a line out front... but NO awning!  My girls waited at the back while I walked up front to peer into the club and, it wasn't even busy!!  Now, I understand making your club look busy by keeping people lined up on a nice night but in the damn rain?!  They were having their peeps wait outside IN THE RAIN for NO REASON!!  \n\nThat is so not cool.  I'll never go there again.  Instead, we walked across to Loft and had a night of drinking, dancing and fun DRY conversation.",
+    "post_date":"2/7/2008",
+    "user_name":"Susan D.",
+    "user_rating":1,
+    "rating_useful":3,
+    "rating_funny":3,
+    "rating_cool":"2",
+    "user_status":977
+  },
+  {
+    "excerpt":"SJ Bar and Grill can be summed up in 4 words:  piss poor customer service.  The staff is disgruntled and often more wasted than the customers.  Here's the transcript of one of my encounters:\n\nMe:  \"You didn't put any Grey Goose in my Cranberry.\"\nBartender 1:  \"Yes, I did.\"\nMe: \"No, you didn't.  I just watched you make it.\"\nBartender 1 continues to argue with me.\nBartender 2, who is completed sloshed btw, tries to get in the mix: \"I SWEAR I put Grey Goose in there.  You are wrong!\"\nMe:  \"Who are you?!  You didn't even make my drink!  Where did you come from and why are you talking to me?\"\n\"Manager\":  We are not going to remake your drink.\nMe:  I don't want it remade.  I want what I ordered.  I'm not going to pay $10.00 for an Oceanspray Cranberry, sans the vodka.\n\nBottom Line:  The bartender begrudingly adds vodka to my fruit juice, and tells me that he is \"only going to do it this time.\"\n\nThe dance floor is tiny, and no one starts dancing until about midnight or later - you know, once they get some liquid courage in them and start feelin' brave.  The clientele is a mix between wanna-be thugs, cholos, and some older folks, very reminicent of Toons! ; p\n\nThis place is under new management, as of a couple months ago, and it has gone downhill ever since.  I will NEVER patronize SJ Bar and Grill again.  For the $5.00 entrance fee, save yourself the headache and take your money to Smoke Tiki.\n\nWas this review …?",
+    "post_date":"1/17/2008",
+    "user_name":"Ceece S.",
+    "user_rating":1,
+    "rating_useful":6,
+    "rating_funny":5,
+    "rating_cool":"5",
+    "user_status":75
+  },
+  {
+    "excerpt":"Free beers, hanging with friends and Miller girls... good times.  No complaints",
+    "post_date":"1/16/2008",
+    "user_name":"iPunchfish -.",
+    "user_rating":4,
+    "rating_useful":1,
+    "rating_funny":0,
+    "rating_cool":"1",
+    "user_status":260
+  },
+  {
+    "excerpt":"Same story as Tres Gringos.\n\nGood for weekday happy hours and for watching the game. One good thing: San Jose Sliders. Get a couple drinks and a shot. Service is hit or miss.\n\nI went there on Saturday night this many times: 1.  Weird wannabe gangstas repping the bay on their matching shirts and hats. Todd B. is right. I don't know what it is about this place and heavy girls. Nothing against the big-boned sisters, but why do they all come to SJBG on Saturday? I felt ogled...and I'm not really sensitive to that or good-looking. Maybe there's some Samoan discount there that I don't know about. Also there was a little person who was getting all freaky on the dance floor but then got bounced for taking his pants off.",
+    "post_date":"1/14/2008",
+    "user_name":"Berg W.",
+    "user_rating":2,
+    "rating_useful":3,
+    "rating_funny":9,
+    "rating_cool":"2",
+    "user_status":297
+  },
+  {
+    "excerpt":"This review is not for a crazy San Jose State saturday night...it's for a random tuesday happy hour.  They have some really great bartenders, and then they have some really horrible ones.  There's a bald guy who makes great drinks and gives good service, and a few other cool guys and girls.  There are also a few lame ones.  I think the good ones outweigh the bad.  \n\nTheir greasy food sometimes really hits the spot.  We lived around the corner and would frequent sjbg quite often for cheap food and drinks and to watch some kind of sporting event.\n\nI will say that the 2 times I came here on a Saturday night, I left feeling really good about myself because the crowd is pretty funky.  Who goes here to \"go out\" on a regular basis? My favorite time was when the little person who kept trying to hump me and my friends on the dance floor got kicked out for taking off his pants.",
+    "post_date":"1/10/2008",
+    "user_name":"Elizabeth G.",
+    "user_rating":2,
+    "rating_useful":1,
+    "rating_funny":0,
+    "rating_cool":"1",
+    "user_status":322
+  },
+  {
+    "excerpt":"Maybe this place has changed from when I resided in San Jose ( 99-05) I seriously doubt it. When I did live here this was a great place to meet a THICK mexican chica, get shot at by an ese, or attacked by one of 10 police that are just itching to bust someone. Too busy to order a drink on weekends. Dead on weekdays. You're better off going to Loft.",
+    "post_date":"1/10/2008",
+    "user_name":"Taj A.",
+    "user_rating":1,
+    "rating_useful":2,
+    "rating_funny":2,
+    "rating_cool":"2",
+    "user_status":375
+  },
+  {
+    "excerpt":"What typifies a stereotypical San Jose hangout? Loud boisterous physically challenged boys and skankily dressed girls.  Go to San Jose Bar & Grill on a Saturday night and you'll see a fine cross section of that.  So I suppose that makes this place... a stereotypical San Jose hangout, which I have no other option but to avoid.\n\nOn a weeknight, though, this place is quiet as heck - the Hefeweizen is cold, the sliders / mini burgers tasty (albeit greasy), the service quick and courteous, and the big screen TV showing NBA / NFL / younameit games.  Awesomeness.\n\nLesson learned: Avoid coming here on the weekend and getting into a situation wherein you have to deal with powertripping bouncers, overeager men, skanky women, and irate bartenders.  The Loft is just across the road.",
+    "post_date":"12/30/2007",
+    "user_name":"A E.",
+    "user_rating":2,
+    "rating_useful":2,
+    "rating_funny":2,
+    "rating_cool":"2",
+    "user_status":847
+  },
+  {
+    "excerpt":"Fun vibe - i like all the options to sit outdoors, indoors, indoors by the widescreen, or right at the bar (easy access!)\n\nthe staff has always been really friendly and helpful, going out of their way to help with the gas heaters on the patio or to chat about drinks, and they hooked up the DD with free (and good) drinks.\n\nEach time I've gone on a weekday, and it was a mellow crowd, so don't get thrown off if you're not into their weekend scene.",
+    "post_date":"12/3/2007",
+    "user_name":"Katrina O.",
+    "user_rating":4,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":116
+  },
+  {
+    "excerpt":"This place is ok, I guess.  I try to avoid this place on weekend nights because it usually fills up with bros and girls who like bros.  I'm none of the aforementioned.  \n\nThe food is ok here (your typical greasy bar food) and it's a pretty good place to watch football games on Sundays that you can't watch on network television due to the shitty Raiders game playing.  Yeah, I said it.\n\nMinus one star for the twat for a bouncer who questioned the validity of my driver's license because it didn't have the right height.  Dude, i was 15 when i got that thing and hadn't reached my growth spurt.  Relax.",
+    "post_date":"12/3/2007",
+    "user_name":"Gene A.",
+    "user_rating":1,
+    "rating_useful":3,
+    "rating_funny":1,
+    "rating_cool":"1",
+    "user_status":411
+  },
+  {
+    "excerpt":"Usually try to avoid downtown SJ except for Wednesdays! SJ Bar&Grill chicken wings, tater tots, and cheap beer to wash it all down. Last time I came I got 32 chicken wings for free b/c the waitress messed up our order and instead of putting down 8 chicken wings she put 4 orders of 8 chicken wings, and forgot to charge us. Sweeeeeeet.  \n\nOtherwise, this place just ain't happenin at all. Atmosphere is kinda dead and so is the music.",
+    "post_date":"11/13/2007",
+    "user_name":"becky s.",
+    "user_rating":3,
+    "rating_useful":2,
+    "rating_funny":1,
+    "rating_cool":"1",
+    "user_status":163
+  },
+  {
+    "excerpt":"For those who look waaay beyond 21 years old, do not go here, unless you want to be treated as if you're an 18-year-old with a fake ID.  Did the waitress really have to take 20-seconds to look at my ID? She also looked at the back... have no idea what that would determine.\n\nWe gave her a credit card for our tab, but decided to pay for it in cash.  The waitress didn't give the card back until she counted the money right in front of us.  I understand servers having bad experiences in bars, but trust me, we didn't look like we were heading out the door in the next second.  \n\nThe reason for the 2 stars:  another time I went there and the bartender commiserated with my friend and I about the immaturity levels of the customers at this place... he was pretty amusing.",
+    "post_date":"11/8/2007",
+    "user_name":"Angie M.",
+    "user_rating":2,
+    "rating_useful":1,
+    "rating_funny":3,
+    "rating_cool":"0",
+    "user_status":235
+  },
+  {
+    "excerpt":"Why San Jose?  Why must you perpetuate the stereotype that we are bunk, and why does San Jose Bar & Grill follow the same methodology?  I hate when people say SJ is bunk...but the nightlife in our lovely city is sketchy and not helping.  For some reason, I thought Thursday night was  happening...but I guess not in SAN JOSE...or at least not at this venue.     Although nice staff, and lots of TV's...this place was empty.  $6 for wine-what was I thinking right? I was in the mood since I was supposed to go to a WINE PARTY, but that glass was 2 buck chuck at a higher price.  \nWith a group of people, this place might be fun...but come in flip flops and shorts...nothing dressy about this bar.  Ladies...no need to get cute...take my word for it!",
+    "post_date":"10/19/2007",
+    "user_name":"Flor D.",
+    "user_rating":2,
+    "rating_useful":1,
+    "rating_funny":3,
+    "rating_cool":"2",
+    "user_status":904
+  },
+  {
+    "excerpt":"Went out with a couple of friends to talk and have a drink or two. We walked into Tres Gringos on a Wednesday night realized they didn't sell pitchers unless you were going to play beer pong so we turned around and walked next door to San Jose bar and grill! As we were about to walk in the bouncer tells my friend he cant come in wearing sports attire. (he was wearing a 49rs jacket) We thought this was dumb because we had just walked in a moment earlier and no one had said anything. Anyway my friend went and left his jacket in the car and then he was allowed in. Later that night we see other dudes walk in with baseball caps and other clothing with sports logos. At this point we were all already eating a drinking so we were like that sucks, but whatever.\n\nPitcher of Blue Moon was 18 which I thought was a bit pricey but hey it was good beer. It was pretty empty when we got there around 10:30 which is what I expected on a wed night. We sat at the bar and received decent service. The only reason I say this is because I left my chicken wings unattended for a sec and before I knew it it had been cleaned out from the bar! Apparently I hadn't realized I was done :(   Other than that, bartenders were nice and prompt. They do have a special (don't know if its only on Wed's though) chicken wings=37.5 cents each and then they also have certain beers in a can for $2. Wish I had figured that out before I ordered the pitcher of Blue Moon.\n\nTo my surprise, at around 12:45 it began to get crowded. I guess ppl like to drink and have chicken wings in the early hours of the morning in San Jose,  who knows maybe I just had one to many beers and was seeing more people than where there?!\nOverall I had a good time",
+    "post_date":"8/28/2007",
+    "user_name":"Ana O.",
+    "user_rating":3,
+    "rating_useful":1,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":13
+  },
+  {
+    "excerpt":"Nice place to go to when its NOT busy. Meaning, thurs, fri, or saturday night. During those times, its super crowded, and a sausage fest. But that IS \"Man Jose\", so its expected. The crowd is more diverse which is nice compared to the AzN crowd at Tiki, taste, studio8/vivid, etc. But like all places, as mentioned, lacking enough females to come even close to make the ratio 2:1. Not a place I would recommend to go meet girls unless you are ready to be persistent and bring the best game you have.\n\nHowever, when this place is not crowded, even on thurs,fri, sat. before 10, its a nice place to hang out with friends and grab a drink. Especially when they are not playing loud music, they have nice HDTVs to watch sports thats ACTUALLY broadcasted in HD (i laugh at places that have nice HDTVs but play non-hd channels). I'll also add the tots with the cheese is very good.",
+    "post_date":"8/26/2007",
+    "user_name":"Eugene N",
+    "user_rating":3,
+    "rating_useful":0,
+    "rating_funny":1,
+    "rating_cool":"0",
+    "user_status":407
+  },
+  {
+    "excerpt":"Quick story: there on a crowded night, music going, and I get a phone call from people trying to meet up.  They have the doors divided so that you can line up to enter on the left or exit on the right.  I step into the not-at-all-crowded \"exit\" area to finish my whole sixty seconds of conversation and immediately get interrupted by a bouncer telling me to move.  Okay, can't block the exit (even though I'm not blocking anyone), sure, no problem.. I'll move.  \n\nSo I step outside about 3 strides and finish my conversation in less than thirty seconds.  I turn around to walk back in and the same bouncer refuses to let me in the door he just practically pushed me out of!  I'm a nice guy and I figure the bouncers take shit all night, so I don't even give any attitude, just a quick: \"Seriously, dude?  I have to go get in line because I took a phone call?  You made me walk out here, even!\"  Nope, despite the fact that I have drinks I haven't paid for inside, I have to get back in the fairly long line just to show my ID again.  \n\nDid the only thing I could do.  Showed my ID, got back inside (to cries of \"where'd you go, man? damn!\") and told my story to my fellow barhoppers.  We all immediately settled our tabs, downed our drinks and left the place to spend our money in more pleasant havens.  Haven't been back since.  \n\n---\n\nJust to balance this out, my first couple of visits here were during the day.  It was quiet, just a few folks watching the TVs and drinking beer.  I ordered good food that was delivered fast, and the bartender kept the drinks coming.  Seems like others reviewers have seen the same sort of pattern: nice place for happy hour or a daytime drink, lousy place to party at night.",
+    "post_date":"8/7/2007",
+    "user_name":"Paul R.",
+    "user_rating":2,
+    "rating_useful":2,
+    "rating_funny":1,
+    "rating_cool":"1",
+    "user_status":38
+  },
+  {
+    "excerpt":"Service here is absolutely horrible! It's not completely the waitresses' faults - there are just too many people here on Wednesdays when wings are 4 for $1.25 and tots are $1.50 for a huge basket. I haven't been back here in a while, but when I used to go with my friends, it was always a good hang out spot.",
+    "post_date":"7/13/2007",
+    "user_name":"Tony L.",
+    "user_rating":3,
+    "rating_useful":1,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":238
+  },
+  {
+    "excerpt":"Simply put, this place is mediocre. The service isn't that good, the atmosphere is just alright and the food is not worth waiting for.  After going there, you'd probably wish you had gone to one of the many other places on the same block.",
+    "post_date":"7/11/2007",
+    "user_name":"Trisha H.",
+    "user_rating":2,
+    "rating_useful":2,
+    "rating_funny":0,
+    "rating_cool":"1",
+    "user_status":15
+  },
+  {
+    "excerpt":"The only time I go here is on Wednesday nights after 10pm. The Wingers are only 25 cents each and they taste sooooo good. Also the tator tots are fried perfectly where they nice and crispy and hot in the inside they usually sell these there during the day for $6.00 which is ridiculous but on Wednesdays its only a $1 ! Also the sloppy joes are pretty good. For beer they have a bucket special with I believe 5 beers but you only have the option of Keystone or Hams (which is pretty much water)",
+    "post_date":"5/24/2007",
+    "user_name":"Tony V.",
+    "user_rating":3,
+    "rating_useful":1,
+    "rating_funny":1,
+    "rating_cool":"0",
+    "user_status":24
+  },
+  {
+    "excerpt":"The only good thing about this place? Wednesday night wingers...\n\nOther than that..it's pretty dead sometimes. There's usually more guys than girls. The music they play is pretty good. Right next door to this place is Tres Gringos, which is basically the same thing. The smoking area here is pretty crammed. I was here one night out in the smoking area, and almost got into some drama because I bumped into some guy. Drinks are ok, but a little bit on the steep side. The only other perk is that there is no cover to get in. I'd rather go to Tiki lounge...",
+    "post_date":"5/24/2007",
+    "user_name":"Tam H.",
+    "user_rating":2,
+    "rating_useful":2,
+    "rating_funny":1,
+    "rating_cool":"1",
+    "user_status":194
+  },
+  {
+    "excerpt":"got sausagefest?  this place gets so crowded!!!  i hate it.. it's hard to buy drinks and talk to anyone because the music is so loud!!  tons of drunk folk here, if that is your scene.. i try to avoid this place when i go bar hopping.  drinks are cheap but still not worth it for me.  i have never tried these tator tots everyone is talking about but i will if i ever go to this bar again.  obnoxiously close to tres gringos.",
+    "post_date":"4/19/2007",
+    "user_name":"ali c.",
+    "user_rating":1,
+    "rating_useful":3,
+    "rating_funny":1,
+    "rating_cool":"0",
+    "user_status":594
+  },
+  {
+    "excerpt":"I like going here for their happy hour on Wednesday!! Their wings here are good and i really like the sloppy joe sliders and the tater tots. However they did raise the prices on all of them. The wings are .37 cents now instead of .25 cents. A great area to hang out with friends. I'm usually only here on Wednesdays though.",
+    "post_date":"4/7/2007",
+    "user_name":"Lloyd C.",
+    "user_rating":4,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":151
+  },
+  {
+    "excerpt":"If you like sausage sword crossing, or getting in fights with fake thugs and their over hyphy youngsters who can't get into the place cause they are underaged, or see your girl get visually gangbanged while you get your ass kicked by drunk retards or see whatever over juiced professional football player in their overly tight shirts, or you just want to grope a scantilly clad shortee (and inevitably get your ass kicked by any of the people stated above), then this is the place for you.  I MEAN C'MON-- everytime I pass by there, shit always happens where people exchange fists to faces!!!  REALLY?!!!??!!  Do I need to guard my grill? REALLY!!!??!? Do I need to pack heat? REALLY!!???!! DO I need to roll in that place 10 deep or more? REALLY!!!???! Is this the place I want to be on a night out on the town? REALLY??!?!!!? This place and Tres Gringos makes 2nd Street fake thug central and one of the big reasons why SJ nightlife is a piece of shit.\n\nSJ Bar & Grill = not a good look, boo.\n\n(And if you're wondering, I gave it one star because I can't give it zero stars.)",
+    "post_date":"1/29/2007",
+    "user_name":"Jeff G.",
+    "user_rating":1,
+    "rating_useful":3,
+    "rating_funny":4,
+    "rating_cool":"2",
+    "user_status":39
+  },
+  {
+    "excerpt":"I'm writing this review based on happy hour, since I haven't been there when it's really busy later on.  Happy hour runs till 7, which is nice.  Beers are $3 or $4.  They'll also offer one thing from the bar menu for $4 each day.  We've had the little slider burgers, which are so tasty, and they come with great fries.  The wings are good too.  The bartender recommended that we order the wings with a mix of the mild and hot sauces, which was a great call.  Also tried fried calamari which was good too.  \n\nGood place to go for dinner before a movie.  It was kind of dead, but that just meant that our food was ready fast and the bartenders (who were very nice) got us more beer as soon as we needed it.",
+    "post_date":" 1/6/2007",
+    "user_name":"Alice M.",
+    "user_rating":4,
+    "rating_useful":1,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":57
+  },
+  {
+    "excerpt":"Very busy late night place.  But too many cops and A$$ holes; which seem to go hand in hand.  \n\nGreat for watching sports.  Thier sliders (mini burgers) are really good.  plenty of TV's to watch.  \n\nA good place to add to your bar hopping.  As well as tres gringos right next door.",
+    "post_date":"12/28/2006",
+    "user_name":"Biff M.",
+    "user_rating":3,
+    "rating_useful":1,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":8
+  },
+  {
+    "excerpt":"Over Crowded. Too many drunk retards and wanna be celebs. Music is horrible. Very limited seating. Too loud to hear person next to you. Bartenders cater to regulars. Men largely out number women. Bouncers on steroids. Drinks are over priced. Cop central outside the doors. Pretty much sucks no matter which way you slice it",
+    "post_date":"12/26/2006",
+    "user_name":"Erik G.",
+    "user_rating":1,
+    "rating_useful":7,
+    "rating_funny":2,
+    "rating_cool":"3",
+    "user_status":39
+  },
+  {
+    "excerpt":"very diverse crowd with decent drinks, should be a stop for everyone on the SJ bar rounds",
+    "post_date":"12/16/2006",
+    "user_name":"Charles C.",
+    "user_rating":5,
+    "rating_useful":0,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":242
+  },
+  {
+    "excerpt":"By the time the group and I got here, it was probably past 12 and so most people were faded, the floor was wet, and the music had become lame 80s type beats.\n\nMy bf had been here before and said the tater tots were awesome...but we didn't get a chance to actually order up any food.  He went to buy me a water but the guy who handed it to him seemed busy so he was like..whatever...free water for you.  NICE.\n\nOtherwise, the mixed crowd was cool, a little more ghetto but still cool.  It was more the wet floor of spilled drinks and the music that is only fun/funny if you're drunk that got to me.  Would go back again if this was the last place we could go to get some drinks and dancing on.  Should've stayed at Temple.",
+    "post_date":"7/19/2006",
+    "user_name":"Winnie L.",
+    "user_rating":2,
+    "rating_useful":1,
+    "rating_funny":1,
+    "rating_cool":"0",
+    "user_status":108
+  },
+  {
+    "excerpt":"One of my many Happy Hour spots.  It is nice to find a place that still serves TATER TOTS! You would think you could only get those in school at the cafeteria! Well I love me some Tater Tots and I put em in my pocket like Napolean and save em for later. (I Kid! I kid!) Anyhoo, if you are here having a nice beer on tap...try their SLIDERS!! Very good! Depending on the day, there are different happy hour specials.  But for the Sliders...HANDS DOWN ..TRI TIP SLIDERS are tasty! The teriyaki chicken aint bad either.  Something about little burgers.......",
+    "post_date":"6/23/2006",
+    "user_name":"Marialinh L.",
+    "user_rating":3,
+    "rating_useful":1,
+    "rating_funny":2,
+    "rating_cool":"0",
+    "user_status":49
+  },
+  {
+    "excerpt":"Wednesdays are great for 25 cent wings, $2 tater tots, $4 sloppy joe sliders, and much more; I wouldn't come here otherwise.  I like  their \"island\"-style bar, which is right in the middle of the entire place and it's not too difficult to get a drink.  I think SJ Bar & Grill is one of the more mature/decent bars in San Jose next to Britannia Arms.",
+    "post_date":" 4/3/2006 ",
+    "user_name":"Tiffany T.",
+    "user_rating":3,
+    "rating_useful":2,
+    "rating_funny":0,
+    "rating_cool":"0",
+    "user_status":211
+  }
+]
+}
