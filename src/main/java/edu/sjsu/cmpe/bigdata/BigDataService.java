@@ -5,7 +5,7 @@ import com.yammer.dropwizard.config.Bootstrap;
 import com.yammer.dropwizard.config.Environment;
 
 //import edu.sjsu.cmpe.bigdata.api.resources.BookResource;
-import edu.sjsu.cmpe.bigdata.api.resources.RootResource;
+import edu.sjsu.cmpe.bigdata.api.resources.UserResource;
 import edu.sjsu.cmpe.bigdata.config.BigDataServiceConfiguration;
 
 public class BigDataService extends Service<BigDataServiceConfiguration> {
@@ -23,7 +23,7 @@ public class BigDataService extends Service<BigDataServiceConfiguration> {
     public void run(BigDataServiceConfiguration configuration,
 	    Environment environment) throws Exception {
 	/** Root API */
-	environment.addResource(RootResource.class);
+	environment.addResource(UserResource.class);
 	/** Books APIs */
 	//environment.addResource(BookResource.class);
     }

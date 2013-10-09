@@ -30,6 +30,11 @@
 			<artifactId>dropwizard-core</artifactId>
 			<version>${dropwizard.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>org.mongodb</groupId>
+			<artifactId>mongo-java-driver</artifactId>
+			<version>2.11.3</version>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -95,7 +100,7 @@
 									implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
 								<transformer
 									implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-									<mainClass>edu.sjsu.cmpe.bigdata.LibraryService</mainClass>
+									<mainClass>edu.sjsu.cmpe.bigdata.BigDataService</mainClass>
 								</transformer>
 							</transformers>
 						</configuration>
