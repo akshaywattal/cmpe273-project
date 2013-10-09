@@ -98,7 +98,7 @@ public class UserResource {
     	 * Closing connection
     	 */
 		mongoClient.close(); 	
-	return Response.status(200).build();
+	return Response.ok(authenticated).build();
     }
 }
 
