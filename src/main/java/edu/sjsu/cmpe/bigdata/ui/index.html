@@ -260,7 +260,7 @@
 	  
 	  
 	  function a(){
-		var url = "http://54.215.165.222:8000/bigdata/v1";
+		var url = "http://54.215.165.222:8080/bigdata/v1";
 		var representationOfDesiredState = JSON.stringify($('#register-form').serializeObject()); //this in our case would be JSON text
 		var client = new XMLHttpRequest();
 
@@ -305,7 +305,7 @@
 	  
 	  
 	  function b(){
-		var url = "http://54.215.165.222:8000/bigdata/v1/username";
+		var url = "http://54.215.165.222:8080/bigdata/v1/username";
 		var representationOfDesiredState = JSON.stringify($('#login-form').serializeObject()); //this in our case would be JSON text
 		var client = new XMLHttpRequest();
 
