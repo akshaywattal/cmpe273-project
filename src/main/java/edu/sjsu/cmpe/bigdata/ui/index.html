@@ -306,11 +306,10 @@
 	  
 	  
 	  function b(){
-	  	alert("Inside b");
 		var url = "http://54.215.165.222:8080/bigdata/v1/username";
 		var representationOfDesiredState = JSON.stringify($('#login-form').serializeObject()); //this in our case would be JSON text
 		var client = new XMLHttpRequest();
-
+		alert("Inside b2");
 		client.open("POST", url, false);
 		client.setRequestHeader("Content-Type", "application/json"); //this will also change to JSON
 		client.send(representationOfDesiredState);
