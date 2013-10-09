@@ -1,0 +1,506 @@
+[
+  {
+    "event_details":"Just over an hour till this event kicks off!!! Come on down!!!!\nBeer club event this Saturday, this is one you don't want to miss!!!",
+    "date":"10/5/2013",
+    "user_comment":1,
+    "likes_count":2,
+    "share_count":0
+  },
+  {
+    "event_details":"Hey South Bay! The Shams are playing at this Guiness Fest at O'Flaherty's Irish Pub tonight at 9!! that's an EXTRA opportunity to dance & rock with them in SJ this month",
+    "date":"9/28/2013",
+    "user_comment":0,
+    "likes_count":1,
+    "share_count":0
+  },
+  {
+    "event_details":"Come try some of our new German selection for Oktoberfest!!!",
+    "date":"10/4/2013",
+    "user_comment":0,
+    "likes_count":2,
+    "share_count":0
+  },
+  {
+    "event_details":"Beer club event this Saturday, this is one you don't want to miss!!!",
+    "date":"10/4/2013",
+    "user_comment":0,
+    "likes_count":0,
+    "share_count":2
+  },
+  {
+    "event_details":"A big congratulations to Amy Quill for winning the Sir Arthur Guinness Day like and share contest. She has won a $100 O'Flaherty's gift card! Thanks to everyone who participated. Stay tuned for more contests and giveaways.",
+    "date":"10/3/2013",
+    "user_comment":1,
+    "likes_count":10,
+    "share_count":1
+  },
+  {
+    "event_details":"#Throwback to vinyl 9:30-11pm TONIGHT! Enjoy 16 oz PBR with Jameson shot for $4, only at O'Flaherty's Irish Pub.",
+    "date":"10/3/2013",
+    "user_comment":0,
+    "likes_count":3,
+    "share_count":0
+  },
+  {
+    "event_details":"Like and share this post to win a $100 O'Flahety's Irish Pub gift card! Winner picked September 29th!\n\nCome out September 28th and celebrate Sir Arthur Guinness day at O'Flaherty's Irish Pub. There will be live music all day featuring The Shams & The Wild Rovers. Also, we will be giving out a $1,000 prize to the person who can make the best Guinness Irish Stew! To register for the competition simply email oflahertysirishpub@yahoo.com with your name and phone number.",
+    "date":"9/28/2013",
+    "user_comment":0,
+    "likes_count":6,
+    "share_count":2
+  },
+  {
+    "event_details":"Thanks to all our Jameson drinkers for making us a Jameson top 50 bar. We are one of only 2 bars in San Jose who are allocated Jameson Black Barrel. \nEnjoy you guys earned it!",
+    "date":"9/26/2013",
+    "user_comment":4,
+    "likes_count":29,
+    "share_count":0
+  },
+  {
+    "event_details":"Like and share this post to win a $100 O'Flahety's Irish Pub gift card! Winner picked September 29th!\n\nCome out September 28th and celebrate Sir Arthur Guinness day at O'Flaherty's Irish Pub. There will be live music all day featuring The Shams & The Wild Rovers. Also, we will be giving out a $1,000 prize to the person who can make the best Guinness Irish Stew! To register for the competition simply email oflahertysirishpub@yahoo.com with your name and phone number.",
+    "date":"9/24/2013",
+    "user_comment":9,
+    "likes_count":47,
+    "share_count":52
+  },
+  {
+    "event_details":"In remembrance to 9/11, O'Flaherty's Irish Pub is having an all-day $8 Pint of Guinness & Jameson Shot Special for our firemen/firewomen as well as the men and women in the police force. We are truly grateful & appreciative for those who put their lives on the line for our country every day.",
+    "date":"9/11/2013",
+    "user_comment":0,
+    "likes_count":21,
+    "share_count":0
+  },
+  {
+    "event_details":"Come down tonight get drunk and watch The Shams play live!!!",
+    "date":"9/13/2013",
+    "user_comment":0,
+    "likes_count":6,
+    "share_count":0
+  },
+  {
+    "event_details":"O'Flaherty's Irish Pub \"You're a stranger here but once\" | JOIN IN WORLD WIDE CELEBRRATION OF ARTHUR GUINNESS DAY SATURDAY SEPTEMBER 28TH, 2013 AT SAN JOSE'S ONLY AUTHENTIC IRISH PUB",
+    "date":"9/4/2013",
+    "user_comment":0,
+    "likes_count":16,
+    "share_count":3
+  },
+  {
+    "event_details":"We are looking for soccer players to make up a co-ed team starting next Sunday?\nEmail david_mulvehill@yahoo.com if interested!\nMan Utd and Kerry beaten today, whats this world coming to?:)",
+    "date":"9/1/2013",
+    "user_comment":6,
+    "likes_count":2,
+    "share_count":0
+  },
+  {
+    "event_details":"Our trivia winners tonight \"Miley and the twerking teddy bears\" good job!!! We fully support twerking here!!!!",
+    "date":"8/28/2013",
+    "user_comment":0,
+    "likes_count":15,
+    "share_count":0
+  },
+  {
+    "event_details":"Congratulations to Diego Gonzales who is the winner of O'Flaherty's Stone tap takeover giveaway. He has won a Stone glass etched with his name on it, $50 O'Flaherty's gift card, 1 month Beer Club membership and Beer Club T-shirt. More contests and giveaways to come!",
+    "date":"8/2/2013",
+    "user_comment":1,
+    "likes_count":6,
+    "share_count":0
+  },
+  {
+    "event_details":"Stone is on the menu today!!!",
+    "date":"8/2/2013",
+    "user_comment":9,
+    "likes_count":56,
+    "share_count":2
+  },
+  {
+    "event_details":"We're celebrating Silicon Valley Beer Week by hosting three days of tap takeovers and three days of giveaways! Like and share this post for 1 entry to win VIP status on 8/2 for Stone tap takeover including: A Stone glass etched with your name on it, $50 O'Flaherty's gift card to use at the event, one month beer club membership and beer club T-shirt. \n\nBe sure to like and share our Coronado and Hangar posts too for more chances to win. Winners will be notified 7/30, 8/1, & 8/2.",
+    "date":"8/2/2013",
+    "user_comment":0,
+    "likes_count":10,
+    "share_count":1
+  },
+  {
+    "event_details":"We're celebrating Silicon Valley Beer Week by hosting three days of tap takeovers and three days of giveaways! Like and share this post for 1 entry to win VIP status on 7/31 for Hangar tap takeover including: A Hangar glass etched with your name on it, $50 O'Flaherty's gift card to use at the event, one month beer club membership and beer club T-shirt. \n\nBe sure to like and share our Coronado and Stone posts too for more chances to win. Winners will be notified 7/30, 8/1, & 8/2.",
+    "date":"7/31/2013",
+    "user_comment":0,
+    "likes_count":7,
+    "share_count":1
+  },
+  {
+    "event_details":"Congratulations to Michael Murphy for winning the O'Flaherty's 54 Tap Launch Party gift basket giveaway and thank you to everyone who showed up! Stay tuned for more contests and giveaways.",
+    "date":"7/11/2013",
+    "user_comment":0,
+    "likes_count":4,
+    "share_count":0
+  },
+  {
+    "event_details":"Today is the 54 Tap Launch Party! Come join us for $1 beer (all 54 taps) and free hors d'oeuvres from 8:00PM-9:30PM. Here is just a sneak peak of our extensive selection of craft beer:\n\nLast Abbey Cuvee de Tomme \nFirestone Parabola\nAllagash Odyssey\nDogfishhead 120\n\nAnd don't forget to like and share our post below for a chance to win an O'Flaherty's gift basket filled with Jameson, Guinness, O'Flaherty's gift card and much more. The winner will be picked tomorrow!",
+    "date":"7/9/2013",
+    "user_comment":8,
+    "likes_count":41,
+    "share_count":42
+  },
+  {
+    "event_details":"Be sure to join us for $1 beers (All taps) Tuesday, July 9th from 8-9:30pm for our 54 tap launch party! And here is your chance to win a one month Beer Club membership and an O'Flaherty's gift basket filled with Jameson, Guinness, O'Flaherty's gift card, and much more! To enter, all you have to do is LIKE and SHARE this post. Good luck to all!",
+    "date":"6/17/2013",
+    "user_comment":8,
+    "likes_count":44,
+    "share_count":40
+  },
+  {
+    "event_details":"Our 1st place trivia winners tonight!!!!!!! \" Pablo Sandibyaaahhh!!!\" ( Brando, Diego, Tim and Bryan )\n\nWell done to all our winners, we hope you all enjoyed yourself, and if you didn't win come back next Wednesday night and play again!!!\n\nOur winners tonight all got gift cards for the bar and Heineken swag, stay tuned for more cool trivia prizes!!!! — with Diego Gonzales and Brian Rich.",
+    "date":"6/12/2013",
+    "user_comment":1,
+    "likes_count":9,
+    "share_count":0
+  },
+  {
+    "event_details":"Drakes Beer Club event\nSaturday, June 8 at 2:00pm\nO'Flaherty's Irish Pub in San Jose, California",
+    "date":"6/7/2013",
+    "user_comment":0,
+    "likes_count":2,
+    "share_count":0
+  },
+  {
+    "event_details":"Reposting this in case any of you guys didnt see it, You guys have one more week to RSVP if you are a member or join the beer club if you want to come!\n\nAnyone who has already emailed or has sent an RSVP already I will get back to you today.\nBEER CLUB MEMBERS!!!!\n\nOur first annual brewery tour will be at Lagunitas on June 9th!!\nWe need you guys to RSVP by the 28TH OF MAY!!!! to hold your place.\n\nI have emailed you guys, if you did not get the email or are not a member yet and want to be please email me ciaragormo@hotmail.com",
+    "date":"5/24/2013",
+    "user_comment":2,
+    "likes_count":0,
+    "share_count":0
+  },
+  {
+    "event_details":"Come on down tonight and check out San Francisco's best Irish rock band, \"The Sham's\" . \nThey are brilliant!",
+    "date":"5/17/2013",
+    "user_comment":0,
+    "likes_count":6,
+    "share_count":0
+  },
+  {
+    "event_details":"No trivia tonight guys but we will have it back next week as normal!! \nCome down anyway we have some amazing new beers on tap!!!",
+    "date":"5/15/2013",
+    "user_comment":0,
+    "likes_count":6,
+    "share_count":0
+  },
+  {
+    "event_details":"BEER CLUB MEMBERS!!!!\n\nOur first annual brewery tour will be at Lagunitas on June 9th!!\nWe need you guys to RSVP by the 28TH OF MAY!!!! to hold your place.\n\nI have emailed you guys, if you did not get the email or are not a member yet and want to be please email me ciaragormo@hotmail.com",
+    "date":"5/14/2013",
+    "user_comment":0,
+    "likes_count":6,
+    "share_count":1
+  },
+  {
+    "event_details":"KFOX is broadcasting live from O'flaherty's this Wednesday from 3-7pm. They will also be giving away tickets for the Rolling Stones!!!",
+    "date":"5/8/2013",
+    "user_comment":1,
+    "likes_count":2,
+    "share_count":0
+  },
+  {
+    "event_details":"KFOX is broadcasting live from O'flaherty's this Wednesday from 3-7pm. They will also be giving away tickets for the Rolling Stones!!!",
+    "date":"5/6/2013",
+    "user_comment":1,
+    "likes_count":13,
+    "share_count":2
+  },
+  {
+    "event_details":"Hanger 24 Beer Club Event\nSaturday, May 4 at 2:00pm\nO'Flaherty's Irish Pub in San Jose, California",
+    "date":"4/26/2013",
+    "user_comment":0,
+    "likes_count":1,
+    "share_count":1
+  },
+  {
+    "event_details":"O'flaherty's deal of the week!\nLips of faith Series, 2 for the price of 1.\nCascara Quad and Heavenly Feijoa Tripel.\nGet it while supplies last!",
+    "date":"4/22/2013",
+    "user_comment":0,
+    "likes_count":1,
+    "share_count":1
+  },
+  {
+    "event_details":"New beer tapped today!!!\n\nLagunitas \nUndercover investigation shutdown ale!!! 9.7% \n\nCome down and try it before the sharks game!!!!!",
+    "date":"4/16/2013",
+    "user_comment":4,
+    "likes_count":16,
+    "share_count":0
+  },
+  {
+    "event_details":"Come down tonight for some PB&J!!! 9.30pm to 11pm.\n$4 16oz PBR and a shot of Jameson",
+    "date":"4/11/2013",
+    "user_comment":3,
+    "likes_count":8,
+    "share_count":1
+  },
+  {
+    "event_details":"Karaoke, every Monday, 9 till late!",
+    "date":"4/7/2013",
+    "user_comment":0,
+    "likes_count":7,
+    "share_count":0
+  },
+  {
+    "event_details":"Irish craft beer event\nSaturday, April 6 at 2:00pm\nO'Flaherty's Irish Pub in San Jose, California",
+    "date":"4/5/2013",
+    "user_comment":0,
+    "likes_count":3,
+    "share_count":0
+  },
+  {
+    "event_details":"We would like to thank all our staff and customers who have helped make O'flaherty's, Best Irish Pub in Silicon Valley voted by Metro Newspaper Readers. I think this is 6 in a row. What an honor, thanks everybody!!",
+    "date":"3/28/2013",
+    "user_comment":3,
+    "likes_count":65,
+    "share_count":1
+  },
+  {
+    "event_details":"No PB&J tonight due to a successful St. Paddy's weekend! Sorry for the inconvenience, see you all next week.",
+    "date":"3/21/2013",
+    "user_comment":0,
+    "likes_count":5,
+    "share_count":0
+  },
+  {
+    "event_details":"Hey Everyone, thanks to everyone who made it to O'flaherty's this weekend and helped make it a fantastic party.\nWe will be closed today to throw a party for our staff who need a much deserved break!\nHope you understand and thanks again for all your support.",
+    "date":"3/18/2013",
+    "user_comment":3,
+    "likes_count":43,
+    "share_count":0
+  },
+  {
+    "event_details":"We would like to welcome Saint Louis Billikens who have made us their home away from home for the NCAA March Madness.\nDoes anyone know what a Billiken is? If you get it right, you will be entered into a raffle for a $50 gift card!",
+    "date":"3/20/2013",
+    "user_comment":10,
+    "likes_count":8,
+    "share_count":0
+  },
+  {
+    "event_details":"We have started paddy's day off right here!!! Join us over the next two nights for more of this!!!",
+    "date":"3/15/2013",
+    "user_comment":6,
+    "likes_count":29,
+    "share_count":1
+  },
+  {
+    "event_details":"Welcome Stone Enjoy By 04.01.13 IPA. Enjoy while supplies last!!",
+    "date":"3/5/2013",
+    "user_comment":0,
+    "likes_count":8,
+    "share_count":0
+  },
+  {
+    "event_details":"Beer club event hosted by Sierra Nevada\nSaturday, March 2 at 2:00pm\nO'Flaherty's Irish Pub in San Jose, California",
+    "date":"3/2/2013",
+    "user_comment":0,
+    "likes_count":1,
+    "share_count":0
+  },
+  {
+    "event_details":"Lets do Trivia tonight, hosted by the one only Patty Buitrago. Lots of great prizes, 8-10pm!!!!!",
+    "date":"2/27/2013",
+    "user_comment":0,
+    "likes_count":7,
+    "share_count":0
+  },
+  {
+    "event_details":"We are very happy to welcome Russian River's Pliny the Elder to our Pub. This is a fantastic beer and is very limited, so try and get down for 1 or 2 while it lasts!",
+    "date":"2/25/2013",
+    "user_comment":3,
+    "likes_count":25,
+    "share_count":1
+  },
+  {
+    "event_details":"We just added 12 new beers to our 12 new taps!!!",
+    "date":"2/23/2013",
+    "user_comment":11,
+    "likes_count":22,
+    "share_count":0
+  },
+  {
+    "event_details":"ome down tonight for some good bands and some even better beers!!!!\n\nFEB.23rd!! Animal Super Species - Sahab - Windmills!! O'flats 9PM!\nFebruary 23 at 8:30pm\nO'Flaherty's Irish Pub in San Jose, California",
+    "date":"2/23/2013",
+    "user_comment":0,
+    "likes_count":0,
+    "share_count":0
+  },
+  {
+    "event_details":"Making room for our 8 new taps! All bottled beer on sale for $1(except Corona) Enjoy, while supplies last.",
+    "date":"2/17/2013",
+    "user_comment":2,
+    "likes_count":19,
+    "share_count":1
+  },
+  {
+    "event_details":"RED TROLLEY & KARL STRAUSS 24TH ANNIVERSARY ALE\n$4.00 all night!!! From 8 till late!!!",
+    "date":"2/16/2013",
+    "user_comment":0,
+    "likes_count":4,
+    "share_count":0
+  },
+  {
+    "event_details":"Tomorrow for Lagunitas Tap take over, all Lagunitas products will be $4 all day and all night!",
+    "date":"2/14/2013",
+    "user_comment":0,
+    "likes_count":11,
+    "share_count":0
+  },
+  {
+    "event_details":"We have two great events this week for BEER WEEK!!!\n\nFriday 15th we have LAGUNITAS TAP TAKEOVER!\nSaturday 16th we have a KARL STRAUSS EVENT!",
+    "date":"2/12/2013",
+    "user_comment":1,
+    "likes_count":5,
+    "share_count":1
+  },
+  {
+    "event_details":"NEW!!!\n\nNARWHAL\nSierra Nevada\nRussian Imperial Stout\n10.2%\n$7.00\n10oz\n\nDELIVERANCE\nThe Lost Abbey\nAmerican Strong Ale\n12.5%\n$8.00\n10oz",
+    "date":"2/12/2013",
+    "user_comment":0,
+    "likes_count":9,
+    "share_count":0
+  },
+  {
+    "event_details":"BEER CLUB MEMBERS AND ANYONE INTERESTED IN THE EVENT TOMORROW!!!!!\n\nWe have had a lot of interest in this event so we have a limited amount of spaces, we really need you guys to RSVP and we will be limited to the first 30 people here at 4pm sharp no later.\nSorry for any inconvenience caused, Remember 4PM!!!!",
+    "date":"2/1/2013",
+    "user_comment":4,
+    "likes_count":2,
+    "share_count":0
+  },
+  {
+    "event_details":"BEER CLUB MEMBERS!!!! Beer event tomorrow 4pm sharp!!!! Get down here for our stouts vs. porters event with jake Mccluskey from Kelly's liquors!",
+    "date":"2/1/2013",
+    "user_comment":1,
+    "likes_count":1,
+    "share_count":0
+  },
+  {
+    "event_details":"BEER CLUB MEMBERS!!!!\nDue to the Sharks game next Saturday the 26th of January\nthe event has been pushed back to Saturday the 2nd of February.\nWe apologize for any inconvenience caused, but hey......GO SHARKS!!!!!!!",
+    "date":"1/19/2013",
+    "user_comment":0,
+    "likes_count":5,
+    "share_count":0
+  },
+  {
+    "event_details":"Happy Hockey Day, to celebrate the Sharks return we will be serving Great White from lost coast brewing company with a shot of Jameson for $8 during Sharks game tomorrow. Sunday Jan 20th 3pm!",
+    "date":"1/19/2013",
+    "user_comment":0,
+    "likes_count":15,
+    "share_count":0
+  },
+  {
+    "event_details":"Come watch 49ers take down the Falcons at 12pm Sunday Jan 20th. $5 Stoli Bloody Mary's all day.",
+    "date":"1/19/2013",
+    "user_comment":1,
+    "likes_count":16,
+    "share_count":0
+  },
+  {
+    "event_details":"NEW BEER ALERT!!!!!! \n\nIts a heavy hitter at 13.2%!!!!!!!\n\n\nName: Shipyard Bourbon Barrel Aged Double ESB\nLocation: Shipyard Brewing Company\nType: English Strong Ale\nABV: 13.2%\nPrice: $8.00\nGlass size: 10oz",
+    "date":"1/18/2013",
+    "user_comment":1,
+    "likes_count":6,
+    "share_count":0
+  },
+  {
+    "event_details":"Feeling the chill out there?\nCome warm up at O'flaherty's with $4 Pints of Newcastle Summer Ale:)",
+    "date":"1/14/2013",
+    "user_comment":0,
+    "likes_count":2,
+    "share_count":0
+  },
+  {
+    "event_details":"This is where its at! We are not going to lie, we are a little biased.\nGo Irish!\nCome down on Monday for the game and enjoy a really long happy hour if Notredame wins!!!!",
+    "date":"1/7/2013",
+    "user_comment":0,
+    "likes_count":5,
+    "share_count":0
+  },
+  {
+    "event_details":"Hey Everyone, O'flaherty's will be closed tomorrow Sunday January 6th to have our belated Christmas Staff party. Thanks for keeping us busy over the holidays, it was great to see so many old and new faces.\nHope to see you see you for the BCS National championship game on Monday. GO IRISH!!!!",
+    "date":"1/5/2013",
+    "user_comment":1,
+    "likes_count":11,
+    "share_count":0
+  },
+  {
+    "event_details":"FOUR NEW BEERS ON DRAFT TODAY!!!!!\n\nName: Abt 12 \nLocation: Brouwerij St. Bernardus NV\nType: Quadruple\nABV: 10%\nPrice: $8.00\nGlass size: 10oz\n\nName: Lagunitas Sucks\nLocation: Lagunitas Brewing Co\nType: American Strong Ale\nABV: 7.8%\nPrice: $7.00\nGlass size: 14oz",
+    "date":"1/4/2013",
+    "user_comment":2,
+    "likes_count":6,
+    "share_count":0
+  },
+  {
+    "event_details":"Today, Widmer Brothers Event!!! At O'Flahertys Beer Club!!!",
+    "date":"12/29/2012",
+    "user_comment":0,
+    "likes_count":1,
+    "share_count":0
+  },
+  {
+    "event_details":"Widmer Brothers Beer Club Event\nDecember 29, 2012 at 4:00pm\nO'Flaherty's Irish Pub in San Jose, California",
+    "date":"12/21/2012",
+    "user_comment":null,
+    "likes_count":null,
+    "share_count":null
+  },
+  {
+    "event_details":"Due to popular demand we are adding a new drink to tonight's $5 election menu,\nTHE INDEPENDENT: A simple no B.S Pint Of Guinness!! $5",
+    "date":"11/6/2012",
+    "user_comment":1,
+    "likes_count":21,
+    "share_count":1
+  },
+  {
+    "event_details":"Make O'flaherty's your election HEADquarters. Live uninterrupted coverage all day and night!",
+    "date":"11/4/2012",
+    "user_comment":0,
+    "likes_count":5,
+    "share_count":4
+  },
+  {
+    "event_details":"Make O'flaherty's your election HEADquarters. Live uninterrupted coverage all day and night!",
+    "date":"11/2/2012",
+    "user_comment":4,
+    "likes_count":16,
+    "share_count":17
+  },
+  {
+    "event_details":"We just got two new beers on tap!!!!!\n\nEisboch \n\nDouble Arrogant Bastard\n\nGet down and try them now!!!!",
+    "date":"10/24/2012",
+    "user_comment":1,
+    "likes_count":13,
+    "share_count":1
+  },
+  {
+    "event_details":"Hey Everyone, unfortunately we are going to move our Deschutes beer tasting event from October 27th to November 3rd because it clashes with the Giants world series game. Sorry for any inconvenience. Look forward to seeing everyone on the Nov 3rd.\nGO GIANTS!!!!!!!!!",
+    "date":"10/25/2012",
+    "user_comment":3,
+    "likes_count":15,
+    "share_count":0
+  },
+  {
+    "event_details":"Trivia night tonight! Come down and see what these guys have in store for you!!!!!",
+    "date":"10/17/2012",
+    "user_comment":0,
+    "likes_count":11,
+    "share_count":0
+  },
+  {
+    "event_details":"Beer Of The Week!!!!! It's Monday which means a new Beer Club Beer of the Week. This week we are featuring Dogfish head, Pumpkin Ale! Beer Club Members receive 10% off ALL Dogfish Head products all week at Kelly's Liquors.",
+    "date":"10/15/2012",
+    "user_comment":2,
+    "likes_count":6,
+    "share_count":0
+  },
+  {
+    "event_details":"O'flaherty's will be open at 9:50am for Giants game Thursday morning!.\nGo Giants!!!!!!!!!",
+    "date":"10/10/2012",
+    "user_comment":0,
+    "likes_count":14,
+    "share_count":0
+  },
+  {
+    "event_details":"just got Old Speckled Hen on draft today!!! get down and try it!!!",
+    "date":"10/4/2012",
+    "user_comment":1,
+    "likes_count":4,
+    "share_count":1
+  }
+]
