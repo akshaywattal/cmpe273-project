@@ -222,7 +222,7 @@
 			<input type="email" name="email" placeholder="email" />
 			<input type="password" name="password" placeholder="password" /> 
 			<input type="password" name="conf_pass" placeholder="confirm password" />
-			<input class="right" style="background-color:#dcdcdc; color:#0d5a72; height:3em; width: 6em; font-weight:bold;" type="submit" name="submit" onClick="testResults(this.form) value="Submit" />
+			<input class="right" style="background-color:#dcdcdc; color:#0d5a72; height:3em; width: 6em; font-weight:bold;" type="submit" name="submit" value="Submit" onclick="a()" />
 		</form>
 	</div>
 
@@ -232,7 +232,30 @@
   '.js><\/script>')
   </script>
   
-  
+  <!--This is code for Register form JSON + API Connection-->  
+  <script type="text/javascript">	
+	  $(function() {
+	    $('registerModal').submit(function() { //You'll probably need to put the ID for the Form where 'form' is
+	        $('#result').text(JSON.stringify($('registerModal').serializeObject()));
+	        return false;
+	    });
+	  });
+	
+	  function a(){
+		var url = "http://localhost:8080/bigdata/v1";
+		var representationOfDesiredState = document.getElementById("result"); //this in our case would be JSON text
+		var client = new XMLHttpRequest();
+
+		client.open("POST", url, false);
+		client.setRequestHeader("Content-Type", "application/json"); //this will also change to JSON
+		client.send(representationOfDesiredState);
+
+		if (client.status == 201)
+	    	alert("The request succeeded!\n\nNew User Created");
+		else
+	    	alert("The request did not succeed!");
+		}
+  </script>
   
   <script src="js/foundation.min.js"></script>
   <!--
