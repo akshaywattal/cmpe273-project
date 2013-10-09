@@ -312,9 +312,7 @@
 		
 		client.open("POST", url, false);
 		client.setRequestHeader("Content-Type", "application/json"); //this will also change to JSON
-		alert("Inside b2");
 		client.send(representationOfDesiredState);
-		alert("Inside b3");
 		if (client.status == 200)
 	    	{alert("User Authenticated");
 	    	window.location.href="app.html"}
