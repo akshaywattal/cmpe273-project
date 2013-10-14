@@ -12,6 +12,8 @@ import javax.ws.rs.core.Response;
 
 import com.yammer.metrics.annotation.Timed;
 
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.net.UnknownHostException;
 import java.util.ArrayList;
 import java.util.List;
@@ -29,6 +31,8 @@ import com.mongodb.ServerAddress;
 import edu.sjsu.cmpe.bigdata.domain.User;
 import edu.sjsu.cmpe.bigdata.dto.LinkDto;
 import edu.sjsu.cmpe.bigdata.dto.LinksDto;
+import edu.sjsu.cmpe.bigdata.dao.MongoDBDAO;
+import edu.sjsu.cmpe.bigdata.config.MongoDBConfig;;
 
 @Path("/v1")
 @Produces(MediaType.APPLICATION_JSON)
@@ -41,43 +45,59 @@ public class UserResource {
 
     @POST
     @Timed(name = "create-user")
-    public Response createUser(User user) throws UnknownHostException {
+    public Response createUser(User user) throws FileNotFoundException, IOException {    	
+    	/**
+    	 * Creating an instance of MongoDB properties configuration
+    	 */
+    	MongoDBConfig connVariable = new MongoDBConfig();
     	
     	/**
-    	 * Making a database connection to Database: bigdata
+    	 * Creating an instance of MongoDB Data Access Layer to connect to database
     	 */
-    	MongoClient mongoClient = new MongoClient("localhost",27017);
-		DB db = mongoClient.getDB("bigdata");
-		
+    	MongoDBDAO mongoClient = new MongoDBDAO();
+    	mongoClient.getDBConnection(connVariable.dbHostName, connVariable.dbPortNumber);
+    	mongoClient.getDB(connVariable.dbName);
+    	
 		/**
-    	 * Creating a new Collection: bigdataUserCollection and inserting data
+    	 * Creating a new Collection: bigdataUserCollection
     	 */
-		DBCollection coll = db.getCollection("bigdataUserCollection");
-		BasicDBObject doc = new BasicDBObject("username",user.getUsername()).append("email", user.getEmail()).append("password", user.getPassword());
-		coll.insert(doc);
+    	mongoClient.getCollection("bigdataUserCollection");
+		
+    	/**
+    	 * Creating a new document and inserting data
+    	 */
+    	BasicDBObject doc = new BasicDBObject("username",user.getUsername()).append("email", user.getEmail()).append("password", user.getPassword());
+		mongoClient.insertData(doc);
+		mongoClient.closeConnection();
     	
 		/**
     	 * Closing connection
     	 */
-		mongoClient.close(); 	
+		mongoClient.closeConnection(); 	
 	return Response.status(201).build();
     }
     
     @POST
     @Path("/{username}")
     @Timed(name = "authenticate-user")
-    public Response authenticateUser(User user) throws UnknownHostException {
+    public Response authenticateUser(User user) throws FileNotFoundException, IOException {
     	
     	/**
-    	 * Making a database connection to Database: bigdata
+    	 * Creating an instance of MongoDB properties configuration
     	 */
-    	MongoClient mongoClient = new MongoClient("localhost",27017);
-		DB db = mongoClient.getDB("bigdata");
-		
+    	MongoDBConfig connVariable = new MongoDBConfig();
+    	
+    	/**
+    	 * Creating an instance of MongoDB Data Access Layer to connect to database
+    	 */
+    	MongoDBDAO mongoClient = new MongoDBDAO();
+    	mongoClient.getDBConnection(connVariable.dbHostName, connVariable.dbPortNumber);
+    	mongoClient.getDB(connVariable.dbName);
+    	
 		/**
-    	 * Connecting to Collection: bigdataUserCollection
+    	 * Accessing Collection: bigdataUserCollection
     	 */
-		DBCollection coll = db.getCollection("bigdataUserCollection");
+    	mongoClient.getCollection("bigdataUserCollection");
 		
 		/**
     	 * Creating query1 for user authentication
@@ -88,7 +108,7 @@ public class UserResource {
 		query1List.add(new BasicDBObject("password", user.getPassword()));
 		query1.put("$and", query1List);
 	 
-		DBCursor cursor = coll.find(query1);
+		DBCursor cursor = mongoClient.findData(query1);
 		while (cursor.hasNext()) {
 			System.out.println(cursor.next());
 			authenticated=200;
@@ -97,7 +117,7 @@ public class UserResource {
 		/**
     	 * Closing connection
     	 */
-		mongoClient.close(); 	
+		mongoClient.closeConnection(); 	
 	return Response.status(authenticated).build();
     }
 }
