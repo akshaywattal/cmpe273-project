@@ -9,9 +9,11 @@ import com.yammer.dropwizard.config.Environment;
 
 import com.yammer.dropwizard.views.ViewBundle;
 
+
 //import edu.sjsu.cmpe.bigdata.api.resources.BookResource;
 import edu.sjsu.cmpe.bigdata.api.resources.UserResource;
 import edu.sjsu.cmpe.bigdata.config.BigDataServiceConfiguration;
+import edu.sjsu.cmpe.bigdata.ui.resources.DashboardResource;
 import edu.sjsu.cmpe.bigdata.ui.resources.HomeResource;
 
 public class BigDataService extends Service<BigDataServiceConfiguration> {
@@ -36,5 +38,6 @@ public class BigDataService extends Service<BigDataServiceConfiguration> {
 	//environment.addResource(BookResource.class);	
 	/** UI API */
 	environment.addResource(new HomeResource());
+	environment.addResource(new DashboardResource());
     }
 }
