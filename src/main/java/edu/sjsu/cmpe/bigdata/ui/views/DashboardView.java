@@ -5,7 +5,7 @@ import com.yammer.dropwizard.views.View;
 public class DashboardView extends View {
 
     public DashboardView() {
-        super("dashboard.mustache");
+        super("dash.mustache");
     }
 	
 }
