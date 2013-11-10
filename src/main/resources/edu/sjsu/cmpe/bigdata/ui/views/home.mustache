@@ -209,23 +209,23 @@
 	<!-- Footer - End -->
 
 	<div id="loginModal" class="reveal-modal small">
-		<h1 style="color:#0d5a72">Log In</h1>
-		<form id="login-form" name="login" action="#" method="POST">
-			<input type="text" name="username" placeholder="username" />
-			<input type="password" name="password" placeholder="password" /> 
-			<input class="right" style="background-color:#dcdcdc; color:#0d5a72; height:3em; width: 6em; font-weight:bold;" type="submit" name="login" value="Log In" onclick="b()" />
-		</form>
+	<h1 style="color:#0d5a72">Log In</h1>
+	<form id="login-form" name="login" action="#" method="POST">
+	<input type="text" id="username_login" name="username" placeholder="username" />
+	<input type="password" id="password_login" name="password" placeholder="password" /> 
+	<input class="right" style="background-color:#dcdcdc; color:#0d5a72; height:3em; width: 6em; font-weight:bold;" type="submit" name="login" value="Log In" onclick="authenticateUser()" />
+	</form>
 	</div>
 
 	<div id="registerModal" class="reveal-modal small">
-		<h1 style="color:#0d5a72">Register</h1>
-		<form id="register-form" name="register" action="#" method="POST">
-			<input type="text" id="username" name="username" placeholder="username" />
-			<input type="email" name="email" placeholder="email" />
-			<input type="password" name="password" placeholder="password" /> 
-			<input type="password" name="conf_pass" placeholder="confirm password" />
-			<input class="right" style="background-color:#dcdcdc; color:#0d5a72; height:3em; width: 6em; font-weight:bold;" type="submit" name="submit" value="Submit" onclick="a()" />
-		</form>
+	<h1 style="color:#0d5a72">Register</h1>
+	<form id="register-form" name="register" action="#" method="POST">
+	<input type="text" id="username" name="username" placeholder="username" />
+	<input type="email" name="email" placeholder="email" />
+	<input type="password" id="password" name="password" placeholder="password" /> 
+	<input type="password" name="conf_pass" placeholder="confirm password" />
+	<input class="right" style="background-color:#dcdcdc; color:#0d5a72; height:3em; width: 6em; font-weight:bold;" type="submit" name="submit" value="Submit" onclick="createUser()" />
+	</form>
 	</div>
 
   <script>
@@ -261,7 +261,10 @@
 	});
 	  
 	  
-	  function a(){
+	  function createUser(){
+	  	var encodedPassword = document.getElementById("password");
+  		encodedPassword.value = window.btoa(encodedPassword.value);
+  		
 		var url = "http://localhost:8080/bigdata/v1";
 		var representationOfDesiredState = JSON.stringify($('#register-form').serializeObject()); //this in our case would be JSON text
 		var client = new XMLHttpRequest();
@@ -272,7 +275,7 @@
 
 		if (client.status == 201)
 	    	{alert("The request succeeded!\n\nNew User Created");
-	    	window.location.href="index.html"}
+	    	window.location.reload();}
 		else
 	    	alert("The request did not succeed!");
 		}
@@ -306,14 +309,18 @@
 	});
 	  
 	  
-	  function b(){
-		var url = "http://localhost:8080/bigdata/v1/username";
-		var representationOfDesiredState = JSON.stringify($('#login-form').serializeObject()); //this in our case would be JSON text
+	  function authenticateUser(){
+	  	var username = document.getElementById("username_login").value;
+  		var encodedPassword = document.getElementById("password_login");
+  		encodedPassword.value = window.btoa(encodedPassword.value);
+  		
+		var url = "http://localhost:8080/bigdata/v1/?username=" + username + "&password=" + encodedPassword.value;
+		//var representationOfDesiredState = JSON.stringify($('#login-form').serializeObject()); //this in our case would be JSON text
 		var client = new XMLHttpRequest();
 		
-		client.open("POST", url, false);
+		client.open("GET", url, false);
 		client.setRequestHeader("Content-Type", "application/json"); //this will also change to JSON
-		client.send(representationOfDesiredState);
+		client.send();
 		if (client.status == 200)
 	    	{alert("User Authenticated");
 	    	window.location.href="app.html"}

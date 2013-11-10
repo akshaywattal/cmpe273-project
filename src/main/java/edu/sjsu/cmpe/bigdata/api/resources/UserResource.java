@@ -77,11 +77,9 @@ public class UserResource {
 	return Response.status(201).build();
     }
     
-    @POST
-    @Path("/{username}")
+    @GET
     @Timed(name = "authenticate-user")
-    public Response authenticateUser(User user) throws FileNotFoundException, IOException {
-    	
+    public Response authenticateUser(@QueryParam("username") String  username, @QueryParam("password") String password) throws FileNotFoundException, IOException {
     	/**
     	 * Creating an instance of MongoDB properties configuration
     	 */
@@ -104,8 +102,8 @@ public class UserResource {
     	 */
 		BasicDBObject query1 = new BasicDBObject();
 		List<BasicDBObject> query1List = new ArrayList<BasicDBObject>();
-		query1List.add(new BasicDBObject("username", user.getUsername()));
-		query1List.add(new BasicDBObject("password", user.getPassword()));
+		query1List.add(new BasicDBObject("username", username));
+		query1List.add(new BasicDBObject("password", password));
 		query1.put("$and", query1List);
 	 
 		DBCursor cursor = mongoClient.findData(query1);
