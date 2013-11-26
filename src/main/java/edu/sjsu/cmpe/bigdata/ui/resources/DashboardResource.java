@@ -7,7 +7,7 @@ import javax.ws.rs.core.MediaType;
 
 import edu.sjsu.cmpe.bigdata.ui.views.DashboardView;
 
-@Path("/dashboard")
+@Path("dashboard")
 @Produces(MediaType.TEXT_HTML)
 public class DashboardResource {
 //  private final BookRepositoryInterface bookRepository;

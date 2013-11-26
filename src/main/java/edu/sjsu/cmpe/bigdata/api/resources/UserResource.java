@@ -34,7 +34,7 @@ import edu.sjsu.cmpe.bigdata.dto.LinksDto;
 import edu.sjsu.cmpe.bigdata.dao.MongoDBDAO;
 import edu.sjsu.cmpe.bigdata.config.MongoDBConfig;;
 
-@Path("/v1")
+@Path("/v1/users")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
 public class UserResource {
