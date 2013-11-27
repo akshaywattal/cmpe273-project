@@ -32,7 +32,7 @@ import edu.sjsu.cmpe.bigdata.domain.User;
 import edu.sjsu.cmpe.bigdata.dto.LinkDto;
 import edu.sjsu.cmpe.bigdata.dto.LinksDto;
 import edu.sjsu.cmpe.bigdata.dao.MongoDBDAO;
-import edu.sjsu.cmpe.bigdata.config.MongoDBConfig;;
+
 
 @Path("/v1/users")
 @Produces(MediaType.APPLICATION_JSON)
@@ -45,23 +45,18 @@ public class UserResource {
 
     @POST
     @Timed(name = "create-user")
-    public Response createUser(User user) throws FileNotFoundException, IOException {    	
-    	/**
-    	 * Creating an instance of MongoDB properties configuration
-    	 */
-    	MongoDBConfig connVariable = new MongoDBConfig();
-    	
+    public Response createUser(User user) throws FileNotFoundException, IOException {
     	/**
     	 * Creating an instance of MongoDB Data Access Layer to connect to database
     	 */
     	MongoDBDAO mongoClient = new MongoDBDAO();
-    	mongoClient.getDBConnection(connVariable.dbHostName, connVariable.dbPortNumber);
-    	mongoClient.getDB(connVariable.dbName);
+    	mongoClient.getDBConnection(mongoClient.getDbHostName(), mongoClient.getDbPortNumber());
+    	mongoClient.getDB(mongoClient.getDbName());
     	
 		/**
     	 * Creating a new Collection: bigdataUserCollection
     	 */
-    	mongoClient.getCollection("bigdataUserCollection");
+    	mongoClient.getCollection(mongoClient.getBigdataUserCollection());
 		
     	/**
     	 * Creating a new document and inserting data
@@ -79,18 +74,13 @@ public class UserResource {
     
     @GET
     @Timed(name = "authenticate-user")
-    public Response authenticateUser(@QueryParam("username") String  username, @QueryParam("password") String password) throws FileNotFoundException, IOException {
-    	/**
-    	 * Creating an instance of MongoDB properties configuration
-    	 */
-    	MongoDBConfig connVariable = new MongoDBConfig();
-    	
+    public Response authenticateUser(@QueryParam("username") String  username, @QueryParam("password") String password) throws FileNotFoundException, IOException {   	
     	/**
     	 * Creating an instance of MongoDB Data Access Layer to connect to database
     	 */
     	MongoDBDAO mongoClient = new MongoDBDAO();
-    	mongoClient.getDBConnection(connVariable.dbHostName, connVariable.dbPortNumber);
-    	mongoClient.getDB(connVariable.dbName);
+    	mongoClient.getDBConnection(mongoClient.getDbHostName(), mongoClient.getDbPortNumber());
+    	mongoClient.getDB(mongoClient.getDbName());
     	
 		/**
     	 * Accessing Collection: bigdataUserCollection

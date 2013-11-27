@@ -1,3 +1,10 @@
+#Contains properties for MongoDB 
+dbHost: "localhost"
+dbPort: 27017
+databasename: "bigdata"
+username: ""
+password: ""
+bigdatausercollection: "bigdataUserCollection"
 
 # HTTP-specific options.
 http:
