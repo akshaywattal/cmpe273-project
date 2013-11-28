@@ -1,11 +1,22 @@
+package tengen;
+
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.UnsupportedEncodingException;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.net.UnknownHostException;
 import java.util.LinkedList;
 import java.util.List;
+
+import com.mongodb.BasicDBObject;
+import com.mongodb.DB;
+import com.mongodb.DBCollection;
+import com.mongodb.DBCursor;
+import com.mongodb.DBObject;
+import com.mongodb.MongoClient;
 
 public class SentimentalAnalysis {
 
@@ -15,7 +26,7 @@ public class SentimentalAnalysis {
 		try {
 			// Create connection
 			url = new URL(targetURL);
-			connection = (HttpURLConnection) url.openConnection();
+			connection = (HttpURLConnection)url.openConnection();
 			connection.setRequestMethod("POST");
 			connection.setRequestProperty("Content-Type",
 					"application/x-www-form-urlencoded");
@@ -49,8 +60,8 @@ public class SentimentalAnalysis {
 
 		} catch (Exception e) {
 
-			e.printStackTrace();
-			return null;
+			//e.printStackTrace();
+			return "This review is not evaluated";
 
 		} finally {
 
@@ -60,24 +71,55 @@ public class SentimentalAnalysis {
 		}
 	}
 	
-	public static void main(String args[])
+	public static void main(String args[]) throws UnknownHostException
 	{
-		SentimentalAnalysis builder = new SentimentalAnalysis();
-		//String baseurl = "http://access.alchemyapi.com/calls/text/TextGetTextSentiment?apikey=44edfe996b09602d3ef589c510e5d460a9e3a99f&sentiment=1&outputMode=json&showSourceText=1&text=";
-		String baseurl = "https://api.sentigem.com/external/get-sentiment?api-key=c7b7029934a1159ae3e2a9c3f80d3f99PiXQg6kuBN_0dp2Z8E5lrWTD4-oAqJbY&text=";
-		List<String> reviewList = new LinkedList();
-		reviewList.add("Mohan will be mastering in testing");
-		reviewList.add("There's a lot many things we need to do to be a graduate");
-		reviewList.add("It feels great in US");
+		MongoClient client = new MongoClient();
+		DB courseDB = client.getDB("codeassassins");
+		DBCollection collection = courseDB.getCollection("bigdata");
 		
+		// Query for fetching reviews for a particular restaurant
+		//DBObject query = new BasicDBObject("type","review").append("business_id", "VFslQjSgrw4Mu5_Q1xk1KQ");
+		DBObject query = new BasicDBObject("type","review").append("business_id", "LjOIxpH-89S18WI1ktmPBQ");
+		
+		DBCursor cursor = collection.find(query);
+
+		SentimentalAnalysis builder = new SentimentalAnalysis();
+		
+		// URL for using sentigem API for sentimental analysis
+		String baseurl = "https://api.sentigem.com/external/get-sentiment?api-key=c7b7029934a1159ae3e2a9c3f80d3f99PiXQg6kuBN_0dp2Z8E5lrWTD4-oAqJbY&text=";
+				
 		String param = "";
-		for(String review : reviewList){
-			String finalurl = baseurl+review;
-			String response = builder.excutePost(finalurl,param);
-			//System.out.println(i);
-			System.out.println(response);
-				
+		String response = "";
+		int neutral=0, negative=0, positive=0,notEval=0;
+		
+		
+		while(cursor.hasNext()){
+			
+			DBObject cur = cursor.next();
+			String userReview = (String) cur.get("text");
+			
+			String finalurl = baseurl+userReview;
+			response = builder.excutePost(finalurl,param);
+			System.out.print(response+"\n");
+			if (response.contains("neutral")){
+				neutral++;
+			}
+			else if (response.contains("positive")){
+				positive++;
+			}
+			else if (response.contains("negative")){
+				negative++;
+			}
+			else if (response.equalsIgnoreCase("This review is not evaluated")){
+				notEval++;
+			}
+						
 		}
-				
+		
+		System.out.println("Number of neutral reviews       : "+ neutral);
+		System.out.println("Number of positive reviews      : "+ positive);
+		System.out.println("Number of negative reviews      : "+ negative);
+		System.out.println("Number of reviews not evaluated : "+ notEval);
+
 	}
 }
