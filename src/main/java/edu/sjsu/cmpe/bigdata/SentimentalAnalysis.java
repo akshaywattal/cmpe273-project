@@ -97,8 +97,10 @@ public class SentimentalAnalysis {
 			
 			DBObject cur = cursor.next();
 			String userReview = (String) cur.get("text");
-			
-			String finalurl = baseurl+userReview;
+			try {
+				String encodedUserReview = java.net.URLEncoder.encode(userReview, "ISO-8859-1");
+
+			String finalurl = baseurl+encodedUserReview;
 			response = builder.excutePost(finalurl,param);
 			System.out.print(response+"\n");
 			if (response.contains("neutral")){
@@ -113,7 +115,10 @@ public class SentimentalAnalysis {
 			else if (response.equalsIgnoreCase("This review is not evaluated")){
 				notEval++;
 			}
-						
+			} catch (UnsupportedEncodingException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}			
 		}
 		
 		System.out.println("Number of neutral reviews       : "+ neutral);
