@@ -8,6 +8,7 @@ import java.io.UnsupportedEncodingException;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.UnknownHostException;
+import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -120,6 +121,22 @@ public class SentimentalAnalysis {
 				e.printStackTrace();
 			}			
 		}
+		
+		DBCollection collection1 = courseDB.getCollection("analysis");
+
+		String b_id = "VFslQjSgrw4Mu5_Q1xk1KQ";
+		
+		DBObject doc = new BasicDBObject()
+							.append("business_id", b_id)
+							.append("positive", positive)
+							.append("negative", negative)
+							.append("neutral", neutral)
+							.append("notEval", notEval)
+							.append("date", new Date())
+							;
+
+		collection1.insert(doc);
+
 		
 		System.out.println("Number of neutral reviews       : "+ neutral);
 		System.out.println("Number of positive reviews      : "+ positive);
