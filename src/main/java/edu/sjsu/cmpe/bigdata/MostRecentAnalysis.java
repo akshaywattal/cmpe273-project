@@ -26,7 +26,7 @@ public class MostRecentAnalysis {
 		// Creating query for fetching details of latest analysis
 		
 		DBObject query1 = new BasicDBObject()
-						.append("business_id", "LjOIxpH-89S18WI1ktmPBQ")
+						.append("business_id", "VFslQjSgrw4Mu5_Q1xk1KQ")
 				;
 
 		DBObject query2 = new BasicDBObject()
