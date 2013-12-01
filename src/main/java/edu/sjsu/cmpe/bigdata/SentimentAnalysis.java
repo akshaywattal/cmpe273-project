@@ -19,7 +19,7 @@ import com.mongodb.DBCursor;
 import com.mongodb.DBObject;
 import com.mongodb.MongoClient;
 
-public class SentimentalAnalysis {
+public class SentimentAnalysis {
 
 	public String executePost(String targetURL, String urlParameters) {
 		URL url;

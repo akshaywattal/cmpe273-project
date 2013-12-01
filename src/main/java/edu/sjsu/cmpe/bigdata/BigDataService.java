@@ -12,7 +12,9 @@ import com.yammer.dropwizard.views.ViewBundle;
 
 
 
+
 import de.spinscale.dropwizard.jobs.JobsBundle;
+import edu.sjsu.cmpe.bigdata.api.resources.AnalyticsResource;
 //import edu.sjsu.cmpe.bigdata.api.resources.BookResource;
 import edu.sjsu.cmpe.bigdata.api.resources.UserResource;
 import edu.sjsu.cmpe.bigdata.config.BigDataServiceConfiguration;
@@ -55,7 +57,7 @@ public class BigDataService extends Service<BigDataServiceConfiguration> {
         /** Root API */
 		environment.addResource(UserResource.class);
 		/** Books APIs */
-		//environment.addResource(BookResource.class);	
+		environment.addResource(AnalyticsResource.class);	
 		/** UI API */
 		environment.addResource(new HomeResource());
 		environment.addResource(new DashboardResource());
