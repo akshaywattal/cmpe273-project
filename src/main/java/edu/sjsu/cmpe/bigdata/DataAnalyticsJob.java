@@ -27,8 +27,8 @@ public class DataAnalyticsJob extends Job{
 				DBCollection collection = courseDB.getCollection("yelp");
     		
 				// Query for fetching reviews for a particular restaurant
-				//DBObject query = new BasicDBObject("type","review").append("business_id", "VFslQjSgrw4Mu5_Q1xk1KQ");
-				DBObject query = new BasicDBObject("type","review").append("business_id", "LjOIxpH-89S18WI1ktmPBQ");
+				DBObject query = new BasicDBObject("type","review").append("business_id", "VFslQjSgrw4Mu5_Q1xk1KQ");
+				//DBObject query = new BasicDBObject("type","review").append("business_id", "LjOIxpH-89S18WI1ktmPBQ");
 				
 				DBCursor cursor = collection.find(query);
 				
