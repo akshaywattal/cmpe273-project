@@ -4,8 +4,6 @@ import java.io.UnsupportedEncodingException;
 import java.net.UnknownHostException;
 import java.util.Date;
 
-import javax.jms.Connection;
-
 import com.mongodb.BasicDBObject;
 import com.mongodb.DB;
 import com.mongodb.DBCollection;
@@ -42,7 +40,7 @@ public class DataAnalyticsJob extends Job{
 						
 				String param = "";
 				String response = "";
-				int neutral=0, negative=0, positive=0,notEval=0;
+				int neutral=0, negative=0, positive=0, notEval=0;
 				
 				
 				while(cursor.hasNext()){
@@ -55,6 +53,7 @@ public class DataAnalyticsJob extends Job{
 				String finalurl = baseurl+encodedUserReview;
 				response = builder.executePost(finalurl,param);
 				System.out.print(response+"\n");
+				
 				if (response.contains("neutral")){
 					neutral++;
 				}
@@ -67,9 +66,9 @@ public class DataAnalyticsJob extends Job{
 				else if (response.equalsIgnoreCase("This review is not evaluated")){
 					notEval++;
 				}
-				} catch (UnsupportedEncodingException e) {
-					// TODO Auto-generated catch block
-						e.printStackTrace();
+				} 
+				catch (UnsupportedEncodingException e) {
+					e.printStackTrace();
 					}			
 				}
 				
@@ -93,7 +92,6 @@ public class DataAnalyticsJob extends Job{
 				System.out.println("Number of reviews not evaluated : "+ notEval);
 					    
 				} catch (UnknownHostException e1) {
-					// TODO Auto-generated catch block
 					e1.printStackTrace();
 				}
 			System.out.println("In Sentiment Analysis-END");
