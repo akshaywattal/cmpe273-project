@@ -5,6 +5,7 @@ import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
@@ -107,6 +108,43 @@ public class UserResource {
     	 */
 		mongoClient.closeConnection(); 	
 	return Response.status(authenticated).build();
+    }
+    
+    @GET
+    @Path("/{id}/competition")
+    @Timed(name = "getCompetition")
+    public List<DBObject> getCompetition(@PathParam("id") String id) throws FileNotFoundException, IOException {
+    	/**
+    	 * Creating an instance of MongoDB Data Access Layer to connect to database
+    	 */
+    	MongoDBDAO mongoClient = new MongoDBDAO();
+    	mongoClient.getDBConnection(mongoClient.getDbHostName(), mongoClient.getDbPortNumber());
+    	mongoClient.getDB(mongoClient.getDbName());
+    	
+		/**
+    	 * Accessing Collection: bigdataUserCollection
+    	 */
+    	mongoClient.getCollection("bigdataUserCollection");
+    	
+		/**
+    	 * Creating query1 to find competition
+    	 */
+		BasicDBObject query1 = new BasicDBObject();
+		query1.put("type", "business");
+		query1.put("categories", "Restaurants");
+		query1.put("schools", "Stanford University");
+		
+		DBCursor cursor = mongoClient.findData(query1).limit(10);
+		List<DBObject> compList = new ArrayList<DBObject>();
+		while(cursor.hasNext()) {
+			compList.add(cursor.next());
+		}
+		
+		/**
+    	 * Closing connection
+    	 */
+		mongoClient.closeConnection(); 	
+	return compList;
     }
 }
 
