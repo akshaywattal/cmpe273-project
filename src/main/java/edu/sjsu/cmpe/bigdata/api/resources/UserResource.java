@@ -122,9 +122,9 @@ public class UserResource {
     	mongoClient.getDB(mongoClient.getDbName());
     	
 		/**
-    	 * Accessing Collection: bigdataUserCollection
+    	 * Accessing Collection: yelp
     	 */
-    	mongoClient.getCollection("bigdataUserCollection");
+    	mongoClient.getCollection("yelp");
     	
 		/**
     	 * Creating query1 to find competition

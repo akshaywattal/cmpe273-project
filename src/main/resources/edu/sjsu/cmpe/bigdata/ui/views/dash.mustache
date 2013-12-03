@@ -1,302 +1,221 @@
 <!doctype html>
-
 <html class="no-js" lang="en">
-
-  <head>
-
-  <meta charset="utf-8" />
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>Big Data Analytics | Dashboard</title>
-
-<link rel="stylesheet" href="../assets/css/normalize.css" />
-
-    <link rel="stylesheet" href="../assets/css/foundation.css" />
-
-<link rel="stylesheet" href="../assets/img/foundation-icons/foundation-icons.css" />
-
-<link href="../assets/css/jquery.neosmart.fb.wall.css" rel="stylesheet" type="text/css"/>
-
-    <script src="../assets/js/modernizr.js"></script>
-
-<script src="http://maps.googleapis.com/maps/api/js?sensor=false&language=en"></script>
-
-<script src="../assets/js/vendor/angular.min_v1.2.3.js"></script> 
-
-<script src="../assets/js/app.js"></script>
-
-<script src="http://d3js.org/d3.v3.min.js"></script>
-
-
-
-<style>
-
-#map_canvas{
-
-width:100%;
-
-height:25em;
-
-}
-
-</style>
-
-
-
-
-  </head>
-
-  <body ng-app="myApp" ng-controller="MyCtrl">
-
-  <div id="fb-root"></div>
-
-  <script>(function(d, s, id) {
-
-  var js, fjs = d.getElementsByTagName(s)[0];
-
-  if (d.getElementById(id)) return;
-
-  js = d.createElement(s); js.id = id;
-
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-
-  fjs.parentNode.insertBefore(js, fjs);
-
-}(document, 'script', 'facebook-jssdk'));
-
-</script>
-
-
-
-  <!-- Header section of the App -->
-
-  <div class="fixed">
-
-    <nav class="top-bar" data-topbar>
-
-    <ul class="title-area">
-
-      <li class="name">
-
-        <h1 style="font-size:2em;"><a href="#">Big<span style="color:#2ba6cb">Data</span> Analytics System</a></h1>
-
-      </li>
-
-  <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-
-    </ul>
-
-
-<section class="top-bar-section">
-
-<ul class="right">
-
-<li class="has-dropdown"> 
-
-<a href="#" data-dropdown="drop1" ><img src="../assets/img/settings-s.png"></a> 
-
-<ul class="dropdown">
-
-<li><a href="#">Account</a></li>
-
-<li class="divider"></li>
-
-<li><a href="#">Configurations</a></li>
-
-<li class="divider"></li>
-
-<li><a href="#">Logout</a></li>
-
-</ul>
-
-</li>
-
-</ul> 
-
-</section>
-
-    </nav>
-
-  </div>
-
- 
-
-  <!-- Main content section -->
-
-  <dl class="tabs vertical" data-tab>
-
-    <dd class="active"><a href="#panel1a">Competition</a></dd>
-
-    <dd><a href="#panel2a">Social Media Integration</a></dd>
-
-    <dd><a href="#panel3a">Customer Relations</a></dd>
-
-    <dd><a href="#panel4a">Tab 4</a></dd>
-
-  </dl>
-
-  <div class="tabs-content vertical" style="height:50em;">
-
-    <div class="content active" id="panel1a" style="width:100%; height:100%">
-
-<map id="map_canvas"></map>
-
-    </div>
-
-    <div class="content" id="panel2a">
-
-<div class="row">
-
-<p></p>
-
-<div class="large-6 columns" style="background-color:#e4e4e4">
-
-<h4><b>Live Facebook Feed</b></h4>
-
-<div id="example1"></div>
-
-<div class="fb-like-box" data-href="https://www.facebook.com/CodeAssassins" data-width="450" data-colorscheme="light" data-show-faces="true" data-header="true" data-show-border="true"></div>
-
-<!--<div class="fb-comments" data-href="https://www.facebook.com/CodeAssassins" data-width="450" data-numposts="5" data-colorscheme="light" data-show-border="true"></div>-->
-
-</div>
-
-<!--TO DO: Add a line between them-->
-
-<div class="large-6 columns" style="background-color:#e4e4e4">
-
-<h4><b>Live Twitter Feed</b></h4>
-
-<div id="twitter" style="width:450px">
-
-<a class="twitter-timeline" href="https://twitter.com/CodeAssassins1" data-widget-id="406567473492664320">Tweets by @CodeAssassins1</a>
-
-</div>
-
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-</div>
-
-</div>
-
-    </div>
-
-    <div class="content" id="panel3a">
-
-      <p>Panel 3 content goes here.</p>
-
-    </div>
-
-    <div class="content" id="panel4a">
-
-      <p>Panel 4 content goes here.</p>
-
-    </div>
-
-  </div>
-
- 
-
-  <!-- Footer section -->
-
-  <div class="footer" style="background-color:#fff; margin-top:2em;">
-
-      <div class="medium-4 medium-4 push-8 columns">
-
-        <ul class="inline-list right">
-
-            <li><a href="http://www.twitter.com/" class="twitter">
-
-            <i class="fi-social-twitter" style="font-size:4em;"></i>
-
-            </a></li>
-
-            <li><a href="http://www.facebook.com/" class="facebook">
-
-            <i class="fi-social-facebook" style="font-size:4em;"></i>
-
-            </a></li>
-
-            <li><a href="/contact" class="mail">
-
-            <i class="fi-mail" style="font-size:4em;"></i>
-
-            </a></li>
-
-          </ul>
-
-      </div>
-
-      <div class="medium-8 medium-8 pull-4 columns">
-
-          <a href="#"><h1 style="font-size:2em;">Big<span style="color:#2ba6cb">Data</span> Analytics System</h1></a>
-
-          <ul class="inline-list">
-
-            <li><a href="#">About</a></li>
-
-            <li><a href="#">Blog</a></li>
-
-            <li><a href="#">News</a></li>
-
-            <li><a href="#">Contact</a></li>
-
-            <li><a href="#">Sitemap</a></li>
-
-        </ul>
-
-        <p class="copyright">&copy; 2013 BigData Analytics System, Inc. All rights reserved.</p>
-
-      </div>          
-
-  </div>
-
- 
-
-  <!-- Scripts -->
-
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Big Data Analytics | Dashboard</title>
+      <link rel="stylesheet" href="../assets/css/normalize.css" />
+      <link rel="stylesheet" href="../assets/css/foundation.css" />
+      <link rel="stylesheet" href="../assets/img/foundation-icons/foundation-icons.css" />
+      <link href="../assets/css/jquery.neosmart.fb.wall.css" rel="stylesheet" type="text/css"/>
+      <script src="../assets/js/modernizr.js"></script>
+      <script src="http://maps.googleapis.com/maps/api/js?sensor=false&language=en"></script>
+      <script src="../assets/js/vendor/angular.min_v1.2.3.js"></script> 
+      <script src="../assets/js/app.js"></script>
+      <script src="http://d3js.org/d3.v3.min.js"></script>
+      <style>
+         #map_canvas{
+         width:100%;
+         height:25em;
+         }
+               
+      <style>
+		body {
+  		font: 10px sans-serif;
+		}
+		.arc path {
+  		stroke: #fff;
+		}
+	  </style>
+   </head>
    
-
-    <script src="../assets/js/jquery.js"></script>
-
-    <script src="../assets/js/foundation.min.js"></script>
-
-    <script src="../assets/js/jquery.neosmart.fb.wall.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-
-$(function(){
-
-$('#example1').fbWall({ id:'CodeAssassins',accessToken:'CAAUSL0z1mCQBAJswvpR3urkGKlvPD3ijusMVuThG2IjW6CBbHaFsf3lybQdf4edufZAGhZA10BLSBLIiEDuzXq9m1mqWWslZC47UMUmsRUkaDxi19Faz3vqvI8aOR7TSa90zFQAMvdZB8bihfivw0GjmO9ZA8ISEADMzyH016ocZBMTJElLJtHPyW8S7zEDBoZD'});
-
-});
-
-</script>
-
-
-<script>
-
-      $(document).foundation({
-
-  orbit: {
-
-  navigation_arrows: false,
-
-  slide_number: false,
-
-  bullets: false,
-
-  resume_on_mouseout: true,
-
-  timer_speed: 8000
-
-  }
-
-      });
-
-    </script>
-
-  </body>
-
+   <body ng-app="myApp" ng-controller="MyCtrl">
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) return;
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+         fjs.parentNode.insertBefore(js, fjs);
+         }(document, 'script', 'facebook-jssdk'));
+      </script>
+      
+      <!-- Header section of the App -->
+      <div class="fixed">
+         <nav class="top-bar" data-topbar>
+            <ul class="title-area">
+               <li class="name">
+                  <h1 style="font-size:2em;"><a href="#">Big<span style="color:#2ba6cb">Data</span> Analytics System</a></h1>
+               </li>
+               <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+            </ul>
+            <section class="top-bar-section">
+               <ul class="right">
+                  <li class="has-dropdown">
+                     <a href="#" data-dropdown="drop1" ><img src="../assets/img/settings-s.png"></a> 
+                     <ul class="dropdown">
+                        <li><a href="#">Account</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Configurations</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Logout</a></li>
+                     </ul>
+                  </li>
+               </ul>
+            </section>
+         </nav>
+      </div>
+      
+      <!-- Main content section -->
+      <dl class="tabs vertical" data-tab>
+         <dd class="active"><a href="#panel1a">Competition</a></dd>
+         <dd><a href="#panel2a">Social Media Integration</a></dd>
+         <dd><a href="#panel3a">Customer Relations</a></dd>
+         <dd><a href="#panel4a">Tab 4</a></dd>
+      </dl>
+      <div class="tabs-content vertical" style="height:50em;">
+         <div class="content active" id="panel1a" style="width:100%; height:100%">
+            <map id="map_canvas"></map>
+         </div>
+         <div class="content" id="panel2a">
+            <div class="row">
+               <p></p>
+               <div class="large-6 columns" style="background-color:#e4e4e4">
+                  <h4><b>Live Facebook Feed</b></h4>
+                  <div id="example1"></div>
+                  <div class="fb-like-box" data-href="https://www.facebook.com/CodeAssassins" data-width="450" data-colorscheme="light" data-show-faces="true" data-header="true" data-show-border="true"></div>
+               </div>
+               <!--TO DO: Add a line between them-->
+               <div class="large-6 columns" style="background-color:#e4e4e4">
+                  <h4><b>Live Twitter Feed</b></h4>
+                  <div id="twitter" style="width:450px">
+                     <a class="twitter-timeline" href="https://twitter.com/CodeAssassins1" data-widget-id="406567473492664320">Tweets by @CodeAssassins1</a>
+                  </div>
+                  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+               </div>
+            </div>
+         </div>
+         <div class="content active" id="panel3a" style="width:100%; height:100%">
+         	<div class="row">
+               <p></p>
+               <div class="large-6 columns" style="background-color:#e4e4e4">
+                  <h4><b>Sentiment Analysis</b></h4>
+                  <script>
+                  	var responseData;
+                  	var data;      	 
+				    var url = "http://localhost:8080/bigdata/v1/analytics/sentiment";
+					var client = new XMLHttpRequest();
+			
+					client.open("GET", url, false);
+					client.setRequestHeader("Content-Type", "application/json"); //this will also change to JSON
+					client.send();
+			
+					if (client.status == 200)
+				    	responseData=client.responseText;
+					else
+				    	alert("The request for Sentiment Analysis did not succeed!");
+					
+					data = JSON.parse(responseData); 
+					var width = 700,
+					    height = 300,
+					    radius = Math.min(width, height) / 2;
+					
+					var color = d3.scale.ordinal()
+					    .range(["yellow","green","red","orange"]);
+					
+					var arc = d3.svg.arc()
+					    .outerRadius(radius - 10)
+					    .innerRadius(0);
+					
+					var pie = d3.layout.pie()
+					    .sort(null)
+					    .value(function(d) { return d.value; });
+					
+					var svg = d3.select("body").append("svg")
+					    .attr("width", width)
+					    .attr("height", height)
+					  .append("g")
+					    .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+					
+					var g = svg.selectAll(".arc")
+					      .data(pie(data))
+					    .enter().append("g")
+					      .attr("class", "arc");
+					
+					  g.append("path")
+					      .attr("d", arc) 
+					      .style("fill", function(d) { return color(d.data.sentiment); });
+					
+					  g.append("text")
+					      .attr("transform", function(d) { return "translate(" + arc.centroid(d) + ")"; })
+					      .attr("dy", ".35em")
+					      .style("text-anchor", "middle")
+					      .text(function(d) { return d.data.sentiment; });
+				  </script>
+               </div>
+               <!--TO DO: Add a line between them-->
+               
+            </div>
+         </div>
+         <div class="content" id="panel4a">
+            <p>Panel 4 content goes here.</p>
+         </div>
+      </div>
+      
+      <!-- Footer section -->
+      <div class="footer" style="background-color:#fff; margin-top:2em;">
+         <div class="medium-4 medium-4 push-8 columns">
+            <ul class="inline-list right">
+               <li><a href="http://www.twitter.com/" class="twitter">
+                  <i class="fi-social-twitter" style="font-size:4em;"></i>
+                  </a>
+               </li>
+               <li><a href="http://www.facebook.com/" class="facebook">
+                  <i class="fi-social-facebook" style="font-size:4em;"></i>
+                  </a>
+               </li>
+               <li><a href="/contact" class="mail">
+                  <i class="fi-mail" style="font-size:4em;"></i>
+                  </a>
+               </li>
+            </ul>
+         </div>
+         <div class="medium-8 medium-8 pull-4 columns">
+            <a href="#">
+               <h1 style="font-size:2em;">Big<span style="color:#2ba6cb">Data</span> Analytics System</h1>
+            </a>
+            <ul class="inline-list">
+               <li><a href="#">About</a></li>
+               <li><a href="#">Blog</a></li>
+               <li><a href="#">News</a></li>
+               <li><a href="#">Contact</a></li>
+               <li><a href="#">Sitemap</a></li>
+            </ul>
+            <p class="copyright">&copy; 2013 BigData Analytics System, Inc. All rights reserved.</p>
+         </div>
+      </div>
+      
+      <!-- Scripts -->
+      <script src="../assets/js/jquery.js"></script>
+      <script src="../assets/js/foundation.min.js"></script>
+      <script src="../assets/js/jquery.neosmart.fb.wall.js" type="text/javascript"></script>
+      <script type="text/javascript">
+         $(function(){       
+         $('#example1').fbWall({ id:'CodeAssassins',accessToken:'CAAUSL0z1mCQBAJswvpR3urkGKlvPD3ijusMVuThG2IjW6CBbHaFsf3lybQdf4edufZAGhZA10BLSBLIiEDuzXq9m1mqWWslZC47UMUmsRUkaDxi19Faz3vqvI8aOR7TSa90zFQAMvdZB8bihfivw0GjmO9ZA8ISEADMzyH016ocZBMTJElLJtHPyW8S7zEDBoZD'});
+         });
+         
+      </script>
+      <script>
+         $(document).foundation({     
+         orbit: {
+         navigation_arrows: false,       
+         slide_number: false,
+         bullets: false,
+         resume_on_mouseout: true,
+         timer_speed: 8000
+         }
+         });
+         
+      </script>
+   </body>
 </html>
