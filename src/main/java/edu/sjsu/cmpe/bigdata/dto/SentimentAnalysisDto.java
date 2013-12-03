@@ -15,10 +15,8 @@ import com.mongodb.MongoClient;
 
 public class SentimentAnalysisDto {
 	
-	private String response;
-	
 	public String getSentiment() throws UnknownHostException {
-		 
+		
 		// Creating connection with MongoDB
 		MongoClient client = new MongoClient();
 		DB courseDB = client.getDB("bigdata");
@@ -48,12 +46,7 @@ public class SentimentAnalysisDto {
 		System.out.println("Number of negative reviews      : "+ negative);
 		System.out.println("Number of reviews not evaluated : "+ notEval);
 		
-		// Creating String in json format
-		response = "{" + "\"neutral\":" + neutral 
-					   + ",\"positive\":" + positive
-					   + ",\"negative\":" + negative 
-					   + ",\"notEval\":" + notEval + "}";
-		
-		return response;
+		//NOTE: Fix below to return data in json format
+		return "";
 		}
 	}

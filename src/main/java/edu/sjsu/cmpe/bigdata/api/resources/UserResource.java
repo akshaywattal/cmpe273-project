@@ -140,7 +140,6 @@ public class UserResource {
 			compList.add(cursor.next());
 		}
 		
-		
 		/**
     	 * Closing connection
     	 */

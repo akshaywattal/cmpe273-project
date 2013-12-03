@@ -8,8 +8,8 @@ app.directive('map', function($http) {
 		link: function(scope, element, attrs) {
 			console.log(element);
 			var myOptions = {
-				zoom: 16,
-				center: new google.maps.LatLng(37.442975, -122.1630475),
+				zoom: 12,
+				center: new google.maps.LatLng(37.426398, -122.16836),
 				mapTypeId: google.maps.MapTypeId.ROADMAP
 			};
 			var map = new google.maps.Map(document.getElementById(attrs.id), myOptions);
@@ -49,18 +49,6 @@ app.directive('map', function($http) {
 	};
 });
 
-function MyCtrl($scope, $http) {
+function MyCtrl($scope) {
 	$scope.mapPin = "No pin set yet";
-/*	$http({
-		method: 'GET',
-		dataType: 'json',
-		url: 'http://localhost:8080/bigdata/v1/users/1/competition?callback=JSON_CALLBACK',
-		headers: {
-			'Content-Type': 'application/json'
-		}
-	}).success(function(data, status, headers, config) {
-		$scope.biz = JSON.stringify(data);
-	}).error(function(data, status, headers, config) {
-		alert("failure");
-	}); */
 }
