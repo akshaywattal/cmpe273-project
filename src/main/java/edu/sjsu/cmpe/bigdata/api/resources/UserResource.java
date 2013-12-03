@@ -134,11 +134,12 @@ public class UserResource {
 		query1.put("categories", "Restaurants");
 		query1.put("schools", "Stanford University");
 		
-		DBCursor cursor = mongoClient.findData(query1).limit(10);
+		DBCursor cursor = mongoClient.findData(query1);
 		List<DBObject> compList = new ArrayList<DBObject>();
 		while(cursor.hasNext()) {
 			compList.add(cursor.next());
 		}
+		
 		
 		/**
     	 * Closing connection

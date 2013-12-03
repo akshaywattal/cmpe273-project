@@ -40,7 +40,7 @@ public class SentimentAnalysis {
 			connection.setDoInput(true);
 			connection.setDoOutput(true);
 
-			// Send request
+			// Send Request
 			DataOutputStream wr = new DataOutputStream(
 					connection.getOutputStream());
 			wr.writeBytes(urlParameters);
@@ -60,7 +60,6 @@ public class SentimentAnalysis {
 			return response.toString();
 
 		} catch (Exception e) {
-
 			//e.printStackTrace();
 			return "This review is not evaluated";
 
