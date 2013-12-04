@@ -62,7 +62,7 @@ app.directive('map', function($http) {
 		}
 	};
 });
-
+/*
 app.directive('piePlot', function($http) {
 	return {
 		restrict: 'EA',
@@ -128,9 +128,21 @@ app.directive('piePlot', function($http) {
 	};
 });
 
-
+*/
 function MyCtrl($scope) {
-	$scope.mapPin = "No pin set yet";
+	$scope.sentiment = [{
+		"sentiment": "neutral",
+		"value": "2"
+		}, {
+		"sentiment": "positive",
+		"value": "14"
+		}, {
+		"sentiment": "negative",
+		"value": "5"
+		}, {
+		"sentiment": "notevaluated",
+		"value": "0"
+		}];
 }
 
 

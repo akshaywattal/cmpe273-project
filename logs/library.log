@@ -1,14 +1,14 @@
-INFO  [2013-12-04 06:01:02,147] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 06:01:02,148] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 06:01:02,148] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:01:02,148] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:01:04,201] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:01:04,201] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:01:04,302] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
-INFO  [2013-12-04 06:01:04,302] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
-INFO  [2013-12-04 06:01:04,727] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
-INFO  [2013-12-04 06:01:26,083] org.reflections.Reflections: Reflections took 173 ms to scan 1 urls, producing 10 keys and 27 values 
-WARN  [2013-12-04 06:01:26,102] com.yammer.dropwizard.config.ServerFactory: 
+INFO  [2013-12-04 08:03:47,375] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
+INFO  [2013-12-04 08:03:47,375] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-12-04 08:03:47,375] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2013-12-04 08:03:47,376] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2013-12-04 08:03:49,429] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2013-12-04 08:03:49,429] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2013-12-04 08:03:49,530] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+INFO  [2013-12-04 08:03:49,530] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+INFO  [2013-12-04 08:03:49,762] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+INFO  [2013-12-04 08:04:06,381] org.reflections.Reflections: Reflections took 177 ms to scan 1 urls, producing 10 keys and 27 values 
+WARN  [2013-12-04 08:04:06,401] com.yammer.dropwizard.config.ServerFactory: 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
@@ -18,10 +18,10 @@ WARN  [2013-12-04 06:01:26,102] com.yammer.dropwizard.config.ServerFactory:
 !      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-INFO  [2013-12-04 06:01:26,157] com.yammer.dropwizard.cli.ServerCommand: Starting bigdata-service
-INFO  [2013-12-04 06:01:26,158] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
-INFO  [2013-12-04 06:01:26,236] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
-INFO  [2013-12-04 06:01:26,288] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+INFO  [2013-12-04 08:04:06,457] com.yammer.dropwizard.cli.ServerCommand: Starting bigdata-service
+INFO  [2013-12-04 08:04:06,458] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2013-12-04 08:04:06,540] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2013-12-04 08:04:06,594] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
 
     GET     /bigdata/ (edu.sjsu.cmpe.bigdata.ui.resources.HomeResource)
     GET     /bigdata/dashboard (edu.sjsu.cmpe.bigdata.ui.resources.DashboardResource)
@@ -30,16 +30,16 @@ INFO  [2013-12-04 06:01:26,288] com.yammer.dropwizard.config.Environment: The fo
     POST    /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
     GET     /bigdata/v1/analytics/sentiment (edu.sjsu.cmpe.bigdata.api.resources.AnalyticsResource)
 
-INFO  [2013-12-04 06:01:26,289] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2013-12-04 08:04:06,594] com.yammer.dropwizard.config.Environment: tasks = 
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
-INFO  [2013-12-04 06:01:26,555] org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor
-INFO  [2013-12-04 06:01:26,557] org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: main
-INFO  [2013-12-04 06:01:26,570] org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-INFO  [2013-12-04 06:01:26,571] org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.2.0 created.
-INFO  [2013-12-04 06:01:26,572] org.quartz.simpl.RAMJobStore: RAMJobStore initialized.
-INFO  [2013-12-04 06:01:26,572] org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+INFO  [2013-12-04 08:04:06,867] org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor
+INFO  [2013-12-04 08:04:06,870] org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: main
+INFO  [2013-12-04 08:04:06,882] org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+INFO  [2013-12-04 08:04:06,883] org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.2.0 created.
+INFO  [2013-12-04 08:04:06,884] org.quartz.simpl.RAMJobStore: RAMJobStore initialized.
+INFO  [2013-12-04 08:04:06,884] org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -47,25 +47,25 @@ INFO  [2013-12-04 06:01:26,572] org.quartz.core.QuartzScheduler: Scheduler meta-
   Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
   Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-INFO  [2013-12-04 06:01:26,572] org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
-INFO  [2013-12-04 06:01:26,572] org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.2.0
-INFO  [2013-12-04 06:01:26,573] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-INFO  [2013-12-04 06:01:26,575] de.spinscale.dropwizard.jobs.JobManager: Jobs to run on application start: []
-INFO  [2013-12-04 06:01:26,576] de.spinscale.dropwizard.jobs.JobManager: Jobs with @Every annotation: [class edu.sjsu.cmpe.bigdata.DataAnalyticsJob]
-INFO  [2013-12-04 06:01:26,604] de.spinscale.dropwizard.jobs.JobManager: Jobs with @On annotation: []
-INFO  [2013-12-04 06:01:26,610] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 06:01:26,611] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 06:05:21,400] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 06:05:21,401] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 06:05:21,401] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:05:21,401] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:05:23,455] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:05:23,455] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:05:23,557] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
-INFO  [2013-12-04 06:05:23,557] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
-INFO  [2013-12-04 06:05:24,004] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
-INFO  [2013-12-04 06:05:40,806] org.reflections.Reflections: Reflections took 173 ms to scan 1 urls, producing 10 keys and 27 values 
-WARN  [2013-12-04 06:05:40,825] com.yammer.dropwizard.config.ServerFactory: 
+INFO  [2013-12-04 08:04:06,884] org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+INFO  [2013-12-04 08:04:06,885] org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.2.0
+INFO  [2013-12-04 08:04:06,885] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+INFO  [2013-12-04 08:04:06,887] de.spinscale.dropwizard.jobs.JobManager: Jobs to run on application start: []
+INFO  [2013-12-04 08:04:06,887] de.spinscale.dropwizard.jobs.JobManager: Jobs with @Every annotation: [class edu.sjsu.cmpe.bigdata.DataAnalyticsJob]
+INFO  [2013-12-04 08:04:06,912] de.spinscale.dropwizard.jobs.JobManager: Jobs with @On annotation: []
+INFO  [2013-12-04 08:04:06,918] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-12-04 08:04:06,919] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+INFO  [2013-12-04 08:14:48,630] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
+INFO  [2013-12-04 08:14:48,631] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-12-04 08:14:48,632] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2013-12-04 08:14:48,632] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2013-12-04 08:14:50,685] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2013-12-04 08:14:50,685] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2013-12-04 08:14:50,787] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+INFO  [2013-12-04 08:14:50,787] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+INFO  [2013-12-04 08:14:51,185] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+INFO  [2013-12-04 08:15:07,147] org.reflections.Reflections: Reflections took 170 ms to scan 1 urls, producing 10 keys and 27 values 
+WARN  [2013-12-04 08:15:07,165] com.yammer.dropwizard.config.ServerFactory: 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
@@ -75,10 +75,10 @@ WARN  [2013-12-04 06:05:40,825] com.yammer.dropwizard.config.ServerFactory:
 !      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-INFO  [2013-12-04 06:05:40,878] com.yammer.dropwizard.cli.ServerCommand: Starting bigdata-service
-INFO  [2013-12-04 06:05:40,879] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
-INFO  [2013-12-04 06:05:40,958] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
-INFO  [2013-12-04 06:05:41,010] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+INFO  [2013-12-04 08:15:07,218] com.yammer.dropwizard.cli.ServerCommand: Starting bigdata-service
+INFO  [2013-12-04 08:15:07,220] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2013-12-04 08:15:07,296] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2013-12-04 08:15:07,348] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
 
     GET     /bigdata/ (edu.sjsu.cmpe.bigdata.ui.resources.HomeResource)
     GET     /bigdata/dashboard (edu.sjsu.cmpe.bigdata.ui.resources.DashboardResource)
@@ -87,16 +87,16 @@ INFO  [2013-12-04 06:05:41,010] com.yammer.dropwizard.config.Environment: The fo
     POST    /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
     GET     /bigdata/v1/analytics/sentiment (edu.sjsu.cmpe.bigdata.api.resources.AnalyticsResource)
 
-INFO  [2013-12-04 06:05:41,010] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2013-12-04 08:15:07,348] com.yammer.dropwizard.config.Environment: tasks = 
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
-INFO  [2013-12-04 06:05:41,274] org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor
-INFO  [2013-12-04 06:05:41,277] org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: main
-INFO  [2013-12-04 06:05:41,289] org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-INFO  [2013-12-04 06:05:41,290] org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.2.0 created.
-INFO  [2013-12-04 06:05:41,291] org.quartz.simpl.RAMJobStore: RAMJobStore initialized.
-INFO  [2013-12-04 06:05:41,292] org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+INFO  [2013-12-04 08:15:07,607] org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor
+INFO  [2013-12-04 08:15:07,609] org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: main
+INFO  [2013-12-04 08:15:07,621] org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+INFO  [2013-12-04 08:15:07,622] org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.2.0 created.
+INFO  [2013-12-04 08:15:07,623] org.quartz.simpl.RAMJobStore: RAMJobStore initialized.
+INFO  [2013-12-04 08:15:07,624] org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -104,25 +104,25 @@ INFO  [2013-12-04 06:05:41,292] org.quartz.core.QuartzScheduler: Scheduler meta-
   Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
   Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-INFO  [2013-12-04 06:05:41,292] org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
-INFO  [2013-12-04 06:05:41,292] org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.2.0
-INFO  [2013-12-04 06:05:41,292] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-INFO  [2013-12-04 06:05:41,295] de.spinscale.dropwizard.jobs.JobManager: Jobs to run on application start: []
-INFO  [2013-12-04 06:05:41,296] de.spinscale.dropwizard.jobs.JobManager: Jobs with @Every annotation: [class edu.sjsu.cmpe.bigdata.DataAnalyticsJob]
-INFO  [2013-12-04 06:05:41,321] de.spinscale.dropwizard.jobs.JobManager: Jobs with @On annotation: []
-INFO  [2013-12-04 06:05:41,327] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 06:05:41,328] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 06:07:22,406] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 06:07:22,406] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 06:07:22,407] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:07:22,407] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:07:24,459] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:07:24,459] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:07:24,561] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
-INFO  [2013-12-04 06:07:24,561] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
-INFO  [2013-12-04 06:07:25,043] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
-INFO  [2013-12-04 06:07:42,128] org.reflections.Reflections: Reflections took 174 ms to scan 1 urls, producing 10 keys and 27 values 
-WARN  [2013-12-04 06:07:42,147] com.yammer.dropwizard.config.ServerFactory: 
+INFO  [2013-12-04 08:15:07,624] org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+INFO  [2013-12-04 08:15:07,624] org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.2.0
+INFO  [2013-12-04 08:15:07,624] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+INFO  [2013-12-04 08:15:07,626] de.spinscale.dropwizard.jobs.JobManager: Jobs to run on application start: []
+INFO  [2013-12-04 08:15:07,627] de.spinscale.dropwizard.jobs.JobManager: Jobs with @Every annotation: [class edu.sjsu.cmpe.bigdata.DataAnalyticsJob]
+INFO  [2013-12-04 08:15:07,653] de.spinscale.dropwizard.jobs.JobManager: Jobs with @On annotation: []
+INFO  [2013-12-04 08:15:07,658] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-12-04 08:15:07,660] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+INFO  [2013-12-04 08:18:27,851] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
+INFO  [2013-12-04 08:18:27,852] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-12-04 08:18:27,852] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2013-12-04 08:18:27,852] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2013-12-04 08:18:29,904] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2013-12-04 08:18:29,904] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2013-12-04 08:18:30,006] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+INFO  [2013-12-04 08:18:30,006] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+INFO  [2013-12-04 08:18:30,476] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+INFO  [2013-12-04 08:18:46,597] org.reflections.Reflections: Reflections took 170 ms to scan 1 urls, producing 10 keys and 27 values 
+WARN  [2013-12-04 08:18:46,615] com.yammer.dropwizard.config.ServerFactory: 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
@@ -132,10 +132,10 @@ WARN  [2013-12-04 06:07:42,147] com.yammer.dropwizard.config.ServerFactory:
 !      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-INFO  [2013-12-04 06:07:42,199] com.yammer.dropwizard.cli.ServerCommand: Starting bigdata-service
-INFO  [2013-12-04 06:07:42,201] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
-INFO  [2013-12-04 06:07:42,274] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
-INFO  [2013-12-04 06:07:42,324] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+INFO  [2013-12-04 08:18:46,670] com.yammer.dropwizard.cli.ServerCommand: Starting bigdata-service
+INFO  [2013-12-04 08:18:46,671] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2013-12-04 08:18:46,747] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2013-12-04 08:18:46,799] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
 
     GET     /bigdata/ (edu.sjsu.cmpe.bigdata.ui.resources.HomeResource)
     GET     /bigdata/dashboard (edu.sjsu.cmpe.bigdata.ui.resources.DashboardResource)
@@ -144,16 +144,16 @@ INFO  [2013-12-04 06:07:42,324] com.yammer.dropwizard.config.Environment: The fo
     POST    /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
     GET     /bigdata/v1/analytics/sentiment (edu.sjsu.cmpe.bigdata.api.resources.AnalyticsResource)
 
-INFO  [2013-12-04 06:07:42,324] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2013-12-04 08:18:46,799] com.yammer.dropwizard.config.Environment: tasks = 
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
-INFO  [2013-12-04 06:07:42,581] org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor
-INFO  [2013-12-04 06:07:42,583] org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: main
-INFO  [2013-12-04 06:07:42,595] org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-INFO  [2013-12-04 06:07:42,596] org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.2.0 created.
-INFO  [2013-12-04 06:07:42,597] org.quartz.simpl.RAMJobStore: RAMJobStore initialized.
-INFO  [2013-12-04 06:07:42,598] org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+INFO  [2013-12-04 08:18:47,056] org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor
+INFO  [2013-12-04 08:18:47,058] org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: main
+INFO  [2013-12-04 08:18:47,070] org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+INFO  [2013-12-04 08:18:47,071] org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.2.0 created.
+INFO  [2013-12-04 08:18:47,071] org.quartz.simpl.RAMJobStore: RAMJobStore initialized.
+INFO  [2013-12-04 08:18:47,072] org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -161,25 +161,25 @@ INFO  [2013-12-04 06:07:42,598] org.quartz.core.QuartzScheduler: Scheduler meta-
   Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
   Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-INFO  [2013-12-04 06:07:42,598] org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
-INFO  [2013-12-04 06:07:42,598] org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.2.0
-INFO  [2013-12-04 06:07:42,598] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-INFO  [2013-12-04 06:07:42,600] de.spinscale.dropwizard.jobs.JobManager: Jobs to run on application start: []
-INFO  [2013-12-04 06:07:42,600] de.spinscale.dropwizard.jobs.JobManager: Jobs with @Every annotation: [class edu.sjsu.cmpe.bigdata.DataAnalyticsJob]
-INFO  [2013-12-04 06:07:42,625] de.spinscale.dropwizard.jobs.JobManager: Jobs with @On annotation: []
-INFO  [2013-12-04 06:07:42,631] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 06:07:42,633] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 06:09:30,388] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 06:09:30,389] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 06:09:30,389] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:09:30,389] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:09:32,441] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:09:32,442] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:09:32,542] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
-INFO  [2013-12-04 06:09:32,542] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
-INFO  [2013-12-04 06:09:32,849] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
-INFO  [2013-12-04 06:09:50,209] org.reflections.Reflections: Reflections took 170 ms to scan 1 urls, producing 10 keys and 27 values 
-WARN  [2013-12-04 06:09:50,227] com.yammer.dropwizard.config.ServerFactory: 
+INFO  [2013-12-04 08:18:47,072] org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+INFO  [2013-12-04 08:18:47,072] org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.2.0
+INFO  [2013-12-04 08:18:47,072] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+INFO  [2013-12-04 08:18:47,074] de.spinscale.dropwizard.jobs.JobManager: Jobs to run on application start: []
+INFO  [2013-12-04 08:18:47,075] de.spinscale.dropwizard.jobs.JobManager: Jobs with @Every annotation: [class edu.sjsu.cmpe.bigdata.DataAnalyticsJob]
+INFO  [2013-12-04 08:18:47,100] de.spinscale.dropwizard.jobs.JobManager: Jobs with @On annotation: []
+INFO  [2013-12-04 08:18:47,106] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-12-04 08:18:47,107] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+INFO  [2013-12-04 08:19:51,850] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
+INFO  [2013-12-04 08:19:51,851] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-12-04 08:19:51,852] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2013-12-04 08:19:51,852] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2013-12-04 08:19:53,905] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2013-12-04 08:19:53,905] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2013-12-04 08:19:54,007] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+INFO  [2013-12-04 08:19:54,007] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+INFO  [2013-12-04 08:19:54,278] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+INFO  [2013-12-04 08:20:10,939] org.reflections.Reflections: Reflections took 181 ms to scan 1 urls, producing 10 keys and 27 values 
+WARN  [2013-12-04 08:20:10,959] com.yammer.dropwizard.config.ServerFactory: 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
@@ -189,10 +189,10 @@ WARN  [2013-12-04 06:09:50,227] com.yammer.dropwizard.config.ServerFactory:
 !      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-INFO  [2013-12-04 06:09:50,280] com.yammer.dropwizard.cli.ServerCommand: Starting bigdata-service
-INFO  [2013-12-04 06:09:50,281] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
-INFO  [2013-12-04 06:09:50,358] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
-INFO  [2013-12-04 06:09:50,408] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+INFO  [2013-12-04 08:20:11,018] com.yammer.dropwizard.cli.ServerCommand: Starting bigdata-service
+INFO  [2013-12-04 08:20:11,019] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2013-12-04 08:20:11,101] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2013-12-04 08:20:11,156] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
 
     GET     /bigdata/ (edu.sjsu.cmpe.bigdata.ui.resources.HomeResource)
     GET     /bigdata/dashboard (edu.sjsu.cmpe.bigdata.ui.resources.DashboardResource)
@@ -201,16 +201,16 @@ INFO  [2013-12-04 06:09:50,408] com.yammer.dropwizard.config.Environment: The fo
     POST    /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
     GET     /bigdata/v1/analytics/sentiment (edu.sjsu.cmpe.bigdata.api.resources.AnalyticsResource)
 
-INFO  [2013-12-04 06:09:50,408] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2013-12-04 08:20:11,156] com.yammer.dropwizard.config.Environment: tasks = 
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
-INFO  [2013-12-04 06:09:50,666] org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor
-INFO  [2013-12-04 06:09:50,668] org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: main
-INFO  [2013-12-04 06:09:50,680] org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-INFO  [2013-12-04 06:09:50,681] org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.2.0 created.
-INFO  [2013-12-04 06:09:50,682] org.quartz.simpl.RAMJobStore: RAMJobStore initialized.
-INFO  [2013-12-04 06:09:50,683] org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+INFO  [2013-12-04 08:20:11,439] org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor
+INFO  [2013-12-04 08:20:11,442] org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: main
+INFO  [2013-12-04 08:20:11,455] org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+INFO  [2013-12-04 08:20:11,456] org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.2.0 created.
+INFO  [2013-12-04 08:20:11,457] org.quartz.simpl.RAMJobStore: RAMJobStore initialized.
+INFO  [2013-12-04 08:20:11,458] org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -218,25 +218,26 @@ INFO  [2013-12-04 06:09:50,683] org.quartz.core.QuartzScheduler: Scheduler meta-
   Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
   Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-INFO  [2013-12-04 06:09:50,683] org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
-INFO  [2013-12-04 06:09:50,683] org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.2.0
-INFO  [2013-12-04 06:09:50,683] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-INFO  [2013-12-04 06:09:50,685] de.spinscale.dropwizard.jobs.JobManager: Jobs to run on application start: []
-INFO  [2013-12-04 06:09:50,686] de.spinscale.dropwizard.jobs.JobManager: Jobs with @Every annotation: [class edu.sjsu.cmpe.bigdata.DataAnalyticsJob]
-INFO  [2013-12-04 06:09:50,711] de.spinscale.dropwizard.jobs.JobManager: Jobs with @On annotation: []
-INFO  [2013-12-04 06:09:50,717] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 06:09:50,719] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 06:10:26,803] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 06:10:26,804] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 06:10:26,805] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:10:26,805] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:10:28,857] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:10:28,858] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:10:28,958] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
-INFO  [2013-12-04 06:10:28,958] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
-INFO  [2013-12-04 06:10:29,355] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
-INFO  [2013-12-04 06:10:45,302] org.reflections.Reflections: Reflections took 164 ms to scan 1 urls, producing 10 keys and 27 values 
-WARN  [2013-12-04 06:10:45,321] com.yammer.dropwizard.config.ServerFactory: 
+INFO  [2013-12-04 08:20:11,458] org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+INFO  [2013-12-04 08:20:11,458] org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.2.0
+INFO  [2013-12-04 08:20:11,459] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+INFO  [2013-12-04 08:20:11,461] de.spinscale.dropwizard.jobs.JobManager: Jobs to run on application start: []
+INFO  [2013-12-04 08:20:11,462] de.spinscale.dropwizard.jobs.JobManager: Jobs with @Every annotation: [class edu.sjsu.cmpe.bigdata.DataAnalyticsJob]
+INFO  [2013-12-04 08:20:11,488] de.spinscale.dropwizard.jobs.JobManager: Jobs with @On annotation: []
+INFO  [2013-12-04 08:20:11,494] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+WARN  [2013-12-04 08:20:11,495] org.eclipse.jetty.server.AbstractConnector: insufficient threads configured for SocketConnector@0.0.0.0:8081
+INFO  [2013-12-04 08:20:11,495] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+INFO  [2013-12-04 08:20:52,385] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
+INFO  [2013-12-04 08:20:52,386] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-12-04 08:20:52,386] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2013-12-04 08:20:52,386] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2013-12-04 08:20:54,440] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2013-12-04 08:20:54,440] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2013-12-04 08:20:54,542] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+INFO  [2013-12-04 08:20:54,542] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+INFO  [2013-12-04 08:20:55,017] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+INFO  [2013-12-04 08:21:11,702] org.reflections.Reflections: Reflections took 183 ms to scan 1 urls, producing 10 keys and 27 values 
+WARN  [2013-12-04 08:21:11,722] com.yammer.dropwizard.config.ServerFactory: 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
@@ -246,10 +247,10 @@ WARN  [2013-12-04 06:10:45,321] com.yammer.dropwizard.config.ServerFactory:
 !      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-INFO  [2013-12-04 06:10:45,375] com.yammer.dropwizard.cli.ServerCommand: Starting bigdata-service
-INFO  [2013-12-04 06:10:45,376] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
-INFO  [2013-12-04 06:10:45,453] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
-INFO  [2013-12-04 06:10:45,506] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+INFO  [2013-12-04 08:21:11,779] com.yammer.dropwizard.cli.ServerCommand: Starting bigdata-service
+INFO  [2013-12-04 08:21:11,781] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2013-12-04 08:21:11,862] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2013-12-04 08:21:11,918] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
 
     GET     /bigdata/ (edu.sjsu.cmpe.bigdata.ui.resources.HomeResource)
     GET     /bigdata/dashboard (edu.sjsu.cmpe.bigdata.ui.resources.DashboardResource)
@@ -258,16 +259,16 @@ INFO  [2013-12-04 06:10:45,506] com.yammer.dropwizard.config.Environment: The fo
     POST    /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
     GET     /bigdata/v1/analytics/sentiment (edu.sjsu.cmpe.bigdata.api.resources.AnalyticsResource)
 
-INFO  [2013-12-04 06:10:45,506] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2013-12-04 08:21:11,918] com.yammer.dropwizard.config.Environment: tasks = 
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
-INFO  [2013-12-04 06:10:45,773] org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor
-INFO  [2013-12-04 06:10:45,775] org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: main
-INFO  [2013-12-04 06:10:45,787] org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-INFO  [2013-12-04 06:10:45,788] org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.2.0 created.
-INFO  [2013-12-04 06:10:45,789] org.quartz.simpl.RAMJobStore: RAMJobStore initialized.
-INFO  [2013-12-04 06:10:45,789] org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+INFO  [2013-12-04 08:21:12,192] org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor
+INFO  [2013-12-04 08:21:12,195] org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: main
+INFO  [2013-12-04 08:21:12,208] org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+INFO  [2013-12-04 08:21:12,209] org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.2.0 created.
+INFO  [2013-12-04 08:21:12,210] org.quartz.simpl.RAMJobStore: RAMJobStore initialized.
+INFO  [2013-12-04 08:21:12,211] org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -275,25 +276,26 @@ INFO  [2013-12-04 06:10:45,789] org.quartz.core.QuartzScheduler: Scheduler meta-
   Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
   Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-INFO  [2013-12-04 06:10:45,789] org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
-INFO  [2013-12-04 06:10:45,789] org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.2.0
-INFO  [2013-12-04 06:10:45,790] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-INFO  [2013-12-04 06:10:45,792] de.spinscale.dropwizard.jobs.JobManager: Jobs to run on application start: []
-INFO  [2013-12-04 06:10:45,793] de.spinscale.dropwizard.jobs.JobManager: Jobs with @Every annotation: [class edu.sjsu.cmpe.bigdata.DataAnalyticsJob]
-INFO  [2013-12-04 06:10:45,818] de.spinscale.dropwizard.jobs.JobManager: Jobs with @On annotation: []
-INFO  [2013-12-04 06:10:45,824] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 06:10:45,825] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 06:11:31,067] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 06:11:31,067] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 06:11:31,068] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:11:31,068] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:11:33,131] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:11:33,131] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:11:33,232] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
-INFO  [2013-12-04 06:11:33,232] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
-INFO  [2013-12-04 06:11:33,470] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
-INFO  [2013-12-04 06:11:50,329] org.reflections.Reflections: Reflections took 169 ms to scan 1 urls, producing 10 keys and 27 values 
-WARN  [2013-12-04 06:11:50,347] com.yammer.dropwizard.config.ServerFactory: 
+INFO  [2013-12-04 08:21:12,211] org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+INFO  [2013-12-04 08:21:12,211] org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.2.0
+INFO  [2013-12-04 08:21:12,212] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+INFO  [2013-12-04 08:21:12,215] de.spinscale.dropwizard.jobs.JobManager: Jobs to run on application start: []
+INFO  [2013-12-04 08:21:12,216] de.spinscale.dropwizard.jobs.JobManager: Jobs with @Every annotation: [class edu.sjsu.cmpe.bigdata.DataAnalyticsJob]
+INFO  [2013-12-04 08:21:12,241] de.spinscale.dropwizard.jobs.JobManager: Jobs with @On annotation: []
+INFO  [2013-12-04 08:21:12,247] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+WARN  [2013-12-04 08:21:12,248] org.eclipse.jetty.server.AbstractConnector: insufficient threads configured for SocketConnector@0.0.0.0:8081
+INFO  [2013-12-04 08:21:12,248] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+INFO  [2013-12-04 08:27:15,381] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
+INFO  [2013-12-04 08:27:15,381] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-12-04 08:27:15,382] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2013-12-04 08:27:15,382] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2013-12-04 08:27:17,433] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2013-12-04 08:27:17,434] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2013-12-04 08:27:17,534] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+INFO  [2013-12-04 08:27:17,534] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+INFO  [2013-12-04 08:27:17,773] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+INFO  [2013-12-04 08:27:34,350] org.reflections.Reflections: Reflections took 165 ms to scan 1 urls, producing 10 keys and 27 values 
+WARN  [2013-12-04 08:27:34,368] com.yammer.dropwizard.config.ServerFactory: 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
@@ -303,10 +305,10 @@ WARN  [2013-12-04 06:11:50,347] com.yammer.dropwizard.config.ServerFactory:
 !      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-INFO  [2013-12-04 06:11:50,401] com.yammer.dropwizard.cli.ServerCommand: Starting bigdata-service
-INFO  [2013-12-04 06:11:50,402] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
-INFO  [2013-12-04 06:11:50,477] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
-INFO  [2013-12-04 06:11:50,528] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+INFO  [2013-12-04 08:27:34,420] com.yammer.dropwizard.cli.ServerCommand: Starting bigdata-service
+INFO  [2013-12-04 08:27:34,422] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2013-12-04 08:27:34,496] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2013-12-04 08:27:34,548] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
 
     GET     /bigdata/ (edu.sjsu.cmpe.bigdata.ui.resources.HomeResource)
     GET     /bigdata/dashboard (edu.sjsu.cmpe.bigdata.ui.resources.DashboardResource)
@@ -315,16 +317,16 @@ INFO  [2013-12-04 06:11:50,528] com.yammer.dropwizard.config.Environment: The fo
     POST    /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
     GET     /bigdata/v1/analytics/sentiment (edu.sjsu.cmpe.bigdata.api.resources.AnalyticsResource)
 
-INFO  [2013-12-04 06:11:50,528] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2013-12-04 08:27:34,548] com.yammer.dropwizard.config.Environment: tasks = 
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
-INFO  [2013-12-04 06:11:50,780] org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor
-INFO  [2013-12-04 06:11:50,782] org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: main
-INFO  [2013-12-04 06:11:50,794] org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-INFO  [2013-12-04 06:11:50,795] org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.2.0 created.
-INFO  [2013-12-04 06:11:50,796] org.quartz.simpl.RAMJobStore: RAMJobStore initialized.
-INFO  [2013-12-04 06:11:50,797] org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+INFO  [2013-12-04 08:27:34,799] org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor
+INFO  [2013-12-04 08:27:34,801] org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: main
+INFO  [2013-12-04 08:27:34,813] org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+INFO  [2013-12-04 08:27:34,814] org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.2.0 created.
+INFO  [2013-12-04 08:27:34,815] org.quartz.simpl.RAMJobStore: RAMJobStore initialized.
+INFO  [2013-12-04 08:27:34,815] org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -332,25 +334,25 @@ INFO  [2013-12-04 06:11:50,797] org.quartz.core.QuartzScheduler: Scheduler meta-
   Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
   Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-INFO  [2013-12-04 06:11:50,797] org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
-INFO  [2013-12-04 06:11:50,797] org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.2.0
-INFO  [2013-12-04 06:11:50,797] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-INFO  [2013-12-04 06:11:50,800] de.spinscale.dropwizard.jobs.JobManager: Jobs to run on application start: []
-INFO  [2013-12-04 06:11:50,800] de.spinscale.dropwizard.jobs.JobManager: Jobs with @Every annotation: [class edu.sjsu.cmpe.bigdata.DataAnalyticsJob]
-INFO  [2013-12-04 06:11:50,824] de.spinscale.dropwizard.jobs.JobManager: Jobs with @On annotation: []
-INFO  [2013-12-04 06:11:50,830] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 06:11:50,832] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 06:13:47,697] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 06:13:47,698] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 06:13:47,698] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:13:47,698] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:13:49,752] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:13:49,752] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:13:49,853] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
-INFO  [2013-12-04 06:13:49,853] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
-INFO  [2013-12-04 06:13:50,048] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
-INFO  [2013-12-04 06:14:07,885] org.reflections.Reflections: Reflections took 172 ms to scan 1 urls, producing 10 keys and 27 values 
-WARN  [2013-12-04 06:14:07,903] com.yammer.dropwizard.config.ServerFactory: 
+INFO  [2013-12-04 08:27:34,815] org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+INFO  [2013-12-04 08:27:34,815] org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.2.0
+INFO  [2013-12-04 08:27:34,815] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+INFO  [2013-12-04 08:27:34,818] de.spinscale.dropwizard.jobs.JobManager: Jobs to run on application start: []
+INFO  [2013-12-04 08:27:34,818] de.spinscale.dropwizard.jobs.JobManager: Jobs with @Every annotation: [class edu.sjsu.cmpe.bigdata.DataAnalyticsJob]
+INFO  [2013-12-04 08:27:34,843] de.spinscale.dropwizard.jobs.JobManager: Jobs with @On annotation: []
+INFO  [2013-12-04 08:27:34,848] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-12-04 08:27:34,850] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+INFO  [2013-12-04 08:31:32,169] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
+INFO  [2013-12-04 08:31:32,170] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-12-04 08:31:32,171] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2013-12-04 08:31:32,171] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2013-12-04 08:31:34,223] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2013-12-04 08:31:34,223] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2013-12-04 08:31:34,324] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+INFO  [2013-12-04 08:31:34,324] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+INFO  [2013-12-04 08:31:34,693] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+INFO  [2013-12-04 08:31:51,884] org.reflections.Reflections: Reflections took 190 ms to scan 1 urls, producing 10 keys and 27 values 
+WARN  [2013-12-04 08:31:51,904] com.yammer.dropwizard.config.ServerFactory: 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
@@ -360,10 +362,10 @@ WARN  [2013-12-04 06:14:07,903] com.yammer.dropwizard.config.ServerFactory:
 !      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-INFO  [2013-12-04 06:14:07,957] com.yammer.dropwizard.cli.ServerCommand: Starting bigdata-service
-INFO  [2013-12-04 06:14:07,959] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
-INFO  [2013-12-04 06:14:08,038] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
-INFO  [2013-12-04 06:14:08,092] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+INFO  [2013-12-04 08:31:51,964] com.yammer.dropwizard.cli.ServerCommand: Starting bigdata-service
+INFO  [2013-12-04 08:31:51,965] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2013-12-04 08:31:52,047] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2013-12-04 08:31:52,102] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
 
     GET     /bigdata/ (edu.sjsu.cmpe.bigdata.ui.resources.HomeResource)
     GET     /bigdata/dashboard (edu.sjsu.cmpe.bigdata.ui.resources.DashboardResource)
@@ -372,16 +374,16 @@ INFO  [2013-12-04 06:14:08,092] com.yammer.dropwizard.config.Environment: The fo
     POST    /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
     GET     /bigdata/v1/analytics/sentiment (edu.sjsu.cmpe.bigdata.api.resources.AnalyticsResource)
 
-INFO  [2013-12-04 06:14:08,092] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2013-12-04 08:31:52,102] com.yammer.dropwizard.config.Environment: tasks = 
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
-INFO  [2013-12-04 06:14:08,361] org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor
-INFO  [2013-12-04 06:14:08,363] org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: main
-INFO  [2013-12-04 06:14:08,375] org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-INFO  [2013-12-04 06:14:08,376] org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.2.0 created.
-INFO  [2013-12-04 06:14:08,377] org.quartz.simpl.RAMJobStore: RAMJobStore initialized.
-INFO  [2013-12-04 06:14:08,378] org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+INFO  [2013-12-04 08:31:52,373] org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor
+INFO  [2013-12-04 08:31:52,376] org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: main
+INFO  [2013-12-04 08:31:52,389] org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+INFO  [2013-12-04 08:31:52,391] org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.2.0 created.
+INFO  [2013-12-04 08:31:52,391] org.quartz.simpl.RAMJobStore: RAMJobStore initialized.
+INFO  [2013-12-04 08:31:52,392] org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -389,25 +391,25 @@ INFO  [2013-12-04 06:14:08,378] org.quartz.core.QuartzScheduler: Scheduler meta-
   Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
   Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-INFO  [2013-12-04 06:14:08,378] org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
-INFO  [2013-12-04 06:14:08,378] org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.2.0
-INFO  [2013-12-04 06:14:08,378] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-INFO  [2013-12-04 06:14:08,381] de.spinscale.dropwizard.jobs.JobManager: Jobs to run on application start: []
-INFO  [2013-12-04 06:14:08,381] de.spinscale.dropwizard.jobs.JobManager: Jobs with @Every annotation: [class edu.sjsu.cmpe.bigdata.DataAnalyticsJob]
-INFO  [2013-12-04 06:14:08,407] de.spinscale.dropwizard.jobs.JobManager: Jobs with @On annotation: []
-INFO  [2013-12-04 06:14:08,412] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 06:14:08,414] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 06:15:46,632] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 06:15:46,632] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 06:15:46,633] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:15:46,633] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:15:48,687] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:15:48,687] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:15:48,788] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
-INFO  [2013-12-04 06:15:48,788] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
-INFO  [2013-12-04 06:15:49,115] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
-INFO  [2013-12-04 06:16:05,652] org.reflections.Reflections: Reflections took 170 ms to scan 1 urls, producing 10 keys and 27 values 
-WARN  [2013-12-04 06:16:05,670] com.yammer.dropwizard.config.ServerFactory: 
+INFO  [2013-12-04 08:31:52,392] org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+INFO  [2013-12-04 08:31:52,392] org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.2.0
+INFO  [2013-12-04 08:31:52,392] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+INFO  [2013-12-04 08:31:52,395] de.spinscale.dropwizard.jobs.JobManager: Jobs to run on application start: []
+INFO  [2013-12-04 08:31:52,395] de.spinscale.dropwizard.jobs.JobManager: Jobs with @Every annotation: [class edu.sjsu.cmpe.bigdata.DataAnalyticsJob]
+INFO  [2013-12-04 08:31:52,420] de.spinscale.dropwizard.jobs.JobManager: Jobs with @On annotation: []
+INFO  [2013-12-04 08:31:52,426] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-12-04 08:31:52,428] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+INFO  [2013-12-04 08:36:06,006] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
+INFO  [2013-12-04 08:36:06,006] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-12-04 08:36:06,007] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2013-12-04 08:36:06,007] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2013-12-04 08:36:08,060] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2013-12-04 08:36:08,060] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+INFO  [2013-12-04 08:36:08,162] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+INFO  [2013-12-04 08:36:08,162] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+INFO  [2013-12-04 08:36:08,638] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+INFO  [2013-12-04 08:36:24,522] org.reflections.Reflections: Reflections took 166 ms to scan 1 urls, producing 10 keys and 27 values 
+WARN  [2013-12-04 08:36:24,541] com.yammer.dropwizard.config.ServerFactory: 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
@@ -417,10 +419,10 @@ WARN  [2013-12-04 06:16:05,670] com.yammer.dropwizard.config.ServerFactory:
 !      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-INFO  [2013-12-04 06:16:05,724] com.yammer.dropwizard.cli.ServerCommand: Starting bigdata-service
-INFO  [2013-12-04 06:16:05,725] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
-INFO  [2013-12-04 06:16:05,801] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
-INFO  [2013-12-04 06:16:05,853] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+INFO  [2013-12-04 08:36:24,594] com.yammer.dropwizard.cli.ServerCommand: Starting bigdata-service
+INFO  [2013-12-04 08:36:24,595] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2013-12-04 08:36:24,669] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2013-12-04 08:36:24,718] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
 
     GET     /bigdata/ (edu.sjsu.cmpe.bigdata.ui.resources.HomeResource)
     GET     /bigdata/dashboard (edu.sjsu.cmpe.bigdata.ui.resources.DashboardResource)
@@ -429,16 +431,16 @@ INFO  [2013-12-04 06:16:05,853] com.yammer.dropwizard.config.Environment: The fo
     POST    /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
     GET     /bigdata/v1/analytics/sentiment (edu.sjsu.cmpe.bigdata.api.resources.AnalyticsResource)
 
-INFO  [2013-12-04 06:16:05,853] com.yammer.dropwizard.config.Environment: tasks = 
+INFO  [2013-12-04 08:36:24,718] com.yammer.dropwizard.config.Environment: tasks = 
 
     POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
 
-INFO  [2013-12-04 06:16:06,110] org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor
-INFO  [2013-12-04 06:16:06,112] org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: main
-INFO  [2013-12-04 06:16:06,124] org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-INFO  [2013-12-04 06:16:06,125] org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.2.0 created.
-INFO  [2013-12-04 06:16:06,126] org.quartz.simpl.RAMJobStore: RAMJobStore initialized.
-INFO  [2013-12-04 06:16:06,127] org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+INFO  [2013-12-04 08:36:24,968] org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor
+INFO  [2013-12-04 08:36:24,970] org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: main
+INFO  [2013-12-04 08:36:24,983] org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+INFO  [2013-12-04 08:36:24,984] org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.2.0 created.
+INFO  [2013-12-04 08:36:24,984] org.quartz.simpl.RAMJobStore: RAMJobStore initialized.
+INFO  [2013-12-04 08:36:24,985] org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -446,1209 +448,11 @@ INFO  [2013-12-04 06:16:06,127] org.quartz.core.QuartzScheduler: Scheduler meta-
   Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
   Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-INFO  [2013-12-04 06:16:06,127] org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
-INFO  [2013-12-04 06:16:06,127] org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.2.0
-INFO  [2013-12-04 06:16:06,127] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-INFO  [2013-12-04 06:16:06,129] de.spinscale.dropwizard.jobs.JobManager: Jobs to run on application start: []
-INFO  [2013-12-04 06:16:06,130] de.spinscale.dropwizard.jobs.JobManager: Jobs with @Every annotation: [class edu.sjsu.cmpe.bigdata.DataAnalyticsJob]
-INFO  [2013-12-04 06:16:06,154] de.spinscale.dropwizard.jobs.JobManager: Jobs with @On annotation: []
-INFO  [2013-12-04 06:16:06,160] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 06:16:06,161] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 06:17:50,750] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 06:17:50,751] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 06:17:50,751] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:17:50,751] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:17:52,803] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:17:52,803] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:17:52,904] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
-INFO  [2013-12-04 06:17:52,904] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
-INFO  [2013-12-04 06:17:53,366] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
-INFO  [2013-12-04 06:18:10,029] org.reflections.Reflections: Reflections took 170 ms to scan 1 urls, producing 10 keys and 27 values 
-WARN  [2013-12-04 06:18:10,047] com.yammer.dropwizard.config.ServerFactory: 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
-!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
-!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
-!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
-!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-INFO  [2013-12-04 06:18:10,100] com.yammer.dropwizard.cli.ServerCommand: Starting bigdata-service
-INFO  [2013-12-04 06:18:10,102] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
-INFO  [2013-12-04 06:18:10,177] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
-INFO  [2013-12-04 06:18:10,228] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
-
-    GET     /bigdata/ (edu.sjsu.cmpe.bigdata.ui.resources.HomeResource)
-    GET     /bigdata/dashboard (edu.sjsu.cmpe.bigdata.ui.resources.DashboardResource)
-    GET     /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/users/{id}/competition (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    POST    /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/analytics/sentiment (edu.sjsu.cmpe.bigdata.api.resources.AnalyticsResource)
-
-INFO  [2013-12-04 06:18:10,228] com.yammer.dropwizard.config.Environment: tasks = 
-
-    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
-
-INFO  [2013-12-04 06:18:10,510] org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor
-INFO  [2013-12-04 06:18:10,513] org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: main
-INFO  [2013-12-04 06:18:10,524] org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-INFO  [2013-12-04 06:18:10,525] org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.2.0 created.
-INFO  [2013-12-04 06:18:10,526] org.quartz.simpl.RAMJobStore: RAMJobStore initialized.
-INFO  [2013-12-04 06:18:10,527] org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
-  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-INFO  [2013-12-04 06:18:10,527] org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
-INFO  [2013-12-04 06:18:10,527] org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.2.0
-INFO  [2013-12-04 06:18:10,527] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-INFO  [2013-12-04 06:18:10,529] de.spinscale.dropwizard.jobs.JobManager: Jobs to run on application start: []
-INFO  [2013-12-04 06:18:10,530] de.spinscale.dropwizard.jobs.JobManager: Jobs with @Every annotation: [class edu.sjsu.cmpe.bigdata.DataAnalyticsJob]
-INFO  [2013-12-04 06:18:10,556] de.spinscale.dropwizard.jobs.JobManager: Jobs with @On annotation: []
-INFO  [2013-12-04 06:18:10,562] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 06:18:10,563] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 06:25:44,176] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 06:25:44,177] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 06:25:44,178] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:25:44,178] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:25:46,231] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:25:46,231] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:25:46,332] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
-INFO  [2013-12-04 06:25:46,332] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
-INFO  [2013-12-04 06:25:46,606] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
-INFO  [2013-12-04 06:26:04,193] org.reflections.Reflections: Reflections took 166 ms to scan 1 urls, producing 10 keys and 27 values 
-WARN  [2013-12-04 06:26:04,211] com.yammer.dropwizard.config.ServerFactory: 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
-!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
-!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
-!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
-!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-INFO  [2013-12-04 06:26:04,265] com.yammer.dropwizard.cli.ServerCommand: Starting bigdata-service
-INFO  [2013-12-04 06:26:04,267] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
-INFO  [2013-12-04 06:26:04,342] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
-INFO  [2013-12-04 06:26:04,392] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
-
-    GET     /bigdata/ (edu.sjsu.cmpe.bigdata.ui.resources.HomeResource)
-    GET     /bigdata/dashboard (edu.sjsu.cmpe.bigdata.ui.resources.DashboardResource)
-    GET     /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/users/{id}/competition (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    POST    /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/analytics/sentiment (edu.sjsu.cmpe.bigdata.api.resources.AnalyticsResource)
-
-INFO  [2013-12-04 06:26:04,393] com.yammer.dropwizard.config.Environment: tasks = 
-
-    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
-
-INFO  [2013-12-04 06:26:04,647] org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor
-INFO  [2013-12-04 06:26:04,649] org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: main
-INFO  [2013-12-04 06:26:04,661] org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-INFO  [2013-12-04 06:26:04,662] org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.2.0 created.
-INFO  [2013-12-04 06:26:04,663] org.quartz.simpl.RAMJobStore: RAMJobStore initialized.
-INFO  [2013-12-04 06:26:04,664] org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
-  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-INFO  [2013-12-04 06:26:04,664] org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
-INFO  [2013-12-04 06:26:04,664] org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.2.0
-INFO  [2013-12-04 06:26:04,664] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-INFO  [2013-12-04 06:26:04,666] de.spinscale.dropwizard.jobs.JobManager: Jobs to run on application start: []
-INFO  [2013-12-04 06:26:04,667] de.spinscale.dropwizard.jobs.JobManager: Jobs with @Every annotation: [class edu.sjsu.cmpe.bigdata.DataAnalyticsJob]
-INFO  [2013-12-04 06:26:04,691] de.spinscale.dropwizard.jobs.JobManager: Jobs with @On annotation: []
-INFO  [2013-12-04 06:26:04,697] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 06:26:04,698] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 06:28:15,902] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 06:28:15,903] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 06:28:15,903] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:28:15,903] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:28:17,958] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:28:17,958] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:28:18,059] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
-INFO  [2013-12-04 06:28:18,059] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
-INFO  [2013-12-04 06:28:18,440] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
-INFO  [2013-12-04 06:28:35,898] org.reflections.Reflections: Reflections took 167 ms to scan 1 urls, producing 10 keys and 27 values 
-WARN  [2013-12-04 06:28:35,916] com.yammer.dropwizard.config.ServerFactory: 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
-!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
-!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
-!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
-!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-INFO  [2013-12-04 06:28:35,969] com.yammer.dropwizard.cli.ServerCommand: Starting bigdata-service
-INFO  [2013-12-04 06:28:35,971] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
-INFO  [2013-12-04 06:28:36,047] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
-INFO  [2013-12-04 06:28:36,098] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
-
-    GET     /bigdata/ (edu.sjsu.cmpe.bigdata.ui.resources.HomeResource)
-    GET     /bigdata/dashboard (edu.sjsu.cmpe.bigdata.ui.resources.DashboardResource)
-    GET     /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/users/{id}/competition (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    POST    /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/analytics/sentiment (edu.sjsu.cmpe.bigdata.api.resources.AnalyticsResource)
-
-INFO  [2013-12-04 06:28:36,098] com.yammer.dropwizard.config.Environment: tasks = 
-
-    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
-
-INFO  [2013-12-04 06:28:36,349] org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor
-INFO  [2013-12-04 06:28:36,351] org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: main
-INFO  [2013-12-04 06:28:36,363] org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-INFO  [2013-12-04 06:28:36,364] org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.2.0 created.
-INFO  [2013-12-04 06:28:36,365] org.quartz.simpl.RAMJobStore: RAMJobStore initialized.
-INFO  [2013-12-04 06:28:36,366] org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
-  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-INFO  [2013-12-04 06:28:36,366] org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
-INFO  [2013-12-04 06:28:36,366] org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.2.0
-INFO  [2013-12-04 06:28:36,366] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-INFO  [2013-12-04 06:28:36,368] de.spinscale.dropwizard.jobs.JobManager: Jobs to run on application start: []
-INFO  [2013-12-04 06:28:36,368] de.spinscale.dropwizard.jobs.JobManager: Jobs with @Every annotation: [class edu.sjsu.cmpe.bigdata.DataAnalyticsJob]
-INFO  [2013-12-04 06:28:36,394] de.spinscale.dropwizard.jobs.JobManager: Jobs with @On annotation: []
-INFO  [2013-12-04 06:28:36,399] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 06:28:36,401] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 06:31:09,156] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 06:31:09,157] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 06:31:09,157] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:31:09,157] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:31:11,209] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:31:11,210] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:31:11,310] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
-INFO  [2013-12-04 06:31:11,310] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
-INFO  [2013-12-04 06:31:11,662] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
-INFO  [2013-12-04 06:31:28,737] org.reflections.Reflections: Reflections took 165 ms to scan 1 urls, producing 10 keys and 27 values 
-WARN  [2013-12-04 06:31:28,754] com.yammer.dropwizard.config.ServerFactory: 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
-!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
-!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
-!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
-!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-INFO  [2013-12-04 06:31:28,807] com.yammer.dropwizard.cli.ServerCommand: Starting bigdata-service
-INFO  [2013-12-04 06:31:28,808] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
-INFO  [2013-12-04 06:31:28,884] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
-INFO  [2013-12-04 06:31:28,933] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
-
-    GET     /bigdata/ (edu.sjsu.cmpe.bigdata.ui.resources.HomeResource)
-    GET     /bigdata/dashboard (edu.sjsu.cmpe.bigdata.ui.resources.DashboardResource)
-    GET     /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/users/{id}/competition (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    POST    /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/analytics/sentiment (edu.sjsu.cmpe.bigdata.api.resources.AnalyticsResource)
-
-INFO  [2013-12-04 06:31:28,933] com.yammer.dropwizard.config.Environment: tasks = 
-
-    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
-
-INFO  [2013-12-04 06:31:29,196] org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor
-INFO  [2013-12-04 06:31:29,199] org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: main
-INFO  [2013-12-04 06:31:29,210] org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-INFO  [2013-12-04 06:31:29,211] org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.2.0 created.
-INFO  [2013-12-04 06:31:29,212] org.quartz.simpl.RAMJobStore: RAMJobStore initialized.
-INFO  [2013-12-04 06:31:29,213] org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
-  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-INFO  [2013-12-04 06:31:29,213] org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
-INFO  [2013-12-04 06:31:29,213] org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.2.0
-INFO  [2013-12-04 06:31:29,213] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-INFO  [2013-12-04 06:31:29,215] de.spinscale.dropwizard.jobs.JobManager: Jobs to run on application start: []
-INFO  [2013-12-04 06:31:29,215] de.spinscale.dropwizard.jobs.JobManager: Jobs with @Every annotation: [class edu.sjsu.cmpe.bigdata.DataAnalyticsJob]
-INFO  [2013-12-04 06:31:29,240] de.spinscale.dropwizard.jobs.JobManager: Jobs with @On annotation: []
-INFO  [2013-12-04 06:31:29,245] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 06:31:29,247] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 06:37:45,415] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 06:37:45,416] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 06:37:45,416] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:37:45,417] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:37:47,470] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:37:47,470] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:37:47,571] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
-INFO  [2013-12-04 06:37:47,571] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
-INFO  [2013-12-04 06:37:47,772] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
-INFO  [2013-12-04 06:38:04,668] org.reflections.Reflections: Reflections took 166 ms to scan 1 urls, producing 10 keys and 27 values 
-WARN  [2013-12-04 06:38:04,686] com.yammer.dropwizard.config.ServerFactory: 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
-!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
-!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
-!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
-!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-INFO  [2013-12-04 06:38:04,740] com.yammer.dropwizard.cli.ServerCommand: Starting bigdata-service
-INFO  [2013-12-04 06:38:04,741] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
-INFO  [2013-12-04 06:38:04,815] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
-INFO  [2013-12-04 06:38:04,866] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
-
-    GET     /bigdata/ (edu.sjsu.cmpe.bigdata.ui.resources.HomeResource)
-    GET     /bigdata/dashboard (edu.sjsu.cmpe.bigdata.ui.resources.DashboardResource)
-    GET     /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/users/{id}/competition (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    POST    /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/analytics/sentiment (edu.sjsu.cmpe.bigdata.api.resources.AnalyticsResource)
-
-INFO  [2013-12-04 06:38:04,866] com.yammer.dropwizard.config.Environment: tasks = 
-
-    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
-
-INFO  [2013-12-04 06:38:05,122] org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor
-INFO  [2013-12-04 06:38:05,124] org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: main
-INFO  [2013-12-04 06:38:05,136] org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-INFO  [2013-12-04 06:38:05,137] org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.2.0 created.
-INFO  [2013-12-04 06:38:05,138] org.quartz.simpl.RAMJobStore: RAMJobStore initialized.
-INFO  [2013-12-04 06:38:05,139] org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
-  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-INFO  [2013-12-04 06:38:05,139] org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
-INFO  [2013-12-04 06:38:05,139] org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.2.0
-INFO  [2013-12-04 06:38:05,139] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-INFO  [2013-12-04 06:38:05,141] de.spinscale.dropwizard.jobs.JobManager: Jobs to run on application start: []
-INFO  [2013-12-04 06:38:05,142] de.spinscale.dropwizard.jobs.JobManager: Jobs with @Every annotation: [class edu.sjsu.cmpe.bigdata.DataAnalyticsJob]
-INFO  [2013-12-04 06:38:05,167] de.spinscale.dropwizard.jobs.JobManager: Jobs with @On annotation: []
-INFO  [2013-12-04 06:38:05,173] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 06:38:05,174] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 06:50:23,982] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 06:50:23,982] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 06:50:23,983] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:50:23,983] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:50:26,035] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:50:26,035] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:50:26,137] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
-INFO  [2013-12-04 06:50:26,137] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
-INFO  [2013-12-04 06:50:26,600] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
-INFO  [2013-12-04 06:50:44,029] org.reflections.Reflections: Reflections took 171 ms to scan 1 urls, producing 10 keys and 27 values 
-WARN  [2013-12-04 06:50:44,047] com.yammer.dropwizard.config.ServerFactory: 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
-!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
-!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
-!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
-!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-INFO  [2013-12-04 06:50:44,098] com.yammer.dropwizard.cli.ServerCommand: Starting bigdata-service
-INFO  [2013-12-04 06:50:44,099] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
-INFO  [2013-12-04 06:50:44,174] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
-INFO  [2013-12-04 06:50:44,257] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
-
-    GET     /bigdata/ (edu.sjsu.cmpe.bigdata.ui.resources.HomeResource)
-    GET     /bigdata/dashboard (edu.sjsu.cmpe.bigdata.ui.resources.DashboardResource)
-    GET     /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/users/{id}/competition (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    POST    /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/analytics/sentiment (edu.sjsu.cmpe.bigdata.api.resources.AnalyticsResource)
-
-INFO  [2013-12-04 06:50:44,257] com.yammer.dropwizard.config.Environment: tasks = 
-
-    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
-
-INFO  [2013-12-04 06:50:44,507] org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor
-INFO  [2013-12-04 06:50:44,510] org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: main
-INFO  [2013-12-04 06:50:44,521] org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-INFO  [2013-12-04 06:50:44,522] org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.2.0 created.
-INFO  [2013-12-04 06:50:44,523] org.quartz.simpl.RAMJobStore: RAMJobStore initialized.
-INFO  [2013-12-04 06:50:44,524] org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
-  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-INFO  [2013-12-04 06:50:44,524] org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
-INFO  [2013-12-04 06:50:44,524] org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.2.0
-INFO  [2013-12-04 06:50:44,524] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-INFO  [2013-12-04 06:50:44,526] de.spinscale.dropwizard.jobs.JobManager: Jobs to run on application start: []
-INFO  [2013-12-04 06:50:44,527] de.spinscale.dropwizard.jobs.JobManager: Jobs with @Every annotation: [class edu.sjsu.cmpe.bigdata.DataAnalyticsJob]
-INFO  [2013-12-04 06:50:44,552] de.spinscale.dropwizard.jobs.JobManager: Jobs with @On annotation: []
-INFO  [2013-12-04 06:50:44,557] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 06:50:44,559] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 06:52:50,196] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 06:52:50,197] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 06:52:50,197] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:52:50,197] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:52:52,250] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:52:52,250] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:52:52,351] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
-INFO  [2013-12-04 06:52:52,351] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
-INFO  [2013-12-04 06:52:52,780] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
-INFO  [2013-12-04 06:53:09,164] org.reflections.Reflections: Reflections took 168 ms to scan 1 urls, producing 10 keys and 27 values 
-WARN  [2013-12-04 06:53:09,182] com.yammer.dropwizard.config.ServerFactory: 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
-!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
-!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
-!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
-!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-INFO  [2013-12-04 06:53:09,233] com.yammer.dropwizard.cli.ServerCommand: Starting bigdata-service
-INFO  [2013-12-04 06:53:09,234] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
-INFO  [2013-12-04 06:53:09,309] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
-INFO  [2013-12-04 06:53:09,360] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
-
-    GET     /bigdata/ (edu.sjsu.cmpe.bigdata.ui.resources.HomeResource)
-    GET     /bigdata/dashboard (edu.sjsu.cmpe.bigdata.ui.resources.DashboardResource)
-    GET     /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/users/{id}/competition (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    POST    /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/analytics/sentiment (edu.sjsu.cmpe.bigdata.api.resources.AnalyticsResource)
-
-INFO  [2013-12-04 06:53:09,360] com.yammer.dropwizard.config.Environment: tasks = 
-
-    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
-
-INFO  [2013-12-04 06:53:09,614] org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor
-INFO  [2013-12-04 06:53:09,616] org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: main
-INFO  [2013-12-04 06:53:09,628] org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-INFO  [2013-12-04 06:53:09,629] org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.2.0 created.
-INFO  [2013-12-04 06:53:09,630] org.quartz.simpl.RAMJobStore: RAMJobStore initialized.
-INFO  [2013-12-04 06:53:09,631] org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
-  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-INFO  [2013-12-04 06:53:09,631] org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
-INFO  [2013-12-04 06:53:09,631] org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.2.0
-INFO  [2013-12-04 06:53:09,631] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-INFO  [2013-12-04 06:53:09,633] de.spinscale.dropwizard.jobs.JobManager: Jobs to run on application start: []
-INFO  [2013-12-04 06:53:09,634] de.spinscale.dropwizard.jobs.JobManager: Jobs with @Every annotation: [class edu.sjsu.cmpe.bigdata.DataAnalyticsJob]
-INFO  [2013-12-04 06:53:09,658] de.spinscale.dropwizard.jobs.JobManager: Jobs with @On annotation: []
-INFO  [2013-12-04 06:53:09,664] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 06:53:09,666] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 06:57:34,080] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 06:57:34,081] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 06:57:34,081] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:57:34,082] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:57:36,134] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:57:36,135] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 06:57:36,235] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
-INFO  [2013-12-04 06:57:36,235] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
-INFO  [2013-12-04 06:57:36,543] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
-INFO  [2013-12-04 06:57:54,606] org.reflections.Reflections: Reflections took 170 ms to scan 1 urls, producing 10 keys and 27 values 
-WARN  [2013-12-04 06:57:54,624] com.yammer.dropwizard.config.ServerFactory: 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
-!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
-!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
-!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
-!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-INFO  [2013-12-04 06:57:54,677] com.yammer.dropwizard.cli.ServerCommand: Starting bigdata-service
-INFO  [2013-12-04 06:57:54,678] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
-INFO  [2013-12-04 06:57:54,755] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
-INFO  [2013-12-04 06:57:54,808] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
-
-    GET     /bigdata/ (edu.sjsu.cmpe.bigdata.ui.resources.HomeResource)
-    GET     /bigdata/dashboard (edu.sjsu.cmpe.bigdata.ui.resources.DashboardResource)
-    GET     /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/users/{id}/competition (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    POST    /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/analytics/sentiment (edu.sjsu.cmpe.bigdata.api.resources.AnalyticsResource)
-
-INFO  [2013-12-04 06:57:54,808] com.yammer.dropwizard.config.Environment: tasks = 
-
-    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
-
-INFO  [2013-12-04 06:57:55,066] org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor
-INFO  [2013-12-04 06:57:55,069] org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: main
-INFO  [2013-12-04 06:57:55,081] org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-INFO  [2013-12-04 06:57:55,082] org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.2.0 created.
-INFO  [2013-12-04 06:57:55,083] org.quartz.simpl.RAMJobStore: RAMJobStore initialized.
-INFO  [2013-12-04 06:57:55,084] org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
-  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-INFO  [2013-12-04 06:57:55,084] org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
-INFO  [2013-12-04 06:57:55,084] org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.2.0
-INFO  [2013-12-04 06:57:55,084] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-INFO  [2013-12-04 06:57:55,087] de.spinscale.dropwizard.jobs.JobManager: Jobs to run on application start: []
-INFO  [2013-12-04 06:57:55,087] de.spinscale.dropwizard.jobs.JobManager: Jobs with @Every annotation: [class edu.sjsu.cmpe.bigdata.DataAnalyticsJob]
-INFO  [2013-12-04 06:57:55,111] de.spinscale.dropwizard.jobs.JobManager: Jobs with @On annotation: []
-INFO  [2013-12-04 06:57:55,117] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 06:57:55,119] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 07:00:59,822] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 07:00:59,822] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 07:00:59,823] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:00:59,823] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:01:01,876] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:01:01,876] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:01:01,977] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
-INFO  [2013-12-04 07:01:01,977] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
-INFO  [2013-12-04 07:01:02,397] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
-INFO  [2013-12-04 07:01:18,443] org.reflections.Reflections: Reflections took 174 ms to scan 1 urls, producing 10 keys and 27 values 
-WARN  [2013-12-04 07:01:18,461] com.yammer.dropwizard.config.ServerFactory: 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
-!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
-!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
-!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
-!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-INFO  [2013-12-04 07:01:18,511] com.yammer.dropwizard.cli.ServerCommand: Starting bigdata-service
-INFO  [2013-12-04 07:01:18,513] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
-INFO  [2013-12-04 07:01:18,588] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
-INFO  [2013-12-04 07:01:18,639] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
-
-    GET     /bigdata/ (edu.sjsu.cmpe.bigdata.ui.resources.HomeResource)
-    GET     /bigdata/dashboard (edu.sjsu.cmpe.bigdata.ui.resources.DashboardResource)
-    GET     /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/users/{id}/competition (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    POST    /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/analytics/sentiment (edu.sjsu.cmpe.bigdata.api.resources.AnalyticsResource)
-
-INFO  [2013-12-04 07:01:18,639] com.yammer.dropwizard.config.Environment: tasks = 
-
-    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
-
-INFO  [2013-12-04 07:01:18,895] org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor
-INFO  [2013-12-04 07:01:18,898] org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: main
-INFO  [2013-12-04 07:01:18,910] org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-INFO  [2013-12-04 07:01:18,911] org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.2.0 created.
-INFO  [2013-12-04 07:01:18,912] org.quartz.simpl.RAMJobStore: RAMJobStore initialized.
-INFO  [2013-12-04 07:01:18,912] org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
-  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-INFO  [2013-12-04 07:01:18,913] org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
-INFO  [2013-12-04 07:01:18,913] org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.2.0
-INFO  [2013-12-04 07:01:18,913] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-INFO  [2013-12-04 07:01:18,915] de.spinscale.dropwizard.jobs.JobManager: Jobs to run on application start: []
-INFO  [2013-12-04 07:01:18,916] de.spinscale.dropwizard.jobs.JobManager: Jobs with @Every annotation: [class edu.sjsu.cmpe.bigdata.DataAnalyticsJob]
-INFO  [2013-12-04 07:01:18,941] de.spinscale.dropwizard.jobs.JobManager: Jobs with @On annotation: []
-INFO  [2013-12-04 07:01:18,946] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 07:01:18,948] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 07:05:24,746] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 07:05:24,747] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 07:05:24,747] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:05:24,747] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:05:26,799] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:05:26,799] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:05:26,901] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
-INFO  [2013-12-04 07:05:26,901] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
-INFO  [2013-12-04 07:05:27,291] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
-INFO  [2013-12-04 07:05:43,646] org.reflections.Reflections: Reflections took 172 ms to scan 1 urls, producing 10 keys and 27 values 
-WARN  [2013-12-04 07:05:43,665] com.yammer.dropwizard.config.ServerFactory: 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
-!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
-!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
-!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
-!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-INFO  [2013-12-04 07:05:43,721] com.yammer.dropwizard.cli.ServerCommand: Starting bigdata-service
-INFO  [2013-12-04 07:05:43,722] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
-INFO  [2013-12-04 07:05:43,800] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
-INFO  [2013-12-04 07:05:43,851] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
-
-    GET     /bigdata/ (edu.sjsu.cmpe.bigdata.ui.resources.HomeResource)
-    GET     /bigdata/dashboard (edu.sjsu.cmpe.bigdata.ui.resources.DashboardResource)
-    GET     /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/users/{id}/competition (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    POST    /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/analytics/sentiment (edu.sjsu.cmpe.bigdata.api.resources.AnalyticsResource)
-
-INFO  [2013-12-04 07:05:43,851] com.yammer.dropwizard.config.Environment: tasks = 
-
-    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
-
-INFO  [2013-12-04 07:05:44,113] org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor
-INFO  [2013-12-04 07:05:44,116] org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: main
-INFO  [2013-12-04 07:05:44,128] org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-INFO  [2013-12-04 07:05:44,129] org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.2.0 created.
-INFO  [2013-12-04 07:05:44,130] org.quartz.simpl.RAMJobStore: RAMJobStore initialized.
-INFO  [2013-12-04 07:05:44,131] org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
-  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-INFO  [2013-12-04 07:05:44,131] org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
-INFO  [2013-12-04 07:05:44,131] org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.2.0
-INFO  [2013-12-04 07:05:44,131] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-INFO  [2013-12-04 07:05:44,133] de.spinscale.dropwizard.jobs.JobManager: Jobs to run on application start: []
-INFO  [2013-12-04 07:05:44,134] de.spinscale.dropwizard.jobs.JobManager: Jobs with @Every annotation: [class edu.sjsu.cmpe.bigdata.DataAnalyticsJob]
-INFO  [2013-12-04 07:05:44,159] de.spinscale.dropwizard.jobs.JobManager: Jobs with @On annotation: []
-INFO  [2013-12-04 07:05:44,165] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 07:05:44,166] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 07:06:54,658] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 07:06:54,658] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 07:06:54,659] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:06:54,659] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:06:56,710] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:06:56,711] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:06:56,811] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
-INFO  [2013-12-04 07:06:56,811] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
-INFO  [2013-12-04 07:06:57,216] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
-INFO  [2013-12-04 07:07:13,929] org.reflections.Reflections: Reflections took 167 ms to scan 1 urls, producing 10 keys and 27 values 
-WARN  [2013-12-04 07:07:13,946] com.yammer.dropwizard.config.ServerFactory: 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
-!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
-!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
-!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
-!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-INFO  [2013-12-04 07:07:13,998] com.yammer.dropwizard.cli.ServerCommand: Starting bigdata-service
-INFO  [2013-12-04 07:07:14,000] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
-INFO  [2013-12-04 07:07:14,072] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
-INFO  [2013-12-04 07:07:14,124] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
-
-    GET     /bigdata/ (edu.sjsu.cmpe.bigdata.ui.resources.HomeResource)
-    GET     /bigdata/dashboard (edu.sjsu.cmpe.bigdata.ui.resources.DashboardResource)
-    GET     /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/users/{id}/competition (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    POST    /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/analytics/sentiment (edu.sjsu.cmpe.bigdata.api.resources.AnalyticsResource)
-
-INFO  [2013-12-04 07:07:14,124] com.yammer.dropwizard.config.Environment: tasks = 
-
-    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
-
-INFO  [2013-12-04 07:07:14,382] org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor
-INFO  [2013-12-04 07:07:14,384] org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: main
-INFO  [2013-12-04 07:07:14,396] org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-INFO  [2013-12-04 07:07:14,397] org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.2.0 created.
-INFO  [2013-12-04 07:07:14,398] org.quartz.simpl.RAMJobStore: RAMJobStore initialized.
-INFO  [2013-12-04 07:07:14,399] org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
-  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-INFO  [2013-12-04 07:07:14,399] org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
-INFO  [2013-12-04 07:07:14,399] org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.2.0
-INFO  [2013-12-04 07:07:14,399] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-INFO  [2013-12-04 07:07:14,402] de.spinscale.dropwizard.jobs.JobManager: Jobs to run on application start: []
-INFO  [2013-12-04 07:07:14,403] de.spinscale.dropwizard.jobs.JobManager: Jobs with @Every annotation: [class edu.sjsu.cmpe.bigdata.DataAnalyticsJob]
-INFO  [2013-12-04 07:07:14,426] de.spinscale.dropwizard.jobs.JobManager: Jobs with @On annotation: []
-INFO  [2013-12-04 07:07:14,432] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 07:07:14,434] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 07:10:57,742] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 07:10:57,743] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 07:10:57,743] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:10:57,743] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:10:59,796] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:10:59,796] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:10:59,898] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
-INFO  [2013-12-04 07:10:59,898] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
-INFO  [2013-12-04 07:11:00,279] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
-INFO  [2013-12-04 07:11:16,406] org.reflections.Reflections: Reflections took 169 ms to scan 1 urls, producing 10 keys and 27 values 
-WARN  [2013-12-04 07:11:16,424] com.yammer.dropwizard.config.ServerFactory: 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
-!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
-!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
-!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
-!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-INFO  [2013-12-04 07:11:16,479] com.yammer.dropwizard.cli.ServerCommand: Starting bigdata-service
-INFO  [2013-12-04 07:11:16,480] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
-INFO  [2013-12-04 07:11:16,562] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
-INFO  [2013-12-04 07:11:16,617] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
-
-    GET     /bigdata/ (edu.sjsu.cmpe.bigdata.ui.resources.HomeResource)
-    GET     /bigdata/dashboard (edu.sjsu.cmpe.bigdata.ui.resources.DashboardResource)
-    GET     /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/users/{id}/competition (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    POST    /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/analytics/sentiment (edu.sjsu.cmpe.bigdata.api.resources.AnalyticsResource)
-
-INFO  [2013-12-04 07:11:16,618] com.yammer.dropwizard.config.Environment: tasks = 
-
-    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
-
-INFO  [2013-12-04 07:11:16,888] org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor
-INFO  [2013-12-04 07:11:16,891] org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: main
-INFO  [2013-12-04 07:11:16,903] org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-INFO  [2013-12-04 07:11:16,904] org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.2.0 created.
-INFO  [2013-12-04 07:11:16,905] org.quartz.simpl.RAMJobStore: RAMJobStore initialized.
-INFO  [2013-12-04 07:11:16,906] org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
-  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-INFO  [2013-12-04 07:11:16,906] org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
-INFO  [2013-12-04 07:11:16,906] org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.2.0
-INFO  [2013-12-04 07:11:16,906] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-INFO  [2013-12-04 07:11:16,908] de.spinscale.dropwizard.jobs.JobManager: Jobs to run on application start: []
-INFO  [2013-12-04 07:11:16,909] de.spinscale.dropwizard.jobs.JobManager: Jobs with @Every annotation: [class edu.sjsu.cmpe.bigdata.DataAnalyticsJob]
-INFO  [2013-12-04 07:11:16,935] de.spinscale.dropwizard.jobs.JobManager: Jobs with @On annotation: []
-INFO  [2013-12-04 07:11:16,941] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 07:11:16,942] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 07:15:54,531] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 07:15:54,545] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 07:15:54,546] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:15:54,547] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:15:56,600] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:15:56,600] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:15:56,701] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
-INFO  [2013-12-04 07:15:56,701] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
-INFO  [2013-12-04 07:15:56,851] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
-INFO  [2013-12-04 07:16:13,306] org.reflections.Reflections: Reflections took 163 ms to scan 1 urls, producing 10 keys and 27 values 
-WARN  [2013-12-04 07:16:13,324] com.yammer.dropwizard.config.ServerFactory: 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
-!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
-!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
-!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
-!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-INFO  [2013-12-04 07:16:13,377] com.yammer.dropwizard.cli.ServerCommand: Starting bigdata-service
-INFO  [2013-12-04 07:16:13,378] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
-INFO  [2013-12-04 07:16:13,451] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
-INFO  [2013-12-04 07:16:13,500] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
-
-    GET     /bigdata/ (edu.sjsu.cmpe.bigdata.ui.resources.HomeResource)
-    GET     /bigdata/dashboard (edu.sjsu.cmpe.bigdata.ui.resources.DashboardResource)
-    GET     /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/users/{id}/competition (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    POST    /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/analytics/sentiment (edu.sjsu.cmpe.bigdata.api.resources.AnalyticsResource)
-
-INFO  [2013-12-04 07:16:13,500] com.yammer.dropwizard.config.Environment: tasks = 
-
-    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
-
-INFO  [2013-12-04 07:16:13,753] org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor
-INFO  [2013-12-04 07:16:13,756] org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: main
-INFO  [2013-12-04 07:16:13,768] org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-INFO  [2013-12-04 07:16:13,769] org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.2.0 created.
-INFO  [2013-12-04 07:16:13,769] org.quartz.simpl.RAMJobStore: RAMJobStore initialized.
-INFO  [2013-12-04 07:16:13,770] org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
-  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-INFO  [2013-12-04 07:16:13,770] org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
-INFO  [2013-12-04 07:16:13,770] org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.2.0
-INFO  [2013-12-04 07:16:13,770] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-INFO  [2013-12-04 07:16:13,773] de.spinscale.dropwizard.jobs.JobManager: Jobs to run on application start: []
-INFO  [2013-12-04 07:16:13,773] de.spinscale.dropwizard.jobs.JobManager: Jobs with @Every annotation: [class edu.sjsu.cmpe.bigdata.DataAnalyticsJob]
-INFO  [2013-12-04 07:16:13,797] de.spinscale.dropwizard.jobs.JobManager: Jobs with @On annotation: []
-INFO  [2013-12-04 07:16:13,802] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
-WARN  [2013-12-04 07:16:13,804] org.eclipse.jetty.server.AbstractConnector: insufficient threads configured for SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 07:16:13,804] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 07:17:25,689] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 07:17:25,690] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 07:17:25,690] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:17:25,691] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:17:27,743] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:17:27,744] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:17:27,844] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
-INFO  [2013-12-04 07:17:27,844] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
-INFO  [2013-12-04 07:17:27,977] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
-INFO  [2013-12-04 07:17:43,956] org.reflections.Reflections: Reflections took 169 ms to scan 1 urls, producing 10 keys and 27 values 
-WARN  [2013-12-04 07:17:43,973] com.yammer.dropwizard.config.ServerFactory: 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
-!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
-!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
-!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
-!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-INFO  [2013-12-04 07:17:44,026] com.yammer.dropwizard.cli.ServerCommand: Starting bigdata-service
-INFO  [2013-12-04 07:17:44,027] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
-INFO  [2013-12-04 07:17:44,102] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
-INFO  [2013-12-04 07:17:44,155] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
-
-    GET     /bigdata/ (edu.sjsu.cmpe.bigdata.ui.resources.HomeResource)
-    GET     /bigdata/dashboard (edu.sjsu.cmpe.bigdata.ui.resources.DashboardResource)
-    GET     /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/users/{id}/competition (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    POST    /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/analytics/sentiment (edu.sjsu.cmpe.bigdata.api.resources.AnalyticsResource)
-
-INFO  [2013-12-04 07:17:44,155] com.yammer.dropwizard.config.Environment: tasks = 
-
-    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
-
-INFO  [2013-12-04 07:17:44,412] org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor
-INFO  [2013-12-04 07:17:44,415] org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: main
-INFO  [2013-12-04 07:17:44,427] org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-INFO  [2013-12-04 07:17:44,428] org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.2.0 created.
-INFO  [2013-12-04 07:17:44,429] org.quartz.simpl.RAMJobStore: RAMJobStore initialized.
-INFO  [2013-12-04 07:17:44,430] org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
-  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-INFO  [2013-12-04 07:17:44,430] org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
-INFO  [2013-12-04 07:17:44,430] org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.2.0
-INFO  [2013-12-04 07:17:44,430] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-INFO  [2013-12-04 07:17:44,433] de.spinscale.dropwizard.jobs.JobManager: Jobs to run on application start: []
-INFO  [2013-12-04 07:17:44,433] de.spinscale.dropwizard.jobs.JobManager: Jobs with @Every annotation: [class edu.sjsu.cmpe.bigdata.DataAnalyticsJob]
-INFO  [2013-12-04 07:17:44,458] de.spinscale.dropwizard.jobs.JobManager: Jobs with @On annotation: []
-INFO  [2013-12-04 07:17:44,464] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 07:17:44,465] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 07:18:18,504] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 07:18:18,505] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 07:18:18,505] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:18:18,505] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:18:20,557] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:18:20,558] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:18:20,658] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
-INFO  [2013-12-04 07:18:20,658] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
-INFO  [2013-12-04 07:18:21,103] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
-INFO  [2013-12-04 07:18:37,290] org.reflections.Reflections: Reflections took 164 ms to scan 1 urls, producing 10 keys and 27 values 
-WARN  [2013-12-04 07:18:37,308] com.yammer.dropwizard.config.ServerFactory: 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
-!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
-!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
-!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
-!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-INFO  [2013-12-04 07:18:37,361] com.yammer.dropwizard.cli.ServerCommand: Starting bigdata-service
-INFO  [2013-12-04 07:18:37,363] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
-INFO  [2013-12-04 07:18:37,438] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
-INFO  [2013-12-04 07:18:37,489] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
-
-    GET     /bigdata/ (edu.sjsu.cmpe.bigdata.ui.resources.HomeResource)
-    GET     /bigdata/dashboard (edu.sjsu.cmpe.bigdata.ui.resources.DashboardResource)
-    GET     /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/users/{id}/competition (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    POST    /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/analytics/sentiment (edu.sjsu.cmpe.bigdata.api.resources.AnalyticsResource)
-
-INFO  [2013-12-04 07:18:37,489] com.yammer.dropwizard.config.Environment: tasks = 
-
-    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
-
-INFO  [2013-12-04 07:18:37,747] org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor
-INFO  [2013-12-04 07:18:37,749] org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: main
-INFO  [2013-12-04 07:18:37,761] org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-INFO  [2013-12-04 07:18:37,762] org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.2.0 created.
-INFO  [2013-12-04 07:18:37,763] org.quartz.simpl.RAMJobStore: RAMJobStore initialized.
-INFO  [2013-12-04 07:18:37,764] org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
-  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-INFO  [2013-12-04 07:18:37,764] org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
-INFO  [2013-12-04 07:18:37,764] org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.2.0
-INFO  [2013-12-04 07:18:37,764] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-INFO  [2013-12-04 07:18:37,766] de.spinscale.dropwizard.jobs.JobManager: Jobs to run on application start: []
-INFO  [2013-12-04 07:18:37,767] de.spinscale.dropwizard.jobs.JobManager: Jobs with @Every annotation: [class edu.sjsu.cmpe.bigdata.DataAnalyticsJob]
-INFO  [2013-12-04 07:18:37,791] de.spinscale.dropwizard.jobs.JobManager: Jobs with @On annotation: []
-INFO  [2013-12-04 07:18:37,797] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 07:18:37,799] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 07:19:25,888] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 07:19:25,888] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 07:19:25,889] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:19:25,889] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:19:27,941] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:19:27,942] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:19:28,042] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
-INFO  [2013-12-04 07:19:28,042] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
-INFO  [2013-12-04 07:19:28,449] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
-INFO  [2013-12-04 07:19:44,810] org.reflections.Reflections: Reflections took 169 ms to scan 1 urls, producing 10 keys and 27 values 
-WARN  [2013-12-04 07:19:44,828] com.yammer.dropwizard.config.ServerFactory: 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
-!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
-!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
-!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
-!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-INFO  [2013-12-04 07:19:44,881] com.yammer.dropwizard.cli.ServerCommand: Starting bigdata-service
-INFO  [2013-12-04 07:19:44,883] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
-INFO  [2013-12-04 07:19:44,961] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
-INFO  [2013-12-04 07:19:45,015] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
-
-    GET     /bigdata/ (edu.sjsu.cmpe.bigdata.ui.resources.HomeResource)
-    GET     /bigdata/dashboard (edu.sjsu.cmpe.bigdata.ui.resources.DashboardResource)
-    GET     /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/users/{id}/competition (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    POST    /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/analytics/sentiment (edu.sjsu.cmpe.bigdata.api.resources.AnalyticsResource)
-
-INFO  [2013-12-04 07:19:45,015] com.yammer.dropwizard.config.Environment: tasks = 
-
-    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
-
-INFO  [2013-12-04 07:19:45,304] org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor
-INFO  [2013-12-04 07:19:45,307] org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: main
-INFO  [2013-12-04 07:19:45,321] org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-INFO  [2013-12-04 07:19:45,321] org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.2.0 created.
-INFO  [2013-12-04 07:19:45,322] org.quartz.simpl.RAMJobStore: RAMJobStore initialized.
-INFO  [2013-12-04 07:19:45,323] org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
-  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-INFO  [2013-12-04 07:19:45,323] org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
-INFO  [2013-12-04 07:19:45,323] org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.2.0
-INFO  [2013-12-04 07:19:45,323] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-INFO  [2013-12-04 07:19:45,326] de.spinscale.dropwizard.jobs.JobManager: Jobs to run on application start: []
-INFO  [2013-12-04 07:19:45,327] de.spinscale.dropwizard.jobs.JobManager: Jobs with @Every annotation: [class edu.sjsu.cmpe.bigdata.DataAnalyticsJob]
-INFO  [2013-12-04 07:19:45,353] de.spinscale.dropwizard.jobs.JobManager: Jobs with @On annotation: []
-INFO  [2013-12-04 07:19:45,359] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 07:19:45,361] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 07:22:37,822] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 07:22:37,822] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 07:22:37,823] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:22:37,823] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:22:39,876] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:22:39,876] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:22:39,977] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
-INFO  [2013-12-04 07:22:39,977] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
-INFO  [2013-12-04 07:22:40,195] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
-INFO  [2013-12-04 07:22:56,285] org.reflections.Reflections: Reflections took 168 ms to scan 1 urls, producing 10 keys and 27 values 
-WARN  [2013-12-04 07:22:56,303] com.yammer.dropwizard.config.ServerFactory: 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
-!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
-!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
-!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
-!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-INFO  [2013-12-04 07:22:56,356] com.yammer.dropwizard.cli.ServerCommand: Starting bigdata-service
-INFO  [2013-12-04 07:22:56,357] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
-INFO  [2013-12-04 07:22:56,433] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
-INFO  [2013-12-04 07:22:56,483] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
-
-    GET     /bigdata/ (edu.sjsu.cmpe.bigdata.ui.resources.HomeResource)
-    GET     /bigdata/dashboard (edu.sjsu.cmpe.bigdata.ui.resources.DashboardResource)
-    GET     /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/users/{id}/competition (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    POST    /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/analytics/sentiment (edu.sjsu.cmpe.bigdata.api.resources.AnalyticsResource)
-
-INFO  [2013-12-04 07:22:56,483] com.yammer.dropwizard.config.Environment: tasks = 
-
-    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
-
-INFO  [2013-12-04 07:22:56,740] org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor
-INFO  [2013-12-04 07:22:56,743] org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: main
-INFO  [2013-12-04 07:22:56,755] org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-INFO  [2013-12-04 07:22:56,756] org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.2.0 created.
-INFO  [2013-12-04 07:22:56,757] org.quartz.simpl.RAMJobStore: RAMJobStore initialized.
-INFO  [2013-12-04 07:22:56,757] org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
-  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-INFO  [2013-12-04 07:22:56,757] org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
-INFO  [2013-12-04 07:22:56,757] org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.2.0
-INFO  [2013-12-04 07:22:56,758] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-INFO  [2013-12-04 07:22:56,760] de.spinscale.dropwizard.jobs.JobManager: Jobs to run on application start: []
-INFO  [2013-12-04 07:22:56,760] de.spinscale.dropwizard.jobs.JobManager: Jobs with @Every annotation: [class edu.sjsu.cmpe.bigdata.DataAnalyticsJob]
-INFO  [2013-12-04 07:22:56,785] de.spinscale.dropwizard.jobs.JobManager: Jobs with @On annotation: []
-INFO  [2013-12-04 07:22:56,791] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 07:22:56,792] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 07:24:48,204] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 07:24:48,204] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 07:24:48,205] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:24:48,205] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:24:50,258] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:24:50,258] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:24:50,359] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
-INFO  [2013-12-04 07:24:50,359] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
-INFO  [2013-12-04 07:24:50,499] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
-INFO  [2013-12-04 07:25:07,133] org.reflections.Reflections: Reflections took 185 ms to scan 1 urls, producing 10 keys and 27 values 
-WARN  [2013-12-04 07:25:07,153] com.yammer.dropwizard.config.ServerFactory: 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
-!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
-!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
-!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
-!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-INFO  [2013-12-04 07:25:07,210] com.yammer.dropwizard.cli.ServerCommand: Starting bigdata-service
-INFO  [2013-12-04 07:25:07,212] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
-INFO  [2013-12-04 07:25:07,291] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
-INFO  [2013-12-04 07:25:07,344] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
-
-    GET     /bigdata/ (edu.sjsu.cmpe.bigdata.ui.resources.HomeResource)
-    GET     /bigdata/dashboard (edu.sjsu.cmpe.bigdata.ui.resources.DashboardResource)
-    GET     /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/users/{id}/competition (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    POST    /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/analytics/sentiment (edu.sjsu.cmpe.bigdata.api.resources.AnalyticsResource)
-
-INFO  [2013-12-04 07:25:07,344] com.yammer.dropwizard.config.Environment: tasks = 
-
-    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
-
-INFO  [2013-12-04 07:25:07,610] org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor
-INFO  [2013-12-04 07:25:07,612] org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: main
-INFO  [2013-12-04 07:25:07,624] org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-INFO  [2013-12-04 07:25:07,625] org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.2.0 created.
-INFO  [2013-12-04 07:25:07,626] org.quartz.simpl.RAMJobStore: RAMJobStore initialized.
-INFO  [2013-12-04 07:25:07,627] org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
-  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-INFO  [2013-12-04 07:25:07,627] org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
-INFO  [2013-12-04 07:25:07,627] org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.2.0
-INFO  [2013-12-04 07:25:07,627] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-INFO  [2013-12-04 07:25:07,629] de.spinscale.dropwizard.jobs.JobManager: Jobs to run on application start: []
-INFO  [2013-12-04 07:25:07,629] de.spinscale.dropwizard.jobs.JobManager: Jobs with @Every annotation: [class edu.sjsu.cmpe.bigdata.DataAnalyticsJob]
-INFO  [2013-12-04 07:25:07,655] de.spinscale.dropwizard.jobs.JobManager: Jobs with @On annotation: []
-INFO  [2013-12-04 07:25:07,660] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 07:25:07,661] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 07:27:26,242] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 07:27:26,243] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 07:27:26,243] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:27:26,244] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:27:28,295] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:27:28,296] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:27:28,396] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
-INFO  [2013-12-04 07:27:28,396] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
-INFO  [2013-12-04 07:27:28,767] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
-INFO  [2013-12-04 07:27:44,571] org.reflections.Reflections: Reflections took 169 ms to scan 1 urls, producing 10 keys and 27 values 
-WARN  [2013-12-04 07:27:44,588] com.yammer.dropwizard.config.ServerFactory: 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
-!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
-!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
-!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
-!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-INFO  [2013-12-04 07:27:44,642] com.yammer.dropwizard.cli.ServerCommand: Starting bigdata-service
-INFO  [2013-12-04 07:27:44,644] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
-INFO  [2013-12-04 07:27:44,720] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
-INFO  [2013-12-04 07:27:44,772] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
-
-    GET     /bigdata/ (edu.sjsu.cmpe.bigdata.ui.resources.HomeResource)
-    GET     /bigdata/dashboard (edu.sjsu.cmpe.bigdata.ui.resources.DashboardResource)
-    GET     /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/users/{id}/competition (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    POST    /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/analytics/sentiment (edu.sjsu.cmpe.bigdata.api.resources.AnalyticsResource)
-
-INFO  [2013-12-04 07:27:44,772] com.yammer.dropwizard.config.Environment: tasks = 
-
-    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
-
-INFO  [2013-12-04 07:27:45,032] org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor
-INFO  [2013-12-04 07:27:45,035] org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: main
-INFO  [2013-12-04 07:27:45,047] org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-INFO  [2013-12-04 07:27:45,048] org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.2.0 created.
-INFO  [2013-12-04 07:27:45,049] org.quartz.simpl.RAMJobStore: RAMJobStore initialized.
-INFO  [2013-12-04 07:27:45,050] org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
-  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-INFO  [2013-12-04 07:27:45,050] org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
-INFO  [2013-12-04 07:27:45,050] org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.2.0
-INFO  [2013-12-04 07:27:45,050] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-INFO  [2013-12-04 07:27:45,052] de.spinscale.dropwizard.jobs.JobManager: Jobs to run on application start: []
-INFO  [2013-12-04 07:27:45,053] de.spinscale.dropwizard.jobs.JobManager: Jobs with @Every annotation: [class edu.sjsu.cmpe.bigdata.DataAnalyticsJob]
-INFO  [2013-12-04 07:27:45,078] de.spinscale.dropwizard.jobs.JobManager: Jobs with @On annotation: []
-INFO  [2013-12-04 07:27:45,084] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 07:27:45,085] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 07:28:18,905] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 07:28:18,905] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 07:28:18,906] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:28:18,906] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:28:20,959] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:28:20,959] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:28:21,060] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
-INFO  [2013-12-04 07:28:21,060] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
-INFO  [2013-12-04 07:28:21,220] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
-INFO  [2013-12-04 07:29:32,355] org.reflections.Reflections: Reflections took 173 ms to scan 1 urls, producing 10 keys and 27 values 
-WARN  [2013-12-04 07:29:32,373] com.yammer.dropwizard.config.ServerFactory: 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
-!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
-!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
-!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
-!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-INFO  [2013-12-04 07:29:32,427] com.yammer.dropwizard.cli.ServerCommand: Starting bigdata-service
-INFO  [2013-12-04 07:29:32,429] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
-INFO  [2013-12-04 07:29:32,506] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
-INFO  [2013-12-04 07:29:32,559] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
-
-    GET     /bigdata/ (edu.sjsu.cmpe.bigdata.ui.resources.HomeResource)
-    GET     /bigdata/dashboard (edu.sjsu.cmpe.bigdata.ui.resources.DashboardResource)
-    GET     /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/users/{id}/competition (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    POST    /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/analytics/sentiment (edu.sjsu.cmpe.bigdata.api.resources.AnalyticsResource)
-
-INFO  [2013-12-04 07:29:32,560] com.yammer.dropwizard.config.Environment: tasks = 
-
-    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
-
-INFO  [2013-12-04 07:29:32,827] org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor
-INFO  [2013-12-04 07:29:32,830] org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: main
-INFO  [2013-12-04 07:29:32,841] org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-INFO  [2013-12-04 07:29:32,842] org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.2.0 created.
-INFO  [2013-12-04 07:29:32,843] org.quartz.simpl.RAMJobStore: RAMJobStore initialized.
-INFO  [2013-12-04 07:29:32,844] org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
-  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-INFO  [2013-12-04 07:29:32,844] org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
-INFO  [2013-12-04 07:29:32,844] org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.2.0
-INFO  [2013-12-04 07:29:32,844] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-INFO  [2013-12-04 07:29:32,847] de.spinscale.dropwizard.jobs.JobManager: Jobs to run on application start: []
-INFO  [2013-12-04 07:29:32,847] de.spinscale.dropwizard.jobs.JobManager: Jobs with @Every annotation: [class edu.sjsu.cmpe.bigdata.DataAnalyticsJob]
-INFO  [2013-12-04 07:29:32,872] de.spinscale.dropwizard.jobs.JobManager: Jobs with @On annotation: []
-INFO  [2013-12-04 07:29:32,878] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 07:29:32,879] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 07:32:34,174] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
-INFO  [2013-12-04 07:32:34,175] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 07:32:34,175] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:32:34,175] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:32:36,227] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:32:36,227] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
-INFO  [2013-12-04 07:32:36,328] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
-INFO  [2013-12-04 07:32:36,328] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
-INFO  [2013-12-04 07:32:36,664] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
-INFO  [2013-12-04 07:32:59,674] org.reflections.Reflections: Reflections took 180 ms to scan 1 urls, producing 10 keys and 27 values 
-WARN  [2013-12-04 07:32:59,694] com.yammer.dropwizard.config.ServerFactory: 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
-!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
-!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
-!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
-!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-INFO  [2013-12-04 07:32:59,750] com.yammer.dropwizard.cli.ServerCommand: Starting bigdata-service
-INFO  [2013-12-04 07:32:59,752] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
-INFO  [2013-12-04 07:32:59,832] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
-INFO  [2013-12-04 07:32:59,886] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
-
-    GET     /bigdata/ (edu.sjsu.cmpe.bigdata.ui.resources.HomeResource)
-    GET     /bigdata/dashboard (edu.sjsu.cmpe.bigdata.ui.resources.DashboardResource)
-    GET     /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/users/{id}/competition (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    POST    /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
-    GET     /bigdata/v1/analytics/sentiment (edu.sjsu.cmpe.bigdata.api.resources.AnalyticsResource)
-
-INFO  [2013-12-04 07:32:59,886] com.yammer.dropwizard.config.Environment: tasks = 
-
-    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
-
-INFO  [2013-12-04 07:33:00,161] org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor
-INFO  [2013-12-04 07:33:00,163] org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: main
-INFO  [2013-12-04 07:33:00,176] org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-INFO  [2013-12-04 07:33:00,177] org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.2.0 created.
-INFO  [2013-12-04 07:33:00,178] org.quartz.simpl.RAMJobStore: RAMJobStore initialized.
-INFO  [2013-12-04 07:33:00,179] org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
-  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-INFO  [2013-12-04 07:33:00,179] org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
-INFO  [2013-12-04 07:33:00,179] org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.2.0
-INFO  [2013-12-04 07:33:00,179] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-INFO  [2013-12-04 07:33:00,181] de.spinscale.dropwizard.jobs.JobManager: Jobs to run on application start: []
-INFO  [2013-12-04 07:33:00,182] de.spinscale.dropwizard.jobs.JobManager: Jobs with @Every annotation: [class edu.sjsu.cmpe.bigdata.DataAnalyticsJob]
-INFO  [2013-12-04 07:33:00,208] de.spinscale.dropwizard.jobs.JobManager: Jobs with @On annotation: []
-INFO  [2013-12-04 07:33:00,214] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
-INFO  [2013-12-04 07:33:00,215] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+INFO  [2013-12-04 08:36:24,985] org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+INFO  [2013-12-04 08:36:24,985] org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.2.0
+INFO  [2013-12-04 08:36:24,985] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+INFO  [2013-12-04 08:36:24,987] de.spinscale.dropwizard.jobs.JobManager: Jobs to run on application start: []
+INFO  [2013-12-04 08:36:24,988] de.spinscale.dropwizard.jobs.JobManager: Jobs with @Every annotation: [class edu.sjsu.cmpe.bigdata.DataAnalyticsJob]
+INFO  [2013-12-04 08:36:25,013] de.spinscale.dropwizard.jobs.JobManager: Jobs with @On annotation: []
+INFO  [2013-12-04 08:36:25,019] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-12-04 08:36:25,021] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
