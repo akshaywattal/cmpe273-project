@@ -82,11 +82,10 @@ public class LatestAnalysis {
 		DBCollection collection1 = courseDB.getCollection("analysis");
 
 		//String b_id = "VFslQjSgrw4Mu5_Q1xk1KQ";
-		//String b_id = "LjOIxpH-89S18WI1ktmPBQ";
-		String b_id = "YMeWjOd1svHDGdDCKoiGgg";
-
+		//String b_id = "YMeWjOd1svHDGdDCKoiGgg";
+		String b_id = "LjOIxpH-89S18WI1ktmPBQ";
+		
 		// Query for fetching reviews for a particular restaurant
-		//DBObject query = new BasicDBObject("type","review").append("business_id", b_Id);
 		DBObject query = new BasicDBObject("type","review").append("business_id", b_id);
 		
 		DBCursor cursor = collection.find(query);
@@ -102,15 +101,23 @@ public class LatestAnalysis {
 		
 		
 		while(cursor.hasNext()){
-			
+
 			DBObject cur = cursor.next();
 			String userReview = (String) cur.get("text");
+			
+			// Fetching flag for a review
+			
 			double reviewFlag = (Double) cur.get("flag");
 						
+			// only reviews with flag as 1 will be analyzed and there flag will be set to 2 
+			
 			if (reviewFlag == 1){
-				//System.out.print("Flag" + reviewFlag);
-				 ObjectId reviewID = (ObjectId) cur.get("_id");
-				 System.out.print(reviewID);
+				
+				// Fetching ObjectId of the review which will be used while updating
+				// flag for that review
+				
+				ObjectId reviewID = (ObjectId) cur.get("_id");
+				System.out.print(reviewID);
 				try {
 					String encodedUserReview = java.net.URLEncoder.encode(userReview, "ISO-8859-1");
 
@@ -131,8 +138,10 @@ public class LatestAnalysis {
 						notEval++;
 					}
 					
+				    // Creating query to set review flag to 2 for the review being analyzed
+					
 					DBObject updateQuery1 = new BasicDBObject().append("_id", reviewID);
-					//updateQuery1.put("_id", reviewID);
+					
 					DBObject updateQuery2 = new BasicDBObject("$set", new BasicDBObject("flag", 2.0));
 					
 					collection.update(updateQuery1, updateQuery2);
@@ -145,7 +154,7 @@ public class LatestAnalysis {
 		}
 		
 		
-		// Creating query for fetching details of latest analysis
+		// Creating query for fetching details of last analysis
 		
 		DBObject query1 = new BasicDBObject()
 						.append("business_id", b_id)
@@ -159,7 +168,38 @@ public class LatestAnalysis {
 		
 		DBCursor cursor1 = collection1.find(query1).sort(query2).limit(1);
 			
-				
+		int lastPositive=0, lastNegative=0, lastNeutral=0, lastNotEval=0;
+		
+		try{
+		
+		// Fetching last analysis details	
+		DBObject cur1 = cursor1.next();
+		//String business_id = (String) cur1.get("business_id");
+		lastPositive = (Integer) cur1.get("positive");
+		lastNegative = (Integer) cur1.get("negative");
+		lastNeutral  = (Integer) cur1.get("neutral");
+		lastNotEval  = (Integer) cur1.get("notEval");
+			
+		// Printing last analysis details
+		
+		System.out.println("\nLast analysis details : \n ");
+		System.out.println("Number of neutral reviews       : "+ lastNeutral);
+		System.out.println("Number of positive reviews      : "+ lastPositive);
+		System.out.println("Number of negative reviews      : "+ lastNegative);
+		System.out.println("Number of reviews not evaluated : "+ lastNotEval);
+		}catch(Exception e){
+			System.out.println("\nAnalysing for the first time\n");
+		}
+
+		// Adding last analysis details to the latest details
+		
+		int finalPositive = lastPositive + positive;
+		int finalNegative = lastNegative + negative;
+		int finalNeutral = lastNeutral + neutral;
+		int finalNotEval = lastNotEval + notEval;
+		
+		// Query for inserting latest analysis to db
+		
 		DBObject doc = new BasicDBObject()
 							.append("business_id", b_id)
 							.append("positive", finalPositive)
@@ -171,7 +211,9 @@ public class LatestAnalysis {
 
 		collection1.insert(doc);
 
-		System.out.println("Latest analysis data :\n");
+		// Displaying latest anlysis
+		
+		System.out.println("\nLatest analysis data :\n");
 		System.out.println("Number of neutral reviews       : "+ finalNeutral);
 		System.out.println("Number of positive reviews      : "+ finalPositive);
 		System.out.println("Number of negative reviews      : "+ finalNegative);
