@@ -8,20 +8,13 @@ app.directive('map', function($http) {
 		link: function(scope, element, attrs) {
 			console.log(element);
 			var myOptions = {
-				zoom: 12,
-				center: new google.maps.LatLng(37.426398, -122.16836),
+				zoom: 15,
+				center: new google.maps.LatLng(37.442975, -122.1630475),
 				mapTypeId: google.maps.MapTypeId.ROADMAP
 			};
 			var map = new google.maps.Map(document.getElementById(attrs.id), myOptions);
 			
-			addMarker = function(pos){
-				var myLatlng = new google.maps.LatLng(pos.lat,pos.lng);
-				var marker = new google.maps.Marker({
-					position: myLatlng,
-					map: map,
-					title: scope.mapPin
-				});
-			}
+			var infowindow = new google.maps.InfoWindow();
 			
 			fillMap = function() {
 				$http({
@@ -34,10 +27,31 @@ app.directive('map', function($http) {
 				}).success(function(data, status, headers, config) {
 					var y = data;
 					for (var i = 0; i < data.length; i++ ){
-						addMarker({
-							lat: y[i].latitude,
-							lng: y[i].longitude
-						}); 
+						var z = y[i];
+						var myLatlng = new google.maps.LatLng(z.latitude, z.longitude);
+						if (z.business_id == "VFslQjSgrw4Mu5_Q1xk1KQ") {
+							var marker = new google.maps.Marker({
+								position: myLatlng,
+								map: map,
+								title: z.name + " (You!)",
+								icon: "http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png"
+							});
+						} else {
+							var marker = new google.maps.Marker({
+								position: myLatlng,
+								map: map,
+								title: z.name
+							});
+						}
+						(function(marker, z) {
+							google.maps.event.addListener(marker, 'click', function(e) {
+								var contentString = "<a href='"+z.url+"'><ul style='list-style-type:none; margin:0; padding:0;'>" +
+										"<li style='float:left; margin-right:1em;'><img src='"+z.photo_url+"'></li>" +
+												"<li style='float:left'><h1>"+z.name+"</h1><p>"+z.full_address+"</p></li></ul></a>";
+								infowindow.setContent(contentString);
+								infowindow.open(map, marker);
+							});
+						})(marker, z);
 					} 
 				}).error(function(data, status, headers, config) {
 					alert("failure");
