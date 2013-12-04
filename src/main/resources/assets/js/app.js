@@ -62,161 +62,138 @@ app.directive('map', function($http) {
 		}
 	};
 });
-<<<<<<< HEAD
 
 app.directive('pieplot', function($http) {
-=======
-/*
-app.directive('piePlot', function($http) {
->>>>>>> 00b251422e75c8a5260f1facfcffc2ce31fecbce
-	return {
-		restrict: 'EA',
-		replace: true,
-		template: '<div></div>',
-		link: function(scope, element, attrs) {
-			console.log(element);
-			
-			makeChart = function() {
-				$http({
-					method: 'GET',
-					dataType: 'json',
-					url: 'http://localhost:8080/bigdata/v1/analytics/sentiment',
-					headers: {
-						'Content-Type': 'application/json'
-					}
-				}).success(function(data, status, headers, config) {				
-					  
-					var width = 480,
-					    height = 300,
-					    radius = Math.min(width, height) / 2;
+    return {
+            restrict: 'EA',
+            replace: true,
+            template: '<div></div>',
+            link: function(scope, element, attrs) {
+                    console.log(element);
+                    
+                    makeChart = function() {
+                            $http({
+                                    method: 'GET',
+                                    dataType: 'json',
+                                    url: 'http://localhost:8080/bigdata/v1/analytics/sentiment',
+                                    headers: {
+                                            'Content-Type': 'application/json'
+                                    }
+                            }).success(function(data, status, headers, config) {                                
+                                      
+                                    var width = 480,
+                                        height = 300,
+                                        radius = Math.min(width, height) / 2;
 
-					var color = d3.scale.ordinal()
-					    .range(["yellow","green","red","orange"]);
+                                    var color = d3.scale.ordinal()
+                                        .range(["yellow","green","red","orange"]);
 
-					var arc = d3.svg.arc()
-					    .outerRadius(radius - 10)
-					    .innerRadius(0);
+                                    var arc = d3.svg.arc()
+                                        .outerRadius(radius - 10)
+                                        .innerRadius(0);
 
-					var pie = d3.layout.pie()
-					    .sort(null)
-					    .value(function(d) { return d.value; });
+                                    var pie = d3.layout.pie()
+                                        .sort(null)
+                                        .value(function(d) { return d.value; });
 
-					var svg = d3.select("#sentiment").append("svg")
-					    .attr("width", width)
-					    .attr("height", height)
-					  .append("g")
-					    .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+                                    var svg = d3.select("#sentiment").append("svg")
+                                        .attr("width", width)
+                                        .attr("height", height)
+                                      .append("g")
+                                        .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
-					var g = svg.selectAll(".arc")
-					      .data(pie(data))
-					    .enter().append("g")
-					      .attr("class", "arc");
+                                    var g = svg.selectAll(".arc")
+                                          .data(pie(data))
+                                        .enter().append("g")
+                                          .attr("class", "arc");
 
-					  g.append("path")
-					      .attr("d", arc) 
-					      .style("fill", function(d) { return color(d.data.sentiment); });
+                                      g.append("path")
+                                          .attr("d", arc) 
+                                          .style("fill", function(d) { return color(d.data.sentiment); });
 
-					  g.append("text")
-					      .attr("transform", function(d) { return "translate(" + arc.centroid(d) + ")"; })
-					      .attr("dy", ".35em")
-					      .style("text-anchor", "middle")
-					      .text(function(d) { return d.data.sentiment; });
-					  
-				}).error(function(data, status, headers, config) {
-					alert("failure");
-				});
-				
-			}
-			
-			makeChart();
-		}
-	};
+                                      g.append("text")
+                                          .attr("transform", function(d) { return "translate(" + arc.centroid(d) + ")"; })
+                                          .attr("dy", ".35em")
+                                          .style("text-anchor", "middle")
+                                          .text(function(d) { return d.data.sentiment; });
+                                      
+                            }).error(function(data, status, headers, config) {
+                                    alert("failure");
+                            });
+                            
+                    }
+                    
+                    makeChart();
+            }
+    };
 });
 
-<<<<<<< HEAD
 app.directive('donutplot', function($http) {
-	return {
-		restrict: 'EA',
-		replace: true,
-		template: '<div></div>',
-		link: function(scope, element, attrs) {
-			console.log(element);
-			
-			makeChart2 = function() {
-				$http({
-					method: 'GET',
-					dataType: 'json',
-					url: 'http://localhost:8080/bigdata/v1/analytics/sentiment',
-					headers: {
-						'Content-Type': 'application/json'
-					}
-				}).success(function(data, status, headers, config) {				
-					  
-					var width = 480,
-					    height = 300,
-					    radius = Math.min(width, height) / 2;
+    return {
+            restrict: 'EA',
+            replace: true,
+            template: '<div></div>',
+            link: function(scope, element, attrs) {
+                    console.log(element);
+                    
+                    makeChart2 = function() {
+                            $http({
+                                    method: 'GET',
+                                    dataType: 'json',
+                                    url: 'http://localhost:8080/bigdata/v1/analytics/sentiment',
+                                    headers: {
+                                            'Content-Type': 'application/json'
+                                    }
+                            }).success(function(data, status, headers, config) {                                
+                                      
+                                    var width = 480,
+                                        height = 300,
+                                        radius = Math.min(width, height) / 2;
 
-					var color = d3.scale.ordinal()
-					    .range(["yellow","green","red","orange"]);
+                                    var color = d3.scale.ordinal()
+                                        .range(["yellow","green","red","orange"]);
 
-					var arc = d3.svg.arc()
-				    .outerRadius(radius - 10)
-				    .innerRadius(radius - 70);
+                                    var arc = d3.svg.arc()
+                                .outerRadius(radius - 10)
+                                .innerRadius(radius - 70);
 
-					var pie = d3.layout.pie()
-					    .sort(null)
-					    .value(function(d) { return d.value; });
+                                    var pie = d3.layout.pie()
+                                        .sort(null)
+                                        .value(function(d) { return d.value; });
 
-					var svg = d3.select("#sentimentdonut").append("svg")
-					    .attr("width", width)
-					    .attr("height", height)
-					  .append("g")
-					    .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+                                    var svg = d3.select("#sentimentdonut").append("svg")
+                                        .attr("width", width)
+                                        .attr("height", height)
+                                      .append("g")
+                                        .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
-					var g = svg.selectAll(".arc")
-					      .data(pie(data))
-					    .enter().append("g")
-					      .attr("class", "arc");
+                                    var g = svg.selectAll(".arc")
+                                          .data(pie(data))
+                                        .enter().append("g")
+                                          .attr("class", "arc");
 
-					  g.append("path")
-					      .attr("d", arc) 
-					      .style("fill", function(d) { return color(d.data.sentiment); });
+                                      g.append("path")
+                                          .attr("d", arc) 
+                                          .style("fill", function(d) { return color(d.data.sentiment); });
 
-					  g.append("text")
-					      .attr("transform", function(d) { return "translate(" + arc.centroid(d) + ")"; })
-					      .attr("dy", ".35em")
-					      .style("text-anchor", "middle")
-					      .text(function(d) { return d.data.value; });
-					  
-				}).error(function(data, status, headers, config) {
-					alert("failure");
-				});
-				
-			}
-			
-			makeChart2();
-		}
-	};
+                                      g.append("text")
+                                          .attr("transform", function(d) { return "translate(" + arc.centroid(d) + ")"; })
+                                          .attr("dy", ".35em")
+                                          .style("text-anchor", "middle")
+                                          .text(function(d) { return d.data.value; });
+                                      
+                            }).error(function(data, status, headers, config) {
+                                    alert("failure");
+                            });
+                            
+                    }
+                    
+                    makeChart2();
+            }
+    };
 });
 
 
-=======
-*/
->>>>>>> 00b251422e75c8a5260f1facfcffc2ce31fecbce
 function MyCtrl($scope) {
-	$scope.sentiment = [{
-		"sentiment": "neutral",
-		"value": "2"
-		}, {
-		"sentiment": "positive",
-		"value": "14"
-		}, {
-		"sentiment": "negative",
-		"value": "5"
-		}, {
-		"sentiment": "notevaluated",
-		"value": "0"
-		}];
+    $scope.mapPin = "No pin set yet";
 }
-
-
