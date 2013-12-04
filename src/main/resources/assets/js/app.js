@@ -71,7 +71,7 @@ app.directive('piePlot', function($http) {
 		link: function(scope, element, attrs) {
 			console.log(element);
 			
-			fillMap = function() {
+			makeChart = function() {
 				$http({
 					method: 'GET',
 					dataType: 'json',
@@ -123,7 +123,7 @@ app.directive('piePlot', function($http) {
 				
 			}
 			
-			fillMap();
+			makeChart();
 		}
 	};
 });
