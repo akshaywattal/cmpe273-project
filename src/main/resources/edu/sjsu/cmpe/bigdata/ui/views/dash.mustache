@@ -112,19 +112,23 @@
                </ul>
             </div>
          </div>
-         <div class="content" id="panel3a" style="width:100%; height:100%">
-         	<div class="row">
-               <p></p>
-               <div class="large-6 columns" style="background-color:#e4e4e4">
-                  <h4><b>Sentiment Analysis - View 1</b></h4>
-                  <pieplot id="sentiment"></pieplot>
-               </div>
-               <!--TO DO: Add a line between them--> 
-               <div class="large-6 columns" style="background-color:#e4e4e4">
-                  <h4><b>Sentiment Analysis - View 2</b></h4>
-                  <donutplot id="sentimentdonut"></donutplot>
-               </div>         
-            </div>
+         <div class="content" id="panel3a">
+             <div class="row">
+                <ul class="small-block-grid-2">
+                   <li>
+                      <div class="large-6 columns" style="background-color:#e4e4e4; height: 450px; width:450px">
+                         <h4><b>Sentiment Analysis - View 1</b></h4>
+                            <pieplot id="sentiment"></pieplot>                           
+                      </div>
+                   </li>
+                   <li>
+                      <div class="large-6 columns" style="background-color:#e4e4e4; height: 450px; width:470px">
+                        <h4><b>Sentiment Analysis - View 2</b></h4>
+                            <donutplot id="sentimentdonut"></donutplot>
+                      </div>
+                   </li>
+                </ul>
+             </div>
          </div>
          <!--<div class="content" id="panel4a">
             <p>Panel 4 content goes here.</p>

@@ -20,7 +20,7 @@ app.directive('map', function($http) {
 				$http({
 					method: 'GET',
 					dataType: 'json',
-					url: 'http://localhost:8080/bigdata/v1/users/1/competition?callback=JSON_CALLBACK',
+					url: 'http://localhost:9080/bigdata/v1/users/1/competition?callback=JSON_CALLBACK',
 					headers: {
 						'Content-Type': 'application/json'
 					}
@@ -75,7 +75,7 @@ app.directive('pieplot', function($http) {
                             $http({
                                     method: 'GET',
                                     dataType: 'json',
-                                    url: 'http://localhost:8080/bigdata/v1/analytics/sentiment',
+                                    url: 'http://localhost:9080/bigdata/v1/analytics/sentiment',
                                     headers: {
                                             'Content-Type': 'application/json'
                                     }
@@ -140,7 +140,7 @@ app.directive('donutplot', function($http) {
                             $http({
                                     method: 'GET',
                                     dataType: 'json',
-                                    url: 'http://localhost:8080/bigdata/v1/analytics/sentiment',
+                                    url: 'http://localhost:9080/bigdata/v1/analytics/sentiment',
                                     headers: {
                                             'Content-Type': 'application/json'
                                     }
