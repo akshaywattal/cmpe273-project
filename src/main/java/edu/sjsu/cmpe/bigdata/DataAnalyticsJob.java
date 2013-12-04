@@ -4,6 +4,8 @@ import java.io.UnsupportedEncodingException;
 import java.net.UnknownHostException;
 import java.util.Date;
 
+import javax.jms.Connection;
+
 import org.bson.types.ObjectId;
 
 import com.mongodb.BasicDBObject;
@@ -15,6 +17,7 @@ import com.mongodb.MongoClient;
 
 import de.spinscale.dropwizard.jobs.Job;
 import de.spinscale.dropwizard.jobs.annotations.Every;
+import edu.sjsu.cmpe.bigdata.stomp.ApolloSTOMP;
 
 
 @Every("3600s")
@@ -23,6 +26,8 @@ public class DataAnalyticsJob extends Job{
         public void doJob() {
         	System.out.println("In Sentiment Analysis-BEGIN");
         	MongoClient client;
+        	ApolloSTOMP apolloSTOMP = new ApolloSTOMP();
+        	Connection connection;
 			try {
 				client = new MongoClient();
 				DB courseDB = client.getDB("bigdata");
@@ -144,9 +149,16 @@ public class DataAnalyticsJob extends Job{
 				System.out.println("Number of positive reviews      : "+ finalPositive);
 				System.out.println("Number of negative reviews      : "+ finalNegative);
 				System.out.println("Number of reviews not evaluated : "+ finalNotEval);
-					    
 				} catch (UnknownHostException e1) {
 					e1.printStackTrace();
+					}
+			try {
+				connection = apolloSTOMP.makeConnection();
+				apolloSTOMP.publishTopicMessage(connection);
+				connection.close();
+				} 
+			catch (Exception e1) {
+				e1.printStackTrace();
 				}
 			System.out.println("In Sentiment Analysis-END");
 			}

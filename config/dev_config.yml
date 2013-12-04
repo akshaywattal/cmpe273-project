@@ -3,7 +3,7 @@
 stompQueueName: /queue/codeassasins.bigdata.yelp
 
 # Topic: For sentiment analysis
-stompTopicName: /topic/codeassasins.sentiment.
+stompTopicName: /topic/codeassasins.sentiment
 
 # Apollo STOMP Broker URL and Login
 apolloUser: "admin"
