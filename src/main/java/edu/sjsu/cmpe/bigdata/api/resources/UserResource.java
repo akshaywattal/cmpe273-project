@@ -124,7 +124,7 @@ public class UserResource {
 		/**
     	 * Accessing Collection: yelp
     	 */
-    	mongoClient.getCollection("bigdataUserCollection");
+    	mongoClient.getCollection("yelp");
     	
 		/**
     	 * Creating query1 to find competition
