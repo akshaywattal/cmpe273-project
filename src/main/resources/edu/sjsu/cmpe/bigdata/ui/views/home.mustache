@@ -259,7 +259,7 @@
 	  	var encodedPassword = document.getElementById("password");
   		encodedPassword.value = window.btoa(encodedPassword.value);
   		
-		var url = "http://localhost:9080/bigdata/v1/users";
+		var url = "http://54.215.165.222:9080/bigdata/v1/users";
 		var representationOfDesiredState = JSON.stringify($('#register-form').serializeObject()); //this in our case would be JSON text
 		var client = new XMLHttpRequest();
 
@@ -308,7 +308,7 @@
   		var encodedPassword = document.getElementById("password_login");
   		encodedPassword.value = window.btoa(encodedPassword.value);
   		
-		var url = "http://localhost:9080/bigdata/v1/users/?username=" + username + "&password=" + encodedPassword.value;
+		var url = "http://54.215.165.222:9080/bigdata/v1/users/?username=" + username + "&password=" + encodedPassword.value;
 		//var representationOfDesiredState = JSON.stringify($('#login-form').serializeObject()); //this in our case would be JSON text
 		var client = new XMLHttpRequest();
 		
