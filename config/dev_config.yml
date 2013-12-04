@@ -1,15 +1,14 @@
 # Apollo STOMP Broker Configuration
-# FIXME - Replace 99999 with your ID
-stompQueueName: /queue/41816.book.orders
+# Queue: For future use
+stompQueueName: /queue/codeassasins.bigdata.yelp
 
-# Procurement Service needs to publish to all topics!
-# FIXME - Replace 99999 with your ID
-stompTopicName: /topic/41816.book.
+# Topic: For sentiment analysis
+stompTopicName: /topic/codeassasins.sentiment.
 
-# TODO: Apollo STOMP Broker URL and login
+# Apollo STOMP Broker URL and Login
 apolloUser: "admin"
 apolloPassword: "password"
-apolloHost: "54.215.210.214"
+apolloHost: "54.215.165.222"
 apolloPort: 61613	
 
 #Contains properties for MongoDB 

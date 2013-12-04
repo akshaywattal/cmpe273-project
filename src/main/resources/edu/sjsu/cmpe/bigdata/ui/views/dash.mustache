@@ -10,15 +10,16 @@
       <link href="../assets/css/jquery.neosmart.fb.wall.css" rel="stylesheet" type="text/css"/>
       <script src="../assets/js/modernizr.js"></script>
       <script src="http://maps.googleapis.com/maps/api/js?sensor=false&language=en"></script>
-      <script src="../assets/js/vendor/angular.min_v1.2.3.js"></script> 
+      <script src="../assets/js/vendor/angular.min_v1.2.3.js"></script>
+      <script src="http://d3js.org/d3.v3.min.js"></script> 
       <script src="../assets/js/app.js"></script>
-      <script src="http://d3js.org/d3.v3.min.js"></script>
+      
       <style>
          #map_canvas{
          width:100%;
          height:25em;
          }
-               
+       </style>        
       <style>
 		body {
   		font: 10px sans-serif;
@@ -95,66 +96,14 @@
                </div>
             </div>
          </div>
-         <div class="content active" id="panel3a" style="width:100%; height:100%">
+         <div class="content" id="panel3a" style="width:100%; height:100%">
          	<div class="row">
                <p></p>
                <div class="large-6 columns" style="background-color:#e4e4e4">
                   <h4><b>Sentiment Analysis</b></h4>
-                  <script>
-                  	var responseData;
-                  	var data;      	 
-				    var url = "http://localhost:8080/bigdata/v1/analytics/sentiment";
-					var client = new XMLHttpRequest();
-			
-					client.open("GET", url, false);
-					client.setRequestHeader("Content-Type", "application/json"); //this will also change to JSON
-					client.send();
-			
-					if (client.status == 200)
-				    	responseData=client.responseText;
-					else
-				    	alert("The request for Sentiment Analysis did not succeed!");
-					
-					data = JSON.parse(responseData); 
-					var width = 700,
-					    height = 300,
-					    radius = Math.min(width, height) / 2;
-					
-					var color = d3.scale.ordinal()
-					    .range(["yellow","green","red","orange"]);
-					
-					var arc = d3.svg.arc()
-					    .outerRadius(radius - 10)
-					    .innerRadius(0);
-					
-					var pie = d3.layout.pie()
-					    .sort(null)
-					    .value(function(d) { return d.value; });
-					
-					var svg = d3.select("body").append("svg")
-					    .attr("width", width)
-					    .attr("height", height)
-					  .append("g")
-					    .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
-					
-					var g = svg.selectAll(".arc")
-					      .data(pie(data))
-					    .enter().append("g")
-					      .attr("class", "arc");
-					
-					  g.append("path")
-					      .attr("d", arc) 
-					      .style("fill", function(d) { return color(d.data.sentiment); });
-					
-					  g.append("text")
-					      .attr("transform", function(d) { return "translate(" + arc.centroid(d) + ")"; })
-					      .attr("dy", ".35em")
-					      .style("text-anchor", "middle")
-					      .text(function(d) { return d.data.sentiment; });
-				  </script>
+                  <piePlot id="sentiment"></piePlot>
                </div>
-               <!--TO DO: Add a line between them-->
-               
+               <!--TO DO: Add a line between them-->          
             </div>
          </div>
          <div class="content" id="panel4a">

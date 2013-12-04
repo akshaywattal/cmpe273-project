@@ -288,9 +288,10 @@
 		client.send();
 		if (client.status == 200)
 	    	{alert("User Authenticated");
-	    	window.location.href="app.html"}
+	    	window.location.href="/bigdata/dashboard"}
 		else
-	    	alert("Incorrect Username or Password!");
+	    	{alert("Incorrect Username or Password!");
+	    	window.location.reload();}
 		}
   </script>
   
