@@ -64,7 +64,6 @@ public class UserResource {
     	 */
     	BasicDBObject doc = new BasicDBObject("username",user.getUsername()).append("email", user.getEmail()).append("password", user.getPassword());
 		mongoClient.insertData(doc);
-		mongoClient.closeConnection();
     	
 		/**
     	 * Closing connection
