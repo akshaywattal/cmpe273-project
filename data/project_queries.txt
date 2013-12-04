@@ -1,0 +1,19 @@
+- Query for creating unique index and removing duplicate keys
+
+db.stuff.ensureIndex({“thing”:1}, {unique:true, dropDups:true})
+
+- query for inserting flag to reviews for particular business
+
+db.bigdata.update({"type":"review","business_id":"LjOIxpH-89S18WI1ktmPBQ"},{$set:{"flag":1.0}},{multi:true})
+
+- query for inserting flag to all reviews
+
+db.bigdata.update({"type":"review"},{$set:{"flag":1.0}},{multi:true})
+
+- query for creating unique index
+
+db.bigdata.ensureIndex({username:1}, {unique : true}) 
+
+- query inserting sample data to check latest analysis data
+
+db.bigdata.insert({"type":"review", "business_id" : "LjOIxpH-89S18WI1ktmPBQ", "flag" : 1.0, "text":"This is an awesome place to be at. I would recommend it for everyone!!"})
