@@ -8,7 +8,7 @@ app.directive('map', function($http) {
 		link: function(scope, element, attrs) {
 			console.log(element);
 			var myOptions = {
-				zoom: 15,
+				zoom: 14,
 				center: new google.maps.LatLng(37.442975, -122.1630475),
 				mapTypeId: google.maps.MapTypeId.ROADMAP
 			};
