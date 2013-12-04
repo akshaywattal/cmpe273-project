@@ -62,8 +62,13 @@ app.directive('map', function($http) {
 		}
 	};
 });
+<<<<<<< HEAD
 
 app.directive('pieplot', function($http) {
+=======
+/*
+app.directive('piePlot', function($http) {
+>>>>>>> 00b251422e75c8a5260f1facfcffc2ce31fecbce
 	return {
 		restrict: 'EA',
 		replace: true,
@@ -128,6 +133,7 @@ app.directive('pieplot', function($http) {
 	};
 });
 
+<<<<<<< HEAD
 app.directive('donutplot', function($http) {
 	return {
 		restrict: 'EA',
@@ -194,8 +200,23 @@ app.directive('donutplot', function($http) {
 });
 
 
+=======
+*/
+>>>>>>> 00b251422e75c8a5260f1facfcffc2ce31fecbce
 function MyCtrl($scope) {
-	$scope.mapPin = "No pin set yet";
+	$scope.sentiment = [{
+		"sentiment": "neutral",
+		"value": "2"
+		}, {
+		"sentiment": "positive",
+		"value": "14"
+		}, {
+		"sentiment": "negative",
+		"value": "5"
+		}, {
+		"sentiment": "notevaluated",
+		"value": "0"
+		}];
 }
 
 

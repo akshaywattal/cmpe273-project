@@ -178,23 +178,52 @@
 
 
 	<div id="loginModal" class="reveal-modal small" data-reveal>
-	<h1 style="color:#0d5a72">Log In</h1>
-	<form id="login-form" name="login" action="#" method="POST">
-	<input type="text" id="username_login" name="username" placeholder="username" />
-	<input type="password" id="password_login" name="password" placeholder="password" /> 
-	<input class="right" style="background-color:#dcdcdc; color:#0d5a72; height:3em; width: 6em; font-weight:bold;" type="submit" name="login" value="Log In" onclick="authenticateUser()" />
-	</form>
+		<h1 style="color:#0d5a72">Log In</h1>
+		<form id="login-form" name="login" action="#" method="POST" data-abide>
+			<div class="row">
+				<div class="large-12 columns">
+					<label>Username</label>
+					<input type="text" id="username_login" name="username" placeholder="username" required pattern="alpha_numeric" />
+					<small class="error">Please enter a valid username</small>
+				</div>
+				<div class="large-12 columns">
+					<label>Password</label>
+					<input type="password" id="password_login" name="password" placeholder="password" required />
+					<small class="error">Please enter your password</small> 
+				</div>
+				<input class="right" style="background-color:#dcdcdc; color:#0d5a72; height:3em; width: 6em; font-weight:bold;" type="submit" name="login" value="Log In" onclick="authenticateUser()" />
+			</div>
+		</form>
 	</div>
+	
 
 	<div id="registerModal" class="reveal-modal small" data-reveal>
-	<h1 style="color:#0d5a72">Register</h1>
-	<form id="register-form" name="register" action="#" method="POST">
-	<input type="text" id="username" name="username" placeholder="username" />
-	<input type="email" name="email" placeholder="email" />
-	<input type="password" id="password" name="password" placeholder="password" /> 
-	<input type="password" name="conf_pass" placeholder="confirm password" />
-	<input class="right" style="background-color:#dcdcdc; color:#0d5a72; height:3em; width: 6em; font-weight:bold;" type="submit" name="submit" value="Submit" onclick="createUser()" />
-	</form>
+		<h1 style="color:#0d5a72">Register</h1>
+		<form id="register-form" name="register" action="#" method="POST" data-abide>
+			<div class="row">
+				<div class="large-12 columns">
+					<label>Username</label>
+					<input type="text" id="username" name="username" placeholder="username" required pattern="alpha_numeric" />
+					<small class="error">Please enter a valid username. No special characters.</small>
+				</div>
+				<div class="large-12 columns">
+					<label>Email</label>
+					<input type="email" name="email" placeholder="email" />
+					<small class="error">Please enter a valid email address</small>
+				</div>
+				<div class="large-12 columns">
+					<label>Password</label>
+					<input type="password" id="password" name="password" placeholder="password" required /> 
+					<small class="error">Please enter a valid password. Must contain 8 characters including 1 capital and 1 number.</small>
+				</div>
+				<div class="large-12 columns">
+					<label>Confirm Password</label>
+					<input type="password" name="conf_pass" placeholder="confirm password" required data-equalto="password" />
+					<small class="error">Your passwords don't match</small>
+				</div>
+				<input class="right" style="margin-top:1em; background-color:#dcdcdc; color:#0d5a72; height:3em; width: 6em; font-weight:bold;" type="submit" name="submit" value="Submit" onclick="createUser()" />
+			</div>
+		</form>
 	</div>
 
   <script src="../assets/js/jquery.js"></script>
