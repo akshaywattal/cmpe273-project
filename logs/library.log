@@ -2018,3 +2018,51 @@ INFO  [2013-12-04 22:21:13,061] de.spinscale.dropwizard.jobs.JobManager: Jobs wi
 INFO  [2013-12-04 22:21:13,069] de.spinscale.dropwizard.jobs.JobManager: Jobs with @On annotation: []
 INFO  [2013-12-04 22:21:13,078] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:9080
 INFO  [2013-12-04 22:21:13,082] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:9081
+INFO  [2013-12-04 22:40:54,941] org.reflections.Reflections: Reflections took 364 ms to scan 1 urls, producing 10 keys and 27 values 
+WARN  [2013-12-04 22:40:55,389] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-12-04 22:40:55,781] com.yammer.dropwizard.cli.ServerCommand: Starting bigdata-service
+INFO  [2013-12-04 22:40:55,811] org.eclipse.jetty.server.Server: jetty-8.1.10.v20130312
+INFO  [2013-12-04 22:40:56,307] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2013-12-04 22:40:56,434] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /bigdata/ (edu.sjsu.cmpe.bigdata.ui.resources.HomeResource)
+    GET     /bigdata/dashboard (edu.sjsu.cmpe.bigdata.ui.resources.DashboardResource)
+    GET     /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
+    GET     /bigdata/v1/users/{id}/competition (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
+    POST    /bigdata/v1/users (edu.sjsu.cmpe.bigdata.api.resources.UserResource)
+    GET     /bigdata/v1/analytics/sentiment (edu.sjsu.cmpe.bigdata.api.resources.AnalyticsResource)
+
+INFO  [2013-12-04 22:40:56,434] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2013-12-04 22:40:57,416] org.quartz.impl.StdSchedulerFactory: Using default implementation for ThreadExecutor
+INFO  [2013-12-04 22:40:57,421] org.quartz.simpl.SimpleThreadPool: Job execution threads will use class loader of thread: main
+INFO  [2013-12-04 22:40:57,504] org.quartz.core.SchedulerSignalerImpl: Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+INFO  [2013-12-04 22:40:57,519] org.quartz.core.QuartzScheduler: Quartz Scheduler v.2.2.0 created.
+INFO  [2013-12-04 22:40:57,530] org.quartz.simpl.RAMJobStore: RAMJobStore initialized.
+INFO  [2013-12-04 22:40:57,531] org.quartz.core.QuartzScheduler: Scheduler meta-data: Quartz Scheduler (v2.2.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+INFO  [2013-12-04 22:40:57,531] org.quartz.impl.StdSchedulerFactory: Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+INFO  [2013-12-04 22:40:57,531] org.quartz.impl.StdSchedulerFactory: Quartz scheduler version: 2.2.0
+INFO  [2013-12-04 22:40:57,531] org.quartz.core.QuartzScheduler: Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+INFO  [2013-12-04 22:40:57,550] de.spinscale.dropwizard.jobs.JobManager: Jobs to run on application start: []
+INFO  [2013-12-04 22:40:57,551] de.spinscale.dropwizard.jobs.JobManager: Jobs with @Every annotation: [class edu.sjsu.cmpe.bigdata.DataAnalyticsJob]
+INFO  [2013-12-04 22:40:57,603] de.spinscale.dropwizard.jobs.JobManager: Jobs with @On annotation: []
+INFO  [2013-12-04 22:40:57,898] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:9080
+INFO  [2013-12-04 22:40:57,901] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:9081
