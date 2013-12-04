@@ -82,7 +82,6 @@
                         <div id="example1" style="width: auto; height:350px; overflow-y:scroll;">                           
                      </div>
                   </li>
-                        <!---->
                   <li>
                      <div class="large-6 columns" style="background-color:#e4e4e4; height: 450px; width:470px">
                         <h4><b>Live Twitter Feed</b></h4>
@@ -99,7 +98,16 @@
                   <li>
                      <div class="large-6 columns" style="background-color:#e4e4e4; height: 450px; width:450px">
                         <h4><b>Facebook Stats</b></h4>
-                        <div class="fb-like-box" data-href="http://www.facebook.com/CodeAssassins" data-width="430px" data-height="400px" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+                        <div class="fb-like-box" data-href="http://www.facebook.com/CodeAssassins" data-width="430px" data-height="400px" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true">
+                        </div>
+                  </li>
+                  <li>
+                     <div class="large-6 columns" style="background-color:#e4e4e4; height: 450px; width:450px">
+                        <h4><b>Yelp Feed</b></h4>
+                        <div id='yelpwidget' style="overflow-y:scroll; height:400px"></div>
+                        <script>(function() { var s = document.createElement("script");s.async = true;s.onload = s.onreadystatechange = function(){getYelpWidget("k-and-c-food-wholesale-san-jose","400","RED","y","y","3");};s.src='http://chrisawren.com/widgets/yelp/yelpv2.js' ;var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);})();
+                        </script>
+                     </div>
                   </li>
                </ul>
             </div>
